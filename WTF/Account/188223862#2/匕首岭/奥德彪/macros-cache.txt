@@ -1,0 +1,47 @@
+VER 3 0000000001000001 "TT Cast" "134400"
+#showtooltips
+/castsequence reset=combat/15 火舌图腾(等级 8), 大地之力图腾(等级 8), 治疗之泉图腾(等级 9), 自然抗性图腾(等级 6)
+END
+VER 3 0000000001000004 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]治疗波
+END
+VER 3 0000000001000003 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]次级治疗波
+END
+VER 3 0000000001000002 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]治疗链
+END
+VER 3 0000000001000011 "宏" "134400"
+#showtooltip 
+/cast [target=focus,harm,exists]风剪;[target=mouseover,harm,exists]风剪;风剪
+/stopcasting
+END
+VER 3 0000000001000006 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]净化灵魂
+END
+VER 3 0000000001000005 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]大地之盾
+END
+VER 3 0000000001000010 "宏" "134400"
+#showtooltip 
+/施放 元素掌握
+/use 复苏饰物
+END
+VER 3 0000000001000012 "宏" "134400"
+#showtooltip
+/cast [mod:alt]大地震击;闪电链
+END
+VER 3 0000000001000013 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]激流
+END
+VER 3 0000000001000014 "宏" "134400"
+#showtooltip 
+/cast [mod:alt]冰霜震击;熔岩图腾
+/startattack
+END

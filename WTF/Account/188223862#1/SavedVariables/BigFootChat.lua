@@ -1,0 +1,27 @@
+
+BFCDB = {
+["namespaces"] = {
+["CHATFRAME"] = {
+},
+["ICONFRAME"] = {
+},
+},
+["profileKeys"] = {
+["艾德赛 - 匕首岭"] = "Default",
+["小脚萝莉 - 匕首岭"] = "Default",
+["达奥里斯 - 匕首岭"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["frameposition"] = {
+"TOPLEFT",
+"ChatFrame1",
+"BOTTOMLEFT",
+-4.999999523162842,
+-1.302830457687378,
+},
+["mute"] = true,
+},
+},
+}
+BFCSystemCacheDB = nil

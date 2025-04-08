@@ -1,0 +1,47 @@
+VER 3 000000000100000D "B指" "134400"
+/petattack [target=mouseover,harm,nodead][]
+END
+VER 3 000000000100000C "B攻" "132135"
+/petdefensive
+/petattack
+END
+VER 3 0000000001000002 "V" "INV_MISC_QUESTIONMARK"
+/cast 猛禽一击
+/cast 猫鼬撕咬
+/cast 自动射击
+END
+VER 3 0000000001000009 "仇恨加强" "INV_MISC_QUESTIONMARK"
+/tar targettarget
+/cast 误导
+/tar targettarget
+END
+VER 3 0000000001000003 "宠物attack" "132147"
+/petattack [target=mouseover, harm,nodead][harm,nodead]
+END
+VER 3 0000000001000005 "射" "INV_MISC_QUESTIONMARK"
+/cast 奥术射击(等级 9)
+END
+VER 3 0000000001000008 "抽" "INV_MISC_QUESTIONMARK"
+/cast 杀戮命令
+/cast 稳固射击
+END
+VER 3 0000000001000007 "指向误导" "INV_MISC_QUESTIONMARK"
+/cast [target=mouseover] 误导
+END
+VER 3 000000000100000A "援护自己" "134400"
+/施放 [target=player]援护
+END
+VER 3 0000000001000004 "标记" "INV_Misc_QuestionMark"
+#showtooltip 猎人印记
+/施放 [harm] 猎人印记
+/script if UnitSex("target")==3 then g="女" else g="男" end;SendChatMessage(""..UnitName("target").." 职业:"..UnitClass("target").." 血量:"..UnitHealth("target").." 性别:"..g.."","yell")
+END
+VER 3 000000000100000B "跟随" "132328"
+/petpassive
+/petfollow
+END
+VER 3 0000000001000006 "车" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 蒸汽车控制器
+/cancelaura 蒸汽坦克控制器
+END

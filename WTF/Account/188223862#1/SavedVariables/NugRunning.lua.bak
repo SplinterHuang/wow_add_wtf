@@ -1,0 +1,13 @@
+
+NRunDB_Global = {
+["charspec"] = {
+},
+}
+NugRunningConfigCustom = {
+["MAGE"] = {
+},
+["SHAMAN"] = {
+},
+["PALADIN"] = {
+},
+}

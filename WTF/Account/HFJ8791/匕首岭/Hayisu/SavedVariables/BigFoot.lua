@@ -1,0 +1,27 @@
+
+BF_Frames_Config = {
+["BFGPSButton"] = {
+["offX"] = -4.499819278717041,
+["point"] = "TOPRIGHT",
+["region"] = "UIParent",
+["offY"] = -83.50003814697266,
+["refPoint"] = "TOPRIGHT",
+},
+}
+BigFoot_Character = {
+["Region"] = "cn0",
+["Gender"] = 2,
+["Race"] = "暗夜精灵",
+["Name"] = "Hayisu",
+["Faction"] = 0,
+["Class"] = "战士",
+["Level"] = 73,
+["VCode"] = "582294795380762967241222043561807157478",
+["Realm"] = "匕首岭",
+}
+BigFoot_SysTemSetTab = {
+["BigFoot_LoadBefore"] = 1,
+["LC"] = true,
+["ARC"] = true,
+["UtilsPatchVersion"] = "2020-03-26",
+}

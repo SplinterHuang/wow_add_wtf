@@ -1,0 +1,26 @@
+## Title: Easy Frames
+## Title-zhCN: [大脚][集]简易头像框
+## Title-zhTW: [大腳][集]簡易頭像框
+## Interface: 30404
+## Notes: |cff00ff00EasyFrames|r|nMake your unit frames colored and glorious.
+## Author: Usoltsev
+## SavedVariables: EasyFramesDB
+## Dependencies: Bigfoot
+## X-Revision: BigFoot
+## LoadOnDemand: 1
+
+Localization\enUS.lua
+Localization\zhTW.lua
+Localization\zhCN.lua
+
+EasyFrames.lua
+
+Config.lua
+
+Modules\Core.lua
+Modules\General.lua
+Modules\Player.lua
+Modules\Target.lua
+Modules\Focus.lua
+Modules\Pet.lua
+Modules\Party.lua

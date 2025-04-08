@@ -1,0 +1,23 @@
+## Interface: 30404
+## Title: NugRunning
+## Title-zhCN: [大脚][集]法术计时条
+## Notes: Spelltimers
+## Notes-zhCN: |cff00ff00NugRunning|r
+## Author: d87
+## SavedVariablesPerCharacter: NRunDB_Char
+## SavedVariables: NRunDB_Global, NugRunningConfigCustom
+## Version: 11.0.5
+## X-WoWI-ID: 10440
+## X-Curse-Project-ID: 27470
+## X-Wago-ID: vEGPo5K1
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+
+helpers.lua
+config.lua
+config.wotlk.lua
+NugRunning.lua
+frame.lua
+special.lua
+totems.lua
+nameplates.lua

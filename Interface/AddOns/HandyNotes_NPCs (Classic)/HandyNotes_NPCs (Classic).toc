@@ -1,0 +1,21 @@
+## Interface: 30404
+## Title: HandyNotes: NPCs (Classic)
+## Version: 1.33b
+## Notes: |cff00ff00HandyNotes_NPCs(Classic)|r|nShows locations of various npcs
+## Author: Cali
+## X-Curse-Project-ID: 340222
+## X-WoWI-ID: 25295
+## RequiredDeps: HandyNotes
+## SavedVariables: HandyNotes_NPCsClassicDB
+## X-Revision: BigFoot
+
+locales\wrath\Locales.xml
+
+wrath\data.lua
+wrath\vendorData.lua
+wrath\itemData.lua
+wrath\weaponskills.lua
+wrath\HandyNotes_NPCs (Classic).lua
+wrath\options.lua
+wrath\search.lua
+wrath\altrecipes.lua

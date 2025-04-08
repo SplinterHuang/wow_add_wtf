@@ -1,0 +1,79 @@
+VER 3 0000000001000002 "c" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [stance:1]压制;[stance:2]复仇;[stance:3]旋风斩
+END
+VER 3 0000000001000009 "冲锋" "INV_MISC_QUESTIONMARK"
+#show 冲锋
+/cast [nocombat]战斗姿态
+/cast [nocombat]冲锋
+END
+VER 3 0000000001000004 "双手" "INV_MISC_QUESTIONMARK"
+/equip 斩石者
+END
+VER 3 0000000001000006 "双持" "INV_MISC_QUESTIONMARK"
+/equipslot  16 痛击之刃
+/equipslot 17 影刃
+END
+VER 3 0000000001000008 "反击风暴" "INV_MISC_QUESTIONMARK"
+#show 反击风暴
+/cast 战斗姿态
+/cast 反击风暴
+END
+VER 3 000000000100000E "嘲讽" "INV_MISC_QUESTIONMARK"
+#show 嘲讽
+/cast 防御姿态
+/cast 嘲讽
+END
+VER 3 000000000100000F "嘲讽2" "INV_MISC_QUESTIONMARK"
+#show 惩戒痛击
+/cast 战斗姿态
+/cast 惩戒痛击
+END
+VER 3 000000000100000B "打断" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [stance:3]拳击;盾击
+END
+VER 3 0000000001000007 "拦截" "INV_MISC_QUESTIONMARK"
+#show 拦截
+/cast 狂暴姿态
+/cast 拦截
+END
+VER 3 0000000001000011 "援护" "INV_MISC_QUESTIONMARK"
+#show 援护
+/cast 防御姿态
+/cast [target=mouseover] 援护
+END
+VER 3 0000000001000005 "日志" "INV_MISC_QUESTIONMARK"
+大德鲁伊
+卢瑟兰村
+回加基森
+菲拉斯
+END
+VER 3 0000000001000010 "炖鸡" "INV_MISC_QUESTIONMARK"
+#show 盾牌猛击
+/cast 防御姿态
+/cast 盾牌猛击
+END
+VER 3 000000000100000C "狂暴之怒" "INV_MISC_QUESTIONMARK"
+#show 狂暴之怒
+/cast 狂暴姿态
+/cast 狂暴之怒
+END
+VER 3 0000000001000003 "盾" "INV_MISC_QUESTIONMARK"
+/equip 痛击之刃
+/equip 黑颅
+END
+VER 3 000000000100000A "盾挡" "INV_MISC_QUESTIONMARK"
+#show 盾牌格挡
+/cast 防御姿态
+/cast 盾牌格挡
+END
+VER 3 0000000001000001 "谢谢" "INV_MISC_QUESTIONMARK"
+/s 谢谢
+/敬礼
+END
+VER 3 000000000100000D "远程" "INV_MISC_QUESTIONMARK"
+/cast 投掷
+/施放 枪械射击
+/施放 弓射击
+END

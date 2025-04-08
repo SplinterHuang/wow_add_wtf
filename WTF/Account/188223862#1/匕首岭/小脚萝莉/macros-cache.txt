@@ -1,0 +1,65 @@
+VER 3 0000000001000009 " " "INV_Misc_QuestionMark"
+#showtooltip 寒冰屏障
+/stopcasting
+/cancelAura 寒冰屏障
+/cast 寒冰屏障
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 寒冰箭
+/施放 寒冰箭
+/click [pet] PetActionButton1
+END
+VER 3 0000000001000004 " " "134400"
+/tar 沙行蟹
+/施放 灼烧(等级 4)
+/use 思维加速宝石
+END
+VER 3 0000000001000005 " " "INV_Misc_QuestionMark"
+#showtooltip 冰冷血脉
+/施放 冰冷血脉
+/use 黑铁烟枪
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip [nopet] [target=pet,dead] 召唤水元素; [pet] 冰冻术 
+/cast [nopet]召唤水元素 
+/cast [target=pet,dead]召唤水元素 
+/cast 冰冻术
+/click [pet] PetActionButton2
+END
+VER 3 0000000001000013 " " "INV_Misc_QuestionMark"
+#showtooltip 冰冷血脉
+/施放 冰冷血脉
+/施放 奥术强化
+/use 黑铁烟枪
+END
+VER 3 0000000001000014 " " "INV_Misc_QuestionMark"
+#showtooltip [nopet] [target=pet,dead] 召唤水元素; [pet] 冰冻术 
+/cast [nopet]召唤水元素 
+/cast [target=pet,dead]召唤水元素 
+/cast 冰冻术
+/click [pet] PetActionButton3
+END
+VER 3 0000000001000006 " 22" "134400"
+/targetenemy [help][dead][noexists]
+/施放 灼烧(等级 1)
+END
+VER 3 0000000001000007 "2" "134400"
+/tar 混血藓皮豺狼人;藓皮豺狼人
+/施放 灼烧(等级 1)
+END
+VER 3 0000000001000010 "·" "INV_Misc_QuestionMark"
+#showtooltip 解除次级诅咒
+/stopcasting
+/cast [@mouseover]解除次级诅咒;解除次级诅咒
+END
+VER 3 000000000100000C "·" "INV_Misc_QuestionMark"
+#showtooltip 寒冰箭
+/cast [modifier:alt] 寒冰箭(等级 1); 寒冰箭
+END
+VER 3 0000000001000011 "·" "INV_Misc_QuestionMark"
+#showtooltip 闪现术
+/stopcasting
+/cancelAura 寒冰屏障
+/dismount
+/cast 闪现术
+END

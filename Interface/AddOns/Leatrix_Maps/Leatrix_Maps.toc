@@ -1,0 +1,17 @@
+## Interface: 30404
+## Title: Leatrix Maps
+## Title-zhCN: [大脚][集]地图增强
+## Title-zhTW: [大腳][集]地圖專家
+## Notes: |cff00ff00Leatrix_Maps|r|nEnhancements for your maps.
+## Version: 3.0.191
+## Author: Leatrix
+## SavedVariables: LeaMapsDB
+## X-Revision: BigFoot
+## X-Curse-Project-ID: 463868
+
+Leatrix_Maps_Library.lua
+Leatrix_Maps_Locale.lua
+Leatrix_Maps.xml
+Leatrix_Maps_Icons.lua
+Leatrix_Maps_Reveal.lua
+Leatrix_Maps.lua

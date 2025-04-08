@@ -1,0 +1,19 @@
+
+BF_Frames_Config = {
+}
+BigFoot_Character = {
+["Region"] = "cn0",
+["Gender"] = 1,
+["Race"] = "德莱尼",
+["Name"] = "达奥里斯",
+["Faction"] = 0,
+["Class"] = "萨满祭司",
+["Level"] = 78,
+["VCode"] = "284254747330965020635732822113586026496",
+["Realm"] = "匕首岭",
+}
+BigFoot_SysTemSetTab = {
+["BigFoot_LoadBefore"] = 1,
+["ARC"] = true,
+["UtilsPatchVersion"] = "2020-03-26",
+}

@@ -1,0 +1,13 @@
+
+HandyNotes_DungeonLocationsClassicDB = {
+["profileKeys"] = {
+["尤妠 - 匕首岭"] = "Default",
+["卖瓜大叔 - 匕首岭"] = "Default",
+["奥德彪 - 匕首岭"] = "Default",
+["陈伯 - 匕首岭"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

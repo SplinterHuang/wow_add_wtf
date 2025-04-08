@@ -1,0 +1,12 @@
+## Interface: 30404
+## Title: Loss of Control Alerter
+## Title-zhCN: [大脚][集]失控提醒
+## Title-zhTW: [大腳][集]失控提醒
+## Notes: |cff00ff00LoCA|r|nShows alerts on loss of control debuffs
+## Version: 1.14
+## Author: Rdmx
+## SavedVariables: LoCADB
+## X-Revision: BigFoot
+
+LoCA.lua
+Modules\Debuffs.lua

@@ -1,0 +1,11 @@
+## Interface: 30404
+## Title: MeetingHorn
+## Title-zhCN: [大脚][集]集结号
+## Notes: |cff00ff00MeetingHorn|r
+## Version: 2.2.4
+## SavedVariables: MEETINGHORN_DB
+## SavedVariablesPerCharacter: MEETINGHORN_DB_CHARACTER_MEMBERS
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+
+Load.xml

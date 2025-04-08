@@ -1,0 +1,71 @@
+
+BigFootBotRealmDB = {
+["id"] = 4520,
+["normalizedName"] = "匕首岭",
+["name"] = "匕首岭",
+["region"] = "CN",
+}
+BigFootBotCharacterDB = {
+["卖瓜大叔-匕首岭"] = {
+["guid"] = "Player-4520-0306603B",
+["gender"] = 2,
+["raceId"] = 1,
+["lastSeen"] = 1743188578,
+["version"] = 3,
+["name"] = "卖瓜大叔",
+["faction"] = "Alliance",
+["region"] = "CN",
+["level"] = 80,
+["classId"] = 2,
+["realm"] = "匕首岭",
+},
+}
+BigFootBotAchievementDB = {
+["latest"] = {
+{
+["id"] = 4407,
+["points"] = 10,
+["icon"] = 135789,
+["date"] = "25-3-21",
+},
+{
+["id"] = 4405,
+["points"] = 10,
+["icon"] = 254648,
+["date"] = "25-3-21",
+},
+{
+["id"] = 1180,
+["points"] = 10,
+["icon"] = 133785,
+["date"] = "25-3-21",
+},
+{
+["id"] = 4397,
+["points"] = 10,
+["icon"] = 254650,
+["date"] = "25-3-11",
+},
+{
+["id"] = 2953,
+["points"] = 10,
+["icon"] = 132343,
+["date"] = "25-3-9",
+},
+},
+["all"] = {
+},
+["totalPoints"] = 3245,
+}
+BigFootBotAccountDB = {
+["gameVersion"] = "3.4.4",
+["addonVersion"] = "r4",
+["region"] = "CN",
+["clientVersion"] = 3,
+["isTrial"] = false,
+["bigfootVersion"] = "zhCN3.4.4.246",
+}
+BigFootBotGuildDB = {
+}
+BigFootBotTokenDB = {
+}

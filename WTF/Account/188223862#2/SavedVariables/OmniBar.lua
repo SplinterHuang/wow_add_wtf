@@ -1,0 +1,52 @@
+
+OmniBarDB = {
+["profileKeys"] = {
+["尤妠 - 匕首岭"] = "Default",
+["卖瓜大叔 - 匕首岭"] = "Default",
+["奥德彪 - 匕首岭"] = "Default",
+["陈伯 - 匕首岭"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["bars"] = {
+["OmniBar1"] = {
+["glow"] = true,
+["scenario"] = true,
+["tooltips"] = true,
+["names"] = false,
+["multiple"] = true,
+["border"] = true,
+["center"] = false,
+["locked"] = false,
+["swipeAlpha"] = 0.65,
+["arena"] = true,
+["growUpward"] = true,
+["world"] = true,
+["cooldownCount"] = true,
+["highlightTarget"] = true,
+["columns"] = 8,
+["unusedAlpha"] = 0.45,
+["align"] = "CENTER",
+["highlightFocus"] = false,
+["padding"] = 2,
+["adaptive"] = false,
+["maxIcons"] = 32,
+["ratedBattleground"] = true,
+["name"] = "OmniBar",
+["position"] = {
+["relativeTo"] = "UIParent",
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+["yOfs"] = 0,
+["xOfs"] = 0,
+["frameStrata"] = "MEDIUM",
+},
+["size"] = 40,
+["showUnused"] = false,
+["trackUnit"] = "ENEMY",
+["battleground"] = true,
+},
+},
+},
+},
+}

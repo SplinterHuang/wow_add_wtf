@@ -1,0 +1,14 @@
+## Interface: 30404
+## Title: HandyNotes SummerFestival
+## Notes: |cff00ff00HandyNotes_SummerFestival|r|nDisplays the locations of Summer Festival bonfires.
+## Author: Venomisto
+## Version: 1.3
+## X-Category: Map & Minimap
+## SavedVariables: HandyNotes_SummerFestivalDB
+## RequiredDeps: HandyNotes
+## X-Revision: BigFoot
+
+Core.lua
+
+Alliance.lua
+Horde.lua

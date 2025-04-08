@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="CLICK zFeederButton:LeftButton" runOnUp="true" category="BINDING_HEADER_ZFEEDER">
+		-- feed pet button!
+	</Binding>
+</Bindings>

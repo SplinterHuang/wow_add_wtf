@@ -1,0 +1,48 @@
+## Interface: 30404
+## Title: BattleGroundEnemies
+## Title-zhCN: [大脚][集]战场目标助手
+## Title-zhTW: [大腳][集]戰場目標助手
+## Notes:|cff00ff00BattleGroundEnemies|r
+## Version: 10.2.0.3
+## Author: Bullsei
+## SavedVariables: BattleGroundEnemiesDB
+## IconTexture: Interface\AddOns\BattleGroundEnemies\bge_logo.tga
+## X-Curse-Project-ID: 274066
+## X-Wago-ID: nQN5aoNB
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+
+embeds.xml
+
+Locales.lua
+
+Data.lua
+Defaults.lua
+Main.lua
+Messaging.lua
+TargetCall.lua
+Changelog.lua
+ImportExport.lua
+
+Modules\ContainerTemplate.lua
+Modules\Auras.lua
+Modules\CastBar.lua
+Modules\CombatIndicator.lua
+# Modules\Cooldowns.lua
+Modules\Covenant.lua
+Modules\DR.lua
+Modules\HealthBar.lua
+Modules\HighestActivePriority.lua
+Modules\Level.lua
+Modules\Name.lua
+Modules\ObjectiveAndRespawn.lua
+Modules\Power.lua
+Modules\Racial.lua
+Modules\RaidTargetIcon.lua
+Modules\Role.lua
+Modules\SpecAndClass.lua
+Modules\TargetIndicatorNumeric.lua
+Modules\TargetIndicatorSymbolic.lua
+Modules\Trinket.lua
+
+Options.lua

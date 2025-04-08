@@ -1,0 +1,20 @@
+## Interface: 30403
+## Title: |TInterface\Addons\LoseControl\micon:16:16|t LoseControl WotLK
+## Title-zhCN: [大脚][集]失控提醒
+## Title-zhTW: [大腳][集]失控提醒
+## Author: millanzarreta, Kouri
+## Version: 3.04
+## IconTexture: Interface\Addons\LoseControl\micon
+## Notes: Displays the duration of CC effects on your character and other units
+## Notes-zhCN: |cff00ff00LoseControl|r|n显示被控制的剩余时间
+## Notes-zhTW: |cff00ff00LoseControl|r|n顯示被控制的剩餘時間
+## X-eMail: kouri@kouri.org
+## X-Website: http://www.curse.com/addons/wow/losecontrol
+## X-Website2: http://www.wowinterface.com/downloads/info11642-LoseControl.html
+## X-Category: Buffs
+## SavedVariablesPerCharacter: LoseControlDB
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+
+localization.lua
+LoseControl.lua

@@ -1,0 +1,54 @@
+
+DataStore_Characters_Info = {
+{
+["zone"] = "风暴峭壁",
+["money"] = 17085164,
+["bindLocation"] = "达拉然",
+["guildRankIndex"] = 7,
+["name"] = "达奥里斯",
+["subZone"] = "K3",
+["lastUpdate"] = 1744046694,
+["BaseInfo"] = 2644942,
+["lastLogoutTimestamp"] = 1744046694,
+["XPInfo"] = 8.933615288776506e+17,
+},
+{
+["zone"] = "暴风城",
+["money"] = 1251214,
+["bindLocation"] = "加基森",
+["name"] = "小脚萝莉",
+["subZone"] = "贸易区",
+["guildRankIndex"] = 4,
+["lastUpdate"] = 1742919358,
+["BaseInfo"] = 2899014,
+["lastLogoutTimestamp"] = 1742919358,
+["XPInfo"] = 2.513155325427712e+18,
+},
+{
+["zone"] = "铁炉堡",
+["money"] = 42945423,
+["bindLocation"] = "达拉然",
+["name"] = "艾德赛",
+["subZone"] = "秘法区",
+["guildRankIndex"] = 4,
+["lastUpdate"] = 1744046617,
+["BaseInfo"] = 2885966,
+["lastLogoutTimestamp"] = 1744046617,
+["XPInfo"] = 5.289264158263343e+16,
+},
+}
+DataStore_Characters_GuildRanks = {
+{
+[4] = "新晋",
+},
+{
+[7] = "新进成员",
+},
+{
+[4] = "见习",
+},
+}
+DataStore_Characters_Options = {
+["RequestPlayTime"] = true,
+["HideRealPlayTime"] = false,
+}

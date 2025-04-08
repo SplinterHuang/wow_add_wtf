@@ -1,0 +1,71 @@
+
+BigFootBotRealmDB = {
+["id"] = 4520,
+["normalizedName"] = "匕首岭",
+["name"] = "匕首岭",
+["region"] = "CN",
+}
+BigFootBotCharacterDB = {
+["达奥里斯-匕首岭"] = {
+["guid"] = "Player-4520-03C1760B",
+["gender"] = 2,
+["raceId"] = 11,
+["lastSeen"] = 1744046644,
+["version"] = 3,
+["name"] = "达奥里斯",
+["faction"] = "Alliance",
+["region"] = "CN",
+["level"] = 78,
+["classId"] = 7,
+["realm"] = "匕首岭",
+},
+}
+BigFootBotAchievementDB = {
+["latest"] = {
+{
+["id"] = 39,
+["points"] = 10,
+["icon"] = 236823,
+["date"] = "25-4-7",
+},
+{
+["id"] = 938,
+["points"] = 10,
+["icon"] = 132187,
+["date"] = "25-4-5",
+},
+{
+["id"] = 506,
+["points"] = 10,
+["icon"] = 236667,
+["date"] = "25-4-5",
+},
+{
+["id"] = 1277,
+["points"] = 10,
+["icon"] = 134155,
+["date"] = "25-4-4",
+},
+{
+["id"] = 31,
+["points"] = 10,
+["icon"] = 236680,
+["date"] = "25-4-4",
+},
+},
+["all"] = {
+},
+["totalPoints"] = 550,
+}
+BigFootBotAccountDB = {
+["gameVersion"] = "3.4.4",
+["addonVersion"] = "r4",
+["region"] = "CN",
+["clientVersion"] = 3,
+["isTrial"] = false,
+["bigfootVersion"] = "zhCN3.4.4.248",
+}
+BigFootBotGuildDB = {
+}
+BigFootBotTokenDB = {
+}

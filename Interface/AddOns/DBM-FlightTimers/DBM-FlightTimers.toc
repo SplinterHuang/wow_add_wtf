@@ -1,0 +1,22 @@
+## Interface: 30404
+## Version: @project-version@
+## Title:|cffffe00a<|r|cffff7d0aDBM Mod|r|cffffe00a>|r |cffff0000Flight Timers|r
+## Title-zhCN:|cffffe00a<|r|cffff7d0aDBM Mod|r|cffffe00a>|r |cffff0000鸟点飞行时间|r
+## Notes: |cff00ff00DBM-FlightTimers|r
+## Author: Tandanu
+## X-Website: https://github.com/DeadlyBossMods/DBM-FlightTimers
+## RequiredDeps: DBM-Core
+## X-DBM-Mod: 1
+## X-DBM-Mod-Type: OTHER
+## X-DBM-Mod-Category: OTHER
+## X-DBM-Mod-No-Statistics: 1
+## X-DBM-Mod-Name: Flight Timers
+## X-DBM-Mod-Name-zhCN: 鸟点飞行时间
+## X-Revision: BigFoot
+
+localization.en.lua
+
+Data/Classic-WotLK.lua
+
+FlightCalculator.lua
+FlightTimers.lua

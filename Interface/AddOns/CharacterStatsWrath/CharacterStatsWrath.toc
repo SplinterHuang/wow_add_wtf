@@ -1,0 +1,23 @@
+## Interface: 30404
+## Author: drcrazy, SlavKnightGeto, 
+## Version: 1.3.2
+## Title: |cff00aeffCharacterStatsWrath|r
+## Title-zhCN: [大脚][集]人物详细属性
+## Title-zhTW: [大腳][集]人物詳細屬性
+## Notes: |cff00ff00CharacterStatsWrath|r|n|cffbc8f8fAdvanced Character Stats|r
+## SavedVariables: CharacterStatsWrathDB
+## SavedVariablesPerCharacter: CharacterStatsWrathCharacterDB
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+
+Localization\Localization_en.lua
+Localization\Localization_cn.lua
+Localization\Localization_tw.lua
+
+CharacterStatsWrathConstants.lua
+CharacterStatsWrathUI.lua
+CharacterStatsWrathMain.lua
+CharacterStatsWrathUtils.lua
+CharacterStatsWrathCore.lua
+CharacterStatsWrathClassUtils.lua
+CharacterStatsWrathCallbacks.lua

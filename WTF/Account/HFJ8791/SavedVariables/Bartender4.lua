@@ -1,0 +1,2257 @@
+
+Bartender4DB = {
+["namespaces"] = {
+["ActionBars"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -206.9999694824219,
+["x"] = -230.5000305175781,
+["point"] = "CENTER",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -228.4999847412109,
+["x"] = -230.4999389648438,
+["point"] = "CENTER",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Splinter - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -228.4999847412109,
+["x"] = -230.4999389648438,
+["point"] = "CENTER",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["123"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 176.5000152587891,
+["x"] = -230.5000152587891,
+["point"] = "BOTTOM",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -206.9999694824219,
+["x"] = -230.5000305175781,
+["point"] = "CENTER",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["SS"] = {
+["actionbars"] = {
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 168.7440643310547,
+["x"] = -331.2249450683594,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 166.9253540039063,
+["x"] = -467.2230224609375,
+["point"] = "BOTTOMRIGHT",
+},
+["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 10,
+},
+},
+{
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 168.7436828613281,
+["x"] = 169.056884765625,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 8,
+},
+},
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 83.8149185180664,
+["x"] = -328.9939880371094,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 43.486572265625,
+["x"] = -328.9653015136719,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 127.0314712524414,
+["x"] = -330.4815673828125,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Default"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 176.5000152587891,
+["x"] = -230.5000152587891,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["bf_infobox"] = {
+["actionbars"] = {
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 172.4270935058594,
+["x"] = -350.9189147949219,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 165.7391662597656,
+["x"] = 492.956787109375,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 10,
+},
+},
+{
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 172.4616241455078,
+["x"] = 150.8153076171875,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 8,
+},
+},
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 87.52488708496094,
+["x"] = -349.44921875,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 46.4525146484375,
+["x"] = -353.1734924316406,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 130.7584381103516,
+["x"] = -352.3978576660156,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["clickthrough"] = true,
+["buttons"] = 6,
+["alpha"] = 0.45,
+["version"] = 3,
+["position"] = {
+["y"] = -115.466034130246,
+["x"] = -82.51481858862098,
+["point"] = "CENTER",
+["scale"] = 0.7000000000000001,
+},
+["padding"] = 15,
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = -228.4999694824219,
+["x"] = -230.4999084472656,
+["point"] = "CENTER",
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = -228.4999847412109,
+["x"] = -230.4999389648438,
+["point"] = "CENTER",
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = -228.4999847412109,
+["x"] = -230.4999389648438,
+["point"] = "CENTER",
+},
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 176.5000152587891,
+["x"] = -230.5000152587891,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["actionbars"] = {
+{
+["alpha"] = 0.7000000000000001,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 168.0000762939453,
+["x"] = -357.9962158203125,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = 166.1814880371094,
+["x"] = -448.6324462890625,
+["point"] = "BOTTOMRIGHT",
+},
+["padding"] = 6,
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 10,
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = 168.0000305175781,
+["x"] = 146.0037231445313,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 8,
+},
+},
+{
+["alpha"] = 0.7000000000000001,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 83.07121276855469,
+["x"] = -357.9962158203125,
+["point"] = "BOTTOM",
+},
+},
+{
+["alpha"] = 0.7000000000000001,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 42.74287796020508,
+["x"] = -355.7364807128906,
+["point"] = "BOTTOM",
+},
+},
+{
+["alpha"] = 0.7000000000000001,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 123.3131408691406,
+["x"] = -357.9962158203125,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Hayisu - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -206.9999694824219,
+["x"] = -230.5000305175781,
+["point"] = "CENTER",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["LR"] = {
+["actionbars"] = {
+{
+["version"] = 3,
+["padding"] = 6,
+["alpha"] = 0.7000000000000001,
+["position"] = {
+["y"] = 168.0000762939453,
+["x"] = -357.9962158203125,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = 166.1814880371094,
+["x"] = -448.6324462890625,
+["point"] = "BOTTOMRIGHT",
+},
+["padding"] = 6,
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 10,
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = 168.0000305175781,
+["x"] = 146.0037231445313,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+["rows"] = 4,
+["alpha"] = 0.7000000000000001,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 8,
+},
+},
+{
+["version"] = 3,
+["padding"] = 6,
+["alpha"] = 0.6000000000000001,
+["position"] = {
+["y"] = 83.07121276855469,
+["x"] = -357.9962158203125,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["padding"] = 6,
+["alpha"] = 0.7000000000000001,
+["position"] = {
+["y"] = 42.74287796020508,
+["x"] = -355.7364807128906,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["padding"] = 6,
+["alpha"] = 0.6000000000000001,
+["position"] = {
+["y"] = 123.3131408691406,
+["x"] = -357.9962158203125,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+["enabled"] = true,
+["buttons"] = 5,
+["elements"] = {
+["count"] = {
+["fontSize"] = 18,
+},
+["hotkey"] = {
+["textOffsetX"] = -3,
+["fontSize"] = 12,
+},
+},
+["position"] = {
+["y"] = -97.51218522410636,
+["x"] = -90.05743241592427,
+["point"] = "CENTER",
+["scale"] = 0.8500000238418579,
+},
+["padding"] = 8,
+["clickthrough"] = true,
+["alpha"] = 0.5,
+["version"] = 3,
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = -228.4999847412109,
+["x"] = -230.4999389648438,
+["point"] = "CENTER",
+},
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+},
+},
+["LibDualSpec-1.0"] = {
+["char"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["enabled"] = false,
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+"LR",
+"LR",
+["enabled"] = true,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+"SS",
+"SS",
+["enabled"] = true,
+},
+},
+},
+["MicroMenu"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["Splinter - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["123"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 33,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["SS"] = {
+["rows"] = 2,
+["version"] = 3,
+["position"] = {
+["y"] = 31.74122714996338,
+["x"] = 291.5797271728516,
+["point"] = "BOTTOM",
+["scale"] = 0.75,
+},
+["padding"] = -6,
+},
+["Default"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["bf_infobox"] = {
+["position"] = {
+["y"] = 33.96391525167337,
+["x"] = 271.0194160148894,
+["point"] = "BOTTOM",
+["scale"] = 0.75,
+},
+["version"] = 3,
+["padding"] = -2,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["padding"] = -2,
+["rows"] = 2,
+["version"] = 3,
+["position"] = {
+["scale"] = 0.75,
+["x"] = 377.0995941162109,
+["point"] = "BOTTOM",
+["y"] = 58.51270866394043,
+},
+},
+["Hayisu - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["LR"] = {
+["padding"] = -2,
+["rows"] = 2,
+["version"] = 3,
+["position"] = {
+["y"] = 32.21957015991211,
+["x"] = 271.9274597167969,
+["point"] = "BOTTOM",
+["scale"] = 0.75,
+},
+},
+},
+},
+["BagBar"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["Splinter - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["123"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["SS"] = {
+["verticalAlignment"] = "CENTER",
+["version"] = 3,
+["position"] = {
+["y"] = 59.10372824151637,
+["x"] = 291.69024981845,
+["point"] = "BOTTOM",
+["scale"] = 0.699999988079071,
+},
+["padding"] = 1,
+},
+["Default"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["bf_infobox"] = {
+["verticalAlignment"] = "CENTER",
+["version"] = 3,
+["position"] = {
+["y"] = 61.34311724146573,
+["x"] = 274.4207493801259,
+["point"] = "BOTTOM",
+["scale"] = 0.699999988079071,
+},
+["padding"] = 1,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["version"] = 3,
+["position"] = {
+["scale"] = 0.699999988079071,
+["x"] = 270.1242772853257,
+["point"] = "BOTTOM",
+["y"] = 56.87264917794892,
+},
+["rows"] = 2,
+["padding"] = 1,
+},
+["Hayisu - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["LR"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 1,
+["version"] = 3,
+["position"] = {
+["y"] = 56.87264917794892,
+["x"] = 270.1242772853257,
+["point"] = "BOTTOM",
+["scale"] = 0.699999988079071,
+},
+},
+},
+},
+["UnitFrames"] = {
+["profiles"] = {
+["LR"] = {
+["unitframes"] = {
+["PartyMemberFrame2"] = {
+["version"] = 3,
+},
+["MinimapCluster"] = {
+["version"] = 3,
+},
+["PartyMemberFrame4"] = {
+["version"] = 3,
+},
+["BuffFrame"] = {
+["version"] = 3,
+},
+["PlayerFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame1"] = {
+["version"] = 3,
+},
+["FocusFrame"] = {
+["version"] = 3,
+},
+["CastingBarFrame"] = {
+["version"] = 3,
+["position"] = {
+["y"] = -140.8542633056641,
+["x"] = 463.1884460449219,
+["point"] = "LEFT",
+},
+},
+["PartyMemberFrame3"] = {
+["version"] = 3,
+},
+["TargetFrame"] = {
+["version"] = 3,
+},
+},
+["uiScale"] = 0.699999988079071,
+},
+["Default"] = {
+["unitframes"] = {
+["PartyMemberFrame2"] = {
+["version"] = 3,
+},
+["MinimapCluster"] = {
+["version"] = 3,
+},
+["PartyMemberFrame4"] = {
+["version"] = 3,
+},
+["BuffFrame"] = {
+["version"] = 3,
+},
+["PlayerFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame1"] = {
+["version"] = 3,
+},
+["FocusFrame"] = {
+["version"] = 3,
+},
+["CastingBarFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame3"] = {
+["version"] = 3,
+},
+["TargetFrame"] = {
+["version"] = 3,
+},
+},
+["uiScale"] = 1,
+},
+["bf_infobox"] = {
+["unitframes"] = {
+["PartyMemberFrame2"] = {
+["version"] = 3,
+},
+["MinimapCluster"] = {
+["version"] = 3,
+},
+["PartyMemberFrame4"] = {
+["version"] = 3,
+},
+["BuffFrame"] = {
+["version"] = 3,
+},
+["PlayerFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame1"] = {
+["version"] = 3,
+},
+["FocusFrame"] = {
+["version"] = 3,
+},
+["CastingBarFrame"] = {
+["position"] = {
+["y"] = -140.8542633056641,
+["x"] = 463.1884460449219,
+["point"] = "LEFT",
+},
+["version"] = 3,
+},
+["PartyMemberFrame3"] = {
+["version"] = 3,
+},
+["TargetFrame"] = {
+["version"] = 3,
+},
+},
+["uiScale"] = 0.699999988079071,
+},
+["123"] = {
+["unitframes"] = {
+["PartyMemberFrame2"] = {
+["version"] = 3,
+},
+["MinimapCluster"] = {
+["version"] = 3,
+},
+["PartyMemberFrame4"] = {
+["version"] = 3,
+},
+["BuffFrame"] = {
+["version"] = 3,
+},
+["PlayerFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame1"] = {
+["version"] = 3,
+},
+["FocusFrame"] = {
+["version"] = 3,
+},
+["CastingBarFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame3"] = {
+["version"] = 3,
+},
+["TargetFrame"] = {
+["version"] = 3,
+},
+},
+["uiScale"] = 1,
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["uiScale"] = 0.75,
+["unitframes"] = {
+["PartyMemberFrame2"] = {
+["version"] = 3,
+},
+["MinimapCluster"] = {
+["version"] = 3,
+},
+["PartyMemberFrame4"] = {
+["version"] = 3,
+},
+["BuffFrame"] = {
+["version"] = 3,
+},
+["PlayerFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame1"] = {
+["version"] = 3,
+},
+["FocusFrame"] = {
+["version"] = 3,
+},
+["CastingBarFrame"] = {
+["version"] = 3,
+["position"] = {
+["y"] = -140.8542633056641,
+["x"] = 463.1884460449219,
+["point"] = "LEFT",
+},
+},
+["PartyMemberFrame3"] = {
+["version"] = 3,
+},
+["TargetFrame"] = {
+["version"] = 3,
+},
+},
+},
+["SS"] = {
+["unitframes"] = {
+["PartyMemberFrame2"] = {
+["version"] = 3,
+},
+["MinimapCluster"] = {
+["version"] = 3,
+},
+["PartyMemberFrame4"] = {
+["version"] = 3,
+},
+["BuffFrame"] = {
+["version"] = 3,
+},
+["PlayerFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame1"] = {
+["version"] = 3,
+},
+["FocusFrame"] = {
+["version"] = 3,
+},
+["CastingBarFrame"] = {
+["position"] = {
+["y"] = -140.8542633056641,
+["x"] = 463.1884460449219,
+["point"] = "LEFT",
+},
+["version"] = 3,
+},
+["PartyMemberFrame3"] = {
+["version"] = 3,
+},
+["TargetFrame"] = {
+["version"] = 3,
+},
+},
+["uiScale"] = 0.75,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["unitframes"] = {
+["PartyMemberFrame2"] = {
+["version"] = 3,
+},
+["MinimapCluster"] = {
+["version"] = 3,
+},
+["PartyMemberFrame4"] = {
+["version"] = 3,
+},
+["BuffFrame"] = {
+["version"] = 3,
+},
+["PlayerFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame1"] = {
+["version"] = 3,
+},
+["FocusFrame"] = {
+["version"] = 3,
+},
+["CastingBarFrame"] = {
+["version"] = 3,
+},
+["PartyMemberFrame3"] = {
+["version"] = 3,
+},
+["TargetFrame"] = {
+["version"] = 3,
+},
+},
+["uiScale"] = 0.85999995470047,
+},
+},
+},
+["BlizzardArt"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["Splinter - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["123"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["SS"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["Default"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["bf_infobox"] = {
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["Hayisu - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["LR"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["XPBar"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["Splinter - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["123"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["SS"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 7.030973332364283,
+["x"] = -355.2054267302774,
+["point"] = "BOTTOM",
+["scale"] = 0.6000000238418579,
+},
+["version"] = 3,
+},
+["Default"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["bf_infobox"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 7.030973332364283,
+["x"] = -355.2054267302774,
+["point"] = "BOTTOM",
+["scale"] = 0.6000000238418579,
+},
+["version"] = 3,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["scale"] = 0.6000000238418579,
+["x"] = -355.2054267302774,
+["point"] = "BOTTOM",
+["y"] = 7.030973332364283,
+},
+},
+["Hayisu - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["LR"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 7.030973332364283,
+["x"] = -355.2054267302774,
+["point"] = "BOTTOM",
+["scale"] = 0.6000000238418579,
+},
+},
+},
+},
+["StanceBar"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+["Splinter - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = -15.00000762939453,
+["x"] = -82.50007629394531,
+["point"] = "CENTER",
+},
+},
+["123"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+["SS"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 202.5096740722656,
+["x"] = -357.6487121582031,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["Default"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+["bf_infobox"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 205.7854309082031,
+["x"] = -349.951171875,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -357.6487121582031,
+["point"] = "BOTTOM",
+["y"] = 202.5096740722656,
+},
+},
+["Hayisu - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+["LR"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 202.5096740722656,
+["x"] = -357.6487121582031,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+},
+},
+["Vehicle"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.49990844726563,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.5,
+["x"] = 104.5,
+["point"] = "CENTER",
+},
+},
+["Splinter - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.5,
+["x"] = 104.5,
+["point"] = "CENTER",
+},
+},
+["123"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5000915527344,
+["point"] = "CENTER",
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.49990844726563,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+},
+["SS"] = {
+["position"] = {
+["y"] = 42.49995422363281,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+["version"] = 3,
+},
+["Default"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5000915527344,
+["point"] = "CENTER",
+},
+},
+["bf_infobox"] = {
+["position"] = {
+["y"] = 42.49995422363281,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+["version"] = 3,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5000915527344,
+["point"] = "CENTER",
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.49995422363281,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+},
+["Hayisu - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.49990844726563,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+},
+["LR"] = {
+["version"] = 3,
+["position"] = {
+["y"] = -133.0005950927734,
+["x"] = -354.3295593261719,
+["point"] = "CENTER",
+},
+},
+},
+},
+["PetBar"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["Splinter - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+},
+},
+["123"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["SS"] = {
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 202.9747992844896,
+["x"] = -331.3776572676507,
+["point"] = "BOTTOM",
+["scale"] = 1.049999952316284,
+},
+},
+["Default"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["bf_infobox"] = {
+["alpha"] = 0.7000000000000001,
+["version"] = 3,
+["position"] = {
+["y"] = 206.9228894677435,
+["x"] = -350.5673338612833,
+["point"] = "BOTTOM",
+["scale"] = 1.049999952316284,
+},
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["alpha"] = 0.7000000000000001,
+["position"] = {
+["scale"] = 1.05,
+["x"] = -356.66162109375,
+["point"] = "BOTTOM",
+["y"] = 201.4875640869141,
+},
+},
+["Hayisu - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["LR"] = {
+["version"] = 3,
+["alpha"] = 0.7000000000000001,
+["position"] = {
+["y"] = 201.4875640869141,
+["x"] = -356.66162109375,
+["point"] = "BOTTOM",
+["scale"] = 1.05,
+},
+},
+},
+},
+["RepBar"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["Splinter - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["123"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["SS"] = {
+["position"] = {
+["y"] = 62.06204223632813,
+["x"] = 205.7879943847656,
+["point"] = "LEFT",
+},
+["version"] = 3,
+},
+["Default"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["bf_infobox"] = {
+["position"] = {
+["y"] = 62.06204223632813,
+["x"] = 205.7879943847656,
+["point"] = "LEFT",
+},
+["version"] = 3,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 62.06204223632813,
+["x"] = 205.7879943847656,
+["point"] = "LEFT",
+},
+},
+["Hayisu - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["LR"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 62.06204223632813,
+["x"] = 205.7879943847656,
+["point"] = "LEFT",
+},
+},
+},
+},
+},
+["profileKeys"] = {
+["薇绮丶霜蓝 - 匕首岭"] = "bf_infobox",
+["葛芮芙丶霜蓝 - 匕首岭"] = "bf_infobox",
+["Splinter - 匕首岭"] = "bf_infobox",
+["Hayisu - 匕首岭"] = "bf_infobox",
+["汉斯顿丶霜蓝 - 匕首岭"] = "bf_infobox",
+["苏莉娅丶霜蓝 - 匕首岭"] = "SS",
+["艾伊苏霜蓝 - 匕首岭"] = "LR",
+},
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["Splinter - 匕首岭"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["123"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["SS"] = {
+["blizzardVehicle"] = true,
+["snapping"] = false,
+["buttonlock"] = false,
+["focuscastmodifier"] = false,
+["outofrange"] = "hotkey",
+},
+["Default"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["bf_infobox"] = {
+["blizzardVehicle"] = true,
+["focuscastmodifier"] = false,
+["buttonlock"] = false,
+["onkeydown"] = true,
+["snapping"] = false,
+["outofrange"] = "hotkey",
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["snapping"] = false,
+["blizzardVehicle"] = true,
+["focuscastmodifier"] = false,
+["outofrange"] = "hotkey",
+},
+["Hayisu - 匕首岭"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["LR"] = {
+["focuscastmodifier"] = false,
+["buttonlock"] = false,
+["blizzardVehicle"] = true,
+["snapping"] = false,
+["outofrange"] = "hotkey",
+},
+},
+}

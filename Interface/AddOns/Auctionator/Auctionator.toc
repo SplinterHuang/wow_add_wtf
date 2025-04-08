@@ -1,0 +1,27 @@
+## Interface: 30404
+## Title: Auctionator
+## Title-zhCN: [大脚][集]拍卖助手
+## Title-zhTW: [大腳][集]拍賣夥伴
+## Version: 269
+## Author: Borjamacare, plusmouse
+## X-Website: https://www.curseforge.com/wow/addons/auctionator
+## X-Localizations: enUS,zhTW,zhCN
+## Notes: |cff00ff00Auctionator|r|nA lightweight addon that makes it easy and fast to buy, sell and manage auctions
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+## SavedVariables: AUCTIONATOR_CONFIG, AUCTIONATOR_SAVEDVARS, AUCTIONATOR_SHOPPING_LISTS, AUCTIONATOR_PRICE_DATABASE, AUCTIONATOR_POSTING_HISTORY, AUCTIONATOR_VENDOR_PRICE_CACHE, AUCTIONATOR_RECENT_SEARCHES, AUCTIONATOR_SELLING_GROUPS
+## SavedVariablesPerCharacter: AUCTIONATOR_CHARACTER_CONFIG
+## IconTexture: Interface\AddOns\Auctionator\Images\Logo
+
+Libs\Manifest.xml
+
+Assets_LegacyAH.xml
+
+Imports_LegacyAH\Manifest.xml
+
+Locales\Manifest.xml
+
+Source\Manifest.xml
+Source_Classic\Manifest.xml
+Data_Cata\Suffixes.lua
+Source_LegacyAH\Manifest.xml

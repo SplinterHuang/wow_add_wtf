@@ -1,0 +1,28 @@
+## Interface: 30404
+## Title: RareScanner
+## Title-zhCN: [大脚][集]稀有探测
+## Title-zhTW: [大腳][集]稀有探測
+## Notes: Minimap scanner. Warns you visually with a button and a miniature and plays a sound everytime a rare NPC, treasure/chest or event shows up in your minimap
+## Notes-zhTW: |cff00ff00RareScanner|r|n小地圖掃描器。 當每次稀有NPC、寶藏/寶箱或事件出現在您的小地圖上時，使用一個按鈕與縮小的模型視覺化提醒您並撥放聲音。
+## Notes-zhCN: |cff00ff00RareScanner|r|n小地图扫描器。 当每次稀有NPC、宝藏/宝箱或事件出现在您的小地图上时，使用一个按钮与缩小的模型视觉化提醒您并拨放声音。
+## Author: maqjav, Maciza-Tyrande
+## Version: 3.4.4.2
+## SavedVariables: RareScannerDB
+## Dependencies: !!!Libs
+## X-Revision: BigFoot
+## X-Email: maqjav@gmail.com
+## X-Localizations: enUS, zhCN, zhTW
+## AddonCompartmentFunc: RareScanner_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: RareScanner_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: RareScanner_OnAddonCompartmentLeave
+## IconTexture: Interface\AddOns\RareScanner\Media\Icons\OriginalSkull
+
+ExternalLibs\Libs.xml
+Locales\Locales.xml
+Tables\Tables.xml
+Core\Core.xml
+Guide\Guide.lua
+Core\Plugins\NavPlugin\RSNavigationTemplate.xml
+RareScanner.lua
+Core\Plugins.xml
+Options\Options.xml

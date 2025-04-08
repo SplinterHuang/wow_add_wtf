@@ -1,0 +1,41 @@
+
+DataStore_GuildIDs = {
+["Set"] = {
+["Default.匕首岭.风云再起"] = 1,
+},
+["Count"] = 1,
+["List"] = {
+"Default.匕首岭.风云再起",
+},
+}
+DataStore_GuildFactions = {
+"Alliance",
+}
+DataStore_CharacterIDs = {
+["Set"] = {
+["Default.匕首岭.卖瓜大叔"] = 3,
+["Default.匕首岭.奥德彪"] = 1,
+["Default.匕首岭.尤妠"] = 2,
+},
+["Count"] = 3,
+["List"] = {
+"Default.匕首岭.奥德彪",
+"Default.匕首岭.尤妠",
+"Default.匕首岭.卖瓜大叔",
+},
+}
+DataStore_CharacterGUIDs = {
+"Player-4520-0314FC31",
+"Player-4520-069A1D19",
+"Player-4520-0306603B",
+}
+DataStore_CharacterGuilds = {
+[2] = 1,
+}
+DataStore_AltGroups = {
+}
+DataStore_ConnectedRealms = {
+}
+DataStore_RealmNames = {
+["匕首岭"] = "匕首岭",
+}

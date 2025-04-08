@@ -1,0 +1,52 @@
+## Interface: 30404
+## Title: |TInterface/Icons/Spell_Frost_Stun:16:16:0:0:512:512:64:448:64:448|t SpellActivationOverlay |cffa2f3ff1.3.2|r
+## Title-zhCN: [大脚][集]技能触发提醒
+## Title-zhTW: [大腳][集]技能觸發提醒
+## Notes: Mimic Spell Activation Overlays from Modern World of Warcraft
+## Notes-zhCN: |cff00ff00SpellActivationOverlay|r
+## Notes-zhTW: |cff00ff00SpellActivationOverlay|r
+## Author: Vinny/Ennvina
+## Version: 1.3.2
+## SavedVariables: SpellActivationOverlayDB
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+
+components\aura.lua
+components\counter.lua
+components\effect.lua
+components\events.lua
+components\glow.lua
+components\item.lua
+components\overlay.lua
+components\project.lua
+components\rune.lua
+components\sound.lua
+components\spell.lua
+components\util.lua
+
+textures\texname.lua
+
+classes\common.lua
+classes\deathknight.lua
+classes\druid.lua
+classes\hunter.lua
+classes\mage.lua
+classes\paladin.lua
+classes\priest.lua
+classes\rogue.lua
+classes\shaman.lua
+classes\warlock.lua
+classes\warrior.lua
+
+options\defaults.lua
+options\db.lua
+options\variables.lua
+options\InterfaceOptionsPanels.lua
+options\InterfaceOptionsPanels.xml
+options\classoptions.lua
+options\glowoptions.lua
+options\overlayoptions.lua
+options\variants.lua
+
+SpellActivationOverlay.lua
+SpellActivationOverlay.xml

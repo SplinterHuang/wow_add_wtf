@@ -1,0 +1,81 @@
+VER 3 0000000001000013 "奶骑" "135896"
+#showtooltip
+/castsequence 圣盾术,神圣牺牲
+/cancelaura 神圣牺牲
+END
+VER 3 0000000001000002 "宏" "134400"
+#showtooltip 
+/cast [target=mouseover,harm,exists]正义防御;正义防御
+END
+VER 3 0000000001000009 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 保护之手
+END
+VER 3 000000000100000A "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 自由之手
+END
+VER 3 000000000100000B "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 牺牲之手
+END
+VER 3 000000000100000C "宏" "134400"
+#showtooltip 
+/cast [mod,@player] [@mouseover,help,nodead]神圣震击;[@mouseover,harm,nodead][harm] 神圣震击;[]神圣震击
+END
+VER 3 0000000001000006 "宏" "135926"
+#showtooltip 
+/施放 奉献
+/startattack
+END
+VER 3 000000000100000E "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]圣光闪现
+END
+VER 3 000000000100000F "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]圣洁护盾
+END
+VER 3 0000000001000010 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]圣光道标
+END
+VER 3 0000000001000011 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]圣疗术
+END
+VER 3 0000000001000012 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]清洁术
+END
+VER 3 000000000100000D "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player]圣光术
+END
+VER 3 0000000001000014 "宏" "134400"
+#showtooltip
+/cancelaura 圣盾术
+/cast 圣盾术
+END
+VER 3 0000000001000015 "宏" "134400"
+#showtooltip
+/cast 十字军打击
+/施放 清算之手
+/startattack
+END
+VER 3 0000000001000016 "宏" "134400"
+#showtooltip
+/cast 神圣风暴
+/施放 清算之手
+/startattack
+END
+VER 3 0000000001000017 "宏" "134400"
+#showtooltip
+/cast 正义之锤
+/startattack
+END
+VER 3 0000000001000018 "宏" "134400"
+#showtooltip
+/cast [mod:alt]驱邪术;正义盾击
+/startattack
+END

@@ -1,0 +1,15 @@
+
+wMarkerAceDB = {
+["profileKeys"] = {
+["尤妠 - 匕首岭"] = "Default",
+["卖瓜大叔 - 匕首岭"] = "Default",
+["奥德彪 - 匕首岭"] = "Default",
+},
+["global"] = {
+["lastVer"] = "3.2.2",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

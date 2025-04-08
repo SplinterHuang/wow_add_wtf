@@ -1,0 +1,93 @@
+VER 3 0000000001000014 "TT Cast" "INV_Misc_QuestionMark"
+#showtooltips
+/castsequence reset=combat/15 灼热图腾(等级 10), 战栗图腾(), 治疗之泉图腾(等级 9), 风怒图腾()
+END
+VER 3 0000000001000016 "宏" "134400"
+#showtooltip 
+/cast 风暴打击
+/startattack
+/petattack
+END
+VER 3 0000000001000002 "宏" "134400"
+#showtooltip 
+/cast 烈焰震击
+/startattack
+/petattack
+END
+VER 3 0000000001000006 "宏" "134400"
+#showtooltip 
+/cast [target=focus,harm,exists]风剪;[target=mouseover,harm,exists]风剪;风剪
+/stopcasting
+END
+VER 3 0000000001000005 "宏" "134400"
+#showtooltip 
+/cast 灼热图腾
+/startattack
+/stopcasting
+END
+VER 3 0000000001000007 "宏" "134400"
+#showtooltip 
+/cast [mod:alt]冰霜震击;熔岩图腾
+/startattack
+/tar 镜像
+END
+VER 3 000000000100000A "宏" "134400"
+#showtooltip 
+/cast 闪电链
+/startattack
+/stopcasting
+END
+VER 3 000000000100000B "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 治疗波
+END
+VER 3 000000000100000C "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 次级治疗波
+END
+VER 3 0000000001000004 "宏" "134400"
+#showtooltip 
+/cast [mod:alt]大地震击;闪电箭
+/startattack
+/stopcasting
+END
+VER 3 000000000100000E "宏" "134400"
+#showtooltip 
+/cast 野性狼魂
+/use 霸权印记
+/petpassive
+END
+VER 3 000000000100000F "宏" "132328"
+#showtooltip 
+/cast 幽魂步
+/cancelaura 保护之手
+END
+VER 3 0000000001000011 "宏" "134400"
+#showtooltip 
+/cast 幽灵狼
+/use 8
+END
+VER 3 0000000001000008 "宏" "134400"
+#showtooltip 
+/cast 火焰新星
+/startattack
+END
+VER 3 0000000001000013 "宏" "134400"
+#showtooltip 
+/cast 萨满之怒
+/use 10
+/startattack
+END
+VER 3 0000000001000015 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]治疗波
+END
+VER 3 000000000100000D "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 治疗链
+END
+VER 3 0000000001000017 "宏" "134400"
+#showtooltip
+/castsequence reset=6 熔岩猛击,大地震击
+/startattack
+END

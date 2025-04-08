@@ -1,0 +1,23 @@
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+/cancelaura 迅捷飞行形态
+/cast !枭兽形态
+END
+VER 3 0000000001000003 "凶" "INV_MISC_QUESTIONMARK"
+/cancelaura  迅捷飞行形态
+/cast !巨熊形态
+END
+VER 3 0000000001000006 "树" "INV_MISC_QUESTIONMARK"
+/cancelaura 迅捷飞行形态
+/cast !生命之树
+END
+VER 3 0000000001000002 "猎豹" "INV_MISC_QUESTIONMARK"
+/cancelaura  迅捷飞行形态
+/cast !猎豹形态
+END
+VER 3 0000000001000001 "解除变形" "INV_MISC_QUESTIONMARK"
+/cancelaura 迅捷飞行形态
+/cancelaura  猎豹形态
+END
+VER 3 0000000001000005 "飞" "INV_MISC_QUESTIONMARK"
+/cast !迅捷飞行形态
+END

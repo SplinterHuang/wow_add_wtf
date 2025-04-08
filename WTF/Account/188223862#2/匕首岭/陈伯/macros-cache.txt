@@ -1,0 +1,88 @@
+VER 3 000000000100000B "宏" "134400"
+#showtooltip 
+/startattack 
+/castsequence reset=15 冲锋,拦截
+END
+VER 3 0000000001000010 "宏" "134400"
+#showtooltip
+/cast [stance:1] 撕裂
+/cast [mod:alt] 破甲攻击;猛击
+/startattack 
+END
+VER 3 000000000100000C "宏" "134400"
+#showtooltip 嗜血
+/cast [nostance:3] 狂暴姿态;!嗜血
+/cast 血性狂暴
+/startattack 
+END
+VER 3 000000000100000D "宏" "134400"
+#showtooltip
+/cast [mod:alt]撕裂;复仇
+/startattack 
+END
+VER 3 000000000100000F "宏" "134400"
+#showtooltip
+/cast [mod:alt]破甲攻击;英勇打击
+/startattack 
+END
+VER 3 0000000001000012 "宏" "132938"
+#showtooltip 
+/cast [target=focus,harm,exists]拳击;[target=mouseover,harm,exists]拳击;拳击
+END
+VER 3 0000000001000016 "宏" "134400"
+#showtooltip
+/cast 雷霆一击
+/cast 顺劈斩
+/startattack 
+END
+VER 3 0000000001000015 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 援护
+END
+VER 3 0000000001000017 "宏" "134400"
+#showtooltip 
+/cast [target=focus,harm,exists]盾击;[target=mouseover,harm,exists]盾击;盾击
+/stopcasting
+END
+VER 3 0000000001000019 "宏" "134400"
+#showtooltip 碎裂投掷
+/cast 战斗姿态
+/cast 碎裂投掷
+/startattack 
+END
+VER 3 0000000001000018 "宏" "134400"
+#showtooltip
+/cast 毁灭打击
+/startattack
+END
+VER 3 000000000100001A "宏" "134400"
+#showtooltip
+/cast [mod:alt]战斗怒吼;命令怒吼
+END
+VER 3 000000000100001B "宏" "134400"
+#showtooltip
+/cast 狂暴之怒
+/cast 血性狂暴
+END
+VER 3 000000000100001C "宏" "134400"
+#showtooltip
+/cast [stance:1]冲锋;[stance:3]拦截
+END
+VER 3 000000000100001F "宏" "134400"
+#showtooltip
+/cast [mod:alt]战斗姿态;猛击
+END
+VER 3 0000000001000020 "宏" "134400"
+#showtooltip 反击风暴
+/cast [nostance:1] 战斗姿态;!反击风暴
+/startattack 
+END
+VER 3 0000000001000021 "宏" "134400"
+#showtooltip 
+/cast [target=mouseover,harm,exists]嘲讽;嘲讽
+END
+VER 3 0000000001000022 "宏" "134400"
+#showtooltip 
+/castsequence reset=4 嗜血,旋风斩,嗜血
+/startattack 
+END

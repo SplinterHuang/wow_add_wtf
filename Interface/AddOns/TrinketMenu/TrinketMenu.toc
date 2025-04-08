@@ -1,0 +1,26 @@
+﻿## Interface: 30404
+## Title: TrinketMenu 10.0.3
+## Title-zhCN: [大脚][集]饰品管理
+## Title-zhTW: [大腳][集]飾品管理
+## Version: 10.0.3
+## Author: Gello, Resike
+## Notes: Addon to manage trinkets.
+## Notes-zhCN: |cff00ff00TrinketMenu|r|n|cffbc8f8f方便地管理饰品。|r
+## Notes-zhTW: |cff00ff00TrinketMenu|r|n|cffbc8f8f方便地管理飾品。|r
+## SavedVariables: TrinketMenuOptions
+## SavedVariablesPerCharacter: TrinketMenuPerOptions, TrinketMenuQueue
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+## LoadOnDemand: 1
+
+TrinketMenuGlobals.lua
+TrinketMenu.lua
+TrinketMenu.xml
+TrinketMenuOpt.lua
+TrinketMenuOpt.xml
+TrinketMenuQueue.lua
+TrinketMenuQueue.xml
+
+localization.lua
+
+bigfoot.lua

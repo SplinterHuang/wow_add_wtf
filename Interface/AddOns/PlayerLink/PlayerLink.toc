@@ -1,0 +1,11 @@
+﻿## Interface: 30404
+## Title: [BF] PlayerLink
+## Title-zhCN: [大脚]菜单增强
+## Title-zhTW: [大腳]菜單增強
+## Notes: |cffbc8f8fImprove the function of player link.|r
+## Notes-zhCN: |cff00ff00PlayerLink|r|n|cffbc8f8f增强系统下拉列表菜单。|r
+## Notes-zhTW: |cff00ff00PlayerLink|r|n|cffbc8f8f增強係統下拉列表菜單。|r
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+
+PlayerLink.lua

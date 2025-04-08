@@ -1,0 +1,18 @@
+## Interface: 30404
+## Title: BigDebuffs
+## Title-zhCN: [大脚][集]控制技能提示
+## Title-zhTW: [大腳][集]控制技能提示
+## Notes: |cff00ff00BigDebuffs|r|nIncreases the debuff size of crowd control effects on the Blizzard raid frames
+## Version: v43
+## Author: Jordon
+## SavedVariables: BigDebuffsDB
+## IconTexture: Interface\AddOns\BigDebuffs\Media\Textures\icon.blp
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+## LoadOnDemand: 1
+
+Locales\Locales.xml
+BigDebuffs.xml
+BigDebuffs_Wrath.lua
+BigDebuffs.lua
+Options.lua

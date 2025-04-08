@@ -1,0 +1,73 @@
+
+DataStore_Characters_Info = {
+{
+["zone"] = "达拉然",
+["money"] = 79276588,
+["bindLocation"] = "达拉然",
+["subZone"] = "紫罗兰之门",
+["name"] = "薇绮丶霜蓝",
+["guildRankIndex"] = 7,
+["lastUpdate"] = 1743957400,
+["BaseInfo"] = 2893264,
+["lastLogoutTimestamp"] = 1743957400,
+["XPInfo"] = 1773876019200,
+},
+{
+["zone"] = "达拉然",
+["money"] = 15897393,
+["bindLocation"] = "达拉然",
+["name"] = "Hayisu",
+["subZone"] = "达拉然",
+["guildRankIndex"] = 6,
+["lastUpdate"] = 1744054330,
+["BaseInfo"] = 2891977,
+["lastLogoutTimestamp"] = 1744054330,
+["XPInfo"] = 2.129927194969102e+18,
+},
+{
+["zone"] = "达拉然",
+["money"] = 67546928,
+["bindLocation"] = "达拉然",
+["subZone"] = "银色领地",
+["name"] = "艾伊苏霜蓝",
+["guildRankIndex"] = 4,
+["lastUpdate"] = 1744036154,
+["BaseInfo"] = 2892240,
+["lastLogoutTimestamp"] = 1744036154,
+["XPInfo"] = 1773876019200,
+},
+{
+["zone"] = "达拉然",
+["money"] = 108024193,
+["bindLocation"] = "达拉然",
+["name"] = "苏莉娅丶霜蓝",
+["subZone"] = "达拉然",
+["guildRankIndex"] = 4,
+["lastUpdate"] = 1744086606,
+["BaseInfo"] = 2899152,
+["lastLogoutTimestamp"] = 1744086606,
+["XPInfo"] = 1773876019200,
+},
+{
+["zone"] = "赞加沼泽",
+["money"] = 3251679,
+["bindLocation"] = "泰雷多尔",
+["name"] = "葛芮芙丶霜蓝",
+["subZone"] = "泰雷多尔",
+["lastUpdate"] = 1743499813,
+["BaseInfo"] = 2898751,
+["lastLogoutTimestamp"] = 1743499813,
+["XPInfo"] = 4.5021523195267e+17,
+},
+}
+DataStore_Characters_GuildRanks = {
+{
+[6] = "公会成员",
+[7] = "新进成员",
+[4] = "二级活跃人士",
+},
+}
+DataStore_Characters_Options = {
+["RequestPlayTime"] = true,
+["HideRealPlayTime"] = false,
+}

@@ -1,0 +1,57 @@
+
+DataStore_Characters_Info = {
+{
+["zone"] = "冰冠冰川",
+["money"] = 90079975,
+["bindLocation"] = "达拉然",
+["name"] = "奥德彪",
+["subZone"] = "银色盟约大帐",
+["lastUpdate"] = 1743188385,
+["BaseInfo"] = 2644944,
+["lastLogoutTimestamp"] = 1743188385,
+["XPInfo"] = 1773876019200,
+},
+{
+["zone"] = "达拉然",
+["money"] = 31505326,
+["bindLocation"] = "达拉然",
+["name"] = "尤妠",
+["subZone"] = "达拉然",
+["guildRankIndex"] = 3,
+["lastUpdate"] = 1743188420,
+["BaseInfo"] = 2907088,
+["lastLogoutTimestamp"] = 1743188420,
+["XPInfo"] = 1773876019200,
+},
+{
+["zone"] = "达拉然",
+["money"] = 200506651,
+["bindLocation"] = "达拉然",
+["name"] = "卖瓜大叔",
+["subZone"] = "鲁因广场",
+["lastUpdate"] = 1743188621,
+["BaseInfo"] = 2623824,
+["lastLogoutTimestamp"] = 1743188621,
+["XPInfo"] = 1773876019200,
+},
+{
+["zone"] = "达拉然",
+["money"] = 47038312,
+["bindLocation"] = "达拉然",
+["name"] = "陈伯",
+["subZone"] = "达拉然",
+["lastUpdate"] = 1743188709,
+["BaseInfo"] = 2623696,
+["lastLogoutTimestamp"] = 1743188709,
+["XPInfo"] = 1773876019200,
+},
+}
+DataStore_Characters_GuildRanks = {
+{
+[3] = "会员",
+},
+}
+DataStore_Characters_Options = {
+["RequestPlayTime"] = true,
+["HideRealPlayTime"] = false,
+}

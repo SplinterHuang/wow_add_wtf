@@ -1,0 +1,38 @@
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/施放 地震术(等级 1)
+END
+VER 3 0000000001000008 "follow" "134400"
+/follow Hayisu
+END
+VER 3 0000000001000003 "TT Cast" "INV_Misc_QuestionMark"
+#showtooltips
+/castsequence reset=combat/15 火舌图腾(等级 8), 大地之力图腾(等级 8), 治疗之泉图腾(等级 9), 自然抗性图腾(等级 6)
+END
+VER 3 0000000001000001 "TT Cast" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/castsequence reset=combat/15 灼热图腾(等级 7), 石肤图腾(等级 8), 治疗之泉图腾(等级 6), 根基图腾()
+END
+VER 3 0000000001000006 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [target=focus,harm,exists]风剪;[target=mouseover,harm,exists]风剪;风剪
+/stopcasting
+END
+VER 3 0000000001000007 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod:alt]冰霜震击;熔岩图腾
+/startattack
+END
+VER 3 0000000001000005 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod:alt,target=mouseover,player] 大地之盾
+/cast [target=mouseover,player]治疗链
+END
+VER 3 0000000001000004 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]治疗波
+END
+VER 3 0000000001000009 "目标" "134400"
+/tar 迦瓦尔
+END

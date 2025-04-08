@@ -1,0 +1,72 @@
+
+BigFootBotRealmDB = {
+["id"] = 4520,
+["normalizedName"] = "匕首岭",
+["name"] = "匕首岭",
+["region"] = "CN",
+}
+BigFootBotCharacterDB = {
+["Hayisu-匕首岭"] = {
+["guild"] = "谈笑风生",
+["guid"] = "Player-4520-00534897",
+["gender"] = 3,
+["raceId"] = 4,
+["lastSeen"] = 1744054329,
+["version"] = 3,
+["name"] = "Hayisu",
+["faction"] = "Alliance",
+["region"] = "CN",
+["level"] = 73,
+["classId"] = 1,
+["realm"] = "匕首岭",
+},
+}
+BigFootBotAchievementDB = {
+["latest"] = {
+{
+["id"] = 478,
+["points"] = 10,
+["icon"] = 236498,
+["date"] = "25-3-31",
+},
+{
+["id"] = 507,
+["points"] = 10,
+["icon"] = 236668,
+["date"] = "25-3-29",
+},
+{
+["id"] = 2716,
+["points"] = 10,
+["icon"] = 236544,
+["date"] = "25-3-27",
+},
+{
+["id"] = 734,
+["points"] = 10,
+["icon"] = 134327,
+["date"] = "25-3-27",
+},
+{
+["id"] = 135,
+["points"] = 10,
+["icon"] = 135966,
+["date"] = "25-3-20",
+},
+},
+["all"] = {
+},
+["totalPoints"] = 620,
+}
+BigFootBotAccountDB = {
+["gameVersion"] = "3.4.4",
+["addonVersion"] = "r4",
+["region"] = "CN",
+["clientVersion"] = 3,
+["isTrial"] = false,
+["bigfootVersion"] = "zhCN3.4.4.248",
+}
+BigFootBotGuildDB = {
+}
+BigFootBotTokenDB = {
+}

@@ -1,0 +1,583 @@
+
+BFS_Realm = {
+["normalizedName"] = "匕首岭",
+["name"] = "匕首岭",
+["region"] = "CN",
+["id"] = 4520,
+["clientVersion"] = 3,
+}
+BFS_Characters = {
+["陈伯-匕首岭"] = {
+["itemLevel"] = 230,
+["guid"] = "Player-4520-045D30DD",
+["gender"] = 2,
+["raceId"] = 1,
+["lastSeen"] = 1743188649,
+["version"] = 3,
+["name"] = "陈伯",
+["faction"] = "Alliance",
+["region"] = "CN",
+["level"] = 80,
+["classId"] = 1,
+["realm"] = "匕首岭",
+},
+}
+BFS_Account = {
+["tradingPost"] = {
+["knownItems"] = "",
+["amount"] = 0,
+},
+["talents"] = {
+{
+["details"] = {
+{
+["column"] = 4,
+["row"] = 3,
+["rank"] = 3,
+},
+{
+["column"] = 3,
+["row"] = 1,
+["rank"] = 2,
+},
+{
+["column"] = 2,
+["row"] = 1,
+["rank"] = 5,
+},
+{
+["column"] = 2,
+["row"] = 2,
+["rank"] = 3,
+},
+{
+["column"] = 3,
+["row"] = 3,
+["rank"] = 2,
+},
+},
+["pointsSpent"] = "",
+},
+{
+["details"] = {
+{
+["column"] = 1,
+["row"] = 1,
+["rank"] = 3,
+},
+},
+["pointsSpent"] = "",
+},
+{
+["details"] = {
+{
+["column"] = 3,
+["row"] = 2,
+["rank"] = 5,
+},
+{
+["column"] = 4,
+["row"] = 3,
+["rank"] = 5,
+},
+{
+["column"] = 3,
+["row"] = 1,
+["rank"] = 3,
+},
+{
+["column"] = 2,
+["row"] = 2,
+["rank"] = 3,
+},
+{
+["column"] = 2,
+["row"] = 3,
+["rank"] = 2,
+},
+{
+["column"] = 2,
+["row"] = 7,
+["rank"] = 1,
+},
+{
+["column"] = 3,
+["row"] = 5,
+["rank"] = 2,
+},
+{
+["column"] = 1,
+["row"] = 5,
+["rank"] = 2,
+},
+{
+["column"] = 2,
+["row"] = 5,
+["rank"] = 1,
+},
+{
+["column"] = 1,
+["row"] = 3,
+["rank"] = 1,
+},
+{
+["column"] = 3,
+["row"] = 6,
+["rank"] = 5,
+},
+{
+["column"] = 2,
+["row"] = 1,
+["rank"] = 5,
+},
+{
+["column"] = 1,
+["row"] = 7,
+["rank"] = 2,
+},
+{
+["column"] = 2,
+["row"] = 8,
+["rank"] = 3,
+},
+{
+["column"] = 3,
+["row"] = 3,
+["rank"] = 2,
+},
+{
+["column"] = 2,
+["row"] = 9,
+["rank"] = 1,
+},
+{
+["column"] = 2,
+["row"] = 10,
+["rank"] = 3,
+},
+{
+["column"] = 2,
+["row"] = 11,
+["rank"] = 1,
+},
+{
+["column"] = 3,
+["row"] = 9,
+["rank"] = 3,
+},
+{
+["column"] = 1,
+["row"] = 9,
+["rank"] = 1,
+},
+{
+["column"] = 3,
+["row"] = 10,
+["rank"] = 2,
+},
+},
+["pointsSpent"] = "",
+},
+},
+["addonVersion"] = "r12",
+["avgItemLevelEquipped"] = 229.9375,
+["pets"] = {
+},
+["specId"] = 0,
+["savedInstances"] = "W10=",
+["equipments"] = {
+["waist"] = {
+["level"] = 232,
+["stats"] = {
+["ITEM_MOD_DODGE_RATING"] = 48,
+["ITEM_MOD_STRENGTH_SHORT"] = 89,
+["ITEM_MOD_STAMINA_SHORT"] = 109,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 38,
+["ITEM_MOD_PARRY_RATING"] = 39,
+["EMPTY_SOCKET_BLUE"] = 1,
+["EMPTY_SOCKET_RED"] = 1,
+},
+["bonuses"] = "",
+["slot"] = "waist",
+["id"] = 45551,
+["gems"] = "40008,40034,40008",
+["modifiers"] = {
+},
+["simc"] = "waist=,id=45551,gem_id=40008/40034/40008",
+},
+["main_hand"] = {
+["enchant"] = 3869,
+["stats"] = {
+["ITEM_MOD_DODGE_RATING"] = 15,
+["ITEM_MOD_STRENGTH_SHORT"] = 62,
+["ITEM_MOD_STAMINA_SHORT"] = 81,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 33,
+["EMPTY_SOCKET_BLUE"] = 1,
+["ITEM_MOD_DAMAGE_PER_SECOND_SHORT"] = 206.6666717529297,
+},
+["bonuses"] = "",
+["slot"] = "main_hand",
+["id"] = 237068,
+["simc"] = "main_hand=,id=237068,enchant_id=3869,gem_id=40119",
+["modifiers"] = {
+},
+["level"] = 252,
+["gems"] = "40119",
+},
+["finger2"] = {
+["level"] = 232,
+["stats"] = {
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 34,
+["ITEM_MOD_STRENGTH_SHORT"] = 67,
+["ITEM_MOD_DODGE_RATING"] = 36,
+["ITEM_MOD_STAMINA_SHORT"] = 99,
+},
+["bonuses"] = "",
+["slot"] = "finger2",
+["id"] = 45112,
+["gems"] = "",
+["modifiers"] = {
+},
+["simc"] = "finger2=,id=45112",
+},
+["ammo"] = {
+},
+["back"] = {
+["enchant"] = 1951,
+["stats"] = {
+["ITEM_MOD_STRENGTH_SHORT"] = 52,
+["ITEM_MOD_STAMINA_SHORT"] = 95,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 34,
+["ITEM_MOD_BLOCK_RATING"] = 42,
+["ITEM_MOD_EXPERTISE_RATING"] = 27,
+},
+["bonuses"] = "",
+["slot"] = "back",
+["id"] = 45322,
+["simc"] = "back=,id=45322,enchant_id=1951",
+["modifiers"] = {
+},
+["level"] = 225,
+["gems"] = "",
+},
+["shirt"] = {
+},
+["hands"] = {
+["enchant"] = 3253,
+["stats"] = {
+["ITEM_MOD_DODGE_RATING"] = 56,
+["ITEM_MOD_STRENGTH_SHORT"] = 59,
+["ITEM_MOD_STAMINA_SHORT"] = 112,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 47,
+["EMPTY_SOCKET_BLUE"] = 1,
+["ITEM_MOD_HIT_RATING"] = 48,
+},
+["bonuses"] = "",
+["slot"] = "hands",
+["id"] = 45426,
+["simc"] = "hands=,id=45426,enchant_id=3253,gem_id=40008",
+["modifiers"] = {
+},
+["level"] = 225,
+["gems"] = "40008",
+},
+["wrist"] = {
+["enchant"] = 3850,
+["stats"] = {
+["ITEM_MOD_STRENGTH_SHORT"] = 43,
+["ITEM_MOD_STAMINA_SHORT"] = 84,
+["ITEM_MOD_PARRY_RATING"] = 38,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 37,
+["ITEM_MOD_HIT_RATING"] = 28,
+},
+["bonuses"] = "",
+["slot"] = "wrist",
+["id"] = 40734,
+["simc"] = "wrist=,id=40734,enchant_id=3850",
+["modifiers"] = {
+},
+["level"] = 213,
+["gems"] = "",
+},
+["off_hand"] = {
+["enchant"] = 3849,
+["stats"] = {
+["ITEM_MOD_STRENGTH_SHORT"] = 44,
+["ITEM_MOD_STAMINA_SHORT"] = 99,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 67,
+["ITEM_MOD_EXPERTISE_RATING"] = 30,
+["ITEM_MOD_HIT_RATING"] = 30,
+},
+["bonuses"] = "",
+["slot"] = "off_hand",
+["id"] = 45450,
+["simc"] = "off_hand=,id=45450,enchant_id=3849",
+["modifiers"] = {
+},
+["level"] = 232,
+["gems"] = "",
+},
+["trinket1"] = {
+["level"] = 225,
+["stats"] = {
+["ITEM_MOD_STAMINA_SHORT"] = 164,
+},
+["bonuses"] = "",
+["slot"] = "trinket1",
+["id"] = 46021,
+["gems"] = "",
+["modifiers"] = {
+},
+["simc"] = "trinket1=,id=46021",
+},
+["head"] = {
+["enchant"] = 3818,
+["stats"] = {
+["ITEM_MOD_DODGE_RATING"] = 54,
+["ITEM_MOD_STRENGTH_SHORT"] = 103,
+["ITEM_MOD_STAMINA_SHORT"] = 156,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 63,
+["EMPTY_SOCKET_YELLOW"] = 1,
+["ITEM_MOD_BLOCK_RATING"] = 54,
+["EMPTY_SOCKET_META"] = 1,
+},
+["bonuses"] = "",
+["slot"] = "head",
+["id"] = 46166,
+["simc"] = "head=,id=46166,enchant_id=3818,gem_id=41380/40088",
+["modifiers"] = {
+},
+["level"] = 232,
+["gems"] = "41380,40088",
+},
+["finger1"] = {
+["level"] = 232,
+["stats"] = {
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 35,
+["ITEM_MOD_STRENGTH_SHORT"] = 67,
+["ITEM_MOD_BLOCK_RATING"] = 34,
+["ITEM_MOD_STAMINA_SHORT"] = 99,
+},
+["bonuses"] = "",
+["slot"] = "finger1",
+["id"] = 45247,
+["gems"] = "",
+["modifiers"] = {
+},
+["simc"] = "finger1=,id=45247",
+},
+["chest"] = {
+["enchant"] = 3297,
+["stats"] = {
+["ITEM_MOD_STRENGTH_SHORT"] = 120,
+["ITEM_MOD_STAMINA_SHORT"] = 156,
+["ITEM_MOD_PARRY_RATING"] = 64,
+["EMPTY_SOCKET_YELLOW"] = 1,
+["EMPTY_SOCKET_BLUE"] = 1,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 54,
+},
+["bonuses"] = "",
+["slot"] = "chest",
+["id"] = 46162,
+["simc"] = "chest=,id=46162,enchant_id=3297,gem_id=40008/40088",
+["modifiers"] = {
+},
+["level"] = 232,
+["gems"] = "40008,40088",
+},
+["tabard"] = {
+["level"] = 75,
+["stats"] = {
+},
+["bonuses"] = "",
+["slot"] = "tabard",
+["id"] = 43154,
+["gems"] = "",
+["modifiers"] = {
+},
+["simc"] = "tabard=,id=43154",
+},
+["ranged"] = {
+["level"] = 245,
+["stats"] = {
+["ITEM_MOD_DODGE_RATING"] = 28,
+["ITEM_MOD_STRENGTH_SHORT"] = 32,
+["ITEM_MOD_STAMINA_SHORT"] = 64,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 28,
+["ITEM_MOD_DAMAGE_PER_SECOND_SHORT"] = 255.5555572509766,
+["ITEM_MOD_HIT_RATING"] = 22,
+},
+["bonuses"] = "",
+["slot"] = "ranged",
+["id"] = 47660,
+["gems"] = "",
+["modifiers"] = {
+},
+["simc"] = "ranged=,id=47660",
+},
+["trinket2"] = {
+["level"] = 200,
+["stats"] = {
+["ITEM_MOD_BLOCK_RATING"] = 74,
+},
+["bonuses"] = "",
+["slot"] = "trinket2",
+["id"] = 37872,
+["gems"] = "",
+["modifiers"] = {
+},
+["simc"] = "trinket2=,id=37872",
+},
+["legs"] = {
+["enchant"] = 3822,
+["stats"] = {
+["ITEM_MOD_STRENGTH_SHORT"] = 103,
+["ITEM_MOD_STAMINA_SHORT"] = 180,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 90,
+["EMPTY_SOCKET_RED"] = 1,
+["EMPTY_SOCKET_BLUE"] = 1,
+["ITEM_MOD_HIT_RATING"] = 53,
+},
+["bonuses"] = "",
+["slot"] = "legs",
+["id"] = 48446,
+["simc"] = "legs=,id=48446,enchant_id=3822,gem_id=40141/40119",
+["modifiers"] = {
+},
+["level"] = 245,
+["gems"] = "40141,40119",
+},
+["neck"] = {
+["level"] = 232,
+["stats"] = {
+["ITEM_MOD_DODGE_RATING"] = 45,
+["ITEM_MOD_STRENGTH_SHORT"] = 44,
+["ITEM_MOD_STAMINA_SHORT"] = 99,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 43,
+["ITEM_MOD_HIT_RATING"] = 44,
+},
+["bonuses"] = "",
+["slot"] = "neck",
+["id"] = 45821,
+["gems"] = "",
+["modifiers"] = {
+},
+["simc"] = "neck=,id=45821",
+},
+["shoulders"] = {
+["enchant"] = 3811,
+["stats"] = {
+["ITEM_MOD_STRENGTH_SHORT"] = 84,
+["ITEM_MOD_STAMINA_SHORT"] = 126,
+["ITEM_MOD_PARRY_RATING"] = 48,
+["ITEM_MOD_BLOCK_RATING"] = 38,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 43,
+},
+["bonuses"] = "",
+["slot"] = "shoulders",
+["id"] = 45697,
+["simc"] = "shoulders=,id=45697,enchant_id=3811",
+["modifiers"] = {
+},
+["level"] = 225,
+["gems"] = "",
+},
+["feet"] = {
+["enchant"] = 1075,
+["stats"] = {
+["ITEM_MOD_DODGE_RATING"] = 47,
+["ITEM_MOD_STRENGTH_SHORT"] = 90,
+["ITEM_MOD_STAMINA_SHORT"] = 109,
+["ITEM_MOD_DEFENSE_SKILL_RATING"] = 39,
+["EMPTY_SOCKET_YELLOW"] = 1,
+["EMPTY_SOCKET_BLUE"] = 1,
+["ITEM_MOD_PARRY_RATING"] = 39,
+},
+["bonuses"] = "",
+["slot"] = "feet",
+["id"] = 45560,
+["simc"] = "feet=,id=45560,enchant_id=1075,gem_id=40088/40008",
+["modifiers"] = {
+},
+["level"] = 232,
+["gems"] = "40088,40008",
+},
+},
+["fullName"] = "陈伯-匕首岭",
+["region"] = "CN",
+["achievements"] = {
+["latest"] = {
+{
+["id"] = 697,
+["points"] = 10,
+["icon"] = 236415,
+["date"] = "25-3-23",
+},
+{
+["id"] = 4627,
+["points"] = 0,
+["icon"] = 135448,
+["date"] = "25-2-11",
+},
+{
+["id"] = 4624,
+["points"] = 10,
+["icon"] = 134179,
+["date"] = "25-2-3",
+},
+{
+["id"] = 18592,
+["points"] = 10,
+["icon"] = 236465,
+["date"] = "25-1-27",
+},
+{
+["id"] = 556,
+["points"] = 25,
+["icon"] = 132885,
+["date"] = "25-1-27",
+},
+},
+["all"] = {
+},
+["totalPoints"] = 2220,
+},
+["avgItemLevel"] = 236,
+["mounts"] = "",
+["bigfootVersion"] = "zhCN3.4.4.246",
+["gameVersion"] = "3.4.4",
+["titleId"] = 0,
+["professions"] = "",
+["clientVersion"] = 3,
+["isTrial"] = false,
+["stats"] = {
+["intellect"] = 36,
+["critChance"] = 6.22044563293457,
+["blockChance"] = 30.80060195922852,
+["haste"] = 0,
+["agility"] = 135,
+["armor"] = 26064,
+["spirit"] = 60,
+["armorEffectiveness"] = 0.6311430931091309,
+["resistance"] = {
+["holy"] = 0,
+["forst"] = 0,
+["arcane"] = 0,
+["fire"] = 0,
+["shadow"] = 0,
+["nature"] = 0,
+},
+["strength"] = 1306,
+["powerMax"] = 100,
+["spellBonusDamage"] = 46,
+["healthMax"] = 35376,
+["stamina"] = 2716,
+["dodgeChance"] = 22.76792526245117,
+["parryChance"] = 19.4447078704834,
+["powerType"] = 0,
+},
+}
+BFS_Guild = {
+}
+BFS_Token = {
+}

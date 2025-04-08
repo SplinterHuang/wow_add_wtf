@@ -1,0 +1,324 @@
+VER 3 0000000000000050 "A冰球" "132387"
+/tar 冰霜之球
+END
+VER 3 0000000000000046 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
+END
+VER 3 0000000000000018 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 解除诅咒; [@mouseover,exists,mod:shift] 解除诅咒
+END
+VER 3 000000000000005C "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 驱毒术; [@mouseover,exists,mod:shift] 解除诅咒
+END
+VER 3 0000000000000060 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 驱散魔法;  [@mouseover,exists,mod:ctrl] 驱除疾病; [@mouseover,exists,mod:shift] 驱散魔法
+END
+VER 3 0000000000000063 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 驱毒术;  [@mouseover,exists,mod:ctrl] 驱毒术; [@mouseover,exists,mod:shift] 驱毒术
+END
+VER 3 0000000000000064 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 驱除疾病;  [@mouseover,exists,mod:ctrl] 驱散魔法; [@mouseover,exists,mod:shift] 驱除疾病
+END
+VER 3 0000000000000065 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 驱毒术;  [@mouseover,exists,mod:ctrl] 净化灵魂; [@mouseover,exists,mod:shift] 驱毒术
+END
+VER 3 000000000000002F "MJE: Random Mount" "ability_hunter_beastcall"
+/run C_MountJournal.SummonByID(0)
+END
+VER 3 0000000000000017 "PPPP" "132089"
+/团队 　 　 █████◣
+/团队 　　　█我还年轻█
+/团队 　　　█甘拜下风█
+/团队 　　　█████◤　
+/团队 　　　█　
+/团队 　　　█
+END
+VER 3 0000000000000054 "大牺牲" "INV_Misc_QuestionMark"
+#showtooltip 神圣牺牲
+/cancelaura 神圣牺牲
+/cast 神圣牺牲
+END
+VER 3 0000000000000055 "大驱" "INV_Misc_QuestionMark"
+#showtooltip 群体驱散
+/stopcasting
+/cast [@cursor]群体驱散
+END
+VER 3 0000000000000021 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 拯救之手
+END
+VER 3 0000000000000022 "宏" "134400"
+#showtooltip
+/cast [@cursor] 自然之力
+/use 战争囚徒印记
+END
+VER 3 0000000000000028 "宏" "134400"
+#showtooltip 
+/cast [mod:alt,target=mouseover,player] 联结治疗
+/cast [target=mouseover,player] 真言术：盾
+END
+VER 3 000000000000002B "宏" "134400"
+#showtooltip 
+/cast 自然迅捷
+/cast [@mouseover,help][@player]治疗之触
+END
+VER 3 0000000000000025 "宏" "134400"
+/castsequence 寻找草药,寻找矿物
+/tar 迷失
+/tar 迷时
+/tar 维拉苟萨
+/tar 洛卡
+END
+VER 3 0000000000000031 "宏" "134400"
+#showtooltip
+/cast 圣光审判
+/施放 清算之手
+/startattack
+END
+VER 3 0000000000000032 "宏" "134400"
+#showtooltip 
+/cast [target=mouseover,harm,exists]清算之手;清算之手
+END
+VER 3 000000000000002A "宏" "134400"
+#showtooltip 复生
+/cast [@mouseover,harm,nodead][harm] 复生
+END
+VER 3 0000000000000023 "宏" "134400"
+#showtooltip
+/cast [mod:alt]减速;冰锥术
+END
+VER 3 000000000000002C "宏" "134400"
+#showtooltip
+/castsequence [@cursor] reset=8/combat 烈焰风暴(等级 9),烈焰风暴(等级 8)
+END
+VER 3 0000000000000029 "宏" "134400"
+#showtooltip 暗影魔
+/cast [@mouseover,harm,nodead][harm] 暗影魔
+END
+VER 3 0000000000000038 "宏" "134400"
+#showtooltip 
+/cast [mod,@player] [@mouseover,help,nodead]圣光闪现;[@mouseover,harm,nodead][harm] 正义盾击;[]圣光闪现
+END
+VER 3 000000000000002D "宏" "134400"
+#showtooltip
+/cast [mod:alt]刺骨;杀戮盛筵
+/startattack
+END
+VER 3 000000000000003A "宏" "134400"
+#showtooltip 血性狂暴
+/cast [nostance:1] 防御姿态
+/cast 血性狂暴
+END
+VER 3 0000000000000027 "宏" "134400"
+#showtooltip 
+/cast [mod,@player] [@mouseover,help,nodead]恢复;[@mouseover,harm,nodead][harm] 噬灵疫病;[]恢复
+END
+VER 3 0000000000000030 "宏" "134400"
+#showtooltip 
+/cast [target=focus,harm,exists]心灵冰冻;[target=mouseover,harm,exists]心灵冰冻;心灵冰冻
+/stopcasting
+END
+VER 3 000000000000003D "宏" "134400"
+#showtooltip 顺劈斩
+/castsequence reset=4 嗜血,旋风斩,嗜血
+/cast 顺劈斩
+/startattack 
+END
+VER 3 0000000000000042 "宏" "134400"
+#showtooltip 变形术
+/cast [@mouseover,harm,nodead][harm]变形术
+END
+VER 3 000000000000003E "宏" "134400"
+#showtooltip 
+/cast [mod:alt]魔爆术;活动炸弹
+END
+VER 3 000000000000003F "宏" "134400"
+#showtooltip
+/cast [mod:alt]防护冰霜结界;防护火焰结界
+END
+VER 3 0000000000000040 "宏" "134400"
+#showtooltip 
+/cast [mod:alt]冰枪术;灼烧
+END
+VER 3 0000000000000041 "宏" "134400"
+#showtooltip 
+/cast [mod:shift]寒冰箭(等级 1);霜火之箭
+END
+VER 3 0000000000000036 "宏" "134400"
+#showtooltip 
+/cast [@mouseover,help][@player] 清洁术
+END
+VER 3 0000000000000037 "宏" "134400"
+#showtooltip 
+/cast [mod:alt]神恩术 
+/cast [@mouseover,help][@player] 圣洁护盾
+END
+VER 3 0000000000000045 "宏" "134400"
+/castsequence reset=combat/target 腐蚀,献祭,痛苦诅咒
+END
+VER 3 000000000000004C "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt]大地震击;闪电链
+END
+VER 3 0000000000000033 "宏" "134400"
+#showtooltip
+/cast 神圣风暴
+/startattack
+END
+VER 3 0000000000000047 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]次级治疗波
+END
+VER 3 0000000000000048 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod:alt] 大地震击
+/cast [target=mouseover,player]大地之盾
+END
+VER 3 0000000000000049 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]净化灵魂
+END
+VER 3 000000000000004A "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]大地之盾
+END
+VER 3 000000000000004B "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/施放 元素掌握
+/use 战争囚徒印记
+END
+VER 3 000000000000004D "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]激流
+END
+VER 3 000000000000004E "宏" "134400"
+#showtooltip 
+/cast 潮汐之力
+/use 10
+END
+VER 3 000000000000004F "宏" "134400"
+#showtooltip 
+/cast 自然迅捷
+/use 10
+END
+VER 3 0000000000000039 "宏" "134400"
+#showtooltip 缴械
+/cast [nostance:1] 防御姿态;!缴械
+/startattack 
+END
+VER 3 0000000000000052 "宏" "134400"
+/use 10
+/use 霸权印记
+END
+VER 3 0000000000000053 "宏" "134400"
+/use 8
+END
+VER 3 0000000000000026 "宏" "134400"
+#showtooltip
+/cast [stance:1] 猛击
+/cast 台风
+END
+VER 3 000000000000003B "宏" "134400"
+#showtooltip 狂怒回复
+/cast 血性狂暴
+/cast 狂怒回复
+END
+VER 3 0000000000000024 "宏" "134400"
+#showtooltip
+/cast [@cursor] 萨隆邪铁炸弹
+END
+VER 3 000000000000003C "宏" "134400"
+#showtooltip
+/cast 英勇打击
+/startattack
+END
+VER 3 0000000000000043 "宏" "134400"
+#showtooltip 法术吸取
+/cast [@mouseover,harm,nodead][harm]法术吸取
+END
+VER 3 0000000000000034 "宏" "134400"
+#showtooltip 
+/cast [target=focus,harm,exists]法术反制;[target=mouseover,harm,exists]法术反制;法术反制
+/stopcasting
+END
+VER 3 0000000000000044 "宏" "134400"
+#showtooltip 
+/cast [stance:1] 横扫（熊）
+/cast [stance:3] 横扫（豹）
+END
+VER 3 0000000000000066 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt]驱邪术;正义盾击
+/startattack
+END
+VER 3 0000000000000056 "急奔" "INV_Misc_QuestionMark"
+#showtooltip 急奔
+/stopcasting
+/cast [nostance:3,nocombat] 猎豹形态
+/cast 急奔
+END
+VER 3 0000000000000051 "手" "134400"
+/use 10
+/use 霸权印记
+END
+VER 3 0000000000000057 "日蚀" "INV_Misc_QuestionMark"
+#showtooltip 愤怒
+/castsequence [nocombat,nodead] reset=target 精灵之火,null,
+/castsequence reset=10/target/combat 虫群,null
+/use 13
+/cast [nodead,nostance:5]枭兽形态(变形);愤怒
+END
+VER 3 0000000000000058 "月蚀" "INV_Misc_QuestionMark"
+#showtooltip 星火术
+/castsequence [nocombat,nodead] reset=target 精灵之火,null
+/castseguence reset=10/target/combat 月火术,null
+/use 13
+/use 10
+/cast [nodead,nostance:5]枭兽形态(变形);星火术
+END
+VER 3 000000000000001F "目标" "134400"
+/tar 迷失
+/tar 迷时
+/tar 维拉苟萨
+/tar 洛卡
+/tar 古德
+/tar 逐日
+END
+VER 3 000000000000005D "自然" "INV_Misc_QuestionMark"
+#showtooltip 自然之力
+/stopcasting
+/cast [@cursor] 自然之力
+END
+VER 3 0000000000000059 "萨满" "INV_Misc_QuestionMark"
+#showtooltip 潮汐之力
+/cast 潮汐之力
+/cast 自然迅捷
+/cast 治疗波
+END
+VER 3 000000000000005A "视角" "132099"
+/console cameraDistanceMaxZoomFactor 4
+END
+VER 3 000000000000005E "飓风" "INV_Misc_QuestionMark"
+#showtooltip 飓风
+/use [@cursor,nochanneling] 萨隆邪铁炸弹
+/cast [@cursor,nochanneling:飓风] 飓风
+END
+VER 3 000000000000005F "马赛克" "132089"
+END
+VER 3 0000000000000067 "马赛克" "132089"
+END
+VER 3 000000000000005B "马赛克" "132089"
+END
+VER 3 0000000000000061 "马赛克" "132089"
+END
+VER 3 0000000000000062 "驱散" "135894"
+#showtoptip 驱散魔法
+/cast [mod:alt,@player] [@mouseover,help,nodead] [help] [@targettarget,help,nodead] [] 驱散魔法(等级 2)
+END

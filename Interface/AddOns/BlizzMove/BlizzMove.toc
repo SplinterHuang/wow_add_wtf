@@ -1,0 +1,19 @@
+## Interface: 30404
+## Title: BlizzMove
+## Title-zhCN: [大脚][集]窗体移动
+## Title-zhTW: [大腳][集]窗體移動
+## Notes: Makes blizzard frames movable
+## Notes-zhCN: |cff00ff00BlizzMove|r|n|cffbc8f8f移动系统各种默认窗体。|r
+## Notes-zhTW: |cff00ff00BlizzMove|r|n|cffbc8f8f移動系統各種默認窗體。|r
+## Author: Kiatra, zaCade, Numy - github.com/Kiatra/BlizzMove/
+## IconTexture: interface/cursor/ui-cursor-move.blp
+## Dependencies: BigFoot
+## X-Revision: BigFoot
+## Version: v3.6.11
+## SavedVariables: BlizzMoveDB
+
+# Add-On
+BlizzMove.lua
+BlizzMoveAPI.lua
+BlizzMoveConfig.lua
+Frames.lua

@@ -1,0 +1,26 @@
+VER 3 0000000001000008 "note" "134400"
+/W 苏莉娅丶霜蓝 sp的WA， 10人混装
+END
+VER 3 0000000001000003 "摧毁" "134400"
+/castsequence reset=combat 灵魂碎片
+END
+VER 3 0000000001000007 "焦点" "134400"
+/cast [target=focus] 痛苦无常
+END
+VER 3 0000000001000006 "焦点痛苦" "134400"
+/cast [target=focus] 痛苦诅咒
+END
+VER 3 0000000001000005 "焦点腐蚀" "134400"
+/cast [target=focus] 腐蚀术
+END
+VER 3 0000000001000001 "诱惑" "INV_MISC_QUESTIONMARK"
+#show 诱惑
+/cast [target=focus] 诱惑
+END
+VER 3 0000000001000004 "镜像" "134400"
+/tar 镜像
+/cast 吸取生命
+END
+VER 3 0000000001000002 "预言" "INV_MISC_QUESTIONMARK"
+/tar 盘牙预言者
+END

@@ -1,0 +1,10 @@
+## Interface: 11401
+## Notes: Does /follow <name> every few seconds so if follow breaks it will refollow.
+## Title: AutoFollow
+## Author: Novaspark-Arugal OCE
+## Version: 1.3
+## SavedVariables: AFOptions
+
+embeds.xml
+Locale\Locales.xml
+AutoFollow.lua

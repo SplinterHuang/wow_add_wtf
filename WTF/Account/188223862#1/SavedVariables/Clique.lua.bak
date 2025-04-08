@@ -1,0 +1,80 @@
+
+CliqueDB = nil
+CliqueDB3 = {
+["char"] = {
+["达奥里斯 - 匕首岭"] = {
+["spec1_profileKey"] = "达奥里斯 - 匕首岭",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["specswap"] = false,
+["fastooc"] = false,
+["spec2_profileKey"] = "达奥里斯 - 匕首岭",
+},
+},
+["profileKeys"] = {
+["小脚萝莉 - 匕首岭"] = "小脚萝莉 - 匕首岭",
+["艾德赛 - 匕首岭"] = "艾德赛 - 匕首岭",
+["达奥里斯 - 匕首岭"] = "达奥里斯 - 匕首岭",
+},
+["profiles"] = {
+["小脚萝莉 - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["艾德赛 - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["达奥里斯 - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+},
+}

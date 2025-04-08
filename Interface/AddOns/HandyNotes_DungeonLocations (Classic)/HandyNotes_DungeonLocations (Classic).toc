@@ -1,0 +1,13 @@
+## Interface: 30404
+## Title: HandyNotes: DungeonLocations (Classic)
+## Version: 1.07a
+## Notes: |cff00ff00HandyNotes_DungeonLocations (Classic)|r|nShows locations of dungeon and raid entrances
+## Author: Cali
+## X-Curse-Project-ID: 323067
+## X-WoWI-ID: 25298
+## RequiredDeps: HandyNotes
+## SavedVariables: HandyNotes_DungeonLocationsClassicDB
+## X-Revision: BigFoot
+
+locales\wrath\Locales.xml
+wrath.lua

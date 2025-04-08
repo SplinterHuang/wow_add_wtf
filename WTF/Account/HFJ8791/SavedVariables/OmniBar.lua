@@ -1,0 +1,53 @@
+
+OmniBarDB = {
+["profileKeys"] = {
+["薇绮丶霜蓝 - 匕首岭"] = "Default",
+["葛芮芙丶霜蓝 - 匕首岭"] = "Default",
+["艾伊苏霜蓝 - 匕首岭"] = "Default",
+["苏莉娅丶霜蓝 - 匕首岭"] = "Default",
+["Hayisu - 匕首岭"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["bars"] = {
+["OmniBar1"] = {
+["glow"] = true,
+["scenario"] = true,
+["tooltips"] = true,
+["names"] = false,
+["multiple"] = true,
+["border"] = true,
+["center"] = false,
+["swipeAlpha"] = 0.65,
+["trackUnit"] = "ENEMY",
+["arena"] = true,
+["growUpward"] = true,
+["world"] = true,
+["cooldownCount"] = true,
+["highlightTarget"] = true,
+["columns"] = 8,
+["unusedAlpha"] = 0.45,
+["align"] = "CENTER",
+["highlightFocus"] = false,
+["padding"] = 2,
+["adaptive"] = false,
+["maxIcons"] = 32,
+["ratedBattleground"] = true,
+["name"] = "OmniBar",
+["position"] = {
+["relativeTo"] = "UIParent",
+["point"] = "TOP",
+["relativePoint"] = "TOP",
+["yOfs"] = -4.76528263092041,
+["xOfs"] = -337.2453308105469,
+["frameStrata"] = "MEDIUM",
+},
+["size"] = 40,
+["showUnused"] = false,
+["locked"] = false,
+["battleground"] = true,
+},
+},
+},
+},
+}

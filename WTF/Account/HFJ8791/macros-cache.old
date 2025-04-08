@@ -1,0 +1,63 @@
+VER 3 0000000000000003 "all" "INV_MISC_QUESTIONMARK"
+/run SetCVar("alwaysCompareItems", "1")
+/console cameraDistanceMaxZoomFactor 4
+/console SET targetNearestDistance "50"
+/console SET targetNearestDistanceRadius "50"
+/console SET chatClassColorOverride "0"
+/console ShowClassColorInFriendlyNameplate 1
+END
+VER 3 000000000000000E "B指" "134400"
+/petattack [target=mouseover,harm,nodead][]
+END
+VER 3 000000000000000D "B攻" "132127"
+/petdefensive
+/petattack
+END
+VER 3 000000000000000C "B跟" "132311"
+/petpassive
+/petfollow
+END
+VER 3 000000000000000A "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 000000000000000F "follow" "134400"
+/follow 达奥里斯
+END
+VER 3 0000000000000008 "test" "INV_MISC_QUESTIONMARK"
+/script text={"男","女"};SendChatMessage(text[math.random(2])
+END
+VER 3 0000000000000009 "testy2" "INV_MISC_QUESTIONMARK"
+/script text={"男","女"};SendChatMessage(""..text[math.random(2)].."")
+END
+VER 3 0000000000000006 "下线" "INV_MISC_QUESTIONMARK"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X) 
+END
+VER 3 0000000000000001 "姓名版 距离" "INV_MISC_QUESTIONMARK"
+/run setcvar("nameplatemaxDistance",60)
+END
+VER 3 0000000000000004 "登出" "INV_MISC_QUESTIONMARK"
+/logout
+END
+VER 3 0000000000000005 "目标" "INV_MISC_QUESTIONMARK"
+/tar 虚空传送门
+/tar 祖达克老鼠
+/tar 鲁伯斯
+/tar  末日看守队长
+/tar  末日看守领主
+/TAR 卡塔鲁
+/tar 铁腭
+/tar 伊瑟基尔
+END
+VER 3 000000000000000B "糖" "INV_MISC_QUESTIONMARK"
+/use 极效治疗石
+/use 极效治疗石
+/use 极效治疗石
+END
+VER 3 0000000000000007 "视角" "INV_MISC_QUESTIONMARK"
+/console cameraDistanceMaxZoomFactor 4
+/run SetCVar("nameplateMaxDistance","4e1")
+/run SetCVar("autoLootRate", "0")
+END
+VER 3 0000000000000002 "角色 职业" "INV_MISC_QUESTIONMARK"
+/run SetCVar("alwaysCompareItems", "1")
+END
