@@ -1,8 +1,6 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
-["LastPlayerFullName"] = "葛芮芙丶霜蓝-匕首岭",
-["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 38661,
@@ -85,6 +83,8 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:25987::::::::62:::::::::|h[地狱野猪雕饰利刃]|h|r",
 },
 },
+["LastPlayerFullName"] = "葛芮芙丶霜蓝-匕首岭",
+["AutoSelectScales"] = false,
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

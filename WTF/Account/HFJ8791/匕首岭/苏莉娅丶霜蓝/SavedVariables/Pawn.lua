@@ -1,6 +1,8 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
+["LastPlayerFullName"] = "苏莉娅丶霜蓝-匕首岭",
+["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 45497,
@@ -93,8 +95,6 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:45294::::::::80:::::::::|h[石化藤条]|h|r",
 },
 },
-["AutoSelectScales"] = false,
-["LastPlayerFullName"] = "苏莉娅丶霜蓝-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -30,7 +30,7 @@ BigFoot_Config = {
 },
 ["BUnitFrame"] = {
 ["EnableEasyFocusFrame"] = 0,
-["checkedVersion"] = "246",
+["checkedVersion"] = "248",
 ["EnableTargetTarget"] = 1,
 ["EnableBUnitFrame"] = 1,
 ["EnableTargetTargetTarget"] = 1,
@@ -99,12 +99,12 @@ BigFoot_Config = {
 ["ReverseMode"] = 0,
 ["Enable_Bank_Integration"] = 1,
 ["Enable_PUI"] = 1,
-["checkedVersion"] = "246",
+["checkedVersion"] = "248",
 },
 ["PartyToolkit"] = {
 ["EnableClique"] = 0,
 ["EnablePartyAssist"] = 0,
-["checkedVersion"] = "246",
+["checkedVersion"] = "248",
 ["8Buttons"] = 0,
 ["EnableTeamNoticeParty"] = 1,
 ["LiteTips"] = 1,
@@ -112,7 +112,7 @@ BigFoot_Config = {
 },
 ["MiDKP"] = {
 ["GDKPEnable"] = 0,
-["checkedVersion"] = "246",
+["checkedVersion"] = "248",
 },
 ["ArenaMod"] = {
 ["checkedVersion"] = "243",
@@ -148,7 +148,7 @@ BigFoot_Config = {
 ["BigFootClassMod"] = {
 ["HappIness"] = "满足",
 ["EnableAimedShot"] = 1,
-["checkedVersion"] = "246",
+["checkedVersion"] = "248",
 ["EnableZeroFeed"] = 1,
 ["EnableAttackTimer"] = 0,
 ["EnableDistance"] = 1,
@@ -207,7 +207,7 @@ BigFoot_Config = {
 ["CombatIndicator"] = {
 ["EnableCombatLeave"] = 1,
 ["EnableCombatIndicator"] = 1,
-["checkedVersion"] = "246",
+["checkedVersion"] = "248",
 ["EnableShowSpell"] = 1,
 ["EnableSpell"] = 1,
 ["EnableDCT"] = 0,
@@ -219,7 +219,7 @@ BigFoot_Config = {
 },
 ["ChatEnhancement"] = {
 ["EnableWhisperPop"] = 1,
-["checkedVersion"] = "246",
+["checkedVersion"] = "248",
 ["EnableItemLinkLevel"] = 1,
 ["EnableAchievementCompare"] = 1,
 ["EnablePlayerLink"] = 1,
@@ -230,14 +230,14 @@ BigFoot_Error = {
 ["ADDON_ACTION_FORBIDDEN"] = {
 ["!!!Libs"] = {
 ["combat"] = false,
-["zone"] = "嚎风峡湾",
-["class"] = "战士",
+["zone"] = "安其拉废墟",
+["class"] = "猎人",
 ["race"] = "暗夜精灵",
-["time"] = 1743885793,
-["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame_Shared.lua]:1352: in function <...zard_UIPanels_Game/Classic/ContainerFrame_Shared.lua:1299>\n[C]: in function 'ContainerFrameItemButton_OnClick'\n[*ContainerFrame.xml:163_OnClick]:13: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
-["level"] = 73,
-["forbiddenfunc"] = "UNKNOWN()",
+["time"] = 1744215970,
 ["version"] = "zhCN3.4.4.248",
+["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame_Shared.lua]:1352: in function <...zard_UIPanels_Game/Classic/ContainerFrame_Shared.lua:1299>\n[C]: in function 'ContainerFrameItemButton_OnClick'\n[*ContainerFrame.xml:163_OnClick]:13: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
+["forbiddenfunc"] = "UNKNOWN()",
+["level"] = 80,
 },
 ["Combuctor"] = {
 ["combat"] = false,
@@ -339,4 +339,6 @@ BF_LogonInfo = {
 1743875905,
 1744030779,
 1744046759,
+1744128064,
+1744225632,
 }

@@ -189,7 +189,7 @@ BigFootBotPlayerDB = {
 ["wrist"] = "|cffffffff|Hitem:47576:3756:40030::::::80:::::::::|h[]|h|r",
 ["hand"] = "|cffffffff|Hitem:48256:3829:40147::::::80:::::::::|h[]|h|r",
 ["trinket1"] = "|cffffffff|Hitem:45522::::::::80:::::::::|h[]|h|r",
-["head"] = "|cffffffff|Hitem:48257:3817:41398:40147:::::80:::::::::|h[]|h|r",
+["head"] = "|cffa335ee|Hitem:48257:3817:41398:40147:::::80:::::::::|h[风行者的凯旋头饰]|h|r",
 ["feet"] = "|cffffffff|Hitem:45244:983:40112:40023:::::80:::::::::|h[]|h|r",
 ["chest"] = "|cffffffff|Hitem:48255:3252:40112:40147:::::80:::::::::|h[]|h|r",
 ["legs"] = "|cffffffff|Hitem:47191:3823:40112:40112:40112::::80:::::::::|h[]|h|r",
@@ -202,7 +202,7 @@ BigFootBotPlayerDB = {
 },
 ["base"] = {
 ["avgItemLevel"] = 244.8125,
-["lastSeen"] = 1744030780,
+["lastSeen"] = 1744231650,
 ["fullName"] = "艾伊苏霜蓝-匕首岭",
 ["guid"] = "Player-4520-034085BA",
 ["titleId"] = 130,

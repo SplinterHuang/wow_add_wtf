@@ -19,10 +19,10 @@ VER 3 000000000000000C "B跟" "132311"
 END
 VER 3 000000000000000A "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] 恐惧;  [@mouseover,exists,mod:ctrl] 恐惧; [@mouseover,exists,mod:shift] 恐惧
+/cast [@mouseover,nomod,exists] 宁神射击;  [@mouseover,exists,mod:ctrl] 宁神射击; [@mouseover,exists,mod:shift] 宁神射击
 END
 VER 3 000000000000000F "follow" "134400"
-/follow 达奥里斯
+/follow 艾德赛
 END
 VER 3 0000000000000008 "test" "INV_MISC_QUESTIONMARK"
 /script text={"男","女"};SendChatMessage(text[math.random(2])

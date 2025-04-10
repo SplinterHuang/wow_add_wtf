@@ -2,7 +2,7 @@
 BigFootBotPlayerDB = {
 ["stats"] = {
 ["intellect"] = 610,
-["critChance"] = 45.23117065429688,
+["critChance"] = 45.27117156982422,
 ["blockChance"] = 0,
 ["haste"] = 23.20677185058594,
 ["agility"] = 1982,
@@ -202,7 +202,7 @@ BigFootBotPlayerDB = {
 },
 ["base"] = {
 ["avgItemLevel"] = 244.8125,
-["lastSeen"] = 1743689895,
+["lastSeen"] = 1744214371,
 ["fullName"] = "艾伊苏霜蓝-匕首岭",
 ["guid"] = "Player-4520-034085BA",
 ["titleId"] = 130,

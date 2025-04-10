@@ -2,15 +2,15 @@
 DataStore_Characters_Info = {
 {
 ["zone"] = "达拉然",
-["money"] = 18042147,
+["money"] = 67617206,
 ["bindLocation"] = "达拉然",
 ["name"] = "达奥里斯",
 ["guildRankIndex"] = 7,
-["subZone"] = "英雄之家",
-["lastUpdate"] = 1744060925,
-["BaseInfo"] = 2644942,
-["lastLogoutTimestamp"] = 1744060925,
-["XPInfo"] = 6.71330548811642e+17,
+["subZone"] = "达拉然",
+["lastUpdate"] = 1744217335,
+["BaseInfo"] = 2644944,
+["lastLogoutTimestamp"] = 1744217335,
+["XPInfo"] = 1773876019200,
 },
 {
 ["zone"] = "暴风城",
@@ -26,15 +26,15 @@ DataStore_Characters_Info = {
 },
 {
 ["zone"] = "铁炉堡",
-["money"] = 42945423,
+["money"] = 27635062,
 ["bindLocation"] = "达拉然",
 ["subZone"] = "秘法区",
 ["name"] = "艾德赛",
 ["guildRankIndex"] = 4,
-["lastUpdate"] = 1744046617,
-["BaseInfo"] = 2885966,
-["lastLogoutTimestamp"] = 1744046617,
-["XPInfo"] = 5.289264158263343e+16,
+["lastUpdate"] = 1744273996,
+["BaseInfo"] = 2885968,
+["lastLogoutTimestamp"] = 1744273996,
+["XPInfo"] = 1773876019200,
 },
 }
 DataStore_Characters_GuildRanks = {

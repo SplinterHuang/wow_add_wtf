@@ -190,7 +190,7 @@ BigFootBotPlayerDB = {
 ["ammo"] = "",
 ["back"] = "|cffffffff|Hitem:39320::::::::63:::::::::|h[]|h|r",
 ["shirt"] = "",
-["mainHand"] = "|cffffffff|Hitem:25987:3370:::::::63:::::::::|h[]|h|r",
+["mainHand"] = "|cff1eff00|Hitem:25987:3370:::::::63:::::::::|h[地狱野猪雕饰利刃]|h|r",
 ["wrist"] = "|cffffffff|Hitem:38666::::::::63:::::::::|h[]|h|r",
 ["hand"] = "|cffffffff|Hitem:25478::::::::63:::::::::|h[]|h|r",
 ["trinket1"] = "|cff00ccff|Hitem:42991::::::::63:::::::::|h[迅捷的正义之手]|h|r",
@@ -207,7 +207,7 @@ BigFootBotPlayerDB = {
 },
 ["base"] = {
 ["avgItemLevel"] = 83.0625,
-["lastSeen"] = 1743270584,
+["lastSeen"] = 1743499729,
 ["fullName"] = "葛芮芙丶霜蓝-匕首岭",
 ["guid"] = "Player-4520-071928D9",
 ["titleId"] = 0,

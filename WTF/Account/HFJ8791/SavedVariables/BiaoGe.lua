@@ -2,50 +2,36 @@
 BiaoGe = {
 ["QuestCD"] = {
 [4520] = {
-["薇绮丶霜蓝"] = {
-["week1"] = {
-["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
-["player"] = "薇绮丶霜蓝",
-["name"] = "week1",
-["resettime"] = 153018,
-["endtime"] = 1744239600,
-},
-},
-["Hayisu"] = {
-},
-["苏莉娅丶霜蓝"] = {
-["heroe"] = {
-["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
-["player"] = "苏莉娅丶霜蓝",
-["name"] = "heroe",
-["questID"] = 87379,
-["resettime"] = 66611,
-["endtime"] = 1744153200,
-},
-["week1"] = {
-["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
-["player"] = "苏莉娅丶霜蓝",
-["name"] = "week1",
-["resettime"] = 153018,
-["endtime"] = 1744239600,
-},
-["gamma"] = {
-["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
-["player"] = "苏莉娅丶霜蓝",
-["name"] = "gamma",
-["questID"] = 83717,
-["resettime"] = 66614,
-["endtime"] = 1744153200,
-},
-},
 ["艾伊苏霜蓝"] = {
 ["week1"] = {
 ["colorplayer"] = "|cffabd473艾伊苏霜蓝|r",
 ["player"] = "艾伊苏霜蓝",
 ["name"] = "week1",
-["resettime"] = 153018,
+["resettime"] = 7299,
 ["endtime"] = 1744239600,
 },
+},
+["苏莉娅丶霜蓝"] = {
+["week1"] = {
+["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
+["player"] = "苏莉娅丶霜蓝",
+["name"] = "week1",
+["resettime"] = 7299,
+["endtime"] = 1744239600,
+},
+},
+["Hayisu"] = {
+},
+["薇绮丶霜蓝"] = {
+["week1"] = {
+["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
+["player"] = "薇绮丶霜蓝",
+["name"] = "week1",
+["resettime"] = 7299,
+["endtime"] = 1744239600,
+},
+},
+["葛芮芙丶霜蓝"] = {
 },
 },
 },
@@ -124,7 +110,7 @@ BiaoGe = {
 [533] = {
 ["instanceID"] = 533,
 ["realmID"] = 4520,
-["lockoutID"] = 1793492814,
+["lockoutID"] = 1793495457,
 },
 },
 ["tradeTbl"] = {
@@ -222,17 +208,11 @@ BiaoGe = {
 },
 ["playerInfo"] = {
 [4520] = {
-["薇绮丶霜蓝"] = {
-["iLevel"] = 243,
-["class"] = "DRUID",
+["艾伊苏霜蓝"] = {
+["raceID"] = 4,
+["class"] = "HUNTER",
 ["level"] = 80,
-["raceID"] = 4,
-},
-["Hayisu"] = {
-["raceID"] = 4,
-["class"] = "WARRIOR",
-["level"] = 73,
-["iLevel"] = 113.6875,
+["iLevel"] = 244.8125,
 },
 ["苏莉娅丶霜蓝"] = {
 ["raceID"] = 7,
@@ -240,891 +220,35 @@ BiaoGe = {
 ["level"] = 80,
 ["iLevel"] = 236.1875,
 },
-["艾伊苏霜蓝"] = {
+["Hayisu"] = {
 ["raceID"] = 4,
-["class"] = "HUNTER",
+["class"] = "WARRIOR",
+["level"] = 74,
+["iLevel"] = 115.375,
+},
+["薇绮丶霜蓝"] = {
+["iLevel"] = 243,
+["class"] = "DRUID",
 ["level"] = 80,
-["iLevel"] = 244.8125,
+["raceID"] = 4,
+},
+["葛芮芙丶霜蓝"] = {
+["iLevel"] = 0,
+["class"] = "DEATHKNIGHT",
+["level"] = 63,
+["raceID"] = 7,
 },
 },
 },
 ["duizhang"] = {
-{
-["zhangdan"] = {
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-070DB29B",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:46965::::::::80:::::::::|h[残忍意图胸甲]|h|r",
-["maijia"] = "曾经有点红",
-["jine"] = "3000",
-["level"] = 80,
-["class"] = "PALADIN",
-["raceID"] = 1,
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-0729DA7A",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:46986::::::::80:::::::::|h[英勇长靴]|h|r",
-["maijia"] = "元速飒",
-["raceID"] = 11,
-["jine"] = "3000",
-["class"] = "PALADIN",
-["level"] = 80,
-["guild"] = "好久不见",
-["realm"] = "匕首岭",
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-06DD5F86",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:46964::::::::80:::::::::|h[水晶锻铸先锋盾]|h|r",
-["maijia"] = "半丶斯文",
-["raceID"] = 1,
-["jine"] = "5000",
-["class"] = "PALADIN",
-["level"] = 80,
-["guild"] = "指间缘",
-["realm"] = "匕首岭",
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-0666A506",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47075::::::::80:::::::::|h[无情侵掠之戒]|h|r",
-["maijia"] = "快让我毛一下",
-["jine"] = "8000",
-["level"] = 80,
-["class"] = "PALADIN",
-["raceID"] = 1,
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-071A4645",
-["color"] = {
-0.25,
-0.78,
-0.92,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47144::::::::80:::::::::|h[瓦格里的嚎哭]|h|r",
-["maijia"] = "晴山晒谷",
-["raceID"] = 1,
-["jine"] = "7500",
-["class"] = "MAGE",
-["level"] = 80,
-["guild"] = "爱择拉斯电力局",
-["realm"] = "匕首岭",
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-04D15EA7",
-["color"] = {
-0.77,
-0.12,
-0.23,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47133::::::::80:::::::::|h[仲裁者的沉思]|h|r",
-["maijia"] = "慢呦呦",
-["raceID"] = 1,
-["jine"] = "3000",
-["class"] = "DEATHKNIGHT",
-["level"] = 80,
-["guild"] = "夕阳红俱乐部",
-["realm"] = "匕首岭",
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-05911BDA",
-["color"] = {
-0.67,
-0.83,
-0.45,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47521::::::::80:::::::::|h[BRK-1000型火枪]|h|r",
-["maijia"] = "小小廖",
-["jine"] = "5000",
-["level"] = 80,
-["class"] = "HUNTER",
-["raceID"] = 4,
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-02C48CAD",
-["color"] = {
-0.53,
-0.53,
-0.93,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47182::::::::80:::::::::|h[死者的统治]|h|r",
-["maijia"] = "龙翔酒天",
-["raceID"] = 1,
-["jine"] = "16500",
-["class"] = "WARLOCK",
-["level"] = 80,
-["guild"] = "天元突破",
-["realm"] = "匕首岭",
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-070DB29B",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47183::::::::80:::::::::|h[蛛魔之力]|h|r",
-["maijia"] = "曾经有点红",
-["jine"] = "1000",
-["level"] = 80,
-["class"] = "PALADIN",
-["raceID"] = 1,
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-0729DA7A",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:237059::::::::80:::::::::|h[哀难的终结]|h|r",
-["maijia"] = "元速飒",
-["raceID"] = 11,
-["jine"] = "2000",
-["class"] = "PALADIN",
-["level"] = 80,
-["guild"] = "好久不见",
-["realm"] = "匕首岭",
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-070DB29B",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[无上征服者的圣装]|h|r",
-["maijia"] = "曾经有点红",
-["jine"] = "5000",
-["level"] = 80,
-["class"] = "PALADIN",
-["raceID"] = 1,
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-0638CF03",
-["color"] = {
-1,
-0.96,
-0.41,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[无上胜利者的圣装]|h|r",
-["maijia"] = "從后面来",
-["jine"] = "6000",
-["level"] = 80,
-["class"] = "ROGUE",
-["raceID"] = 1,
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-06DFFE56",
-["color"] = {
-0.78,
-0.61,
-0.43,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[无上保卫者的圣装]|h|r",
-["maijia"] = "狂暴战妞",
-["raceID"] = 11,
-["jine"] = "5000",
-["class"] = "WARRIOR",
-["level"] = 80,
-["guild"] = "倚剑醉酒笑红尘",
-["realm"] = "匕首岭",
-},
-{
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-071A4645",
-["color"] = {
-0.25,
-0.78,
-0.92,
-},
-["zhuangbei"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[无上胜利者的圣装]|h|r",
-["maijia"] = "晴山晒谷",
-["raceID"] = 1,
-["jine"] = "6500",
-["class"] = "MAGE",
-["level"] = 80,
-["guild"] = "爱择拉斯电力局",
-["realm"] = "匕首岭",
-},
-},
-["addons"] = "biaoge",
-["class"] = "DRUID",
-["FB"] = "TOC",
-["sumjine"] = 76500,
-["player"] = "阿布的泰岚德",
-["time"] = "04-07 22:25:22",
-["t"] = 1744035922,
-["msgTbl"] = {
-"———通报账单———",
-"表格：TOC",
-"< 收 {rt1} 入 >",
-"Boss：诺森德猛兽",
-"|cffa335ee|Hitem:46965::::::::80:::::::::|h[残忍意图胸甲]|h|r 曾经有点红 3000",
-"|cffa335ee|Hitem:46986::::::::80:::::::::|h[英勇长靴]|h|r 元速飒 3000",
-"|cffa335ee|Hitem:46964::::::::80:::::::::|h[水晶锻铸先锋盾]|h|r 半丶斯文 5000",
-"Boss：阵营冠军",
-"|cffa335ee|Hitem:47075::::::::80:::::::::|h[无情侵掠之戒]|h|r 快让我毛一下 8000",
-"Boss：瓦克里双子",
-"|cffa335ee|Hitem:47144::::::::80:::::::::|h[瓦格里的嚎哭]|h|r 晴山晒谷 7500",
-"|cffa335ee|Hitem:47133::::::::80:::::::::|h[仲裁者的沉思]|h|r 慢呦呦 3000",
-"|cffa335ee|Hitem:47521::::::::80:::::::::|h[BRK-1000型火枪]|h|r 小小廖 5000",
-"Boss：阿努巴拉克",
-"|cffa335ee|Hitem:47182::::::::80:::::::::|h[死者的统治]|h|r 龙翔酒天 16500",
-"|cffa335ee|Hitem:47183::::::::80:::::::::|h[蛛魔之力]|h|r 曾经有点红 1000",
-"|cffa335ee|Hitem:237059::::::::80:::::::::|h[哀难的终结]|h|r 元速飒 2000",
-"项目：杂项",
-"|cffa335ee|Hitem:47557::::::::80:::::::::|h[无上征服者的圣装]|h|r 曾经有点红 5000",
-"|cffa335ee|Hitem:47559::::::::80:::::::::|h[无上胜利者的圣装]|h|r 從后面来 6000",
-"|cffa335ee|Hitem:47558::::::::80:::::::::|h[无上保卫者的圣装]|h|r 狂暴战妞 5000",
-"|cffa335ee|Hitem:47559::::::::80:::::::::|h[无上胜利者的圣装]|h|r 晴山晒谷 6500",
-"< 支 {rt4} 出 >",
-"T补贴 2000",
-"N补贴 5000",
-"R 1000",
-"放鱼补贴 100",
-"< 总 {rt3} 览 >",
-"总收入：76500",
-"总支出：8100",
-"净收入：68400",
-"< 工 {rt6} 资 >",
-"分钱人数：24人",
-"人均工资：2850",
-"2850 x 5 = 14250",
-"—感谢使用BiaoGe插件—",
-},
-["member"] = {
-["香蕉猫"] = {
-["guild"] = "非我莫属",
-["guid"] = "Player-4520-057F9459",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["class"] = "PALADIN",
-["isDead"] = false,
-["combatRole"] = "HEALER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 5,
-["point"] = "5-3",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "香蕉猫",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "圣骑士",
-["isML"] = false,
-["rank"] = 0,
-},
-["一个钓鱼佬"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-05D212D7",
-["color"] = {
-0.67,
-0.83,
-0.45,
-},
-["class"] = "HUNTER",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["raceID"] = 3,
-["subgroup"] = 3,
-["point"] = "3-3",
-["online"] = true,
-["class2"] = "猎人",
-["realm"] = "匕首岭",
-["name"] = "一个钓鱼佬",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-["一天三顿澳龙"] = {
-["guild"] = "尘埃落定",
-["guid"] = "Player-4520-05EC7F54",
-["color"] = {
-0.53,
-0.53,
-0.93,
-},
-["class"] = "WARLOCK",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 4,
-["point"] = "4-2",
-["raceID"] = 7,
-["online"] = true,
-["name"] = "一天三顿澳龙",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "术士",
-["isML"] = false,
-["rank"] = 0,
-},
-["丿叁花聚顶丿"] = {
-["guild"] = "崛起",
-["guid"] = "Player-4520-0686D4AF",
-["color"] = {
-1,
-0.49,
-0.04,
-},
-["class"] = "DRUID",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 4,
-["point"] = "4-4",
-["raceID"] = 4,
-["online"] = true,
-["name"] = "丿叁花聚顶丿",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "德鲁伊",
-["isML"] = false,
-["rank"] = 0,
-},
-["阿布的泰岚德"] = {
-["guild"] = "魔兽小伙伴",
-["guid"] = "Player-4520-04EFFB79",
-["color"] = {
-1,
-0.49,
-0.04,
-},
-["class"] = "DRUID",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 3,
-["point"] = "3-1",
-["raceID"] = 4,
-["online"] = true,
-["name"] = "阿布的泰岚德",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "德鲁伊",
-["isML"] = true,
-["rank"] = 2,
-},
-["火舞狂沙"] = {
-["guild"] = "老年人俱乐部",
-["guid"] = "Player-4520-030B107B",
-["color"] = {
-0.25,
-0.78,
-0.92,
-},
-["class"] = "MAGE",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 3,
-["point"] = "3-2",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "火舞狂沙",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "法师",
-["isML"] = false,
-["rank"] = 0,
-},
-["慢呦呦"] = {
-["guild"] = "夕阳红俱乐部",
-["guid"] = "Player-4520-04D15EA7",
-["color"] = {
-0.77,
-0.12,
-0.23,
-},
-["class"] = "DEATHKNIGHT",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 2,
-["point"] = "2-3",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "慢呦呦",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "死亡骑士",
-["isML"] = false,
-["rank"] = 0,
-},
-["凌云梦"] = {
-["guild"] = "好久不见",
-["guid"] = "Player-4520-04E624AD",
-["color"] = {
-1,
-1,
-1,
-},
-["class"] = "PRIEST",
-["isDead"] = false,
-["combatRole"] = "HEALER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 5,
-["point"] = "5-1",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "凌云梦",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "牧师",
-["isML"] = false,
-["rank"] = 0,
-},
-["快让我毛一下"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-0666A506",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["class"] = "PALADIN",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["raceID"] = 1,
-["subgroup"] = 2,
-["point"] = "2-5",
-["online"] = true,
-["class2"] = "圣骑士",
-["realm"] = "匕首岭",
-["name"] = "快让我毛一下",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-["戍边黑骑"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-04B93DDC",
-["color"] = {
-0.77,
-0.12,
-0.23,
-},
-["class"] = "DEATHKNIGHT",
-["isDead"] = false,
-["combatRole"] = "TANK",
-["level"] = 80,
-["raceID"] = 11,
-["subgroup"] = 2,
-["point"] = "2-1",
-["online"] = true,
-["class2"] = "死亡骑士",
-["realm"] = "匕首岭",
-["name"] = "戍边黑骑",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-["柠檬佛手柑"] = {
-["guild"] = "魔兽小伙伴",
-["guid"] = "Player-4520-0048DFF7",
-["color"] = {
-1,
-0.96,
-0.41,
-},
-["class"] = "ROGUE",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 1,
-["point"] = "1-2",
-["raceID"] = 4,
-["online"] = true,
-["name"] = "柠檬佛手柑",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "潜行者",
-["isML"] = false,
-["rank"] = 0,
-},
-["曾经有点红"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-070DB29B",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["class"] = "PALADIN",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["raceID"] = 1,
-["subgroup"] = 1,
-["point"] = "1-4",
-["online"] = true,
-["class2"] = "圣骑士",
-["realm"] = "匕首岭",
-["name"] = "曾经有点红",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-["半丶斯文"] = {
-["guild"] = "指间缘",
-["guid"] = "Player-4520-06DD5F86",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["class"] = "PALADIN",
-["isDead"] = false,
-["combatRole"] = "TANK",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 1,
-["point"] = "1-1",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "半丶斯文",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "圣骑士",
-["isML"] = false,
-["rank"] = 0,
-},
-["狂暴战妞"] = {
-["guild"] = "倚剑醉酒笑红尘",
-["guid"] = "Player-4520-06DFFE56",
-["color"] = {
-0.78,
-0.61,
-0.43,
-},
-["class"] = "WARRIOR",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 1,
-["point"] = "1-5",
-["raceID"] = 11,
-["online"] = true,
-["name"] = "狂暴战妞",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "战士",
-["isML"] = false,
-["rank"] = 0,
-},
-["尐丶佬丶头"] = {
-["guild"] = "FreeLoot",
-["guid"] = "Player-4520-06E53FF5",
-["color"] = {
-0.77,
-0.12,
-0.23,
-},
-["class"] = "DEATHKNIGHT",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 1,
-["point"] = "1-3",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "尐丶佬丶头",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "死亡骑士",
-["isML"] = false,
-["rank"] = 0,
-},
-["從后面来"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-0638CF03",
-["color"] = {
-1,
-0.96,
-0.41,
-},
-["class"] = "ROGUE",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["raceID"] = 1,
-["subgroup"] = 2,
-["point"] = "2-2",
-["online"] = true,
-["class2"] = "潜行者",
-["realm"] = "匕首岭",
-["name"] = "從后面来",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-["暁丶柒"] = {
-["guild"] = "星空下的守夜人",
-["guid"] = "Player-4520-01B83994",
-["color"] = {
-1,
-1,
-1,
-},
-["class"] = "PRIEST",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 4,
-["point"] = "4-3",
-["raceID"] = 3,
-["online"] = true,
-["name"] = "暁丶柒",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "牧师",
-["isML"] = false,
-["rank"] = 0,
-},
-["老夫恋酒迷花"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-05F11E87",
-["color"] = {
-0.25,
-0.78,
-0.92,
-},
-["class"] = "MAGE",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["raceID"] = 7,
-["subgroup"] = 4,
-["point"] = "4-5",
-["online"] = true,
-["class2"] = "法师",
-["realm"] = "匕首岭",
-["name"] = "老夫恋酒迷花",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-["艾伊苏霜蓝"] = {
-["guild"] = "谈笑风生",
-["guid"] = "Player-4520-034085BA",
-["color"] = {
-0.67,
-0.83,
-0.45,
-},
-["class"] = "HUNTER",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 2,
-["point"] = "2-4",
-["raceID"] = 4,
-["online"] = true,
-["name"] = "艾伊苏霜蓝",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "猎人",
-["isML"] = false,
-["rank"] = 0,
-},
-["晴山晒谷"] = {
-["guild"] = "爱择拉斯电力局",
-["guid"] = "Player-4520-071A4645",
-["color"] = {
-0.25,
-0.78,
-0.92,
-},
-["class"] = "MAGE",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 4,
-["point"] = "4-1",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "晴山晒谷",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "法师",
-["isML"] = false,
-["rank"] = 0,
-},
-["小小廖"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-05911BDA",
-["color"] = {
-0.67,
-0.83,
-0.45,
-},
-["class"] = "HUNTER",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["raceID"] = 4,
-["subgroup"] = 3,
-["point"] = "3-5",
-["online"] = true,
-["class2"] = "猎人",
-["realm"] = "匕首岭",
-["name"] = "小小廖",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-["紧俏货"] = {
-["guild"] = "仁义礼智信",
-["guid"] = "Player-4520-03E4CB47",
-["color"] = {
-0,
-0.44,
-0.87,
-},
-["class"] = "SHAMAN",
-["isDead"] = false,
-["combatRole"] = "HEALER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 5,
-["point"] = "5-4",
-["raceID"] = 11,
-["online"] = true,
-["name"] = "紧俏货",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "萨满祭司",
-["isML"] = false,
-["rank"] = 0,
-},
-["龙翔酒天"] = {
-["guild"] = "天元突破",
-["guid"] = "Player-4520-02C48CAD",
-["color"] = {
-0.53,
-0.53,
-0.93,
-},
-["class"] = "WARLOCK",
-["isDead"] = false,
-["combatRole"] = "DAMAGER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 3,
-["point"] = "3-4",
-["raceID"] = 1,
-["online"] = true,
-["name"] = "龙翔酒天",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "术士",
-["isML"] = false,
-["rank"] = 0,
-},
-["元速飒"] = {
-["guild"] = "好久不见",
-["guid"] = "Player-4520-0729DA7A",
-["color"] = {
-0.96,
-0.55,
-0.73,
-},
-["class"] = "PALADIN",
-["isDead"] = false,
-["combatRole"] = "HEALER",
-["level"] = 80,
-["realm"] = "匕首岭",
-["subgroup"] = 5,
-["point"] = "5-5",
-["raceID"] = 11,
-["online"] = true,
-["name"] = "元速飒",
-["zone"] = "十字军的试炼",
-["factionGroup"] = "Alliance",
-["class2"] = "圣骑士",
-["isML"] = false,
-["rank"] = 0,
-},
-["奇幻天籁"] = {
-["factionGroup"] = "Alliance",
-["guid"] = "Player-4520-07399615",
-["color"] = {
-1,
-1,
-1,
-},
-["class"] = "PRIEST",
-["isDead"] = false,
-["combatRole"] = "HEALER",
-["level"] = 80,
-["raceID"] = 1,
-["subgroup"] = 5,
-["point"] = "5-2",
-["online"] = true,
-["class2"] = "牧师",
-["realm"] = "匕首岭",
-["name"] = "奇幻天籁",
-["zone"] = "十字军的试炼",
-["isML"] = false,
-["rank"] = 0,
-},
-},
-},
 },
 ["filterClassNum"] = {
 [4520] = {
-["薇绮丶霜蓝"] = 0,
-["Hayisu"] = 0,
-["苏莉娅丶霜蓝"] = 0,
 ["艾伊苏霜蓝"] = 0,
+["苏莉娅丶霜蓝"] = 0,
+["Hayisu"] = 0,
+["薇绮丶霜蓝"] = 0,
+["葛芮芙丶霜蓝"] = 0,
 },
 },
 ["BWL"] = {
@@ -1314,10 +438,10 @@ BiaoGe = {
 0.53,
 0.93,
 },
-["zhuangbei1"] = "|cffa335ee|Hitem:47074::::::::80:::::::::|h[隐秘屠戮护腕]|h|r",
-["level3"] = 80,
 ["maijia3"] = "苏莉娅丶霜蓝",
+["level3"] = 80,
 ["guild3"] = "谈笑风生",
+["zhuangbei1"] = "|cffa335ee|Hitem:47074::::::::80:::::::::|h[隐秘屠戮护腕]|h|r",
 ["class3"] = "WARLOCK",
 },
 },
@@ -1478,9 +602,9 @@ BiaoGe = {
 ["zhuangbei14"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
 ["zhuangbei10"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[无上胜利者的圣装]|h|r",
 ["zhuangbei11"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
-["zhuangbei21"] = "|cffa335ee|Hitem:47628::::::::80:::::::::|h[图样：诱魔胸铠]|h|r",
 ["zhuangbei6"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
 ["zhuangbei7"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[无上保卫者的圣装]|h|r",
+["zhuangbei21"] = "|cffa335ee|Hitem:47628::::::::80:::::::::|h[图样：诱魔胸铠]|h|r",
 ["zhuangbei5"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
 ["zhuangbei1"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
 ["zhuangbei12"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
@@ -1672,6 +796,18 @@ BiaoGe = {
 },
 },
 ["auctionMSGhistory"] = {
+{
+["textColor"] = "FF4500",
+["text"] = "卖瓜大叔 Ardent Defender Procced!",
+["time"] = 1744215447,
+["nameLink"] = "|Hplayer:卖瓜大叔:880:RAID:|h[|cfff58cba卖瓜大叔|r]|h",
+},
+{
+["textColor"] = "FF7F50",
+["text"] = "|cffa335ee|Hitem:21492::::::::80:::::::::|h[其拉屠戮者]|h|r",
+["time"] = 1744215903,
+["nameLink"] = "|Hplayer:艾伊苏霜蓝:1242:RAID:|h[|cffabd473艾伊苏霜蓝|r]|h",
+},
 },
 ["FB"] = "TOC",
 ["MeetingHornWhisper"] = {
@@ -1688,18 +824,332 @@ BiaoGe = {
 },
 ["tradeSkillCooldown"] = {
 [4520] = {
-["薇绮丶霜蓝"] = {
-},
-["Hayisu"] = {
+["艾伊苏霜蓝"] = {
 },
 ["苏莉娅丶霜蓝"] = {
 },
-["艾伊苏霜蓝"] = {
+["Hayisu"] = {
+},
+["薇绮丶霜蓝"] = {
+},
+["葛芮芙丶霜蓝"] = {
 },
 },
 },
 ["equip"] = {
 [4520] = {
+["艾伊苏霜蓝"] = {
+["5"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 48255,
+["link"] = "|cffa335ee|Hitem:48255:3252:40112:40147:::::80:::::::::|h[风行者的凯旋外套]|h|r",
+},
+["1"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 48257,
+["link"] = "|cffa335ee|Hitem:48257:3817:41398:40147:::::80:::::::::|h[风行者的凯旋头饰]|h|r",
+},
+["8"] = {
+["quality"] = 4,
+["level"] = 252,
+["itemID"] = 45244,
+["link"] = "|cffa335ee|Hitem:45244:983:40112:40023:::::80:::::::::|h[迅捷复仇胫甲]|h|r",
+},
+["3"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 48259,
+["link"] = "|cffa335ee|Hitem:48259:3808:40112::::::80:::::::::|h[风行者的凯旋护肩]|h|r",
+},
+["2"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 49485,
+["link"] = "|cffa335ee|Hitem:49485::::::::80:::::::::|h[闪耀的奥妮克希亚龙牙坠饰]|h|r",
+},
+["19"] = {
+["quality"] = 1,
+["level"] = 75,
+["itemID"] = 43155,
+["link"] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[黑锋骑士团战袍]|h|r",
+},
+["18"] = {
+["quality"] = 4,
+["level"] = 252,
+["itemID"] = 45570,
+["link"] = "|cffa335ee|Hitem:45570:3608:::::::80:::::::::|h[天铸之弩]|h|r",
+},
+["7"] = {
+["quality"] = 4,
+["level"] = 258,
+["itemID"] = 47191,
+["link"] = "|cffa335ee|Hitem:47191:3823:40112:40112:40112::::80:::::::::|h[危机潜伏腿甲]|h|r",
+},
+["6"] = {
+["quality"] = 4,
+["level"] = 232,
+["itemID"] = 45553,
+["link"] = "|cffa335ee|Hitem:45553::39997:40023:39997::::80:::::::::|h[巨龙腰带]|h|r",
+},
+["14"] = {
+["quality"] = 4,
+["level"] = 239,
+["itemID"] = 46038,
+["link"] = "|cffa335ee|Hitem:46038::::::::80:::::::::|h[黑暗物质]|h|r",
+},
+["15"] = {
+["quality"] = 4,
+["level"] = 239,
+["itemID"] = 46032,
+["link"] = "|cffa335ee|Hitem:46032:1099:40112:40147:::::80:::::::::|h[无面者将军斗篷]|h|r",
+},
+["16"] = {
+["quality"] = 1,
+["level"] = 10,
+["itemID"] = 6365,
+["link"] = "|cffffffff|Hitem:6365::::::::80:::::::::|h[强化钓鱼竿]|h|r",
+},
+["9"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 47576,
+["link"] = "|cffa335ee|Hitem:47576:3756:40030::::::80:::::::::|h[十字军的龙鳞护腕]|h|r",
+},
+["13"] = {
+["quality"] = 4,
+["level"] = 232,
+["itemID"] = 45522,
+["link"] = "|cffa335ee|Hitem:45522::::::::80:::::::::|h[古神之血]|h|r",
+},
+["12"] = {
+["quality"] = 4,
+["level"] = 252,
+["itemID"] = 45608,
+["link"] = "|cffa335ee|Hitem:45608::39997::::::80:::::::::|h[布莱恩的徽记之戒]|h|r",
+},
+["11"] = {
+["quality"] = 4,
+["level"] = 239,
+["itemID"] = 45456,
+["link"] = "|cffa335ee|Hitem:45456::40030::::::80:::::::::|h[敏捷之环]|h|r",
+},
+["10"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 48256,
+["link"] = "|cffa335ee|Hitem:48256:3829:40147::::::80:::::::::|h[风行者的凯旋手甲]|h|r",
+},
+},
+["苏莉娅丶霜蓝"] = {
+["4"] = {
+["quality"] = 1,
+["level"] = 1,
+["itemID"] = 6097,
+["link"] = "|cffffffff|Hitem:6097::::::::80:::::::::|h[侍僧衬衣]|h|r",
+},
+["1"] = {
+["quality"] = 4,
+["level"] = 252,
+["itemID"] = 45497,
+["link"] = "|cffa335ee|Hitem:45497:3820:41285:40113:::::80:::::::::|h[荧光之冠]|h|r",
+},
+["14"] = {
+["quality"] = 4,
+["level"] = 200,
+["itemID"] = 47213,
+["link"] = "|cffa335ee|Hitem:47213::::::::80:::::::::|h[深渊符文]|h|r",
+},
+["3"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 47781,
+["link"] = "|cffa335ee|Hitem:47781:3810:40155::::::80:::::::::|h[克尔苏加德的凯旋肩饰]|h|r",
+},
+["2"] = {
+["quality"] = 4,
+["level"] = 232,
+["itemID"] = 45822,
+["link"] = "|cffa335ee|Hitem:45822::::::::80:::::::::|h[唤魔师的符咒]|h|r",
+},
+["5"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 47779,
+["link"] = "|cffa335ee|Hitem:47779:1144:40113:40133:::::80:::::::::|h[克尔苏加德的凯旋法袍]|h|r",
+},
+["18"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 45294,
+["link"] = "|cffa335ee|Hitem:45294::40113::::::80:::::::::|h[石化藤条]|h|r",
+},
+["7"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 47780,
+["link"] = "|cffa335ee|Hitem:47780:3719:40113:40155:::::80:::::::::|h[克尔苏加德的凯旋护腿]|h|r",
+},
+["6"] = {
+["quality"] = 4,
+["level"] = 232,
+["itemID"] = 45557,
+["link"] = "|cffa335ee|Hitem:45557::40026:39998:40051::::80:::::::::|h[远古能量腰带]|h|r",
+},
+["9"] = {
+["quality"] = 4,
+["level"] = 225,
+["itemID"] = 45291,
+["link"] = "|cffa335ee|Hitem:45291::::::::80:::::::::|h[内燃护腕]|h|r",
+},
+["15"] = {
+["quality"] = 4,
+["level"] = 258,
+["itemID"] = 47095,
+["link"] = "|cffa335ee|Hitem:47095:3831:40155::::::80:::::::::|h[偏移披风]|h|r",
+},
+["16"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 47968,
+["link"] = "|cffa335ee|Hitem:47968:3855:40113:40113:::::80:::::::::|h[凝霜]|h|r",
+},
+["8"] = {
+["quality"] = 4,
+["level"] = 226,
+["itemID"] = 40558,
+["link"] = "|cffa335ee|Hitem:40558::::::::80:::::::::|h[奥法践踏者]|h|r",
+},
+["13"] = {
+["quality"] = 4,
+["level"] = 200,
+["itemID"] = 39229,
+["link"] = "|cffa335ee|Hitem:39229::::::::80:::::::::|h[蜘蛛的拥抱]|h|r",
+},
+["12"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 49486,
+["link"] = "|cffa335ee|Hitem:49486::::::::80:::::::::|h[抛光的屠龙者的徽记]|h|r",
+},
+["11"] = {
+["quality"] = 4,
+["level"] = 239,
+["itemID"] = 46046,
+["link"] = "|cffa335ee|Hitem:46046::40113::::::80:::::::::|h[星云指环]|h|r",
+},
+["10"] = {
+["quality"] = 4,
+["level"] = 245,
+["itemID"] = 47782,
+["link"] = "|cffa335ee|Hitem:47782:3246:40113::::::80:::::::::|h[克尔苏加德的凯旋手套]|h|r",
+},
+},
+["Hayisu"] = {
+["9"] = {
+["link"] = "|cff1eff00|Hitem:35910::::::::74:::::::::|h[页岩护腕]|h|r",
+["level"] = 138,
+["itemID"] = 35910,
+["quality"] = 2,
+},
+["1"] = {
+["link"] = "|cff1eff00|Hitem:37391::::::::74:::::::::|h[犀牛皮面具]|h|r",
+["level"] = 138,
+["itemID"] = 37391,
+["quality"] = 2,
+},
+["8"] = {
+["link"] = "|cff1eff00|Hitem:39801::::::::74:::::::::|h[营救者的战靴]|h|r",
+["level"] = 158,
+["itemID"] = 39801,
+["quality"] = 2,
+},
+["3"] = {
+["link"] = "|cff00ccff|Hitem:44103::::::::74:::::::::|h[优良的雷暴护肩]|h|r",
+["level"] = 1,
+["itemID"] = 44103,
+["quality"] = 7,
+},
+["2"] = {
+["link"] = "|cff0070dd|Hitem:38226::::::::74:::::::::|h[鸣钟之链]|h|r",
+["level"] = 138,
+["itemID"] = 38226,
+["quality"] = 3,
+},
+["5"] = {
+["link"] = "|cff00ccff|Hitem:48689::::::::74:::::::::|h[褪色的迅影外套]|h|r",
+["level"] = 1,
+["itemID"] = 48689,
+["quality"] = 7,
+},
+["18"] = {
+["link"] = "|cffa335ee|Hitem:28581::::::::74:::::::::|h[屠狼者的狙击枪]|h|r",
+["level"] = 115,
+["itemID"] = 28581,
+["quality"] = 4,
+},
+["7"] = {
+["link"] = "|cff1eff00|Hitem:41763::::::::74:::::::::|h[谨慎首领护腿]|h|r",
+["level"] = 158,
+["itemID"] = 41763,
+["quality"] = 2,
+},
+["6"] = {
+["link"] = "|cff1eff00|Hitem:37394::::::::74:::::::::|h[沼泽行者腰带]|h|r",
+["level"] = 138,
+["itemID"] = 37394,
+["quality"] = 2,
+},
+["14"] = {
+["link"] = "|cff00ccff|Hitem:42991::::::::74:::::::::|h[迅捷的正义之手]|h|r",
+["level"] = 1,
+["itemID"] = 42991,
+["quality"] = 7,
+},
+["15"] = {
+["link"] = "|cff0070dd|Hitem:38221::::::::74:::::::::|h[流畅攻击披风]|h|r",
+["level"] = 159,
+["itemID"] = 38221,
+["quality"] = 3,
+},
+["16"] = {
+["link"] = "|cff00ccff|Hitem:42943::::::::74:::::::::|h[染血的奥金斧]|h|r",
+["level"] = 1,
+["itemID"] = 42943,
+["quality"] = 7,
+},
+["17"] = {
+["link"] = "|cff00ccff|Hitem:42943::::::::74:::::::::|h[染血的奥金斧]|h|r",
+["level"] = 1,
+["itemID"] = 42943,
+["quality"] = 7,
+},
+["13"] = {
+["link"] = "|cff1eff00|Hitem:38212::::::::74:::::::::|h[死亡骑士的苦楚]|h|r",
+["level"] = 138,
+["itemID"] = 38212,
+["quality"] = 2,
+},
+["12"] = {
+["link"] = "|cff0070dd|Hitem:38218::::::::74:::::::::|h[刽子手的指环]|h|r",
+["level"] = 155,
+["itemID"] = 38218,
+["quality"] = 3,
+},
+["11"] = {
+["link"] = "|cff1eff00|Hitem:37524::::::::74:::::::::|h[斥候的徽记之戒]|h|r",
+["level"] = 138,
+["itemID"] = 37524,
+["quality"] = 2,
+},
+["10"] = {
+["link"] = "|cff0070dd|Hitem:42761::::::::74:::::::::|h[时间停止手套]|h|r",
+["level"] = 155,
+["itemID"] = 42761,
+["quality"] = 3,
+},
+},
 ["薇绮丶霜蓝"] = {
 ["19"] = {
 ["quality"] = 1,
@@ -1810,317 +1260,7 @@ BiaoGe = {
 ["link"] = "|cffa335ee|Hitem:48163:3246:40113::::::80:::::::::|h[玛法里奥的凯旋手套]|h|r",
 },
 },
-["Hayisu"] = {
-["9"] = {
-["link"] = "|cff1eff00|Hitem:37486::::::::73:::::::::|h[陆地护腕]|h|r",
-["level"] = 138,
-["itemID"] = 37486,
-["quality"] = 2,
-},
-["1"] = {
-["link"] = "|cff1eff00|Hitem:37391::::::::73:::::::::|h[犀牛皮面具]|h|r",
-["level"] = 138,
-["itemID"] = 37391,
-["quality"] = 2,
-},
-["8"] = {
-["link"] = "|cff0070dd|Hitem:42762::::::::73:::::::::|h[破碎未来之靴]|h|r",
-["level"] = 155,
-["itemID"] = 42762,
-["quality"] = 3,
-},
-["3"] = {
-["link"] = "|cff00ccff|Hitem:44103::::::::73:::::::::|h[优良的雷暴护肩]|h|r",
-["level"] = 1,
-["itemID"] = 44103,
-["quality"] = 7,
-},
-["2"] = {
-["link"] = "|cff0070dd|Hitem:38226::::::::73:::::::::|h[鸣钟之链]|h|r",
-["level"] = 138,
-["itemID"] = 38226,
-["quality"] = 3,
-},
-["5"] = {
-["link"] = "|cff00ccff|Hitem:48689::::::::73:::::::::|h[褪色的迅影外套]|h|r",
-["level"] = 1,
-["itemID"] = 48689,
-["quality"] = 7,
-},
-["18"] = {
-["link"] = "|cffa335ee|Hitem:28581::::::::73:::::::::|h[屠狼者的狙击枪]|h|r",
-["level"] = 115,
-["itemID"] = 28581,
-["quality"] = 4,
-},
-["7"] = {
-["link"] = "|cff1eff00|Hitem:36080::::::-40:1284374597:73:::::::::|h[劫掠之冬鳍护腿]|h|r",
-["level"] = 134,
-["itemID"] = 36080,
-["quality"] = 2,
-},
-["6"] = {
-["link"] = "|cff1eff00|Hitem:37394::::::::73:::::::::|h[沼泽行者腰带]|h|r",
-["level"] = 138,
-["itemID"] = 37394,
-["quality"] = 2,
-},
-["14"] = {
-["link"] = "|cff00ccff|Hitem:42991::::::::73:::::::::|h[迅捷的正义之手]|h|r",
-["level"] = 1,
-["itemID"] = 42991,
-["quality"] = 7,
-},
-["15"] = {
-["link"] = "|cff0070dd|Hitem:38221::::::::73:::::::::|h[流畅攻击披风]|h|r",
-["level"] = 159,
-["itemID"] = 38221,
-["quality"] = 3,
-},
-["16"] = {
-["link"] = "|cff00ccff|Hitem:42943::::::::73:::::::::|h[染血的奥金斧]|h|r",
-["level"] = 1,
-["itemID"] = 42943,
-["quality"] = 7,
-},
-["17"] = {
-["link"] = "|cff00ccff|Hitem:42943::::::::73:::::::::|h[染血的奥金斧]|h|r",
-["level"] = 1,
-["itemID"] = 42943,
-["quality"] = 7,
-},
-["13"] = {
-["link"] = "|cff1eff00|Hitem:38212::::::::73:::::::::|h[死亡骑士的苦楚]|h|r",
-["level"] = 138,
-["itemID"] = 38212,
-["quality"] = 2,
-},
-["12"] = {
-["link"] = "|cff0070dd|Hitem:38218::::::::73:::::::::|h[刽子手的指环]|h|r",
-["level"] = 155,
-["itemID"] = 38218,
-["quality"] = 3,
-},
-["11"] = {
-["link"] = "|cff1eff00|Hitem:37524::::::::73:::::::::|h[斥候的徽记之戒]|h|r",
-["level"] = 138,
-["itemID"] = 37524,
-["quality"] = 2,
-},
-["10"] = {
-["link"] = "|cff0070dd|Hitem:42761::::::::73:::::::::|h[时间停止手套]|h|r",
-["level"] = 155,
-["itemID"] = 42761,
-["quality"] = 3,
-},
-},
-["苏莉娅丶霜蓝"] = {
-["4"] = {
-["quality"] = 1,
-["level"] = 1,
-["itemID"] = 6097,
-["link"] = "|cffffffff|Hitem:6097::::::::80:::::::::|h[侍僧衬衣]|h|r",
-},
-["1"] = {
-["quality"] = 4,
-["level"] = 252,
-["itemID"] = 45497,
-["link"] = "|cffa335ee|Hitem:45497:3820:41285:40113:::::80:::::::::|h[荧光之冠]|h|r",
-},
-["14"] = {
-["quality"] = 4,
-["level"] = 200,
-["itemID"] = 47213,
-["link"] = "|cffa335ee|Hitem:47213::::::::80:::::::::|h[深渊符文]|h|r",
-},
-["3"] = {
-["quality"] = 4,
-["level"] = 245,
-["itemID"] = 47781,
-["link"] = "|cffa335ee|Hitem:47781:3810:40155::::::80:::::::::|h[克尔苏加德的凯旋肩饰]|h|r",
-},
-["2"] = {
-["quality"] = 4,
-["level"] = 232,
-["itemID"] = 45822,
-["link"] = "|cffa335ee|Hitem:45822::::::::80:::::::::|h[唤魔师的符咒]|h|r",
-},
-["5"] = {
-["quality"] = 4,
-["level"] = 245,
-["itemID"] = 47779,
-["link"] = "|cffa335ee|Hitem:47779:1144:40113:40133:::::80:::::::::|h[克尔苏加德的凯旋法袍]|h|r",
-},
-["18"] = {
-["quality"] = 4,
-["level"] = 245,
-["itemID"] = 45294,
-["link"] = "|cffa335ee|Hitem:45294::40113::::::80:::::::::|h[石化藤条]|h|r",
-},
-["7"] = {
-["quality"] = 4,
-["level"] = 245,
-["itemID"] = 47780,
-["link"] = "|cffa335ee|Hitem:47780:3719:40113:40155:::::80:::::::::|h[克尔苏加德的凯旋护腿]|h|r",
-},
-["6"] = {
-["quality"] = 4,
-["level"] = 232,
-["itemID"] = 45557,
-["link"] = "|cffa335ee|Hitem:45557::40026:39998:40051::::80:::::::::|h[远古能量腰带]|h|r",
-},
-["9"] = {
-["quality"] = 4,
-["level"] = 225,
-["itemID"] = 45291,
-["link"] = "|cffa335ee|Hitem:45291::::::::80:::::::::|h[内燃护腕]|h|r",
-},
-["15"] = {
-["quality"] = 4,
-["level"] = 258,
-["itemID"] = 47095,
-["link"] = "|cffa335ee|Hitem:47095:3831:40155::::::80:::::::::|h[偏移披风]|h|r",
-},
-["16"] = {
-["quality"] = 4,
-["level"] = 245,
-["itemID"] = 47968,
-["link"] = "|cffa335ee|Hitem:47968:3855:40113:40113:::::80:::::::::|h[凝霜]|h|r",
-},
-["8"] = {
-["quality"] = 4,
-["level"] = 226,
-["itemID"] = 40558,
-["link"] = "|cffa335ee|Hitem:40558::::::::80:::::::::|h[奥法践踏者]|h|r",
-},
-["13"] = {
-["quality"] = 4,
-["level"] = 200,
-["itemID"] = 39229,
-["link"] = "|cffa335ee|Hitem:39229::::::::80:::::::::|h[蜘蛛的拥抱]|h|r",
-},
-["12"] = {
-["quality"] = 4,
-["level"] = 245,
-["itemID"] = 49486,
-["link"] = "|cffa335ee|Hitem:49486::::::::80:::::::::|h[抛光的屠龙者的徽记]|h|r",
-},
-["11"] = {
-["quality"] = 4,
-["level"] = 239,
-["itemID"] = 46046,
-["link"] = "|cffa335ee|Hitem:46046::40113::::::80:::::::::|h[星云指环]|h|r",
-},
-["10"] = {
-["quality"] = 4,
-["level"] = 245,
-["itemID"] = 47782,
-["link"] = "|cffa335ee|Hitem:47782:3246:40113::::::80:::::::::|h[克尔苏加德的凯旋手套]|h|r",
-},
-},
-["艾伊苏霜蓝"] = {
-["5"] = {
-["link"] = "|cffa335ee|Hitem:48255:3252:40112:40147:::::80:::::::::|h[风行者的凯旋外套]|h|r",
-["level"] = 245,
-["itemID"] = 48255,
-["quality"] = 4,
-},
-["1"] = {
-["link"] = "|cffa335ee|Hitem:48257:3817:41398:40147:::::80:::::::::|h[风行者的凯旋头饰]|h|r",
-["level"] = 245,
-["itemID"] = 48257,
-["quality"] = 4,
-},
-["8"] = {
-["link"] = "|cffa335ee|Hitem:45244:983:40112:40023:::::80:::::::::|h[迅捷复仇胫甲]|h|r",
-["level"] = 252,
-["itemID"] = 45244,
-["quality"] = 4,
-},
-["3"] = {
-["link"] = "|cffa335ee|Hitem:48259:3808:40112::::::80:::::::::|h[风行者的凯旋护肩]|h|r",
-["level"] = 245,
-["itemID"] = 48259,
-["quality"] = 4,
-},
-["2"] = {
-["link"] = "|cffa335ee|Hitem:49485::::::::80:::::::::|h[闪耀的奥妮克希亚龙牙坠饰]|h|r",
-["level"] = 245,
-["itemID"] = 49485,
-["quality"] = 4,
-},
-["19"] = {
-["link"] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[黑锋骑士团战袍]|h|r",
-["level"] = 75,
-["itemID"] = 43155,
-["quality"] = 1,
-},
-["18"] = {
-["link"] = "|cffa335ee|Hitem:45570:3608:::::::80:::::::::|h[天铸之弩]|h|r",
-["level"] = 252,
-["itemID"] = 45570,
-["quality"] = 4,
-},
-["7"] = {
-["link"] = "|cffa335ee|Hitem:47191:3823:40112:40112:40112::::80:::::::::|h[危机潜伏腿甲]|h|r",
-["level"] = 258,
-["itemID"] = 47191,
-["quality"] = 4,
-},
-["6"] = {
-["link"] = "|cffa335ee|Hitem:45553::39997:40023:39997::::80:::::::::|h[巨龙腰带]|h|r",
-["level"] = 232,
-["itemID"] = 45553,
-["quality"] = 4,
-},
-["14"] = {
-["link"] = "|cffa335ee|Hitem:46038::::::::80:::::::::|h[黑暗物质]|h|r",
-["level"] = 239,
-["itemID"] = 46038,
-["quality"] = 4,
-},
-["15"] = {
-["link"] = "|cffa335ee|Hitem:46032:1099:40112:40147:::::80:::::::::|h[无面者将军斗篷]|h|r",
-["level"] = 239,
-["itemID"] = 46032,
-["quality"] = 4,
-},
-["16"] = {
-["link"] = "|cffa335ee|Hitem:45613:3827:40147:40137:::::80:::::::::|h[缚梦者]|h|r",
-["level"] = 252,
-["itemID"] = 45613,
-["quality"] = 4,
-},
-["9"] = {
-["link"] = "|cffa335ee|Hitem:47576:3756:40030::::::80:::::::::|h[十字军的龙鳞护腕]|h|r",
-["level"] = 245,
-["itemID"] = 47576,
-["quality"] = 4,
-},
-["13"] = {
-["link"] = "|cffa335ee|Hitem:45522::::::::80:::::::::|h[古神之血]|h|r",
-["level"] = 232,
-["itemID"] = 45522,
-["quality"] = 4,
-},
-["12"] = {
-["link"] = "|cffa335ee|Hitem:45608::39997::::::80:::::::::|h[布莱恩的徽记之戒]|h|r",
-["level"] = 252,
-["itemID"] = 45608,
-["quality"] = 4,
-},
-["11"] = {
-["link"] = "|cffa335ee|Hitem:45456::40030::::::80:::::::::|h[敏捷之环]|h|r",
-["level"] = 239,
-["itemID"] = 45456,
-["quality"] = 4,
-},
-["10"] = {
-["link"] = "|cffa335ee|Hitem:48256:3829:40147::::::80:::::::::|h[风行者的凯旋手甲]|h|r",
-["level"] = 245,
-["itemID"] = 48256,
-["quality"] = 4,
-},
+["葛芮芙丶霜蓝"] = {
 },
 },
 },
@@ -2169,6 +1309,173 @@ BiaoGe = {
 },
 ["FilterClassItemDB"] = {
 [4520] = {
+["艾伊苏霜蓝"] = {
+{
+["ShuXing"] = {
+["法术强度"] = 1,
+["格挡"] = 1,
+["精准"] = 1,
+["格挡值"] = 1,
+["副手物品"] = 1,
+["5回法力值"] = 1,
+["力量"] = 1,
+["躲闪"] = 1,
+["防御"] = 1,
+["招架"] = 1,
+["精神"] = 1,
+},
+["Name"] = "猎人",
+["Tank"] = {
+},
+["Armor"] = {
+["1"] = 1,
+["8"] = 1,
+["6"] = 1,
+["0"] = 1,
+["9"] = 1,
+["4"] = 1,
+["7"] = 1,
+["10"] = 1,
+},
+["Class"] = {
+["过滤职业限定"] = 1,
+},
+["Icon"] = "Interface/Icons/classicon_hunter",
+["Weapon"] = {
+["0"] = 1,
+["15"] = 1,
+["16"] = 1,
+["13"] = 1,
+["5"] = 1,
+["4"] = 1,
+["7"] = 1,
+["19"] = 1,
+},
+},
+},
+["苏莉娅丶霜蓝"] = {
+{
+["ShuXing"] = {
+["远程攻击"] = 1,
+["格挡"] = 1,
+["精准"] = 1,
+["格挡值"] = 1,
+["招架"] = 1,
+["防御"] = 1,
+["敏捷"] = 1,
+["5回法力值"] = 1,
+["躲闪"] = 1,
+["力量"] = 1,
+["攻击强度"] = 1,
+["护甲穿透"] = 1,
+["近战攻击"] = 1,
+},
+["Name"] = "术士",
+["Tank"] = {
+},
+["Armor"] = {
+["9"] = 1,
+["8"] = 1,
+["3"] = 1,
+["2"] = 1,
+["6"] = 1,
+["4"] = 1,
+["7"] = 1,
+["10"] = 1,
+},
+["Class"] = {
+["过滤职业限定"] = 1,
+},
+["Icon"] = "Interface/Icons/classicon_warlock",
+["Weapon"] = {
+["1"] = 1,
+["0"] = 1,
+["3"] = 1,
+["2"] = 1,
+["5"] = 1,
+["4"] = 1,
+["6"] = 1,
+["8"] = 1,
+["16"] = 1,
+["13"] = 1,
+["18"] = 1,
+},
+},
+},
+["Hayisu"] = {
+{
+["ShuXing"] = {
+["法术强度"] = 1,
+["智力"] = 1,
+["副手物品"] = 1,
+["5回法力值"] = 1,
+["精神"] = 1,
+},
+["Name"] = "战士-防御",
+["Tank"] = {
+["过滤坦克"] = 1,
+},
+["Armor"] = {
+["1"] = 1,
+["8"] = 1,
+["3"] = 1,
+["2"] = 1,
+["0"] = 1,
+["9"] = 1,
+["7"] = 1,
+["10"] = 1,
+},
+["Class"] = {
+["过滤职业限定"] = 1,
+},
+["Icon"] = "Interface/Icons/ability_warrior_defensivestance",
+["Weapon"] = {
+["1"] = 1,
+["8"] = 1,
+["5"] = 1,
+["6"] = 1,
+["19"] = 1,
+["10"] = 1,
+},
+},
+{
+["ShuXing"] = {
+["法术强度"] = 1,
+["格挡"] = 1,
+["格挡值"] = 1,
+["副手物品"] = 1,
+["招架"] = 1,
+["防御"] = 1,
+["躲闪"] = 1,
+["5回法力值"] = 1,
+["精神"] = 1,
+},
+["Name"] = "战士-武器/狂怒",
+["Tank"] = {
+},
+["Armor"] = {
+["1"] = 1,
+["8"] = 1,
+["6"] = 1,
+["0"] = 1,
+["9"] = 1,
+["7"] = 1,
+["10"] = 1,
+},
+["Class"] = {
+["过滤职业限定"] = 1,
+},
+["Icon"] = "Interface/Icons/INV_Sword_48",
+["Weapon"] = {
+["0"] = 1,
+["15"] = 1,
+["19"] = 1,
+["4"] = 1,
+["7"] = 1,
+["13"] = 1,
+},
+},
+},
 ["薇绮丶霜蓝"] = {
 {
 ["ShuXing"] = {
@@ -2351,16 +1658,18 @@ BiaoGe = {
 },
 },
 },
-["Hayisu"] = {
+["葛芮芙丶霜蓝"] = {
 {
 ["ShuXing"] = {
 ["法术强度"] = 1,
+["格挡"] = 1,
 ["智力"] = 1,
+["格挡值"] = 1,
 ["副手物品"] = 1,
 ["5回法力值"] = 1,
 ["精神"] = 1,
 },
-["Name"] = "战士-防御",
+["Name"] = "死亡骑士-鲜血",
 ["Tank"] = {
 ["过滤坦克"] = 1,
 },
@@ -2372,149 +1681,66 @@ BiaoGe = {
 ["0"] = 1,
 ["9"] = 1,
 ["7"] = 1,
-["10"] = 1,
+["6"] = 1,
 },
 ["Class"] = {
 ["过滤职业限定"] = 1,
 },
-["Icon"] = "Interface/Icons/ability_warrior_defensivestance",
+["Icon"] = "Interface/Icons/spell_deathknight_bloodpresence",
 ["Weapon"] = {
-["1"] = 1,
-["8"] = 1,
-["5"] = 1,
-["6"] = 1,
+["0"] = 1,
+["3"] = 1,
+["2"] = 1,
 ["19"] = 1,
-["10"] = 1,
-},
-},
-{
-["ShuXing"] = {
-["法术强度"] = 1,
-["格挡"] = 1,
-["格挡值"] = 1,
-["副手物品"] = 1,
-["招架"] = 1,
-["防御"] = 1,
-["躲闪"] = 1,
-["5回法力值"] = 1,
-["精神"] = 1,
-},
-["Name"] = "战士-武器/狂怒",
-["Tank"] = {
-},
-["Armor"] = {
-["1"] = 1,
-["8"] = 1,
-["6"] = 1,
-["0"] = 1,
-["9"] = 1,
+["4"] = 1,
 ["7"] = 1,
-["10"] = 1,
-},
-["Class"] = {
-["过滤职业限定"] = 1,
-},
-["Icon"] = "Interface/Icons/INV_Sword_48",
-["Weapon"] = {
-["0"] = 1,
 ["15"] = 1,
-["19"] = 1,
-["4"] = 1,
-["7"] = 1,
-["13"] = 1,
-},
-},
-},
-["苏莉娅丶霜蓝"] = {
-{
-["ShuXing"] = {
-["远程攻击"] = 1,
-["格挡"] = 1,
-["精准"] = 1,
-["格挡值"] = 1,
-["招架"] = 1,
-["防御"] = 1,
-["敏捷"] = 1,
-["5回法力值"] = 1,
-["躲闪"] = 1,
-["力量"] = 1,
-["攻击强度"] = 1,
-["护甲穿透"] = 1,
-["近战攻击"] = 1,
-},
-["Name"] = "术士",
-["Tank"] = {
-},
-["Armor"] = {
-["9"] = 1,
-["8"] = 1,
-["3"] = 1,
-["2"] = 1,
-["6"] = 1,
-["4"] = 1,
-["7"] = 1,
-["10"] = 1,
-},
-["Class"] = {
-["过滤职业限定"] = 1,
-},
-["Icon"] = "Interface/Icons/classicon_warlock",
-["Weapon"] = {
-["1"] = 1,
-["0"] = 1,
-["3"] = 1,
-["2"] = 1,
-["5"] = 1,
-["4"] = 1,
-["6"] = 1,
-["8"] = 1,
 ["16"] = 1,
 ["13"] = 1,
 ["18"] = 1,
+["10"] = 1,
 },
 },
-},
-["艾伊苏霜蓝"] = {
 {
 ["ShuXing"] = {
 ["法术强度"] = 1,
 ["格挡"] = 1,
-["精准"] = 1,
 ["格挡值"] = 1,
 ["副手物品"] = 1,
-["5回法力值"] = 1,
-["力量"] = 1,
-["躲闪"] = 1,
-["防御"] = 1,
 ["招架"] = 1,
+["防御"] = 1,
+["躲闪"] = 1,
+["5回法力值"] = 1,
 ["精神"] = 1,
 },
-["Name"] = "猎人",
+["Name"] = "死亡骑士-冰霜/邪恶",
 ["Tank"] = {
 },
 ["Armor"] = {
 ["1"] = 1,
 ["8"] = 1,
-["6"] = 1,
 ["0"] = 1,
 ["9"] = 1,
-["4"] = 1,
 ["7"] = 1,
-["10"] = 1,
+["6"] = 1,
 },
 ["Class"] = {
 ["过滤职业限定"] = 1,
 },
-["Icon"] = "Interface/Icons/classicon_hunter",
+["Icon"] = "Interface/Icons/inv_sword_122",
 ["Weapon"] = {
-["0"] = 1,
-["15"] = 1,
+["1"] = 1,
+["3"] = 1,
+["2"] = 1,
+["5"] = 1,
+["18"] = 1,
+["6"] = 1,
+["8"] = 1,
 ["16"] = 1,
 ["13"] = 1,
-["5"] = 1,
-["4"] = 1,
-["7"] = 1,
 ["19"] = 1,
+["15"] = 1,
+["10"] = 1,
 },
 },
 },
@@ -2526,9 +1752,25 @@ BiaoGe = {
 {
 ["colorplayer"] = "|cffabd473艾伊苏霜蓝|r",
 ["player"] = "艾伊苏霜蓝",
+["fbId"] = 509,
+["num"] = 20,
+["resettime"] = 180747,
+["endtime"] = 1744412400,
+},
+{
+["colorplayer"] = "|cffabd473艾伊苏霜蓝|r",
+["player"] = "艾伊苏霜蓝",
 ["fbId"] = 533,
 ["num"] = 10,
-["resettime"] = 153034,
+["resettime"] = 7947,
+["endtime"] = 1744239600,
+},
+{
+["colorplayer"] = "|cffabd473艾伊苏霜蓝|r",
+["player"] = "艾伊苏霜蓝",
+["fbId"] = 649,
+["num"] = 25,
+["resettime"] = 7947,
 ["endtime"] = 1744239600,
 },
 {
@@ -2536,7 +1778,7 @@ BiaoGe = {
 ["player"] = "艾伊苏霜蓝",
 ["fbId"] = 649,
 ["num"] = 10,
-["resettime"] = 153034,
+["resettime"] = 7947,
 ["endtime"] = 1744239600,
 },
 {
@@ -2544,15 +1786,41 @@ BiaoGe = {
 ["player"] = "艾伊苏霜蓝",
 ["fbId"] = 649,
 ["num"] = 25,
-["resettime"] = 153034,
+["resettime"] = 7947,
+["endtime"] = 1744239600,
+},
+},
+["薇绮丶霜蓝"] = {
+{
+["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
+["player"] = "薇绮丶霜蓝",
+["fbId"] = 533,
+["num"] = 25,
+["resettime"] = 7947,
 ["endtime"] = 1744239600,
 },
 {
-["colorplayer"] = "|cffabd473艾伊苏霜蓝|r",
-["player"] = "艾伊苏霜蓝",
+["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
+["player"] = "薇绮丶霜蓝",
+["fbId"] = 649,
+["num"] = 10,
+["resettime"] = 7947,
+["endtime"] = 1744239600,
+},
+{
+["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
+["player"] = "薇绮丶霜蓝",
 ["fbId"] = 649,
 ["num"] = 25,
-["resettime"] = 153034,
+["resettime"] = 7947,
+["endtime"] = 1744239600,
+},
+{
+["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
+["player"] = "薇绮丶霜蓝",
+["fbId"] = 649,
+["num"] = 25,
+["resettime"] = 7947,
 ["endtime"] = 1744239600,
 },
 },
@@ -2562,112 +1830,253 @@ BiaoGe = {
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 249,
 ["num"] = 10,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 {
 ["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 249,
 ["num"] = 25,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 {
 ["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 533,
 ["num"] = 10,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 {
 ["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 603,
 ["num"] = 25,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 {
 ["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 624,
 ["num"] = 25,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 {
 ["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 649,
 ["num"] = 25,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 {
 ["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 649,
 ["num"] = 10,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 {
 ["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
 ["player"] = "苏莉娅丶霜蓝",
 ["fbId"] = 649,
 ["num"] = 25,
-["resettime"] = 153035,
-["endtime"] = 1744239601,
-},
-{
-["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
-["player"] = "苏莉娅丶霜蓝",
-["fbId"] = 650,
-["num"] = 5,
-["resettime"] = 66635,
-["endtime"] = 1744153201,
-},
-},
-["薇绮丶霜蓝"] = {
-{
-["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
-["player"] = "薇绮丶霜蓝",
-["fbId"] = 533,
-["num"] = 25,
-["resettime"] = 153034,
-["endtime"] = 1744239600,
-},
-{
-["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
-["player"] = "薇绮丶霜蓝",
-["fbId"] = 649,
-["num"] = 10,
-["resettime"] = 153034,
-["endtime"] = 1744239600,
-},
-{
-["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
-["player"] = "薇绮丶霜蓝",
-["fbId"] = 649,
-["num"] = 25,
-["resettime"] = 153034,
-["endtime"] = 1744239600,
-},
-{
-["colorplayer"] = "|cffff7d0a薇绮丶霜蓝|r",
-["player"] = "薇绮丶霜蓝",
-["fbId"] = 649,
-["num"] = 25,
-["resettime"] = 153034,
-["endtime"] = 1744239600,
+["resettime"] = 7946,
+["endtime"] = 1744239599,
 },
 },
 },
 },
 ["Money"] = {
 [4520] = {
+["艾伊苏霜蓝"] = {
+[301] = {
+["count"] = 107,
+["tex"] = 135979,
+},
+[61] = {
+["count"] = 0,
+["tex"] = 134138,
+},
+[341] = {
+["count"] = 0,
+["tex"] = 334365,
+},
+["colorplayer"] = "|cffabd473艾伊苏霜蓝|r",
+[101] = {
+["count"] = 0,
+["tex"] = 135947,
+},
+[241] = {
+["count"] = 13,
+["tex"] = 236246,
+},
+[42] = {
+["count"] = 52,
+["tex"] = 135884,
+},
+[2711] = {
+["count"] = 0,
+["tex"] = 237273,
+},
+[2589] = {
+["count"] = 4,
+["tex"] = 237235,
+},
+[1901] = {
+["count"] = 2947,
+["tex"] = 136998,
+},
+["money"] = 6708,
+[161] = {
+["count"] = 211,
+["tex"] = 134375,
+},
+[102] = {
+["count"] = 0,
+["tex"] = 237547,
+},
+[221] = {
+["count"] = 29,
+["tex"] = 135885,
+},
+["player"] = "艾伊苏霜蓝",
+[81] = {
+["count"] = 3,
+["tex"] = 134411,
+},
+[1900] = {
+["count"] = 25,
+["tex"] = 4006481,
+},
+},
+["苏莉娅丶霜蓝"] = {
+[301] = {
+["count"] = 23,
+["tex"] = 135979,
+},
+[61] = {
+["count"] = 0,
+["tex"] = 134138,
+},
+[341] = {
+["count"] = 0,
+["tex"] = 334365,
+},
+["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
+[101] = {
+["count"] = 37,
+["tex"] = 135947,
+},
+[241] = {
+["count"] = 15,
+["tex"] = 236246,
+},
+[42] = {
+["count"] = 0,
+["tex"] = 135884,
+},
+[2711] = {
+["count"] = 0,
+["tex"] = 237273,
+},
+[2589] = {
+["count"] = 14,
+["tex"] = 237235,
+},
+[1901] = {
+["count"] = 12446,
+["tex"] = 136998,
+},
+["money"] = 5802,
+[161] = {
+["count"] = 203,
+["tex"] = 134375,
+},
+[102] = {
+["count"] = 0,
+["tex"] = 237547,
+},
+[221] = {
+["count"] = 48,
+["tex"] = 135885,
+},
+["player"] = "苏莉娅丶霜蓝",
+[81] = {
+["count"] = 0,
+["tex"] = 134411,
+},
+[1900] = {
+["count"] = 0,
+["tex"] = 4006481,
+},
+},
+["Hayisu"] = {
+[301] = {
+["count"] = 0,
+["tex"] = 135979,
+},
+[61] = {
+["count"] = 0,
+["tex"] = 134138,
+},
+[341] = {
+["count"] = 0,
+["tex"] = 334365,
+},
+["colorplayer"] = "|cffc79c6eHayisu|r",
+[101] = {
+["count"] = 0,
+["tex"] = 135947,
+},
+[241] = {
+["count"] = 0,
+["tex"] = 236246,
+},
+[42] = {
+["count"] = 10,
+["tex"] = 135884,
+},
+[2711] = {
+["count"] = 0,
+["tex"] = 237273,
+},
+[2589] = {
+["count"] = 0,
+["tex"] = 237235,
+},
+[1901] = {
+["count"] = 0,
+["tex"] = 136998,
+},
+["money"] = 1774,
+[161] = {
+["count"] = 1,
+["tex"] = 134375,
+},
+[102] = {
+["count"] = 0,
+["tex"] = 237547,
+},
+[1900] = {
+["count"] = 0,
+["tex"] = 4006481,
+},
+["player"] = "Hayisu",
+[81] = {
+["count"] = 0,
+["tex"] = 134411,
+},
+[221] = {
+["count"] = 0,
+["tex"] = 135885,
+},
+},
 ["薇绮丶霜蓝"] = {
 [301] = {
 ["count"] = 26,
@@ -2729,188 +2138,7 @@ BiaoGe = {
 ["tex"] = 4006481,
 },
 },
-["Hayisu"] = {
-[301] = {
-["count"] = 0,
-["tex"] = 135979,
-},
-[61] = {
-["count"] = 0,
-["tex"] = 134138,
-},
-[341] = {
-["count"] = 0,
-["tex"] = 334365,
-},
-["colorplayer"] = "|cffc79c6eHayisu|r",
-[101] = {
-["count"] = 0,
-["tex"] = 135947,
-},
-[241] = {
-["count"] = 0,
-["tex"] = 236246,
-},
-[42] = {
-["count"] = 10,
-["tex"] = 135884,
-},
-[2711] = {
-["count"] = 0,
-["tex"] = 237273,
-},
-[2589] = {
-["count"] = 0,
-["tex"] = 237235,
-},
-[1901] = {
-["count"] = 0,
-["tex"] = 136998,
-},
-["money"] = 1589,
-[161] = {
-["count"] = 1,
-["tex"] = 134375,
-},
-[102] = {
-["count"] = 0,
-["tex"] = 237547,
-},
-[1900] = {
-["count"] = 0,
-["tex"] = 4006481,
-},
-["player"] = "Hayisu",
-[81] = {
-["count"] = 0,
-["tex"] = 134411,
-},
-[221] = {
-["count"] = 0,
-["tex"] = 135885,
-},
-},
-["苏莉娅丶霜蓝"] = {
-[301] = {
-["count"] = 23,
-["tex"] = 135979,
-},
-[61] = {
-["count"] = 0,
-["tex"] = 134138,
-},
-[341] = {
-["count"] = 0,
-["tex"] = 334365,
-},
-["colorplayer"] = "|cff8787ed苏莉娅丶霜蓝|r",
-[101] = {
-["count"] = 37,
-["tex"] = 135947,
-},
-[241] = {
-["count"] = 15,
-["tex"] = 236246,
-},
-[42] = {
-["count"] = 0,
-["tex"] = 135884,
-},
-[2711] = {
-["count"] = 0,
-["tex"] = 237273,
-},
-[2589] = {
-["count"] = 14,
-["tex"] = 237235,
-},
-[1901] = {
-["count"] = 12446,
-["tex"] = 136998,
-},
-["money"] = 10802,
-[161] = {
-["count"] = 203,
-["tex"] = 134375,
-},
-[102] = {
-["count"] = 0,
-["tex"] = 237547,
-},
-[221] = {
-["count"] = 48,
-["tex"] = 135885,
-},
-["player"] = "苏莉娅丶霜蓝",
-[81] = {
-["count"] = 0,
-["tex"] = 134411,
-},
-[1900] = {
-["count"] = 0,
-["tex"] = 4006481,
-},
-},
-["艾伊苏霜蓝"] = {
-[301] = {
-["count"] = 107,
-["tex"] = 135979,
-},
-[61] = {
-["count"] = 0,
-["tex"] = 134138,
-},
-[341] = {
-["count"] = 0,
-["tex"] = 334365,
-},
-["colorplayer"] = "|cffabd473艾伊苏霜蓝|r",
-[101] = {
-["count"] = 0,
-["tex"] = 135947,
-},
-[241] = {
-["count"] = 13,
-["tex"] = 236246,
-},
-[42] = {
-["count"] = 52,
-["tex"] = 135884,
-},
-[2711] = {
-["count"] = 0,
-["tex"] = 237273,
-},
-[2589] = {
-["count"] = 4,
-["tex"] = 237235,
-},
-[1901] = {
-["count"] = 2947,
-["tex"] = 136998,
-},
-["money"] = 6754,
-[161] = {
-["count"] = 211,
-["tex"] = 134375,
-},
-[102] = {
-["count"] = 0,
-["tex"] = 237547,
-},
-[1900] = {
-["count"] = 25,
-["tex"] = 4006481,
-},
-["player"] = "艾伊苏霜蓝",
-[81] = {
-["count"] = 3,
-["tex"] = 134411,
-},
-[221] = {
-["count"] = 29,
-["tex"] = 135885,
-},
+["葛芮芙丶霜蓝"] = {
 },
 },
 },
@@ -2940,7 +2168,14 @@ BiaoGe = {
 ["zhuangbei4"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[无上胜利者的圣装]|h|r",
 ["zhuangbei3"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[十字军宝珠]|h|rx4",
 ["zhuangbei21"] = "|cffa335ee|Hitem:47631::::::::80:::::::::|h[图样：十字军的龙鳞护腕]|h|r",
-["zhuangbei22"] = "|cffa335ee|Hitem:47629::::::::80:::::::::|h[图样：黑甲护腕]|h|r",
+["loot7"] = {
+{
+["player"] = "阿布的泰岚德",
+["class"] = "DRUID",
+["time"] = 1744034084,
+["count"] = 1,
+},
+},
 ["zhuangbei11"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[无上胜利者的圣装]|h|r",
 ["loot11"] = {
 {
@@ -2953,11 +2188,11 @@ BiaoGe = {
 ["zhuangbei1"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
 ["zhuangbei6"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
 ["zhuangbei9"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r",
-["loot7"] = {
+["loot5"] = {
 {
 ["player"] = "阿布的泰岚德",
 ["class"] = "DRUID",
-["time"] = 1744034084,
+["time"] = 1744034083,
 ["count"] = 1,
 },
 },
@@ -2970,14 +2205,7 @@ BiaoGe = {
 ["count"] = 1,
 },
 },
-["loot5"] = {
-{
-["player"] = "阿布的泰岚德",
-["class"] = "DRUID",
-["time"] = 1744034083,
-["count"] = 1,
-},
-},
+["zhuangbei22"] = "|cffa335ee|Hitem:47629::::::::80:::::::::|h[图样：黑甲护腕]|h|r",
 ["loot22"] = {
 {
 ["player"] = "阿布的泰岚德",
@@ -3088,7 +2316,7 @@ BiaoGe = {
 [649] = {
 ["instanceID"] = 649,
 ["realmID"] = 4520,
-["lockoutID"] = 1794224188,
+["lockoutID"] = 1794787109,
 },
 [249] = {
 ["instanceID"] = 249,
@@ -4363,1683 +3591,7 @@ BiaoGe = {
 },
 ["Hope"] = {
 [4520] = {
-["薇绮丶霜蓝"] = {
-["ICC"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["BT"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["SSC"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["ULD"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["BWL"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["SW"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["HS"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["TOC"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-["NAXX"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss20"] = {
-},
-["boss16"] = {
-},
-["boss18"] = {
-},
-["boss21"] = {
-},
-["boss13"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss8"] = {
-},
-["boss19"] = {
-},
-["boss3"] = {
-},
-["boss6"] = {
-},
-["boss14"] = {
-},
-["boss7"] = {
-},
-["boss15"] = {
-},
-},
-},
-},
-["Hayisu"] = {
+["艾伊苏霜蓝"] = {
 ["ICC"] = {
 ["nandu2"] = {
 ["boss1"] = {
@@ -6060,15 +3612,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6078,7 +3630,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6106,15 +3658,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6124,7 +3676,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6152,15 +3704,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6170,7 +3722,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6198,15 +3750,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6216,7 +3768,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6246,15 +3798,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6264,7 +3816,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6292,15 +3844,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6310,7 +3862,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6338,15 +3890,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6356,7 +3908,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6384,15 +3936,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6402,7 +3954,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6432,15 +3984,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6450,7 +4002,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6478,15 +4030,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6496,7 +4048,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6524,15 +4076,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6542,7 +4094,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6570,15 +4122,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6588,7 +4140,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6618,15 +4170,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6636,7 +4188,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6664,15 +4216,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6682,7 +4234,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6710,15 +4262,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6728,7 +4280,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6756,15 +4308,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6774,7 +4326,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6804,15 +4356,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6822,7 +4374,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6850,15 +4402,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6868,7 +4420,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6896,15 +4448,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6914,7 +4466,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -6942,15 +4494,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -6960,379 +4512,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-},
-["NAXX"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-},
-["SW"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss21"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -7362,15 +4542,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7380,7 +4560,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -7408,15 +4588,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7426,7 +4606,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -7454,15 +4634,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7472,7 +4652,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -7500,15 +4680,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7518,7 +4698,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -7548,15 +4728,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7566,7 +4746,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -7594,15 +4774,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7612,7 +4792,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -7640,15 +4820,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7658,7 +4838,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss10"] = {
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -7686,15 +4866,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss13"] = {
 },
 ["boss3"] = {
 },
-["boss21"] = {
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
 },
 ["boss4"] = {
 },
@@ -7704,7 +4884,379 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+},
+["NAXX"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
 ["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+},
+["SW"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -9391,7 +6943,7 @@ BiaoGe = {
 },
 },
 },
-["艾伊苏霜蓝"] = {
+["Hayisu"] = {
 ["ICC"] = {
 ["nandu2"] = {
 ["boss1"] = {
@@ -9412,15 +6964,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9430,7 +6982,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9458,15 +7010,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9476,7 +7028,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9504,15 +7056,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9522,7 +7074,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9550,15 +7102,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9568,7 +7120,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9598,15 +7150,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9616,7 +7168,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9644,15 +7196,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9662,7 +7214,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9690,15 +7242,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9708,7 +7260,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9736,15 +7288,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9754,7 +7306,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9784,15 +7336,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9802,7 +7354,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9830,15 +7382,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9848,7 +7400,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9876,15 +7428,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9894,7 +7446,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9922,15 +7474,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9940,7 +7492,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -9970,15 +7522,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -9988,7 +7540,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10016,15 +7568,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10034,7 +7586,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10062,15 +7614,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10080,7 +7632,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10108,15 +7660,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10126,7 +7678,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10156,15 +7708,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10174,7 +7726,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10202,15 +7754,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10220,7 +7772,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10248,15 +7800,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10266,7 +7818,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10294,15 +7846,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10312,379 +7864,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-},
-["TOC"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
 ["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-},
-["HS"] = {
-["nandu2"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu1"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu3"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
-},
-["boss18"] = {
-},
-["boss16"] = {
-},
-["boss20"] = {
-},
-},
-["nandu4"] = {
-["boss1"] = {
-},
-["boss9"] = {
-},
-["boss11"] = {
-},
-["boss12"] = {
-},
-["boss17"] = {
-},
-["boss2"] = {
-},
-["boss5"] = {
-},
-["boss15"] = {
-},
-["boss7"] = {
-},
-["boss13"] = {
-},
-["boss3"] = {
-},
-["boss14"] = {
-},
-["boss6"] = {
-},
-["boss10"] = {
-},
-["boss4"] = {
-},
-["boss19"] = {
-},
-["boss8"] = {
-},
-["boss22"] = {
-},
-["boss21"] = {
 },
 ["boss18"] = {
 },
@@ -10714,15 +7894,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10732,7 +7912,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10760,15 +7940,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10778,7 +7958,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10806,15 +7986,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10824,7 +8004,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10852,15 +8032,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10870,7 +8050,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10900,15 +8080,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10918,7 +8098,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10946,15 +8126,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -10964,7 +8144,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -10992,15 +8172,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -11010,7 +8190,7 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
@@ -11038,15 +8218,15 @@ BiaoGe = {
 },
 ["boss7"] = {
 },
-["boss13"] = {
-},
-["boss3"] = {
-},
 ["boss14"] = {
 },
 ["boss6"] = {
 },
-["boss10"] = {
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
 },
 ["boss4"] = {
 },
@@ -11056,13 +8236,3737 @@ BiaoGe = {
 },
 ["boss22"] = {
 },
-["boss21"] = {
+["boss10"] = {
 },
 ["boss18"] = {
 },
 ["boss16"] = {
 },
 ["boss20"] = {
+},
+},
+},
+["TOC"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+},
+["HS"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss15"] = {
+},
+["boss7"] = {
+},
+["boss14"] = {
+},
+["boss6"] = {
+},
+["boss13"] = {
+},
+["boss3"] = {
+},
+["boss21"] = {
+},
+["boss4"] = {
+},
+["boss19"] = {
+},
+["boss8"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss18"] = {
+},
+["boss16"] = {
+},
+["boss20"] = {
+},
+},
+},
+},
+["薇绮丶霜蓝"] = {
+["ICC"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["BT"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["SSC"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["ULD"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["BWL"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["SW"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["HS"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["TOC"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["NAXX"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+},
+["葛芮芙丶霜蓝"] = {
+["ICC"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["BT"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["SSC"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["ULD"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["BWL"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["SW"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["HS"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["TOC"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+},
+["NAXX"] = {
+["nandu2"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu4"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu3"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
+},
+},
+["nandu1"] = {
+["boss1"] = {
+},
+["boss9"] = {
+},
+["boss11"] = {
+},
+["boss12"] = {
+},
+["boss17"] = {
+},
+["boss2"] = {
+},
+["boss5"] = {
+},
+["boss20"] = {
+},
+["boss16"] = {
+},
+["boss18"] = {
+},
+["boss21"] = {
+},
+["boss13"] = {
+},
+["boss22"] = {
+},
+["boss10"] = {
+},
+["boss4"] = {
+},
+["boss8"] = {
+},
+["boss19"] = {
+},
+["boss3"] = {
+},
+["boss6"] = {
+},
+["boss14"] = {
+},
+["boss7"] = {
+},
+["boss15"] = {
 },
 },
 },
@@ -11144,15 +12048,8 @@ BiaoGe = {
 },
 ["lastChooseLFD"] = {
 [4520] = {
-["薇绮丶霜蓝"] = {
+["艾伊苏霜蓝"] = {
 ["dungeons"] = {
-},
-},
-["Hayisu"] = {
-["type"] = "specific",
-["dungeons"] = {
-[202] = false,
-[225] = true,
 },
 },
 ["苏莉娅丶霜蓝"] = {
@@ -11166,7 +12063,18 @@ BiaoGe = {
 },
 ["type"] = "specific",
 },
-["艾伊苏霜蓝"] = {
+["Hayisu"] = {
+["type"] = "specific",
+["dungeons"] = {
+[202] = false,
+[225] = true,
+},
+},
+["薇绮丶霜蓝"] = {
+["dungeons"] = {
+},
+},
+["葛芮芙丶霜蓝"] = {
 ["dungeons"] = {
 },
 },
@@ -11226,10 +12134,10 @@ BiaoGe = {
 ["WLKFB240703"] = true,
 ["history250312"] = true,
 ["firstOpenMainFrame"] = true,
-["FBCDchoice250116"] = true,
-["YY240925"] = true,
 ["yongshi240425"] = true,
+["YY240925"] = true,
 ["dt231005"] = true,
+["FBCDchoice250116"] = true,
 },
 ["auctionLogChoose"] = 1,
 ["model"] = 1,
@@ -11246,8 +12154,8 @@ BiaoGe = {
 ["tradePreview"] = 1,
 ["HighOnterItem"] = 1,
 ["auctionHighTime"] = 20,
+["configChooseFilter"] = 1,
 ["lootTime"] = 8,
-["autolootNotice"] = 1,
 ["allLootToMe"] = 1,
 ["BossFontSize"] = 15,
 ["autoQingKong"] = 1,
@@ -11258,7 +12166,7 @@ BiaoGe = {
 ["tradeNotice"] = 1,
 ["autolootRemind"] = 1,
 ["report"] = 1,
-["configChooseFilter"] = 1,
+["autolootNotice"] = 1,
 ["AtlasLoot_betterChoose"] = 1,
 ["autoAuctionPut"] = 1,
 ["autoAuctionUp"] = 0,

@@ -473,12 +473,12 @@ Bartender4DB = {
 ["MultiCast"] = {
 ["profiles"] = {
 ["bf_infobox"] = {
+["version"] = 3,
 ["position"] = {
 ["y"] = 2.782791137695313,
 ["x"] = 136.4999847412109,
 ["point"] = "LEFT",
 },
-["version"] = 3,
 },
 ["达奥里斯 - 匕首岭"] = {
 ["version"] = 3,
@@ -638,9 +638,9 @@ Bartender4DB = {
 ["bf_infobox"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 160,
-["x"] = -3,
-["point"] = "BOTTOMLEFT",
+["y"] = 200,
+["x"] = -393.6808319091797,
+["point"] = "BOTTOM",
 },
 },
 ["艾德赛 - 匕首岭"] = {

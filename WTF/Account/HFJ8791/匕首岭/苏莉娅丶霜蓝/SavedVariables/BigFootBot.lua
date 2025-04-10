@@ -2,7 +2,7 @@
 BigFootBotPlayerDB = {
 ["stats"] = {
 ["intellect"] = 1195,
-["critChance"] = 26.17239379882813,
+["critChance"] = 16.17239379882813,
 ["blockChance"] = 0,
 ["haste"] = 17.90181732177734,
 ["agility"] = 69,
@@ -18,10 +18,10 @@ BigFootBotPlayerDB = {
 ["nature"] = 0,
 },
 ["strength"] = 54,
-["powerMax"] = 22146,
-["spellBonusDamage"] = 3153,
-["healthMax"] = 20419,
-["stamina"] = 1284,
+["powerMax"] = 21501,
+["spellBonusDamage"] = 2518,
+["healthMax"] = 18664,
+["stamina"] = 1168,
 ["dodgeChance"] = 3.533400297164917,
 ["parryChance"] = 0,
 ["powerType"] = 0,
@@ -29,70 +29,65 @@ BigFootBotPlayerDB = {
 ["talents"] = {
 {
 ["details"] = {
-},
-["pointsSpent"] = "",
-},
 {
-["details"] = {
+["column"] = 2,
+["row"] = 4,
+["rank"] = 2,
+},
 {
 ["column"] = 3,
+["row"] = 1,
+["rank"] = 5,
+},
+{
+["column"] = 4,
+["row"] = 2,
+["rank"] = 2,
+},
+{
+["column"] = 2,
 ["row"] = 1,
 ["rank"] = 3,
 },
 {
-["column"] = 2,
-["row"] = 2,
-["rank"] = 3,
-},
-{
-["column"] = 3,
-["row"] = 3,
-["rank"] = 1,
-},
-{
-["column"] = 3,
-["row"] = 4,
-["rank"] = 2,
-},
-{
 ["column"] = 3,
 ["row"] = 2,
-["rank"] = 3,
-},
-{
-["column"] = 2,
-["row"] = 6,
-["rank"] = 5,
-},
-{
-["column"] = 3,
-["row"] = 5,
 ["rank"] = 2,
-},
-{
-["column"] = 2,
-["row"] = 4,
-["rank"] = 5,
 },
 {
 ["column"] = 3,
 ["row"] = 7,
-["rank"] = 3,
+["rank"] = 1,
 },
 {
 ["column"] = 2,
+["row"] = 5,
+["rank"] = 1,
+},
+{
+["column"] = 2,
+["row"] = 6,
+["rank"] = 5,
+},
+{
+["column"] = 3,
 ["row"] = 3,
 ["rank"] = 1,
 },
 {
+["column"] = 1,
+["row"] = 1,
+["rank"] = 2,
+},
+{
 ["column"] = 3,
-["row"] = 6,
+["row"] = 8,
 ["rank"] = 3,
 },
 {
-["column"] = 4,
-["row"] = 3,
-["rank"] = 3,
+["column"] = 2,
+["row"] = 7,
+["rank"] = 5,
 },
 {
 ["column"] = 2,
@@ -100,22 +95,22 @@ BigFootBotPlayerDB = {
 ["rank"] = 1,
 },
 {
-["column"] = 2,
-["row"] = 8,
+["column"] = 1,
+["row"] = 5,
 ["rank"] = 5,
 },
 {
-["column"] = 2,
-["row"] = 7,
-["rank"] = 1,
+["column"] = 4,
+["row"] = 4,
+["rank"] = 3,
 },
 {
-["column"] = 4,
-["row"] = 1,
+["column"] = 1,
+["row"] = 6,
 ["rank"] = 2,
 },
 {
-["column"] = 3,
+["column"] = 1,
 ["row"] = 9,
 ["rank"] = 3,
 },
@@ -125,15 +120,25 @@ BigFootBotPlayerDB = {
 ["rank"] = 5,
 },
 {
+["column"] = 1,
+["row"] = 7,
+["rank"] = 3,
+},
+{
 ["column"] = 2,
 ["row"] = 11,
 ["rank"] = 1,
 },
 {
 ["column"] = 3,
-["row"] = 8,
-["rank"] = 2,
+["row"] = 9,
+["rank"] = 1,
 },
+},
+["pointsSpent"] = "",
+},
+{
+["details"] = {
 },
 ["pointsSpent"] = "",
 },
@@ -154,11 +159,6 @@ BigFootBotPlayerDB = {
 ["row"] = 3,
 ["rank"] = 5,
 },
-{
-["column"] = 1,
-["row"] = 4,
-["rank"] = 2,
-},
 },
 ["pointsSpent"] = "",
 },
@@ -167,7 +167,7 @@ BigFootBotPlayerDB = {
 ["CR_RESILIENCE_CRIT_TAKEN"] = 0,
 ["CR_CRIT_RANGED"] = 563,
 ["CR_WEAPON_SKILL"] = 0,
-["CR_HASTE_SPELL"] = 827,
+["CR_HASTE_SPELL"] = 647,
 ["CR_DODGE"] = 0,
 ["CR_ARMOR_PENETRATION"] = 0,
 ["CR_BLOCK"] = 0,
@@ -207,7 +207,7 @@ BigFootBotPlayerDB = {
 },
 ["base"] = {
 ["avgItemLevel"] = 238.1875,
-["lastSeen"] = 1744084552,
+["lastSeen"] = 1744195486,
 ["fullName"] = "苏莉娅丶霜蓝-匕首岭",
 ["guid"] = "Player-4520-0355130D",
 ["titleId"] = -1,
@@ -226,7 +226,7 @@ BigFootBotPlayerDB = {
 ["CR_RESILIENCE_CRIT_TAKEN"] = 0,
 ["CR_CRIT_RANGED"] = 12.26419544219971,
 ["CR_WEAPON_SKILL"] = 0,
-["CR_HASTE_SPELL"] = 25.22111129760742,
+["CR_HASTE_SPELL"] = 19.73163223266602,
 ["CR_DODGE"] = 0,
 ["CR_ARMOR_PENETRATION"] = 0,
 ["CR_BLOCK"] = 0,

@@ -599,7 +599,51 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "香菇牛肉酱",
 ["when"] = "04-04 00:02:02",
+["result"] = "complete",
 ["where"] = "十字军的试炼",
+},
+{
+["targetMoney"] = 28500000,
+["playerMoney"] = 0,
+["id"] = 27,
+["playerItems"] = {
+},
+["targetItems"] = {
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "戍边黑骑",
+["when"] = "04-07 22:27:06",
+["result"] = "complete",
+["where"] = "十字军的试炼",
+},
+{
+["targetMoney"] = 0,
+["playerMoney"] = 0,
+["id"] = 28,
+["playerItems"] = {
+{
+["name"] = "魔法酪饼",
+["numItems"] = 20,
+["itemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+["texture"] = 236210,
+},
+},
+["targetItems"] = {
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "达奥里斯",
+["when"] = "04-10 00:15:01",
+["where"] = "安其拉废墟",
 ["result"] = "complete",
 },
 }

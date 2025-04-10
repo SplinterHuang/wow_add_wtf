@@ -19,7 +19,6 @@ MADB = {
 },
 ["name"] = "PlayerBuffsMover",
 ["scale"] = 1.109466652052141,
-["orgScale"] = 1,
 ["pos"] = {
 "TOPRIGHT",
 "UIParent",
@@ -27,6 +26,7 @@ MADB = {
 -474.7394243402146,
 -13.84546881957008,
 },
+["orgScale"] = 1,
 },
 ["PlayerDebuffsMover"] = {
 ["orgPos"] = {

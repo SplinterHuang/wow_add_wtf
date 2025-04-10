@@ -41,7 +41,7 @@ MySlot: enabled
 BigDebuffs: enabled
 Spy: enabled
 wMarker: enabled
-NugRunning: disabled
+NugRunning: enabled
 NugRunningOptions: enabled
 CoolLine: enabled
 Bartender4: enabled
@@ -152,3 +152,4 @@ BigFootSync: enabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
+BiaoGe: enabled

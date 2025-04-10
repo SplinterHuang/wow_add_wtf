@@ -7,6 +7,63 @@ WhisperPopDB = {
 ["state"] = "send",
 ["messages"] = {
 {
+["time"] = "|cffffd200Fri Apr  4 01:29:10 2025|r",
+["text"] = "111",
+["inform"] = true,
+["timeraw"] = 1743701350,
+},
+{
+["time"] = "|cffffd200Fri Apr  4 01:29:21 2025|r",
+["text"] = "没啥事了",
+["inform"] = false,
+["timeraw"] = 1743701361,
+},
+{
+["time"] = "|cffffd200Fri Apr  4 01:30:00 2025|r",
+["text"] = "这个点应该没有10人了吧",
+["inform"] = true,
+["timeraw"] = 1743701400,
+},
+{
+["time"] = "|cffffd200Fri Apr  4 01:30:11 2025|r",
+["text"] = "嗯，这个服晚上基本没啥",
+["inform"] = false,
+["timeraw"] = 1743701411,
+},
+{
+["time"] = "|cffffd200Wed Apr  9 00:01:32 2025|r",
+["text"] = "带岩石呢？",
+["inform"] = true,
+["timeraw"] = 1744128092,
+},
+{
+["time"] = "|cffffd200Wed Apr  9 00:01:45 2025|r",
+["text"] = "表格下了",
+["inform"] = false,
+["timeraw"] = 1744128105,
+},
+{
+["time"] = "|cffffd200Wed Apr  9 00:02:14 2025|r",
+["text"] = "哦",
+["inform"] = true,
+["timeraw"] = 1744128134,
+},
+{
+["time"] = "|cffffd200Wed Apr  9 00:02:18 2025|r",
+["text"] = "那我一会上",
+["inform"] = true,
+["timeraw"] = 1744128138,
+},
+},
+["bnFriend"] = true,
+["class"] = "BN",
+["BNguid"] = 48,
+["name"] = "|Kp9|k",
+},
+{
+["state"] = "send",
+["messages"] = {
+{
 ["time"] = "|cffffd200Tue Apr  8 00:33:17 2025|r",
 ["text"] = "sp的WA， 10人混装",
 ["inform"] = false,
@@ -17,6 +74,18 @@ WhisperPopDB = {
 ["text"] = "sp的WA， 10人混装",
 ["inform"] = true,
 ["timeraw"] = 1744043597,
+},
+{
+["inform"] = false,
+["text"] = "sp的WA， 10人混装",
+["time"] = "|cffffd200Tue Apr  8 18:22:11 2025|r",
+["timeraw"] = 1744107731,
+},
+{
+["inform"] = true,
+["text"] = "sp的WA， 10人混装",
+["time"] = "|cffffd200Tue Apr  8 18:22:11 2025|r",
+["timeraw"] = 1744107731,
 },
 },
 ["bnFriend"] = false,
@@ -68,18 +137,6 @@ WhisperPopDB = {
 {
 ["state"] = "new",
 ["messages"] = {
-{
-["time"] = "|cffffd200Mon Mar 31 21:15:29 2025|r",
-["text"] = "[!Pig]:与<艾伊苏霜蓝>交易成功,交出|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r|cffa335ee|Hitem:47242::::::::80:::::::::|h[北伐奖章]|h|r,收到1300G",
-["inform"] = false,
-["timeraw"] = 1743426929,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:51:33 2025|r",
-["text"] = "[!Pig]:与<艾伊苏霜蓝>交易成功,交出|cffa335ee|Hitem:47191::::::::80:::::::::|h[危机潜伏腿甲]|h|r,收到2000G",
-["inform"] = false,
-["timeraw"] = 1743429093,
-},
 {
 ["inform"] = true,
 ["text"] = "111",
@@ -162,36 +219,6 @@ WhisperPopDB = {
 {
 ["state"] = "send",
 ["messages"] = {
-{
-["time"] = "|cffffd200Tue Apr  1 01:38:42 2025|r",
-["text"] = "码",
-["inform"] = true,
-["timeraw"] = 1743442722,
-},
-{
-["time"] = "|cffffd200Tue Apr  1 01:38:56 2025|r",
-["text"] = "法",
-["inform"] = false,
-["timeraw"] = 1743442736,
-},
-{
-["time"] = "|cffffd200Tue Apr  1 01:38:58 2025|r",
-["text"] = "发",
-["inform"] = false,
-["timeraw"] = 1743442738,
-},
-{
-["time"] = "|cffffd200Tue Apr  1 01:39:12 2025|r",
-["text"] = "没有吗",
-["inform"] = true,
-["timeraw"] = 1743442752,
-},
-{
-["time"] = "|cffffd200Tue Apr  1 01:39:16 2025|r",
-["text"] = "846842",
-["inform"] = false,
-["timeraw"] = 1743442756,
-},
 {
 ["inform"] = true,
 ["text"] = "有没有NQ",
@@ -1160,39 +1187,6 @@ WhisperPopDB = {
 ["state"] = "new",
 ["messages"] = {
 {
-["time"] = "|cffffd200Fri Apr  4 01:29:10 2025|r",
-["text"] = "111",
-["inform"] = true,
-["timeraw"] = 1743701350,
-},
-{
-["time"] = "|cffffd200Fri Apr  4 01:29:21 2025|r",
-["text"] = "没啥事了",
-["inform"] = false,
-["timeraw"] = 1743701361,
-},
-{
-["time"] = "|cffffd200Fri Apr  4 01:30:00 2025|r",
-["text"] = "这个点应该没有10人了吧",
-["inform"] = true,
-["timeraw"] = 1743701400,
-},
-{
-["time"] = "|cffffd200Fri Apr  4 01:30:11 2025|r",
-["text"] = "嗯，这个服晚上基本没啥",
-["inform"] = false,
-["timeraw"] = 1743701411,
-},
-},
-["bnFriend"] = true,
-["class"] = "BN",
-["BNguid"] = 48,
-["name"] = "|Kp9|k",
-},
-{
-["state"] = "new",
-["messages"] = {
-{
 ["inform"] = true,
 ["text"] = "241 鸟",
 ["time"] = "|cffffd200Fri Apr  4 00:06:55 2025|r",
@@ -1628,280 +1622,6 @@ WhisperPopDB = {
 ["bnFriend"] = false,
 ["class"] = "HUNTER",
 ["name"] = "猎豹豹-寒脊山小径",
-},
-{
-["state"] = "new",
-["messages"] = {
-{
-["time"] = "|cffffd200Tue Apr  1 00:29:17 2025|r",
-["text"] = "WLK-低等级技能监控-2.1版-友情提醒: 您刚刚使用了低等级的 |cff71d5ff|Hspell:28189:0|h[邪甲术]|h|r 28189 (等级2), 请检查您的技能等级.如有扰屏请见谅!",
-["inform"] = false,
-["timeraw"] = 1743438557,
-},
-},
-["bnFriend"] = false,
-["class"] = "MAGE",
-["name"] = "福从天降",
-},
-{
-["state"] = "send",
-["messages"] = {
-{
-["time"] = "|cffffd200Tue Apr  1 00:17:57 2025|r",
-["text"] = "SS",
-["inform"] = true,
-["timeraw"] = 1743437877,
-},
-},
-["bnFriend"] = false,
-["class"] = "WARRIOR",
-["name"] = "饮马江湖道",
-},
-{
-["state"] = "read",
-["messages"] = {
-{
-["inform"] = false,
-["text"] = "拉我 我拉D",
-["time"] = "|cffffd200Mon Mar 31 23:58:04 2025|r",
-["timeraw"] = 1743436684,
-},
-{
-["inform"] = true,
-["text"] = "cD",
-["time"] = "|cffffd200Mon Mar 31 23:58:08 2025|r",
-["timeraw"] = 1743436688,
-},
-},
-["bnFriend"] = false,
-["class"] = "DRUID",
-["name"] = "紫眸眸",
-},
-{
-["state"] = "send",
-["messages"] = {
-{
-["time"] = "|cffffd200Mon Mar 31 22:08:56 2025|r",
-["text"] = "鸟D 237",
-["inform"] = true,
-["timeraw"] = 1743430136,
-},
-},
-["bnFriend"] = false,
-["class"] = "MAGE",
-["name"] = "小雨法",
-},
-{
-["state"] = "new",
-["messages"] = {
-{
-["time"] = "|cffffd200Mon Mar 31 21:34:58 2025|r",
-["text"] = "黑球也不放？",
-["inform"] = true,
-["timeraw"] = 1743428098,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:35:04 2025|r",
-["text"] = "放啊",
-["inform"] = false,
-["timeraw"] = 1743428104,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:35:08 2025|r",
-["text"] = "哦",
-["inform"] = true,
-["timeraw"] = 1743428108,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:36:41 2025|r",
-["text"] = "当前左上方",
-["inform"] = false,
-["timeraw"] = 1743428201,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:03 2025|r",
-["text"] = "左上，右上，右中",
-["inform"] = false,
-["timeraw"] = 1743428223,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:11 2025|r",
-["text"] = "门口的呢？",
-["inform"] = true,
-["timeraw"] = 1743428231,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:15 2025|r",
-["text"] = "门口的有DK",
-["inform"] = false,
-["timeraw"] = 1743428235,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:23 2025|r",
-["text"] = "下地你再过去",
-["inform"] = false,
-["timeraw"] = 1743428243,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:30 2025|r",
-["text"] = "BOSS拉走你就可以区打第一个",
-["inform"] = false,
-["timeraw"] = 1743428250,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:32 2025|r",
-["text"] = "下地再打是吧？",
-["inform"] = true,
-["timeraw"] = 1743428252,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:36 2025|r",
-["text"] = "哦",
-["inform"] = true,
-["timeraw"] = 1743428256,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:48 2025|r",
-["text"] = "第一个快没了，打第二个",
-["inform"] = false,
-["timeraw"] = 1743428268,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:52 2025|r",
-["text"] = "全打了还是一个个打？",
-["inform"] = true,
-["timeraw"] = 1743428272,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:54 2025|r",
-["text"] = "哦",
-["inform"] = true,
-["timeraw"] = 1743428274,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:37:58 2025|r",
-["text"] = "一个个打",
-["inform"] = false,
-["timeraw"] = 1743428278,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:38:08 2025|r",
-["text"] = "这帮蠢B不会让绕，没脑子的",
-["inform"] = false,
-["timeraw"] = 1743428288,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:39:40 2025|r",
-["text"] = "去打冰1",
-["inform"] = false,
-["timeraw"] = 1743428380,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:40:05 2025|r",
-["text"] = "打2",
-["inform"] = false,
-["timeraw"] = 1743428405,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:44:51 2025|r",
-["text"] = "中虫下地是不是要80%血",
-["inform"] = true,
-["timeraw"] = 1743428691,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:45:39 2025|r",
-["text"] = "给我个dlr门",
-["inform"] = true,
-["timeraw"] = 1743428739,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:45:56 2025|r",
-["text"] = "哦 不用",
-["inform"] = true,
-["timeraw"] = 1743428756,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:49:53 2025|r",
-["text"] = "你进副本满 buff多少暴击",
-["inform"] = true,
-["timeraw"] = 1743428993,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:50:10 2025|r",
-["text"] = "你LR和我不一样啊",
-["inform"] = false,
-["timeraw"] = 1743429010,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:50:20 2025|r",
-["text"] = "我说fs",
-["inform"] = true,
-["timeraw"] = 1743429020,
-},
-{
-["time"] = "|cffffd200Mon Mar 31 21:50:40 2025|r",
-["text"] = "满BUFF50多吧",
-["inform"] = false,
-["timeraw"] = 1743429040,
-},
-},
-["bnFriend"] = false,
-["class"] = "MAGE",
-["name"] = "麦丁妍",
-},
-{
-["state"] = "new",
-["messages"] = {
-{
-["inform"] = false,
-["text"] = "WLK-低等级技能监控-3.0版-友情提醒: 您刚刚使用了低等级的 |cff71d5ff|Hspell:30324:0|h[英勇打击]|h|r 30324 (等级11), 请检查您的技能等级.如有扰屏请见谅!",
-["time"] = "|cffffd200Mon Mar 31 00:45:50 2025|r",
-["timeraw"] = 1743353150,
-},
-{
-["inform"] = false,
-["text"] = "WLK-低等级技能监控-3.0版-友情提醒: 您刚刚使用了低等级的 |cff71d5ff|Hspell:25231:0|h[顺劈斩]|h|r 25231 (等级6), 请检查您的技能等级.如有扰屏请见谅!",
-["time"] = "|cffffd200Mon Mar 31 00:47:53 2025|r",
-["timeraw"] = 1743353273,
-},
-},
-["bnFriend"] = false,
-["class"] = "DEATHKNIGHT",
-["name"] = "二队迪凯-银色北伐军",
-},
-{
-["state"] = "new",
-["messages"] = {
-{
-["inform"] = false,
-["text"] = "[!Pig]:与<Hayisu-匕首岭>交易成功,交出|cffffffff|Hitem:34062::::::::71:::::::::|h[魔法点心]|h|r×19",
-["time"] = "|cffffd200Mon Mar 31 00:43:28 2025|r",
-["timeraw"] = 1743353008,
-},
-},
-["bnFriend"] = false,
-["class"] = "WARLOCK",
-["name"] = "小小的老子-怒炉",
-},
-{
-["state"] = "send",
-["messages"] = {
-{
-["inform"] = false,
-["text"] = "你是做日常吗",
-["time"] = "|cffffd200Sun Mar 30 12:48:25 2025|r",
-["timeraw"] = 1743310105,
-},
-{
-["inform"] = true,
-["text"] = "en ",
-["time"] = "|cffffd200Sun Mar 30 12:48:29 2025|r",
-["timeraw"] = 1743310109,
-},
-},
-["bnFriend"] = false,
-["class"] = "DRUID",
-["name"] = "奔奔咕咕鸡-审判",
 },
 },
 ["help"] = 1,

@@ -42,10 +42,10 @@ Grid2DB = {
 ["unitsPerColumn"] = 5,
 },
 ["meta"] = {
-["party"] = true,
-["arena"] = true,
-["solo"] = true,
 ["raid"] = true,
+["party"] = true,
+["solo"] = true,
+["arena"] = true,
 },
 },
 },
@@ -67,9 +67,7 @@ Grid2DB = {
 ["Spacing"] = 3,
 },
 ["艾伊苏霜蓝 - 匕首岭"] = {
-["PosY"] = -519.2503695751875,
-["PosX"] = 1056.87479889606,
-["horizontal"] = false,
+["PosX"] = 1055.181879003016,
 ["Positions"] = {
 ["By Group10004"] = {
 "TOPLEFT",
@@ -97,12 +95,14 @@ Grid2DB = {
 -259.9473080044845,
 },
 },
+["PosY"] = -492.7286415112249,
+["horizontal"] = false,
 ["Spacing"] = 6,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["Spacing"] = 3,
-["PosY"] = -287.5581665039063,
 ["horizontal"] = false,
+["PosY"] = -287.5581665039063,
 ["PosX"] = 1034.309417724609,
 },
 ["Hayisu - 匕首岭"] = {
@@ -1372,8 +1372,16 @@ Grid2DB = {
 ["Grid2RaidDebuffs"] = 4,
 },
 ["statuses"] = {
-["name"] = {
-["defaultName"] = 1,
+["buff-Regrowth-mine"] = {
+["spellName"] = 8936,
+["type"] = "buff",
+["mine"] = true,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.5,
+["g"] = 1,
+["b"] = 0,
+},
 },
 ["buff-Rejuvenation-mine"] = {
 ["spellName"] = 774,
@@ -1386,16 +1394,8 @@ Grid2DB = {
 ["b"] = 0.6,
 },
 },
-["buff-Regrowth-mine"] = {
-["spellName"] = 8936,
-["type"] = "buff",
-["mine"] = true,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.5,
-["g"] = 1,
-["b"] = 0,
-},
+["name"] = {
+["defaultName"] = 1,
 },
 ["manaalt"] = {
 ["displayType"] = 1,

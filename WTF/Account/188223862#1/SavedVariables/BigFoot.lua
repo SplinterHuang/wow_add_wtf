@@ -65,8 +65,8 @@ BigFoot_Config = {
 ["ShowCenter"] = 0,
 ["EnableCooldownCount2"] = 1,
 ["checkedVersion"] = "248",
-["ShineType"] = "标准",
 ["ToggleBar"] = 0,
+["ShineType"] = "标准",
 },
 ["SellerHelper"] = {
 ["AutoSellPoor"] = 1,
@@ -217,12 +217,12 @@ BigFoot_Error = {
 ["ADDON_ACTION_FORBIDDEN"] = {
 ["!!!Libs"] = {
 ["combat"] = false,
-["zone"] = "风暴峭壁",
+["zone"] = "安其拉废墟",
 ["class"] = "萨满祭司",
 ["race"] = "德莱尼",
-["time"] = 1744060852,
+["time"] = 1744215304,
+["level"] = 80,
 ["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame_Shared.lua]:1352: in function <...zard_UIPanels_Game/Classic/ContainerFrame_Shared.lua:1299>\n[C]: in function 'ContainerFrameItemButton_OnClick'\n[*ContainerFrame.xml:163_OnClick]:13: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
-["level"] = 78,
 ["forbiddenfunc"] = "UNKNOWN()",
 ["version"] = "zhCN3.4.4.248",
 },
@@ -259,4 +259,6 @@ BF_LogonInfo = {
 1743872539,
 1743965225,
 1744046590,
+1744131658,
+1744217349,
 }

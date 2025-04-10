@@ -10,6 +10,7 @@ ItemRackUser = {
 ["Sets"] = {
 ["~CombatQueue"] = {
 ["equip"] = {
+[16] = "34009:2669:::::::80:::::::::",
 },
 },
 ["~Unequip"] = {
@@ -18,7 +19,8 @@ ItemRackUser = {
 },
 },
 ["EnableQueues"] = "ON",
-["EnablePerSetQueues"] = "OFF",
+["Queues"] = {
+},
 ["Buttons"] = {
 },
 ["ItemsUsed"] = {
@@ -29,11 +31,11 @@ ItemRackUser = {
 ["Set"] = {
 },
 },
-["Alpha"] = 1,
-["Hidden"] = {
-},
 ["EnableEvents"] = "ON",
-["MenuScale"] = 0.85,
-["Queues"] = {
+["Hidden"] = {
+"49437::::::::80:::::::::",
 },
+["Alpha"] = 1,
+["MenuScale"] = 0.85,
+["EnablePerSetQueues"] = "OFF",
 }

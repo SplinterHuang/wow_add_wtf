@@ -4,6 +4,214 @@ WhisperPopDB = {
 ["time"] = 1,
 ["keepDatas"] = {
 {
+["state"] = "new",
+["messages"] = {
+{
+["inform"] = false,
+["text"] = "[!Pig]:与<达奥里斯-匕首岭>交易成功,收到|cffa335ee|Hitem:46008::::::::80:::::::::|h[地狱项圈]|h|r",
+["time"] = "|cffffd200Thu Apr 10 00:46:35 2025|r",
+["timeraw"] = 1744217195,
+},
+},
+["bnFriend"] = false,
+["class"] = "ROGUE",
+["name"] = "光頭就是强-红玉圣殿",
+},
+{
+["state"] = "new",
+["messages"] = {
+{
+["inform"] = false,
+["text"] = "你要刷哪",
+["time"] = "|cffffd200Wed Apr  9 22:06:00 2025|r",
+["timeraw"] = 1744207560,
+},
+{
+["inform"] = true,
+["text"] = "卧槽",
+["time"] = "|cffffd200Wed Apr  9 22:06:04 2025|r",
+["timeraw"] = 1744207564,
+},
+{
+["inform"] = true,
+["text"] = "逃跑了",
+["time"] = "|cffffd200Wed Apr  9 22:06:09 2025|r",
+["timeraw"] = 1744207569,
+},
+{
+["inform"] = false,
+["text"] = "被踢了？",
+["time"] = "|cffffd200Wed Apr  9 22:06:29 2025|r",
+["timeraw"] = 1744207589,
+},
+{
+["inform"] = true,
+["text"] = "自己退的",
+["time"] = "|cffffd200Wed Apr  9 22:06:34 2025|r",
+["timeraw"] = 1744207594,
+},
+{
+["inform"] = true,
+["text"] = "没想到H 试炼那么难",
+["time"] = "|cffffd200Wed Apr  9 22:06:46 2025|r",
+["timeraw"] = 1744207606,
+},
+{
+["inform"] = false,
+["text"] = "自己退肯定逃跑啊...",
+["time"] = "|cffffd200Wed Apr  9 22:06:46 2025|r",
+["timeraw"] = 1744207606,
+},
+{
+["inform"] = true,
+["text"] = "尴尬",
+["time"] = "|cffffd200Wed Apr  9 22:06:50 2025|r",
+["timeraw"] = 1744207610,
+},
+{
+["inform"] = false,
+["text"] = "30分钟？",
+["time"] = "|cffffd200Wed Apr  9 22:07:03 2025|r",
+["timeraw"] = 1744207623,
+},
+{
+["inform"] = true,
+["text"] = "en",
+["time"] = "|cffffd200Wed Apr  9 22:07:06 2025|r",
+["timeraw"] = 1744207626,
+},
+{
+["inform"] = true,
+["text"] = "PT 试炼吧",
+["time"] = "|cffffd200Wed Apr  9 22:07:14 2025|r",
+["timeraw"] = 1744207634,
+},
+{
+["inform"] = true,
+["text"] = "先刷个饰品",
+["time"] = "|cffffd200Wed Apr  9 22:07:21 2025|r",
+["timeraw"] = 1744207641,
+},
+{
+["inform"] = false,
+["text"] = "排本排不了呀",
+["time"] = "|cffffd200Wed Apr  9 22:07:28 2025|r",
+["timeraw"] = 1744207648,
+},
+},
+["bnFriend"] = false,
+["class"] = "PALADIN",
+["name"] = "卖瓜大叔",
+},
+{
+["state"] = "send",
+["messages"] = {
+{
+["inform"] = false,
+["text"] = "我草满级啦   要刷本不",
+["time"] = "|cffffd200Wed Apr  9 22:04:51 2025|r",
+["timeraw"] = 1744207491,
+},
+{
+["inform"] = true,
+["text"] = "YAO A ",
+["time"] = "|cffffd200Wed Apr  9 22:04:58 2025|r",
+["timeraw"] = 1744207498,
+},
+{
+["inform"] = true,
+["text"] = "要啊",
+["time"] = "|cffffd200Wed Apr  9 22:05:05 2025|r",
+["timeraw"] = 1744207505,
+},
+},
+["bnFriend"] = false,
+["class"] = "HUNTER",
+["name"] = "蕾蒂",
+},
+{
+["state"] = "send",
+["messages"] = {
+{
+["inform"] = true,
+["text"] = "元素S",
+["time"] = "|cffffd200Wed Apr  9 19:37:10 2025|r",
+["timeraw"] = 1744198630,
+},
+},
+["bnFriend"] = false,
+["class"] = "PALADIN",
+["name"] = "游骑归来",
+},
+{
+["state"] = "send",
+["messages"] = {
+{
+["time"] = "|cffffd200Wed Apr  9 18:44:57 2025|r",
+["text"] = "111",
+["inform"] = true,
+["timeraw"] = 1744195497,
+},
+},
+["bnFriend"] = false,
+["class"] = "MAGE",
+["name"] = "我是气璇",
+},
+{
+["state"] = "new",
+["messages"] = {
+{
+["time"] = "|cffffd200Wed Apr  9 18:39:10 2025|r",
+["text"] = "多少包团",
+["inform"] = true,
+["timeraw"] = 1744195150,
+},
+{
+["time"] = "|cffffd200Wed Apr  9 18:39:19 2025|r",
+["text"] = "物理6K",
+["inform"] = false,
+["timeraw"] = 1744195159,
+},
+},
+["bnFriend"] = false,
+["class"] = "PALADIN",
+["name"] = "黄家驹",
+},
+{
+["state"] = "new",
+["messages"] = {
+{
+["inform"] = true,
+["text"] = "躺尸SM",
+["time"] = "|cffffd200Wed Apr  9 18:26:20 2025|r",
+["timeraw"] = 1744194380,
+},
+{
+["inform"] = false,
+["text"] = "有了",
+["time"] = "|cffffd200Wed Apr  9 18:26:24 2025|r",
+["timeraw"] = 1744194384,
+},
+},
+["bnFriend"] = false,
+["class"] = "DEATHKNIGHT",
+["name"] = "向何",
+},
+{
+["state"] = "send",
+["messages"] = {
+{
+["inform"] = true,
+["text"] = "元素S",
+["time"] = "|cffffd200Wed Apr  9 18:11:39 2025|r",
+["timeraw"] = 1744193499,
+},
+},
+["bnFriend"] = false,
+["class"] = "DEATHKNIGHT",
+["name"] = "辉煌星伐",
+},
+{
 ["state"] = "send",
 ["messages"] = {
 {

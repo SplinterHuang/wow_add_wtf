@@ -133,7 +133,7 @@ VER 3 0000000000000047 "A冰球" "132387"
 END
 VER 3 0000000000000010 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] 驱毒术;  [@mouseover,exists,mod:ctrl] 净化术; [@mouseover,exists,mod:shift] 驱毒术
+/cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
 END
 VER 3 0000000000000024 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting

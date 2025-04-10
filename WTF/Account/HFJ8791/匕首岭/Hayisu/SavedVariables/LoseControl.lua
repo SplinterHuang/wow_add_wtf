@@ -166,8 +166,11 @@ LoseControlDB = {
 ["interruptMiniIconsAlpha"] = 0.8,
 ["size"] = 36,
 ["alpha"] = 1,
+["compactFrame"] = {
+["frameLevel"] = 0,
+["size"] = 36,
+},
 ["swipeAlpha"] = 0.8,
-["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -201,10 +204,7 @@ LoseControlDB = {
 },
 },
 },
-["compactFrame"] = {
-["frameLevel"] = 0,
-["size"] = 36,
-},
+["anchor"] = "Blizzard",
 ["interruptBackgroundVertexColor"] = {
 ["r"] = 1,
 ["g"] = 1,
@@ -2552,8 +2552,11 @@ LoseControlDB = {
 ["interruptMiniIconsAlpha"] = 0.8,
 ["size"] = 36,
 ["alpha"] = 1,
+["compactFrame"] = {
+["frameLevel"] = 0,
+["size"] = 36,
+},
 ["swipeAlpha"] = 0.8,
-["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -2587,10 +2590,7 @@ LoseControlDB = {
 },
 },
 },
-["compactFrame"] = {
-["frameLevel"] = 0,
-["size"] = 36,
-},
+["anchor"] = "Blizzard",
 ["interruptBackgroundVertexColor"] = {
 ["r"] = 1,
 ["g"] = 1,
@@ -3041,8 +3041,11 @@ LoseControlDB = {
 ["interruptMiniIconsAlpha"] = 0.8,
 ["size"] = 36,
 ["alpha"] = 1,
+["compactFrame"] = {
+["frameLevel"] = 0,
+["size"] = 36,
+},
 ["swipeAlpha"] = 0.8,
-["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -3076,10 +3079,7 @@ LoseControlDB = {
 },
 },
 },
-["compactFrame"] = {
-["frameLevel"] = 0,
-["size"] = 36,
-},
+["anchor"] = "Blizzard",
 ["interruptBackgroundVertexColor"] = {
 ["r"] = 1,
 ["g"] = 1,
@@ -4455,8 +4455,12 @@ LoseControlDB = {
 ["interruptMiniIconsAlpha"] = 0.8,
 ["size"] = 36,
 ["alpha"] = 1,
-["swipeAlpha"] = 0.8,
+["compactFrame"] = {
 ["anchor"] = "None",
+["frameLevel"] = 0,
+["size"] = 36,
+},
+["swipeAlpha"] = 0.8,
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -4490,11 +4494,7 @@ LoseControlDB = {
 },
 },
 },
-["compactFrame"] = {
 ["anchor"] = "None",
-["frameLevel"] = 0,
-["size"] = 36,
-},
 ["interruptBackgroundVertexColor"] = {
 ["r"] = 1,
 ["g"] = 1,
@@ -4503,7 +4503,7 @@ LoseControlDB = {
 ["useSpellInsteadSchoolMiniIcon"] = false,
 ["interruptBackgroundAlpha"] = 0.7,
 },
-["raid17"] = {
+["raid36"] = {
 ["enabled"] = false,
 ["frameLevel"] = 0,
 ["size"] = 20,
@@ -4632,24 +4632,39 @@ LoseControlDB = {
 ["useSpellInsteadSchoolMiniIcon"] = false,
 ["interruptBackgroundAlpha"] = 0.7,
 },
-["raid36"] = {
+["nameplate32"] = {
 ["enabled"] = false,
+["point"] = "LEFT",
+["size"] = 42,
 ["frameLevel"] = 0,
-["size"] = 20,
-["alpha"] = 1,
 ["interruptMiniIconsAlpha"] = 0.8,
-["y"] = 1,
-["x"] = 0,
+["alpha"] = 1,
 ["swipeAlpha"] = 0.8,
+["y"] = 0,
+["x"] = 0,
+["relativePoint"] = "RIGHT",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
+["enemy"] = true,
 },
 ["debuff"] = {
 ["friendly"] = {
-["Other"] = true,
+["Other"] = false,
 ["CC"] = true,
-["Snare"] = true,
+["Snare"] = false,
+["Disarm"] = true,
+["ImmuneSpell"] = true,
+["PvE"] = true,
+["Immune"] = true,
+["ImmunePhysical"] = true,
+["Silence"] = true,
+["Root"] = true,
+},
+["enemy"] = {
+["Other"] = false,
+["CC"] = true,
+["Snare"] = false,
 ["Disarm"] = true,
 ["ImmuneSpell"] = true,
 ["PvE"] = true,
@@ -4663,7 +4678,19 @@ LoseControlDB = {
 ["friendly"] = {
 ["Other"] = false,
 ["CC"] = true,
-["Snare"] = true,
+["Snare"] = false,
+["Disarm"] = true,
+["ImmuneSpell"] = true,
+["PvE"] = true,
+["Immune"] = true,
+["ImmunePhysical"] = true,
+["Silence"] = true,
+["Root"] = true,
+},
+["enemy"] = {
+["Other"] = false,
+["CC"] = true,
+["Snare"] = false,
 ["Disarm"] = true,
 ["ImmuneSpell"] = true,
 ["PvE"] = true,
@@ -4674,7 +4701,7 @@ LoseControlDB = {
 },
 },
 },
-["anchor"] = "BlizzardRaidFrames",
+["anchor"] = "BlizzardNameplates",
 ["interruptBackgroundVertexColor"] = {
 ["r"] = 1,
 ["g"] = 1,
@@ -4947,8 +4974,11 @@ LoseControlDB = {
 ["interruptMiniIconsAlpha"] = 0.8,
 ["size"] = 36,
 ["alpha"] = 1,
+["compactFrame"] = {
+["frameLevel"] = 0,
+["size"] = 36,
+},
 ["swipeAlpha"] = 0.8,
-["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -4982,10 +5012,7 @@ LoseControlDB = {
 },
 },
 },
-["compactFrame"] = {
-["frameLevel"] = 0,
-["size"] = 36,
-},
+["anchor"] = "Blizzard",
 ["interruptBackgroundVertexColor"] = {
 ["r"] = 1,
 ["g"] = 1,
@@ -5096,39 +5123,24 @@ LoseControlDB = {
 ["useSpellInsteadSchoolMiniIcon"] = false,
 ["interruptBackgroundAlpha"] = 0.7,
 },
-["nameplate32"] = {
+["raid17"] = {
 ["enabled"] = false,
-["point"] = "LEFT",
-["size"] = 42,
 ["frameLevel"] = 0,
-["interruptMiniIconsAlpha"] = 0.8,
+["size"] = 20,
 ["alpha"] = 1,
-["swipeAlpha"] = 0.8,
-["y"] = 0,
+["interruptMiniIconsAlpha"] = 0.8,
+["y"] = 1,
 ["x"] = 0,
-["relativePoint"] = "RIGHT",
+["swipeAlpha"] = 0.8,
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
-["enemy"] = true,
 },
 ["debuff"] = {
 ["friendly"] = {
-["Other"] = false,
+["Other"] = true,
 ["CC"] = true,
-["Snare"] = false,
-["Disarm"] = true,
-["ImmuneSpell"] = true,
-["PvE"] = true,
-["Immune"] = true,
-["ImmunePhysical"] = true,
-["Silence"] = true,
-["Root"] = true,
-},
-["enemy"] = {
-["Other"] = false,
-["CC"] = true,
-["Snare"] = false,
+["Snare"] = true,
 ["Disarm"] = true,
 ["ImmuneSpell"] = true,
 ["PvE"] = true,
@@ -5142,19 +5154,7 @@ LoseControlDB = {
 ["friendly"] = {
 ["Other"] = false,
 ["CC"] = true,
-["Snare"] = false,
-["Disarm"] = true,
-["ImmuneSpell"] = true,
-["PvE"] = true,
-["Immune"] = true,
-["ImmunePhysical"] = true,
-["Silence"] = true,
-["Root"] = true,
-},
-["enemy"] = {
-["Other"] = false,
-["CC"] = true,
-["Snare"] = false,
+["Snare"] = true,
 ["Disarm"] = true,
 ["ImmuneSpell"] = true,
 ["PvE"] = true,
@@ -5165,7 +5165,7 @@ LoseControlDB = {
 },
 },
 },
-["anchor"] = "BlizzardNameplates",
+["anchor"] = "BlizzardRaidFrames",
 ["interruptBackgroundVertexColor"] = {
 ["r"] = 1,
 ["g"] = 1,

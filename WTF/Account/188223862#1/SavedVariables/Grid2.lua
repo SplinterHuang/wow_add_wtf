@@ -1,21 +1,34 @@
 
 Grid2DB = {
 ["namespaces"] = {
-["Grid2Layout"] = {
+["Grid2Frame"] = {
 ["profiles"] = {
 ["达奥里斯 - 匕首岭"] = {
-["PosY"] = -235.3863316325296,
-["PosX"] = 1216.708709536622,
+["frameHeight"] = 43,
+["frameWidth"] = 42,
 },
 },
 },
-["Grid2AoeHeals"] = {
+["Grid2Layout"] = {
+["profiles"] = {
+["艾德赛 - 匕首岭"] = {
+["PosY"] = -161.0059106023,
+["PosX"] = 1137.448845074308,
+},
+["达奥里斯 - 匕首岭"] = {
+["horizontal"] = false,
+["PosY"] = -305.3475631437832,
+["PosX"] = 1001.160073512197,
+},
+},
+},
+["LibDualSpec-1.0"] = {
+},
+["Grid2Options"] = {
 },
 ["Grid2RaidDebuffs"] = {
 },
-["Grid2Frame"] = {
-},
-["LibDualSpec-1.0"] = {
+["Grid2AoeHeals"] = {
 },
 },
 ["profileKeys"] = {
@@ -25,82 +38,6 @@ Grid2DB = {
 },
 ["profiles"] = {
 ["艾德赛 - 匕首岭"] = {
-["statuses"] = {
-["debuff-Forbearance"] = {
-["type"] = "debuff",
-["color1"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 0,
-["r"] = 1,
-},
-["spellName"] = 25771,
-},
-["buff-BlessingOfWisdom(greater)"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 0.7,
-},
-["spellName"] = 25918,
-},
-["buff-BlessingOfMight"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 0.7,
-},
-["spellName"] = 25291,
-},
-["buff-BlessingOfKings"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 0.7,
-},
-["spellName"] = 20217,
-},
-["buff-BlessingOfKings(greater)"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 0.7,
-},
-["spellName"] = 25898,
-},
-["buff-BlessingOfWisdom"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 0.7,
-},
-["spellName"] = 25290,
-},
-["buff-BlessingOfMight(greater)"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 0.7,
-},
-["spellName"] = 25916,
-},
-},
-["versions"] = {
-["Grid2"] = 14,
-["Grid2RaidDebuffs"] = 4,
-},
 ["indicators"] = {
 ["corner-top-left"] = {
 ["location"] = {
@@ -316,12 +253,8 @@ Grid2DB = {
 ["health"] = {
 ["health-current"] = 99,
 },
-["text-up-color"] = {
-["charmed"] = 65,
-["feign-death"] = 96,
-["health-deficit"] = 50,
-["offline"] = 93,
-["death"] = 95,
+["text-down-color"] = {
+["classcolor"] = 99,
 },
 ["text-up"] = {
 ["charmed"] = 65,
@@ -330,8 +263,12 @@ Grid2DB = {
 ["offline"] = 93,
 ["death"] = 95,
 },
-["text-down-color"] = {
-["classcolor"] = 99,
+["text-up-color"] = {
+["charmed"] = 65,
+["feign-death"] = 96,
+["health-deficit"] = 50,
+["offline"] = 93,
+["death"] = 95,
 },
 ["border"] = {
 ["debuff-Disease"] = 90,
@@ -346,6 +283,82 @@ Grid2DB = {
 ["raid-debuffs"] = 145,
 ["death"] = 155,
 },
+},
+["statuses"] = {
+["debuff-Forbearance"] = {
+["type"] = "debuff",
+["color1"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 0,
+["r"] = 1,
+},
+["spellName"] = 25771,
+},
+["buff-BlessingOfMight"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 0.7,
+},
+["spellName"] = 25291,
+},
+["buff-BlessingOfKings"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 0.7,
+},
+["spellName"] = 20217,
+},
+["buff-BlessingOfKings(greater)"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 0.7,
+},
+["spellName"] = 25898,
+},
+["buff-BlessingOfWisdom"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 0.7,
+},
+["spellName"] = 25290,
+},
+["buff-BlessingOfWisdom(greater)"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 0.7,
+},
+["spellName"] = 25918,
+},
+["buff-BlessingOfMight(greater)"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 0.7,
+},
+["spellName"] = 25916,
+},
+},
+["versions"] = {
+["Grid2"] = 14,
+["Grid2RaidDebuffs"] = 4,
 },
 },
 ["小脚萝莉 - 匕首岭"] = {
@@ -709,6 +722,9 @@ Grid2DB = {
 ["fontSize"] = 8,
 ["size"] = 14,
 },
+["蓝-color"] = {
+["type"] = "bar-color",
+},
 ["health-color"] = {
 ["type"] = "bar-color",
 },
@@ -735,8 +751,17 @@ Grid2DB = {
 ["alpha"] = {
 ["type"] = "alpha",
 },
-["text-down-color"] = {
-["type"] = "text-color",
+["蓝"] = {
+["type"] = "bar",
+["location"] = {
+["y"] = 0,
+["relPoint"] = "LEFT",
+["point"] = "LEFT",
+["x"] = 0,
+},
+["level"] = 3,
+["orientation"] = "VERTICAL",
+["width"] = 4,
 },
 ["heals"] = {
 ["type"] = "bar",
@@ -756,6 +781,17 @@ Grid2DB = {
 ["level"] = 1,
 ["opacity"] = 0.25,
 ["texture"] = "Gradient",
+},
+["corner-top-right"] = {
+["location"] = {
+["y"] = 0,
+["relPoint"] = "TOPRIGHT",
+["point"] = "TOPRIGHT",
+["x"] = 0,
+},
+["type"] = "square",
+["level"] = 9,
+["size"] = 5,
 },
 ["health"] = {
 ["type"] = "bar",
@@ -806,16 +842,8 @@ Grid2DB = {
 ["text-up-color"] = {
 ["type"] = "text-color",
 },
-["corner-top-right"] = {
-["location"] = {
-["y"] = 0,
-["relPoint"] = "TOPRIGHT",
-["point"] = "TOPRIGHT",
-["x"] = 0,
-},
-["type"] = "square",
-["level"] = 9,
-["size"] = 5,
+["text-down-color"] = {
+["type"] = "text-color",
 },
 ["side-bottom"] = {
 ["location"] = {
@@ -829,9 +857,66 @@ Grid2DB = {
 ["size"] = 5,
 },
 },
+["statuses"] = {
+["buff-AncestralFortitude"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 0.2,
+["g"] = 0.8,
+["r"] = 0.8,
+},
+["spellName"] = 16237,
+},
+["buff-激流-mine"] = {
+["spellName"] = "激流",
+["type"] = "buff",
+["mine"] = 1,
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["buff-AncestralFortitude-mine"] = {
+["color1"] = {
+["a"] = 1,
+["b"] = 0.4,
+["g"] = 0.9,
+["r"] = 0.9,
+},
+["type"] = "buff",
+["mine"] = true,
+["spellName"] = 16237,
+},
+["buff-大地之盾-mine"] = {
+["spellName"] = 974,
+["type"] = "buff",
+["mine"] = 1,
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+},
+},
+["versions"] = {
+["Grid2"] = 14,
+["Grid2RaidDebuffs"] = 4,
+},
 ["statusMap"] = {
+["corner-top-left"] = {
+["threat"] = 50,
+},
 ["health-color"] = {
 ["classcolor"] = 99,
+},
+["icon-center"] = {
+["ready-check"] = 150,
+["raid-debuffs"] = 145,
+["death"] = 155,
 },
 ["text-down"] = {
 ["name"] = 99,
@@ -840,25 +925,33 @@ Grid2DB = {
 ["classcolor"] = 99,
 },
 ["icon-left"] = {
-["raid-icon-player"] = 155,
+["buff-激流-mine"] = 156,
 },
 ["alpha"] = {
 ["offline"] = 97,
 ["range"] = 99,
 ["death"] = 98,
 },
-["corner-top-right"] = {
-["buff-AncestralFortitude-mine"] = 99,
-["buff-AncestralFortitude"] = 89,
-},
 ["heals"] = {
 ["heals-incoming"] = 99,
 },
-["health"] = {
-["health-current"] = 99,
-},
 ["text-down-color"] = {
 ["classcolor"] = 99,
+},
+["corner-top-right"] = {
+["buff-AncestralFortitude-mine"] = 50,
+["buff-AncestralFortitude"] = 51,
+},
+["health"] = {
+["health-current"] = 50,
+},
+["border"] = {
+["debuff-Disease"] = 60,
+["health-low"] = 55,
+["debuff-Poison"] = 70,
+["debuff-Curse"] = 90,
+["debuff-Magic"] = 80,
+["target"] = 50,
 },
 ["text-up"] = {
 ["charmed"] = 65,
@@ -874,46 +967,20 @@ Grid2DB = {
 ["offline"] = 93,
 ["death"] = 95,
 },
-["border"] = {
-["debuff-Disease"] = 60,
-["health-low"] = 55,
-["debuff-Poison"] = 70,
-["debuff-Curse"] = 90,
-["debuff-Magic"] = 80,
-["target"] = 50,
+["icon-right"] = {
+["buff-大地之盾-mine"] = 50,
 },
-["icon-center"] = {
-["ready-check"] = 150,
-["raid-debuffs"] = 145,
-["death"] = 155,
+["蓝"] = {
+["mana"] = 50,
+["poweralt"] = 52,
+["power"] = 51,
 },
 },
-["statuses"] = {
-["buff-AncestralFortitude"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 0.2,
-["g"] = 0.8,
-["r"] = 0.8,
-},
-["spellName"] = 16237,
-},
-["buff-AncestralFortitude-mine"] = {
-["color1"] = {
-["a"] = 1,
-["b"] = 0.4,
-["g"] = 0.9,
-["r"] = 0.9,
-},
-["type"] = "buff",
-["mine"] = true,
-["spellName"] = 16237,
+["themes"] = {
+["indicators"] = {
+[0] = {
 },
 },
-["versions"] = {
-["Grid2"] = 14,
-["Grid2RaidDebuffs"] = 4,
 },
 },
 },

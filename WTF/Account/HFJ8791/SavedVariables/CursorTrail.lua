@@ -1,7 +1,7 @@
 
 CursorTrail_Config = {
-	["NewFeaturesSeen"] = {
-	},
-	["Profiles"] = {
-	},
+["NewFeaturesSeen"] = {
+},
+["Profiles"] = {
+},
 }

@@ -15,7 +15,7 @@ BigFoot_Character = {
 ["Name"] = "Hayisu",
 ["Faction"] = 0,
 ["Class"] = "战士",
-["Level"] = 73,
+["Level"] = 74,
 ["VCode"] = "582294795380762967241222043561807157478",
 ["Realm"] = "匕首岭",
 }

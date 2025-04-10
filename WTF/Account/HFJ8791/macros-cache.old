@@ -21,7 +21,7 @@ VER 3 000000000000000A "Decursive" "INV_MISC_QUESTIONMARK"
 /script DecursiveRootTable.Dcr:Println('没有相关技能')
 END
 VER 3 000000000000000F "follow" "134400"
-/follow 达奥里斯
+/follow 艾德赛
 END
 VER 3 0000000000000008 "test" "INV_MISC_QUESTIONMARK"
 /script text={"男","女"};SendChatMessage(text[math.random(2])

@@ -618,8 +618,33 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "戍边黑骑",
 ["when"] = "04-07 22:27:06",
-["where"] = "十字军的试炼",
 ["result"] = "complete",
+["where"] = "十字军的试炼",
+},
+{
+["targetMoney"] = 0,
+["playerMoney"] = 0,
+["id"] = 28,
+["playerItems"] = {
+{
+["texture"] = 236210,
+["itemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+["name"] = "魔法酪饼",
+["numItems"] = 20,
+},
+},
+["targetItems"] = {
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "达奥里斯",
+["when"] = "04-10 00:15:01",
+["result"] = "complete",
+["where"] = "安其拉废墟",
 },
 }
 TRADE_LOG_BUTTON_POS = 190

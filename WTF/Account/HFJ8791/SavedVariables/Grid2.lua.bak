@@ -13,10 +13,10 @@ Grid2DB = {
 ["unitsPerColumn"] = 5,
 },
 ["meta"] = {
-["arena"] = true,
-["raid"] = true,
-["solo"] = true,
 ["party"] = true,
+["arena"] = true,
+["solo"] = true,
+["raid"] = true,
 },
 },
 },
@@ -38,8 +38,8 @@ Grid2DB = {
 ["PosX"] = 333.7952499389648,
 },
 ["艾伊苏霜蓝 - 匕首岭"] = {
-["PosY"] = -519.2503695751875,
-["PosX"] = 1056.87479889606,
+["PosY"] = -492.7286415112249,
+["Spacing"] = 6,
 ["horizontal"] = false,
 ["Positions"] = {
 ["By Group10004"] = {
@@ -68,7 +68,7 @@ Grid2DB = {
 -259.9473080044845,
 },
 },
-["Spacing"] = 6,
+["PosX"] = 1055.181879003016,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["PosX"] = 1034.309417724609,
@@ -1372,17 +1372,6 @@ Grid2DB = {
 ["Grid2RaidDebuffs"] = 4,
 },
 ["statuses"] = {
-["buff-Regrowth-mine"] = {
-["color1"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 1,
-["r"] = 0.5,
-},
-["type"] = "buff",
-["mine"] = true,
-["spellName"] = 8936,
-},
 ["name"] = {
 ["defaultName"] = 1,
 },
@@ -1396,6 +1385,17 @@ Grid2DB = {
 ["type"] = "buff",
 ["mine"] = true,
 ["spellName"] = 774,
+},
+["buff-Regrowth-mine"] = {
+["color1"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 1,
+["r"] = 0.5,
+},
+["type"] = "buff",
+["mine"] = true,
+["spellName"] = 8936,
 },
 ["manaalt"] = {
 ["displayType"] = 1,
