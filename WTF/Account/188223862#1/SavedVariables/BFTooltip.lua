@@ -6,8 +6,8 @@ BFTT_Config = {
 ["Talent"] = 1,
 ["TOT"] = 1,
 ["Fade"] = 1,
-["PositionY"] = -25,
-["PositionX"] = -20,
-["Anchor"] = 1,
+["PositionY"] = 122,
+["PositionX"] = -122,
+["Anchor"] = 11,
 ["TooltipType"] = 1,
 }

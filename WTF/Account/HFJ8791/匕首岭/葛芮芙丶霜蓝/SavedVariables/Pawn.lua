@@ -24,9 +24,9 @@ nil,
 ["Link"] = "|cff00ccff|Hitem:48689::::::::61:::::::::|h[褪色的迅影外套]|h|r",
 },
 {
-["ID"] = 38668,
-["Level"] = 70,
-["Link"] = "|cff0070dd|Hitem:38668::::::::61:::::::::|h[药剂师的束带]|h|r",
+["ID"] = 25597,
+["Level"] = 90,
+["Link"] = "|cff1eff00|Hitem:25597::::::::64:::::::::|h[守备官的束带]|h|r",
 },
 {
 ["ID"] = 38669,
@@ -34,9 +34,9 @@ nil,
 ["Link"] = "|cff0070dd|Hitem:38669::::::::61:::::::::|h[雕饰萨隆邪铁腿铠]|h|r",
 },
 {
-["ID"] = 38670,
-["Level"] = 70,
-["Link"] = "|cff0070dd|Hitem:38670::::::::61:::::::::|h[杀戮胫甲]|h|r",
+["ID"] = 31125,
+["Level"] = 85,
+["Link"] = "|cff0070dd|Hitem:31125::::::::66:::::::::|h[杀戮战靴]|h|r",
 },
 {
 ["ID"] = 38666,
@@ -83,8 +83,8 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:25987::::::::62:::::::::|h[地狱野猪雕饰利刃]|h|r",
 },
 },
-["LastPlayerFullName"] = "葛芮芙丶霜蓝-匕首岭",
 ["AutoSelectScales"] = false,
+["LastPlayerFullName"] = "葛芮芙丶霜蓝-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

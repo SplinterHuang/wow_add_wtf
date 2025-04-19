@@ -8,9 +8,19 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
+["fastooc"] = false,
 ["spec2_profileKey"] = "艾德赛 - 匕首岭",
+["specswap"] = false,
+},
+["小脚萝莉 - 匕首岭"] = {
+["spec1_profileKey"] = "小脚萝莉 - 匕首岭",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
 ["fastooc"] = false,
 ["specswap"] = false,
+["spec2_profileKey"] = "小脚萝莉 - 匕首岭",
 },
 ["达奥里斯 - 匕首岭"] = {
 ["spec1_profileKey"] = "达奥里斯 - 匕首岭",
@@ -18,8 +28,8 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
-["fastooc"] = false,
 ["spec2_profileKey"] = "达奥里斯 - 匕首岭",
+["fastooc"] = false,
 ["specswap"] = false,
 },
 },
@@ -78,16 +88,6 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["spell"] = "治疗波",
-["key"] = "BUTTON3",
-["type"] = "spell",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136052,
-["spellSubName"] = "等级 14",
-},
-{
 ["spell"] = "激流",
 ["key"] = "BUTTON2",
 ["type"] = "spell",
@@ -98,6 +98,23 @@ CliqueDB3 = {
 ["spellSubName"] = "等级 4",
 },
 {
+["spell"] = "治疗波",
+["key"] = "BUTTON3",
+["type"] = "spell",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136052,
+["spellSubName"] = "等级 14",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
 ["spell"] = "次级治疗波",
 ["key"] = "MOUSEWHEELUP",
 ["type"] = "spell",
@@ -106,13 +123,6 @@ CliqueDB3 = {
 },
 ["icon"] = 136043,
 ["spellSubName"] = "等级 9",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
 },
 {
 ["spell"] = "治疗链",

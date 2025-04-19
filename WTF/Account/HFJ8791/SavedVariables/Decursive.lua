@@ -1,7 +1,7 @@
 
 DecursiveDB = {
 ["global"] = {
-["LastVersionAnnounce"] = 1744231660,
+["LastVersionAnnounce"] = 1745075367,
 ["NewerVersionName"] = "2.7.19",
 ["delayedDebuffOccurences"] = 45,
 ["delayedUnDebuffOccurences"] = 59,
@@ -108,10 +108,10 @@ nil,
 },
 ["profiles"] = {
 ["Default"] = {
-["DebuffsFrameContainer_y"] = 545.202392578125,
+["DebuffsFrameContainer_y"] = 679.6163635253906,
 ["MainBarX"] = 713.8281097412109,
 ["MainBarY"] = -96.0000114440918,
-["DebuffsFrameContainer_x"] = 1016.741638183594,
+["DebuffsFrameContainer_x"] = 203.0075454711914,
 },
 },
 }

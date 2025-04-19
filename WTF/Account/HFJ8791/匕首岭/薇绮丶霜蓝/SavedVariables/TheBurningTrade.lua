@@ -622,8 +622,8 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "鲜血骑士",
 ["when"] = "04-07 00:04:20",
-["where"] = "十字军的试炼",
 ["result"] = "complete",
+["where"] = "十字军的试炼",
 },
 {
 ["targetMoney"] = 0,
@@ -641,8 +641,8 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "无双孤勇者丶",
 ["when"] = "04-07 00:04:36",
-["where"] = "十字军的试炼",
 ["result"] = "complete",
+["where"] = "十字军的试炼",
 },
 {
 ["targetMoney"] = 0,
@@ -660,8 +660,8 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "纵火少女",
 ["when"] = "04-07 00:04:51",
-["where"] = "十字军的试炼",
 ["result"] = "complete",
+["where"] = "十字军的试炼",
 },
 {
 ["targetMoney"] = 0,
@@ -679,8 +679,8 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "玫瑰绽放",
 ["when"] = "04-07 00:05:06",
-["where"] = "十字军的试炼",
 ["result"] = "complete",
+["where"] = "十字军的试炼",
 },
 {
 ["targetMoney"] = 0,
@@ -698,6 +698,61 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "我菜天天在",
 ["when"] = "04-07 00:05:18",
+["result"] = "complete",
+["where"] = "十字军的试炼",
+},
+{
+["targetMoney"] = 29160000,
+["playerMoney"] = 0,
+["id"] = 30,
+["playerItems"] = {
+},
+["reason"] = "other",
+["targetItems"] = {
+},
+["player"] = "薇绮丶霜蓝",
+["where"] = "十字军的试炼",
+["who"] = "恒恒很羞涩",
+["when"] = "04-12 13:00:26",
+["result"] = "cancelled",
+["toofar"] = "no",
+},
+{
+["targetMoney"] = 29160000,
+["playerMoney"] = 0,
+["id"] = 31,
+["playerItems"] = {
+},
+["targetItems"] = {
+},
+["player"] = "薇绮丶霜蓝",
+["events"] = {
+"TRADE_CLOSED",
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "恒恒很羞涩",
+["when"] = "04-12 13:00:57",
+["result"] = "complete",
+["where"] = "十字军的试炼",
+},
+{
+["targetMoney"] = 18000000,
+["playerMoney"] = 0,
+["id"] = 32,
+["playerItems"] = {
+},
+["targetItems"] = {
+},
+["player"] = "薇绮丶霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "恶魔爪牙",
+["when"] = "04-19 18:04:24",
 ["where"] = "十字军的试炼",
 ["result"] = "complete",
 },

@@ -28,14 +28,6 @@ BFCooldownDB = {
 ["b"] = 0.1,
 },
 ["spellCache"] = {
-["圣洁护盾"] = {
-28,
-"spell",
-},
-["炉石"] = {
-6948,
-"item",
-},
 },
 ["isChangeFont"] = true,
 ["secs"] = {

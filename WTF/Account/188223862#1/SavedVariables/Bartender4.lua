@@ -50,6 +50,10 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 ["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 7,
+},
 },
 {
 ["rows"] = 4,
@@ -60,6 +64,10 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 ["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 8,
+},
 },
 {
 },
@@ -473,12 +481,12 @@ Bartender4DB = {
 ["MultiCast"] = {
 ["profiles"] = {
 ["bf_infobox"] = {
-["version"] = 3,
 ["position"] = {
 ["y"] = 2.782791137695313,
 ["x"] = 136.4999847412109,
 ["point"] = "LEFT",
 },
+["version"] = 3,
 },
 ["达奥里斯 - 匕首岭"] = {
 ["version"] = 3,

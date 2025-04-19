@@ -8,8 +8,8 @@ BatteInfoSettings = {
 ["stat_window"] = true,
 ["replace_enter_battle"] = true,
 ["replace_hide_battle"] = true,
-["map_unit_color"] = true,
 ["flash_icon"] = true,
+["map_unit_color"] = true,
 ["show_spirit_heal"] = true,
 ["show_number"] = true,
 }

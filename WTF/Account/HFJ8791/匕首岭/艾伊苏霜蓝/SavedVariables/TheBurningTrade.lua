@@ -646,6 +646,106 @@ TradeLog_TradesHistory = {
 ["result"] = "complete",
 ["where"] = "安其拉废墟",
 },
+{
+["targetMoney"] = 0,
+["playerMoney"] = 3000000,
+["id"] = 29,
+["playerItems"] = {
+},
+["targetItems"] = {
+{
+["name"] = "银色盟约披风",
+["numItems"] = 1,
+["isUsable"] = true,
+["itemLink"] = "|cffa335ee|Hitem:48673::::::::80:::::::::|h[银色盟约披风]|h|r",
+["texture"] = 133768,
+},
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "飞霄",
+["when"] = "04-10 21:19:11",
+["result"] = "complete",
+["where"] = "十字军的试炼",
+},
+{
+["targetMoney"] = 0,
+["playerMoney"] = 0,
+["id"] = 30,
+["playerItems"] = {
+{
+["texture"] = 134264,
+["itemLink"] = "|cffffffff|Hitem:33568::::::::80:::::::::|h[北地皮]|h|r",
+["name"] = "北地皮",
+["numItems"] = 20,
+},
+{
+["texture"] = 134264,
+["itemLink"] = "|cffffffff|Hitem:33568::::::::80:::::::::|h[北地皮]|h|r",
+["name"] = "北地皮",
+["numItems"] = 20,
+},
+{
+["texture"] = 134264,
+["itemLink"] = "|cffffffff|Hitem:33568::::::::80:::::::::|h[北地皮]|h|r",
+["name"] = "北地皮",
+["numItems"] = 20,
+},
+{
+["texture"] = 237380,
+["itemLink"] = "|cffffffff|Hitem:38425::::::::80:::::::::|h[厚北地皮]|h|r",
+["name"] = "厚北地皮",
+["numItems"] = 20,
+},
+{
+["texture"] = 237380,
+["itemLink"] = "|cffffffff|Hitem:38425::::::::80:::::::::|h[厚北地皮]|h|r",
+["name"] = "厚北地皮",
+["numItems"] = 20,
+},
+{
+["texture"] = 237380,
+["itemLink"] = "|cffffffff|Hitem:38425::::::::80:::::::::|h[厚北地皮]|h|r",
+["name"] = "厚北地皮",
+["numItems"] = 20,
+},
+},
+["targetItems"] = {
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "达奥里斯",
+["when"] = "04-11 00:21:26",
+["result"] = "complete",
+["where"] = "达拉然",
+},
+{
+["targetMoney"] = 51520000,
+["playerMoney"] = 0,
+["id"] = 31,
+["playerItems"] = {
+},
+["targetItems"] = {
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "呆萌艾",
+["when"] = "04-15 00:14:13",
+["result"] = "complete",
+["where"] = "十字军的试炼",
+},
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

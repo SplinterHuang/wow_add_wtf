@@ -36,7 +36,9 @@ DataStore_CharacterGUIDs = {
 "Player-4520-030C52BB",
 }
 DataStore_CharacterGuilds = {
-[2] = 1,
+nil,
+1,
+3,
 }
 DataStore_AltGroups = {
 }

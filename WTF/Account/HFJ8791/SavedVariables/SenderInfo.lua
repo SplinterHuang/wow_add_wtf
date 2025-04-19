@@ -10,6 +10,6 @@ SenderInfoOptions = {
 },
 }
 SenderInfoHelperPos = {
-["y"] = -100,
-["x"] = 250,
+["y"] = -44.69943237304688,
+["x"] = 9.612030029296875,
 }

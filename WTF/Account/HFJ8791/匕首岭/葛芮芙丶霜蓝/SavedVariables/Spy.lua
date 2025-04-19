@@ -1,10 +1,5 @@
 
 SpyPerCharDB = {
-["version"] = "1.1",
-["IgnoreData"] = {
-},
-["KOSData"] = {
-},
 ["PlayerData"] = {
 ["奥数射击"] = {
 ["mapID"] = 1944,
@@ -12,14 +7,14 @@ SpyPerCharDB = {
 ["mapY"] = 0.74,
 ["class"] = "HUNTER",
 ["isEnemy"] = true,
-["subZone"] = "飞艇坠毁点",
+["name"] = "奥数射击",
 ["race"] = "巨魔",
-["isGuess"] = false,
+["subZone"] = "飞艇坠毁点",
 ["faction"] = "Horde",
 ["mapX"] = 0.49,
 ["level"] = 60,
 ["time"] = 1742297591,
-["name"] = "奥数射击",
+["isGuess"] = false,
 },
 ["炽天使猎手"] = {
 ["mapID"] = 1944,
@@ -28,14 +23,14 @@ SpyPerCharDB = {
 ["mapY"] = 0.45,
 ["class"] = "HUNTER",
 ["isEnemy"] = true,
-["subZone"] = "",
+["isGuess"] = false,
 ["race"] = "血精灵",
-["name"] = "炽天使猎手",
+["subZone"] = "",
 ["faction"] = "Horde",
 ["mapX"] = 0.52,
 ["level"] = 58,
 ["time"] = 1742290294,
-["isGuess"] = false,
+["name"] = "炽天使猎手",
 },
 ["贪狼鬼"] = {
 ["mapID"] = 1946,
@@ -44,14 +39,19 @@ SpyPerCharDB = {
 ["mapY"] = 0.64,
 ["class"] = "WARRIOR",
 ["isEnemy"] = true,
-["subZone"] = "塞纳里奥庇护所",
+["isGuess"] = false,
 ["race"] = "牛头人",
-["name"] = "贪狼鬼",
+["subZone"] = "塞纳里奥庇护所",
 ["faction"] = "Horde",
 ["time"] = 1743085928,
 ["level"] = 64,
 ["mapX"] = 0.79,
-["isGuess"] = false,
+["name"] = "贪狼鬼",
 },
+},
+["IgnoreData"] = {
+},
+["version"] = "1.1",
+["KOSData"] = {
 },
 }

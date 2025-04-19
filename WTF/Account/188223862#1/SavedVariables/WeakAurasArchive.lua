@@ -6,12 +6,12 @@ WeakAurasArchive = {
 },
 ["Repository"] = {
 ["migration"] = {
-["timestamp"] = 1744273996,
+["timestamp"] = 1744891570,
 ["version"] = 1,
 ["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
 },
 ["history"] = {
-["timestamp"] = 1744273996,
+["timestamp"] = 1744891570,
 ["version"] = 1,
 ["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
 },

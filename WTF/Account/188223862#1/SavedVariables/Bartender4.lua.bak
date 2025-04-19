@@ -266,6 +266,10 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 ["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 7,
+},
 },
 {
 ["rows"] = 4,
@@ -276,6 +280,10 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 ["padding"] = 6,
+["states"] = {
+["enabled"] = true,
+["ctrl"] = 8,
+},
 },
 {
 },

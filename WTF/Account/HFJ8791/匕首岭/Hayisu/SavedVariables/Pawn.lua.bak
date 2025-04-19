@@ -1,6 +1,8 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
+["LastPlayerFullName"] = "Hayisu-匕首岭",
+["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 37480,
@@ -29,14 +31,14 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:37394::::::::70:::::::::|h[沼泽行者腰带]|h|r",
 },
 {
-["ID"] = 37482,
-["Level"] = 138,
-["Link"] = "|cff1eff00|Hitem:37482::::::::70:::::::::|h[巨石腿铠]|h|r",
+["ID"] = 41763,
+["Level"] = 158,
+["Link"] = "|cff1eff00|Hitem:41763::::::::74:::::::::|h[谨慎首领护腿]|h|r",
 },
 {
-["ID"] = 42762,
-["Level"] = 155,
-["Link"] = "|cff0070dd|Hitem:42762::::::::73:::::::::|h[破碎未来之靴]|h|r",
+["ID"] = 39801,
+["Level"] = 158,
+["Link"] = "|cff1eff00|Hitem:39801::::::::74:::::::::|h[营救者的战靴]|h|r",
 },
 {
 ["ID"] = 37486,
@@ -93,8 +95,6 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:35829::::::::71:::::::::|h[冷刺长弓]|h|r",
 },
 },
-["AutoSelectScales"] = false,
-["LastPlayerFullName"] = "Hayisu-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

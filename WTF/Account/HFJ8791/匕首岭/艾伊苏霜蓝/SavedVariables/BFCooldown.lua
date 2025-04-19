@@ -16,7 +16,7 @@ BFCooldownDB = {
 ["alpha"] = 0.8,
 ["min"] = 2.99,
 ["config"] = true,
-["style"] = -1,
+["style"] = 1,
 ["shine"] = true,
 ["font"] = "Fonts\\ARKai_T.ttf",
 ["size"] = 35,
@@ -28,17 +28,9 @@ BFCooldownDB = {
 ["r"] = 1,
 },
 ["spellCache"] = {
-["钓鱼"] = {
-17,
-"spell",
-},
-["急速射击"] = {
-23,
-"spell",
-},
-["制皮"] = {
-1,
-"spell",
+["炉石"] = {
+6948,
+"item",
 },
 },
 ["isChangeFont"] = true,

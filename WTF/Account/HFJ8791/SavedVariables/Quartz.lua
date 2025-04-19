@@ -37,24 +37,22 @@ Quartz3DB = {
 ["x"] = -246.3334655761719,
 ["point"] = "CENTER",
 },
+["Default"] = {
+["y"] = -133.9521484375,
+["point"] = "CENTER",
+["x"] = -246.3334655761719,
+},
 ["WARLOCK"] = {
 ["x"] = 851.8663940429688,
 },
-["Default"] = {
-["y"] = -133.9521484375,
-["x"] = -246.3334655761719,
-["point"] = "CENTER",
-},
 ["LR"] = {
 ["y"] = -149.8875274658203,
-["point"] = "CENTER",
 ["x"] = -215.2596130371094,
+["point"] = "CENTER",
 },
 },
 },
 ["Range"] = {
-},
-["EnemyCasts"] = {
 },
 ["Player"] = {
 ["profiles"] = {
@@ -63,22 +61,24 @@ Quartz3DB = {
 ["x"] = -218.1394348144531,
 ["point"] = "BOTTOM",
 },
+["Default"] = {
+["y"] = 208.3381042480469,
+["point"] = "BOTTOM",
+["x"] = -218.1394348144531,
+},
 ["WARLOCK"] = {
 ["x"] = 826.8663940429688,
 },
-["Default"] = {
-["y"] = 208.3381042480469,
-["x"] = -218.1394348144531,
-["point"] = "BOTTOM",
-},
 ["LR"] = {
-["h"] = 15,
-["w"] = 205,
 ["y"] = -153.8199157714844,
-["x"] = 4.1572265625,
+["h"] = 15,
 ["point"] = "CENTER",
+["w"] = 205,
+["x"] = 4.1572265625,
 },
 },
+},
+["EnemyCasts"] = {
 },
 ["GCD"] = {
 ["profiles"] = {
@@ -100,13 +100,13 @@ Quartz3DB = {
 ["x"] = 230.9177856445313,
 ["point"] = "CENTER",
 },
-["WARLOCK"] = {
-["x"] = 851.8663940429688,
-},
 ["Default"] = {
 ["y"] = 166.2199096679688,
 ["x"] = 230.9177856445313,
 ["point"] = "CENTER",
+},
+["WARLOCK"] = {
+["x"] = 851.8663940429688,
 },
 ["LR"] = {
 ["y"] = 102.4788513183594,
@@ -126,37 +126,37 @@ Quartz3DB = {
 ["w"] = 1500,
 ["fontsize"] = 18,
 },
+["Default"] = {
+["timetextx"] = 35,
+["h"] = 16,
+["w"] = 1500,
+["y"] = 211.3434000779271,
+["font"] = "聊天",
+["point"] = "LEFT",
+["scale"] = 1.35,
+["fontsize"] = 17,
+["nametextposition"] = "centerback",
+["alpha"] = 0.7000000000000001,
+["timetextposition"] = "center",
+["x"] = 5.081695427444799,
+["timetexty"] = 12,
+},
 ["WARLOCK"] = {
 ["x"] = 851.8663940429688,
 },
-["Default"] = {
-["timetextx"] = 35,
-["point"] = "LEFT",
-["timetextposition"] = "center",
-["scale"] = 1.35,
-["w"] = 1500,
-["y"] = 211.3434000779271,
-["h"] = 16,
-["fontsize"] = 17,
-["timetexty"] = 12,
-["font"] = "聊天",
-["alpha"] = 0.7000000000000001,
-["x"] = 5.081695427444799,
-["nametextposition"] = "centerback",
-},
 ["LR"] = {
-["h"] = 16,
+["point"] = "LEFT",
+["timetextposition"] = "center",
+["scale"] = 1.35,
 ["w"] = 1500,
 ["y"] = 211.3434000779271,
-["font"] = "聊天",
-["point"] = "LEFT",
-["scale"] = 1.35,
+["h"] = 16,
 ["fontsize"] = 17,
-["nametextposition"] = "centerback",
-["alpha"] = 0.7000000000000001,
-["timetextposition"] = "center",
-["x"] = 5.081695427444799,
 ["timetexty"] = 1,
+["font"] = "聊天",
+["alpha"] = 0.7000000000000001,
+["x"] = 5.081695427444799,
+["nametextposition"] = "centerback",
 },
 },
 },
@@ -178,12 +178,12 @@ Quartz3DB = {
 ["profiles"] = {
 ["HUNTER"] = {
 },
-["WARLOCK"] = {
-},
 ["Default"] = {
 ["modules"] = {
 ["Buff"] = false,
 },
+},
+["WARLOCK"] = {
 },
 ["LR"] = {
 ["modules"] = {

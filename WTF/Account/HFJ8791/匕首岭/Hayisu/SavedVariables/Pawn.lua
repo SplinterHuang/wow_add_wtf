@@ -1,8 +1,6 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
-["LastPlayerFullName"] = "Hayisu-匕首岭",
-["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 37480,
@@ -95,6 +93,8 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:35829::::::::71:::::::::|h[冷刺长弓]|h|r",
 },
 },
+["AutoSelectScales"] = false,
+["LastPlayerFullName"] = "Hayisu-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

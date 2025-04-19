@@ -154,9 +154,9 @@ SpellActivationOverlayDB = {
 },
 [408505] = {
 [403] = false,
-[421] = false,
-[8004] = false,
 [1064] = false,
+[8004] = false,
+[421] = false,
 [331] = false,
 [408490] = false,
 },
@@ -166,9 +166,9 @@ SpellActivationOverlayDB = {
 },
 [53817] = {
 [403] = false,
-[421] = false,
-[8004] = false,
 [1064] = false,
+[8004] = false,
+[421] = false,
 [331] = false,
 [51514] = false,
 },
@@ -219,8 +219,8 @@ SpellActivationOverlayDB = {
 [48107] = {
 [0] = true,
 },
-[400670] = {
-[0] = true,
+[5276] = {
+[0] = false,
 },
 [12536] = {
 [0] = false,
@@ -228,8 +228,8 @@ SpellActivationOverlayDB = {
 [54741] = {
 [0] = true,
 },
-[5276] = {
-[0] = false,
+[400670] = {
+[0] = true,
 },
 },
 ["glow"] = {
@@ -325,8 +325,8 @@ SpellActivationOverlayDB = {
 },
 [413247] = {
 [596] = true,
-[2054] = true,
 [2060] = true,
+[2054] = true,
 [2050] = true,
 },
 [88688] = {
@@ -462,10 +462,10 @@ SpellActivationOverlayDB = {
 },
 },
 ["glow"] = {
-[2912] = {
+[46833] = {
 [2912] = true,
 },
-[46833] = {
+[2912] = {
 [2912] = true,
 },
 [93400] = {
@@ -477,18 +477,18 @@ SpellActivationOverlayDB = {
 [64823] = {
 [2912] = true,
 },
+[414800] = {
+[5185] = true,
+},
 [69369] = {
 [339] = false,
 [50464] = false,
 [20484] = false,
-[8936] = false,
 [5176] = false,
+[8936] = false,
 [5185] = true,
 [33786] = true,
 [2637] = false,
-},
-[414800] = {
-[5185] = true,
 },
 },
 },
@@ -533,14 +533,14 @@ SpellActivationOverlayDB = {
 [20473] = {
 [20473] = false,
 },
-[24275] = {
-[24275] = true,
-},
 [54149] = {
 [635] = true,
 [82327] = true,
 [19750] = true,
 [82326] = true,
+},
+[24275] = {
+[24275] = true,
 },
 },
 },
@@ -550,8 +550,8 @@ SpellActivationOverlayDB = {
 },
 ["alert"] = {
 ["offset"] = 0,
-["scale"] = 1,
 ["timer"] = 1,
+["scale"] = 1,
 ["opacity"] = 1,
 ["sound"] = 0,
 ["enabled"] = true,

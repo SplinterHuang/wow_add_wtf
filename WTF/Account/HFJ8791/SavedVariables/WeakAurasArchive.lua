@@ -16,12 +16,12 @@ WeakAurasArchive = {
 },
 ["Repository"] = {
 ["migration"] = {
-["timestamp"] = 1744232341,
+["timestamp"] = 1745076045,
 ["version"] = 1,
 ["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
 },
 ["history"] = {
-["timestamp"] = 1744232341,
+["timestamp"] = 1745076045,
 ["version"] = 1,
 ["data"] = "DTCSklmmqaa4hgHac5G7UKM0KD1U4GU4wG0KlshkQTfe8P)NFhD(JV062JfznQyD6ZTLxd333i35OYKWdhpjxFpeUuIkRonvJJnolnxbyhIGZKjGjja(CWGKTwXXsABAww3YZpJ7iVL)hcMVDJ1AAyNh89ToOpGJG4BmWmBzPwY1k9Bpe6CSxRi9Fd",
 },

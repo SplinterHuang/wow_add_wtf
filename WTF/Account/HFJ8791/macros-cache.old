@@ -18,7 +18,8 @@ VER 3 000000000000000C "B跟" "132311"
 /petfollow
 END
 VER 3 000000000000000A "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('没有相关技能')
+/stopcasting
+/cast [@mouseover,nomod,exists] 恐惧;  [@mouseover,exists,mod:ctrl] 恐惧; [@mouseover,exists,mod:shift] 恐惧
 END
 VER 3 000000000000000F "follow" "134400"
 /follow 艾德赛
@@ -40,8 +41,10 @@ VER 3 0000000000000004 "登出" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000005 "目标" "INV_MISC_QUESTIONMARK"
 /tar 虚空传送门
+/tar 地狱火山
 /tar 祖达克老鼠
 /tar 鲁伯斯
+/tar 迦瓦尔
 /tar  末日看守队长
 /tar  末日看守领主
 /TAR 卡塔鲁

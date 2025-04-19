@@ -47,11 +47,6 @@ VER 3 0000000001000007 "2" "134400"
 /tar 混血藓皮豺狼人;藓皮豺狼人
 /施放 灼烧(等级 1)
 END
-VER 3 0000000001000010 "·" "INV_Misc_QuestionMark"
-#showtooltip 解除次级诅咒
-/stopcasting
-/cast [@mouseover]解除次级诅咒;解除次级诅咒
-END
 VER 3 000000000100000C "·" "INV_Misc_QuestionMark"
 #showtooltip 寒冰箭
 /cast [modifier:alt] 寒冰箭(等级 1); 寒冰箭
@@ -62,4 +57,9 @@ VER 3 0000000001000011 "·" "INV_Misc_QuestionMark"
 /cancelAura 寒冰屏障
 /dismount
 /cast 闪现术
+END
+VER 3 0000000001000010 "·" "INV_Misc_QuestionMark"
+#showtooltip 解除次级诅咒
+/stopcasting
+/cast [@mouseover]解除次级诅咒;解除次级诅咒
 END

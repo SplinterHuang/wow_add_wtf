@@ -28,8 +28,8 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
-["specswap"] = false,
 ["fastooc"] = false,
+["specswap"] = false,
 ["spec2_profileKey"] = "艾伊苏霜蓝 - 匕首岭",
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
@@ -38,9 +38,9 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
+["specswap"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
-["specswap"] = false,
 },
 ["Hayisu - 匕首岭"] = {
 ["spec1_profileKey"] = "Hayisu - 匕首岭",
@@ -49,8 +49,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Hayisu - 匕首岭",
 ["specswap"] = false,
+["spec2_profileKey"] = "Hayisu - 匕首岭",
 },
 },
 ["profileKeys"] = {

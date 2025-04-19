@@ -25,6 +25,8 @@ SpyDB = {
 },
 ["profiles"] = {
 ["艾德赛 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
 ["Colors"] = {
 ["Bar"] = {
 ["Bar Text"] = {
@@ -32,8 +34,6 @@ SpyDB = {
 },
 },
 },
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
 ["AppendUnitKoSCheck"] = true,
 },
 ["小脚萝莉 - 匕首岭"] = {
@@ -49,8 +49,6 @@ SpyDB = {
 ["AppendUnitKoSCheck"] = true,
 },
 ["达奥里斯 - 匕首岭"] = {
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
 ["Colors"] = {
 ["Bar"] = {
 ["Bar Text"] = {
@@ -58,6 +56,8 @@ SpyDB = {
 },
 },
 },
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
 ["AppendUnitKoSCheck"] = true,
 },
 },

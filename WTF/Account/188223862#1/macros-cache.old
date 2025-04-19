@@ -133,7 +133,7 @@ VER 3 0000000000000047 "A冰球" "132387"
 END
 VER 3 0000000000000010 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
 END
 VER 3 0000000000000024 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
@@ -190,6 +190,16 @@ VER 3 0000000000000012 "PPPP" "132089"
 /团队 　　　█　
 /团队 　　　█
 END
+VER 3 000000000000007E "PPPP" "132089"
+/团队 　 　　█████◣
+/团队 　　　█我还年轻 █
+/团队 　　　█甘拜下风█
+/团队 　　　█████◤　
+/团队 　　　█　
+/团队 　　　█
+#showtooltip
+/cast [@cursor] 自然之力
+END
 VER 3 0000000000000013 "TSMMacro" "133938"
 /click TSMSniperBtn
 /click TSMAuctioningBtn
@@ -200,23 +210,9 @@ END
 VER 3 0000000000000027 "VuhDoDCShieldNames" "132281"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]麦丁妍[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
-VER 3 000000000000002C "·" "INV_Misc_QuestionMark"
-#showtooltip 冰霜新星(等级 1)
-/stopcasting
-/cancelAura 寒冰屏障
-/dismount
-/cast 冰霜新星(等级 1)
-END
 VER 3 0000000000000030 "·" "INV_Misc_QuestionMark"
 #showtooltip 寒冰护体
 /cast [modifier:shift] 法力护盾;寒冰护体
-END
-VER 3 000000000000002B "·" "INV_Misc_QuestionMark"
-#showtooltip 冰霜新星
-/stopcasting
-/cancelAura 寒冰屏障
-/dismount
-/cast 冰霜新星
 END
 VER 3 000000000000002F "·" "INV_Misc_QuestionMark"
 #showtooltip 法术反制
@@ -233,19 +229,28 @@ VER 3 0000000000000031 "·" "INV_Misc_QuestionMark"
 /stopcasting
 /cast [@mouseover,harm,nodead]法术偷取;法术偷取
 END
-VER 3 000000000000002E "·" "INV_Misc_QuestionMark"
-#showtooltip 变形术
+VER 3 000000000000002B "·" "INV_Misc_QuestionMark"
+#showtooltip 冰霜新星
 /stopcasting
-/cast [@mouseover,harm,nodead]变形术;变形术
+/cancelAura 寒冰屏障
+/dismount
+/cast 冰霜新星
+END
+VER 3 000000000000002C "·" "INV_Misc_QuestionMark"
+#showtooltip 冰霜新星(等级 1)
+/stopcasting
+/cancelAura 寒冰屏障
+/dismount
+/cast 冰霜新星(等级 1)
 END
 VER 3 000000000000002D "·" "INV_Misc_QuestionMark"
 #showtooltip 火焰冲击
 /cast [modifier:alt] 火焰冲击(等级 1); 火焰冲击
 END
-VER 3 000000000000007C "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cancelaura 神圣牺牲
-/cast 神圣牺牲
+VER 3 000000000000002E "·" "INV_Misc_QuestionMark"
+#showtooltip 变形术
+/stopcasting
+/cast [@mouseover,harm,nodead]变形术;变形术
 END
 VER 3 000000000000007A "宏" "INV_Misc_QuestionMark"
 #showtooltip 
@@ -343,9 +348,10 @@ VER 3 000000000000005B "宏" "INV_Misc_QuestionMark"
 /cast [mod:alt]神恩术 
 /cast [@mouseover,help][@player] 圣洁护盾
 END
-VER 3 000000000000005C "宏" "INV_Misc_QuestionMark"
+VER 3 000000000000007C "宏" "INV_Misc_QuestionMark"
 #showtooltip 
-/cast [mod,@player] [@mouseover,help,nodead]圣光闪现;[@mouseover,harm,nodead][harm] 正义盾击;[]圣光闪现
+/cancelaura 神圣牺牲
+/cast 神圣牺牲
 END
 VER 3 000000000000005D "宏" "INV_Misc_QuestionMark"
 #showtooltip
@@ -467,6 +473,32 @@ VER 3 0000000000000078 "宏" "INV_Misc_QuestionMark"
 #showtooltip 
 /cast [@mouseover,help][@player] 圣疗术
 END
+VER 3 0000000000000082 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=20 腐蚀术,献祭
+END
+VER 3 0000000000000081 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt]破甲;刺骨
+/startattack
+END
+VER 3 0000000000000080 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod:alt,target=mouseover,player]强效治疗术
+/cast [target=mouseover,player] 真言术：盾
+END
+VER 3 000000000000007F "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] 自然之力
+END
+VER 3 000000000000005C "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod,@player] [@mouseover,help,nodead]圣光闪现;[@mouseover,harm,nodead][harm] 正义盾击;[]圣光闪现
+END
+VER 3 0000000000000083 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [target=focus,harm,exists]心灵冰冻;[target=mouseover,harm,exists]心灵冰冻;心灵冰冻
+END
 VER 3 0000000000000029 "最大视角" "134400"
 /console cameraDistanceMaxZoomFactor 4
 END
@@ -481,10 +513,10 @@ VER 3 0000000000000075 "目标" "134400"
 /tar 古德
 /tar 逐日
 END
+VER 3 000000000000002A "距离" "132092"
+END
 VER 3 0000000000000015 "距离" "132092"
 /run SetCVar("nameplateMaxDistance", "41")
-END
-VER 3 000000000000002A "距离" "132092"
 END
 VER 3 0000000000000007 "重置" "132097"
 /run ResetInstances();DoReadyCheck(); 

@@ -30,9 +30,9 @@ H: 192
 Frame: CastingBarFrame
 FrameLevel: 1
 Anchor: LEFT
-X: 354
+X: 366
 Y: -141
-W: 220
+W: 195
 H: 13
 Frame: PartyMemberFrame1
 FrameLevel: 1

@@ -1,7 +1,7 @@
 
 Grid2DB = {
 ["namespaces"] = {
-["LibDualSpec-1.0"] = {
+["Grid2AoeHeals"] = {
 },
 ["Grid2Layout"] = {
 ["global"] = {
@@ -23,8 +23,8 @@ Grid2DB = {
 },
 ["profiles"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = {
-["PosY"] = -478.2981198577345,
-["PosX"] = 1064.61181487899,
+["PosY"] = -380.1367539898929,
+["PosX"] = 1148.214291415854,
 ["layouts"] = {
 ["solo"] = "By Group w/Pets",
 },
@@ -34,12 +34,13 @@ Grid2DB = {
 },
 ["葛芮芙丶霜蓝 - 匕首岭"] = {
 ["Spacing"] = 3,
+["horizontal"] = false,
 ["PosY"] = -200.0000152587891,
 ["PosX"] = 333.7952499389648,
 },
 ["艾伊苏霜蓝 - 匕首岭"] = {
-["PosY"] = -492.7286415112249,
-["Spacing"] = 6,
+["PosY"] = -499.9790289609937,
+["PosX"] = 1061.316876457131,
 ["horizontal"] = false,
 ["Positions"] = {
 ["By Group10004"] = {
@@ -68,26 +69,24 @@ Grid2DB = {
 -259.9473080044845,
 },
 },
-["PosX"] = 1055.181879003016,
+["Spacing"] = 6,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["PosX"] = 1034.309417724609,
-["horizontal"] = false,
 ["PosY"] = -287.5581665039063,
+["horizontal"] = false,
 ["Spacing"] = 3,
 },
 ["Hayisu - 匕首岭"] = {
-["PosX"] = 1000.403803764006,
-["PosY"] = -286.0380932733315,
 ["horizontal"] = false,
+["PosY"] = -286.0380932733315,
+["PosX"] = 1000.403803764006,
 },
 },
 },
-["Grid2AoeHeals"] = {
+["LibDualSpec-1.0"] = {
 },
 ["Grid2Options"] = {
-},
-["Grid2RaidDebuffs"] = {
 },
 ["Grid2Frame"] = {
 ["profiles"] = {
@@ -101,24 +100,26 @@ Grid2DB = {
 ["g"] = 0.9843137860298157,
 ["r"] = 0.9843137860298157,
 },
-["iconSize"] = 5,
+["frameBorder"] = 1,
 ["mouseoverTexture"] = "Blizzard Parchment 2",
 ["frameWidth"] = 42,
-["frameBorder"] = 1,
-},
-["葛芮芙丶霜蓝 - 匕首岭"] = {
-["frameHeight"] = 39,
-["frameWidth"] = 39,
+["iconSize"] = 5,
 },
 ["艾伊苏霜蓝 - 匕首岭"] = {
 ["frameHeight"] = 35,
 ["frameWidth"] = 37,
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["frameHeight"] = 39,
+["frameWidth"] = 39,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["frameHeight"] = 41,
 ["frameWidth"] = 37,
 },
 },
+},
+["Grid2RaidDebuffs"] = {
 },
 },
 ["profileKeys"] = {
@@ -205,29 +206,6 @@ Grid2DB = {
 ["fontSize"] = 8,
 ["size"] = 14,
 },
-["corner-top-right"] = {
-["type"] = "square",
-["location"] = {
-["y"] = 1,
-["relPoint"] = "TOPRIGHT",
-["point"] = "TOPRIGHT",
-["x"] = 0,
-},
-["level"] = 9,
-["size"] = 3,
-["color1"] = {
-["a"] = 1,
-["b"] = 0.6,
-["g"] = 0,
-["r"] = 1,
-},
-},
-["health-color"] = {
-["type"] = "bar-color",
-},
-["法力值-color"] = {
-["type"] = "bar-color",
-},
 ["icon-right"] = {
 ["type"] = "icon",
 ["location"] = {
@@ -245,6 +223,45 @@ Grid2DB = {
 ["level"] = 8,
 ["fontSize"] = 8,
 ["size"] = 12,
+},
+["heals"] = {
+["type"] = "bar",
+["texture"] = "Gradient",
+["anchorTo"] = "health",
+["location"] = {
+["y"] = 0,
+["relPoint"] = "CENTER",
+["point"] = "CENTER",
+["x"] = 0,
+},
+["level"] = 1,
+["opacity"] = 0.25,
+["color1"] = {
+["a"] = 0,
+["r"] = 0,
+["g"] = 0,
+["b"] = 0,
+},
+},
+["法力值-color"] = {
+["type"] = "bar-color",
+},
+["corner-top-right"] = {
+["type"] = "square",
+["location"] = {
+["y"] = 1,
+["relPoint"] = "TOPRIGHT",
+["point"] = "TOPRIGHT",
+["x"] = 0,
+},
+["level"] = 9,
+["size"] = 3,
+["color1"] = {
+["a"] = 1,
+["b"] = 0.6,
+["g"] = 0,
+["r"] = 1,
+},
 },
 ["heals-color"] = {
 ["type"] = "bar-color",
@@ -343,24 +360,8 @@ Grid2DB = {
 ["text-up-color"] = {
 ["type"] = "text-color",
 },
-["heals"] = {
-["type"] = "bar",
-["texture"] = "Gradient",
-["anchorTo"] = "health",
-["location"] = {
-["y"] = 0,
-["relPoint"] = "CENTER",
-["point"] = "CENTER",
-["x"] = 0,
-},
-["level"] = 1,
-["opacity"] = 0.25,
-["color1"] = {
-["a"] = 0,
-["r"] = 0,
-["g"] = 0,
-["b"] = 0,
-},
+["health-color"] = {
+["type"] = "bar-color",
 },
 ["side-bottom"] = {
 ["location"] = {
@@ -490,8 +491,10 @@ Grid2DB = {
 ["右上图标"] = {
 ["buff-Rejuvenation-mine"] = 50,
 },
-["法力值-color"] = {
+["法力值"] = {
 ["mana"] = 50,
+["poweralt"] = 52,
+["power"] = 51,
 },
 ["health"] = {
 ["health-current"] = 99,
@@ -513,10 +516,8 @@ Grid2DB = {
 ["offline"] = 93,
 ["death"] = 95,
 },
-["法力值"] = {
+["法力值-color"] = {
 ["mana"] = 50,
-["poweralt"] = 52,
-["power"] = 51,
 },
 ["side-bottom"] = {
 },
@@ -754,8 +755,12 @@ Grid2DB = {
 ["health"] = {
 ["health-current"] = 99,
 },
-["text-down-color"] = {
-["classcolor"] = 99,
+["text-up-color"] = {
+["charmed"] = 65,
+["feign-death"] = 96,
+["health-deficit"] = 50,
+["offline"] = 93,
+["death"] = 95,
 },
 ["text-up"] = {
 ["charmed"] = 65,
@@ -764,12 +769,8 @@ Grid2DB = {
 ["offline"] = 93,
 ["death"] = 95,
 },
-["text-up-color"] = {
-["charmed"] = 65,
-["feign-death"] = 96,
-["health-deficit"] = 50,
-["offline"] = 93,
-["death"] = 95,
+["text-down-color"] = {
+["classcolor"] = 99,
 },
 ["border"] = {
 ["target"] = 50,
@@ -1151,8 +1152,19 @@ Grid2DB = {
 ["manaa-color"] = {
 ["type"] = "bar-color",
 },
-["heals-color"] = {
-["type"] = "bar-color",
+["manaa"] = {
+["type"] = "bar",
+["orientation"] = "HORIZONTAL",
+["opacity"] = 1,
+["height"] = 7,
+["level"] = 3,
+["location"] = {
+["y"] = 0,
+["relPoint"] = "BOTTOM",
+["point"] = "BOTTOM",
+["x"] = 0,
+},
+["width"] = 37,
 },
 ["icon-right"] = {
 ["fontSize"] = 8,
@@ -1166,19 +1178,8 @@ Grid2DB = {
 ["type"] = "icon",
 ["size"] = 12,
 },
-["manaa"] = {
-["type"] = "bar",
-["location"] = {
-["y"] = 0,
-["relPoint"] = "BOTTOM",
-["point"] = "BOTTOM",
-["x"] = 0,
-},
-["level"] = 3,
-["height"] = 7,
-["opacity"] = 1,
-["orientation"] = "HORIZONTAL",
-["width"] = 37,
+["heals-color"] = {
+["type"] = "bar-color",
 },
 ["tooltip"] = {
 ["type"] = "tooltip",
@@ -1375,17 +1376,6 @@ Grid2DB = {
 ["name"] = {
 ["defaultName"] = 1,
 },
-["buff-Rejuvenation-mine"] = {
-["color1"] = {
-["a"] = 1,
-["b"] = 0.6,
-["g"] = 0,
-["r"] = 1,
-},
-["type"] = "buff",
-["mine"] = true,
-["spellName"] = 774,
-},
 ["buff-Regrowth-mine"] = {
 ["color1"] = {
 ["a"] = 1,
@@ -1396,6 +1386,17 @@ Grid2DB = {
 ["type"] = "buff",
 ["mine"] = true,
 ["spellName"] = 8936,
+},
+["buff-Rejuvenation-mine"] = {
+["color1"] = {
+["a"] = 1,
+["b"] = 0.6,
+["g"] = 0,
+["r"] = 1,
+},
+["type"] = "buff",
+["mine"] = true,
+["spellName"] = 774,
 },
 ["manaalt"] = {
 ["displayType"] = 1,
@@ -2007,17 +2008,6 @@ Grid2DB = {
 ["Grid2RaidDebuffs"] = 4,
 },
 ["statuses"] = {
-["buff-LastStand"] = {
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 0.1,
-["r"] = 0.1,
-},
-["type"] = "buff",
-["mine"] = true,
-["spellName"] = 12975,
-},
 ["buff-BattleShout"] = {
 ["color1"] = {
 ["a"] = 1,
@@ -2039,6 +2029,17 @@ Grid2DB = {
 ["type"] = "buff",
 ["mine"] = true,
 ["spellName"] = 871,
+},
+["buff-LastStand"] = {
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 0.1,
+["r"] = 0.1,
+},
+["type"] = "buff",
+["mine"] = true,
+["spellName"] = 12975,
 },
 },
 ["themes"] = {

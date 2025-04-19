@@ -42,9 +42,9 @@ BFCooldownDB = {
 ["text"] = true,
 ["alpha"] = 0.65,
 ["width"] = 67,
-["font"] = "Fonts\\ARKai_T.ttf",
 ["config"] = false,
-["style"] = 1,
+["font"] = "Fonts\\ARKai_T.ttf",
+["time"] = 1.2,
 ["position"] = {
 ["y"] = 78,
 ["p"] = "CENTER",
@@ -53,7 +53,7 @@ BFCooldownDB = {
 },
 ["g"] = 1,
 ["mode"] = true,
-["time"] = 1.2,
+["style"] = 1,
 ["size"] = 30,
 },
 ["mins"] = {

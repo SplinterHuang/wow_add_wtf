@@ -2,15 +2,25 @@
 CliqueDB = nil
 CliqueDB3 = {
 ["char"] = {
+["小脚萝莉 - 匕首岭"] = {
+["spec1_profileKey"] = "小脚萝莉 - 匕首岭",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["spec2_profileKey"] = "小脚萝莉 - 匕首岭",
+["fastooc"] = false,
+["specswap"] = false,
+},
 ["艾德赛 - 匕首岭"] = {
 ["spec1_profileKey"] = "艾德赛 - 匕首岭",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
-["spec2_profileKey"] = "艾德赛 - 匕首岭",
 ["fastooc"] = false,
 ["specswap"] = false,
+["spec2_profileKey"] = "艾德赛 - 匕首岭",
 },
 ["达奥里斯 - 匕首岭"] = {
 ["spec1_profileKey"] = "达奥里斯 - 匕首岭",
@@ -19,8 +29,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "达奥里斯 - 匕首岭",
+["specswap"] = false,
 },
 },
 ["profileKeys"] = {

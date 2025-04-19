@@ -1,36 +1,7 @@
 
 Grid2DB = {
 ["namespaces"] = {
-["Grid2Frame"] = {
-["profiles"] = {
-["薇绮丶霜蓝 - 匕首岭"] = {
-["frameBorder"] = 1,
-["fontSize"] = 6,
-["frameHeight"] = 41,
-["iconSize"] = 5,
-["mouseoverHighlight"] = true,
-["mouseoverTexture"] = "Blizzard Parchment 2",
-["frameWidth"] = 42,
-["frameContentColor"] = {
-["a"] = 0.6492031216621399,
-["r"] = 0.9843137860298157,
-["g"] = 0.9843137860298157,
-["b"] = 0.9843137860298157,
-},
-},
-["艾伊苏霜蓝 - 匕首岭"] = {
-["frameHeight"] = 35,
-["frameWidth"] = 37,
-},
-["葛芮芙丶霜蓝 - 匕首岭"] = {
-["frameHeight"] = 39,
-["frameWidth"] = 39,
-},
-["苏莉娅丶霜蓝 - 匕首岭"] = {
-["frameHeight"] = 41,
-["frameWidth"] = 37,
-},
-},
+["Grid2RaidDebuffs"] = {
 },
 ["Grid2Layout"] = {
 ["global"] = {
@@ -52,8 +23,8 @@ Grid2DB = {
 },
 ["profiles"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = {
-["PosY"] = -478.2981198577345,
-["PosX"] = 1064.61181487899,
+["PosY"] = -380.1367539898929,
+["PosX"] = 1148.214291415854,
 ["layouts"] = {
 ["solo"] = "By Group w/Pets",
 },
@@ -63,11 +34,14 @@ Grid2DB = {
 },
 ["葛芮芙丶霜蓝 - 匕首岭"] = {
 ["PosX"] = 333.7952499389648,
+["horizontal"] = false,
 ["PosY"] = -200.0000152587891,
 ["Spacing"] = 3,
 },
 ["艾伊苏霜蓝 - 匕首岭"] = {
-["PosX"] = 1055.181879003016,
+["PosY"] = -499.9790289609937,
+["PosX"] = 1061.316876457131,
+["horizontal"] = false,
 ["Positions"] = {
 ["By Group10004"] = {
 "TOPLEFT",
@@ -95,15 +69,13 @@ Grid2DB = {
 -259.9473080044845,
 },
 },
-["PosY"] = -492.7286415112249,
-["horizontal"] = false,
 ["Spacing"] = 6,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["Spacing"] = 3,
+["PosY"] = -423.6453094482422,
 ["horizontal"] = false,
-["PosY"] = -287.5581665039063,
-["PosX"] = 1034.309417724609,
+["PosX"] = 1234.535980224609,
 },
 ["Hayisu - 匕首岭"] = {
 ["horizontal"] = false,
@@ -112,13 +84,42 @@ Grid2DB = {
 },
 },
 },
-["LibDualSpec-1.0"] = {
+["Grid2AoeHeals"] = {
 },
 ["Grid2Options"] = {
 },
-["Grid2RaidDebuffs"] = {
+["Grid2Frame"] = {
+["profiles"] = {
+["薇绮丶霜蓝 - 匕首岭"] = {
+["iconSize"] = 5,
+["fontSize"] = 6,
+["frameHeight"] = 41,
+["frameBorder"] = 1,
+["mouseoverHighlight"] = true,
+["mouseoverTexture"] = "Blizzard Parchment 2",
+["frameWidth"] = 42,
+["frameContentColor"] = {
+["a"] = 0.6492031216621399,
+["r"] = 0.9843137860298157,
+["g"] = 0.9843137860298157,
+["b"] = 0.9843137860298157,
 },
-["Grid2AoeHeals"] = {
+},
+["艾伊苏霜蓝 - 匕首岭"] = {
+["frameHeight"] = 35,
+["frameWidth"] = 37,
+},
+["葛芮芙丶霜蓝 - 匕首岭"] = {
+["frameHeight"] = 39,
+["frameWidth"] = 39,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["frameHeight"] = 41,
+["frameWidth"] = 37,
+},
+},
+},
+["LibDualSpec-1.0"] = {
 },
 },
 ["profileKeys"] = {
@@ -205,6 +206,9 @@ Grid2DB = {
 ["fontSize"] = 8,
 ["size"] = 14,
 },
+["health-color"] = {
+["type"] = "bar-color",
+},
 ["heals"] = {
 ["type"] = "bar",
 ["color1"] = {
@@ -224,9 +228,6 @@ Grid2DB = {
 ["opacity"] = 0.25,
 ["texture"] = "Gradient",
 },
-["health-color"] = {
-["type"] = "bar-color",
-},
 ["法力值"] = {
 ["type"] = "bar",
 ["location"] = {
@@ -240,22 +241,23 @@ Grid2DB = {
 ["opacity"] = 0.7000000000000001,
 ["width"] = 6,
 },
-["corner-top-right"] = {
-["type"] = "square",
-["location"] = {
-["y"] = 1,
-["relPoint"] = "TOPRIGHT",
-["point"] = "TOPRIGHT",
-["x"] = 0,
-},
-["level"] = 9,
-["color1"] = {
+["icon-right"] = {
+["type"] = "icon",
+["stackColor"] = {
 ["a"] = 1,
 ["r"] = 1,
-["g"] = 0,
-["b"] = 0.6,
+["g"] = 1,
+["b"] = 1,
 },
-["size"] = 3,
+["location"] = {
+["y"] = 0,
+["relPoint"] = "RIGHT",
+["point"] = "RIGHT",
+["x"] = 0,
+},
+["level"] = 8,
+["fontSize"] = 8,
+["size"] = 12,
 },
 ["heals-color"] = {
 ["type"] = "bar-color",
@@ -344,23 +346,22 @@ Grid2DB = {
 ["text-up-color"] = {
 ["type"] = "text-color",
 },
-["icon-right"] = {
-["type"] = "icon",
-["stackColor"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
+["corner-top-right"] = {
+["type"] = "square",
 ["location"] = {
-["y"] = 0,
-["relPoint"] = "RIGHT",
-["point"] = "RIGHT",
+["y"] = 1,
+["relPoint"] = "TOPRIGHT",
+["point"] = "TOPRIGHT",
 ["x"] = 0,
 },
-["level"] = 8,
-["fontSize"] = 8,
-["size"] = 12,
+["level"] = 9,
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 0,
+["b"] = 0.6,
+},
+["size"] = 3,
 },
 ["side-bottom"] = {
 ["location"] = {
@@ -484,16 +485,16 @@ Grid2DB = {
 ["range"] = 99,
 ["death"] = 98,
 },
-["法力值"] = {
+["法力值-color"] = {
 ["mana"] = 50,
-["poweralt"] = 52,
-["power"] = 51,
 },
 ["右上图标"] = {
 ["buff-Rejuvenation-mine"] = 50,
 },
-["法力值-color"] = {
+["法力值"] = {
 ["mana"] = 50,
+["poweralt"] = 52,
+["power"] = 51,
 },
 ["health"] = {
 ["health-current"] = 99,
@@ -564,15 +565,15 @@ Grid2DB = {
 ["offline"] = 93,
 ["death"] = 95,
 },
-["text-down-color"] = {
-["classcolor"] = 99,
-},
 ["text-up-color"] = {
 ["charmed"] = 65,
 ["feign-death"] = 96,
 ["health-deficit"] = 50,
 ["offline"] = 93,
 ["death"] = 95,
+},
+["text-down-color"] = {
+["classcolor"] = 99,
 },
 ["icon-center"] = {
 ["ready-check"] = 150,
@@ -1166,8 +1167,19 @@ Grid2DB = {
 ["type"] = "icon",
 ["size"] = 12,
 },
-["heals-color"] = {
-["type"] = "bar-color",
+["manaa"] = {
+["type"] = "bar",
+["height"] = 7,
+["location"] = {
+["y"] = 0,
+["relPoint"] = "BOTTOM",
+["point"] = "BOTTOM",
+["x"] = 0,
+},
+["orientation"] = "HORIZONTAL",
+["opacity"] = 1,
+["level"] = 3,
+["width"] = 37,
 },
 ["tooltip"] = {
 ["type"] = "tooltip",
@@ -1272,19 +1284,8 @@ Grid2DB = {
 ["text-up-color"] = {
 ["type"] = "text-color",
 },
-["manaa"] = {
-["type"] = "bar",
-["height"] = 7,
-["orientation"] = "HORIZONTAL",
-["location"] = {
-["y"] = 0,
-["relPoint"] = "BOTTOM",
-["point"] = "BOTTOM",
-["x"] = 0,
-},
-["level"] = 3,
-["opacity"] = 1,
-["width"] = 37,
+["heals-color"] = {
+["type"] = "bar-color",
 },
 ["side-bottom"] = {
 ["location"] = {

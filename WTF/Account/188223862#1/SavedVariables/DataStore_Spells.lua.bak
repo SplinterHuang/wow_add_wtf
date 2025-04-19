@@ -13,8 +13,8 @@ DataStore_Spells_Characters = {
 DataStore_Spells_Tabs = {
 ["MAGE"] = {
 },
-["SHAMAN"] = {
-},
 ["PALADIN"] = {
+},
+["SHAMAN"] = {
 },
 }

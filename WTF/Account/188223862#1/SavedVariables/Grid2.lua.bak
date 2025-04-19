@@ -9,6 +9,10 @@ Grid2DB = {
 ["PosY"] = -161.0059106023,
 ["PosX"] = 1137.448845074308,
 },
+["小脚萝莉 - 匕首岭"] = {
+["PosY"] = -168.2564966478421,
+["PosX"] = 1118.16788775575,
+},
 ["达奥里斯 - 匕首岭"] = {
 ["horizontal"] = false,
 ["PosY"] = -305.3475631437832,
@@ -38,48 +42,6 @@ Grid2DB = {
 },
 ["profiles"] = {
 ["小脚萝莉 - 匕首岭"] = {
-["statuses"] = {
-["buff-IceBarrier-mine"] = {
-["type"] = "buff",
-["missing"] = true,
-["spellName"] = 11426,
-["mine"] = true,
-["color1"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
-},
-["buff-FrostArmor-mine"] = {
-["type"] = "buff",
-["missing"] = true,
-["spellName"] = 168,
-["mine"] = true,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.2,
-["g"] = 0.4,
-["b"] = 0.4,
-},
-},
-["buff-IceArmor-mine"] = {
-["type"] = "buff",
-["missing"] = true,
-["spellName"] = 10220,
-["mine"] = true,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.2,
-["g"] = 0.4,
-["b"] = 0.4,
-},
-},
-},
-["versions"] = {
-["Grid2"] = 14,
-["Grid2RaidDebuffs"] = 4,
-},
 ["indicators"] = {
 ["corner-top-left"] = {
 ["location"] = {
@@ -271,6 +233,44 @@ Grid2DB = {
 ["size"] = 5,
 },
 },
+["statuses"] = {
+["buff-IceArmor-mine"] = {
+["type"] = "buff",
+["missing"] = true,
+["spellName"] = 10220,
+["mine"] = true,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.2,
+["g"] = 0.4,
+["b"] = 0.4,
+},
+},
+["buff-IceBarrier-mine"] = {
+["type"] = "buff",
+["missing"] = true,
+["spellName"] = 11426,
+["mine"] = true,
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["buff-FrostArmor-mine"] = {
+["type"] = "buff",
+["missing"] = true,
+["spellName"] = 168,
+["mine"] = true,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.2,
+["g"] = 0.4,
+["b"] = 0.4,
+},
+},
+},
 ["statusMap"] = {
 ["health-color"] = {
 ["classcolor"] = 99,
@@ -325,8 +325,88 @@ Grid2DB = {
 ["death"] = 155,
 },
 },
+["versions"] = {
+["Grid2"] = 14,
+["Grid2RaidDebuffs"] = 4,
+},
 },
 ["艾德赛 - 匕首岭"] = {
+["statuses"] = {
+["debuff-Forbearance"] = {
+["type"] = "debuff",
+["spellName"] = 25771,
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 0,
+["b"] = 0,
+},
+},
+["buff-BlessingOfWisdom(greater)"] = {
+["type"] = "buff",
+["spellName"] = 25918,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.7,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["buff-BlessingOfMight"] = {
+["type"] = "buff",
+["spellName"] = 25291,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.7,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["buff-BlessingOfKings"] = {
+["type"] = "buff",
+["spellName"] = 20217,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.7,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["buff-BlessingOfKings(greater)"] = {
+["type"] = "buff",
+["spellName"] = 25898,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.7,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["buff-BlessingOfWisdom"] = {
+["type"] = "buff",
+["spellName"] = 25290,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.7,
+["g"] = 1,
+["b"] = 1,
+},
+},
+["buff-BlessingOfMight(greater)"] = {
+["type"] = "buff",
+["spellName"] = 25916,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.7,
+["g"] = 1,
+["b"] = 1,
+},
+},
+},
+["versions"] = {
+["Grid2"] = 14,
+["Grid2RaidDebuffs"] = 4,
+},
 ["indicators"] = {
 ["corner-top-left"] = {
 ["location"] = {
@@ -573,82 +653,6 @@ Grid2DB = {
 ["death"] = 155,
 },
 },
-["statuses"] = {
-["debuff-Forbearance"] = {
-["type"] = "debuff",
-["spellName"] = 25771,
-["color1"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 0,
-["b"] = 0,
-},
-},
-["buff-BlessingOfMight"] = {
-["type"] = "buff",
-["spellName"] = 25291,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.7,
-["g"] = 1,
-["b"] = 1,
-},
-},
-["buff-BlessingOfKings"] = {
-["type"] = "buff",
-["spellName"] = 20217,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.7,
-["g"] = 1,
-["b"] = 1,
-},
-},
-["buff-BlessingOfKings(greater)"] = {
-["type"] = "buff",
-["spellName"] = 25898,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.7,
-["g"] = 1,
-["b"] = 1,
-},
-},
-["buff-BlessingOfWisdom"] = {
-["type"] = "buff",
-["spellName"] = 25290,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.7,
-["g"] = 1,
-["b"] = 1,
-},
-},
-["buff-BlessingOfWisdom(greater)"] = {
-["type"] = "buff",
-["spellName"] = 25918,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.7,
-["g"] = 1,
-["b"] = 1,
-},
-},
-["buff-BlessingOfMight(greater)"] = {
-["type"] = "buff",
-["spellName"] = 25916,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.7,
-["g"] = 1,
-["b"] = 1,
-},
-},
-},
-["versions"] = {
-["Grid2"] = 14,
-["Grid2RaidDebuffs"] = 4,
-},
 },
 ["达奥里斯 - 匕首岭"] = {
 ["indicators"] = {
@@ -868,17 +872,6 @@ Grid2DB = {
 ["b"] = 0.2,
 },
 },
-["buff-AncestralFortitude-mine"] = {
-["spellName"] = 16237,
-["type"] = "buff",
-["mine"] = true,
-["color1"] = {
-["a"] = 1,
-["r"] = 0.9,
-["g"] = 0.9,
-["b"] = 0.4,
-},
-},
 ["buff-激流-mine"] = {
 ["color1"] = {
 ["a"] = 1,
@@ -889,6 +882,17 @@ Grid2DB = {
 ["type"] = "buff",
 ["mine"] = 1,
 ["spellName"] = "激流",
+},
+["buff-AncestralFortitude-mine"] = {
+["spellName"] = 16237,
+["type"] = "buff",
+["mine"] = true,
+["color1"] = {
+["a"] = 1,
+["r"] = 0.9,
+["g"] = 0.9,
+["b"] = 0.4,
+},
 },
 ["buff-大地之盾-mine"] = {
 ["color1"] = {

@@ -306,7 +306,7 @@ EA_TarItems = {
 },
 },
 ["WARRIOR"] = {
-[772] = {
+[12323] = {
 ["enable"] = true,
 ["self"] = true,
 },
@@ -314,9 +314,9 @@ EA_TarItems = {
 ["enable"] = true,
 ["self"] = false,
 },
-[12323] = {
+[46924] = {
 ["enable"] = true,
-["self"] = true,
+["self"] = false,
 },
 [5246] = {
 ["enable"] = true,
@@ -334,9 +334,9 @@ EA_TarItems = {
 ["enable"] = true,
 ["self"] = false,
 },
-[46924] = {
+[772] = {
 ["enable"] = true,
-["self"] = false,
+["self"] = true,
 },
 },
 ["WARLOCK"] = {
@@ -438,13 +438,13 @@ EA_TarItems = {
 }
 EA_ScdItems = {
 ["HUNTER"] = {
-[55709] = {
+[19574] = {
 ["enable"] = true,
 },
 [54644] = {
 ["enable"] = true,
 },
-[19574] = {
+[54680] = {
 ["enable"] = true,
 },
 [781] = {
@@ -459,7 +459,7 @@ EA_ScdItems = {
 [16827] = {
 ["enable"] = true,
 },
-[54680] = {
+[55709] = {
 ["enable"] = true,
 },
 },

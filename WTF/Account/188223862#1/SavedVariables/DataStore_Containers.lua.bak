@@ -40,7 +40,11 @@ DataStore_Containers_Banks = {
 },
 }
 DataStore_Containers_Guilds = {
-[2] = {
+{
+["Tabs"] = {
+},
+},
+{
 ["Tabs"] = {
 },
 },

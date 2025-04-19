@@ -1,5 +1,19 @@
 
 BF_Frames_Config = {
+["BFGoldFrame"] = {
+["offX"] = -0,
+["point"] = "TOPLEFT",
+["region"] = "UIParent",
+["offY"] = -0,
+["refPoint"] = "TOPLEFT",
+},
+["BFGPSButton"] = {
+["offX"] = -0,
+["point"] = "TOPRIGHT",
+["region"] = "UIParent",
+["offY"] = -76.49998474121094,
+["refPoint"] = "TOPRIGHT",
+},
 }
 BigFoot_Character = {
 ["Region"] = "cn0",

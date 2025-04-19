@@ -1,8 +1,6 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
-["LastPlayerFullName"] = "苏莉娅丶霜蓝-匕首岭",
-["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 45497,
@@ -41,9 +39,9 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:40558::::::::80:::::::::|h[奥法践踏者]|h|r",
 },
 {
-["ID"] = 45291,
-["Level"] = 225,
-["Link"] = "|cffa335ee|Hitem:45291::::::::80:::::::::|h[内燃护腕]|h|r",
+["ID"] = 47585,
+["Level"] = 245,
+["Link"] = "|cffa335ee|Hitem:47585::::::::80:::::::::|h[巫师的珠玉护腕]|h|r",
 },
 {
 ["ID"] = 47956,
@@ -80,9 +78,9 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:47095::::::::80:::::::::|h[偏移披风]|h|r",
 },
 {
-["ID"] = 47941,
-["Level"] = 245,
-["Link"] = "|cffa335ee|Hitem:47941::::::::80:::::::::|h[银色信徒之刃]|h|r",
+["ID"] = 46980,
+["Level"] = 258,
+["Link"] = "|cffa335ee|Hitem:46980::::::::80:::::::::|h[狂乱之刃]|h|r",
 },
 {
 ["ID"] = 45314,
@@ -95,6 +93,8 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:45294::::::::80:::::::::|h[石化藤条]|h|r",
 },
 },
+["AutoSelectScales"] = false,
+["LastPlayerFullName"] = "苏莉娅丶霜蓝-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

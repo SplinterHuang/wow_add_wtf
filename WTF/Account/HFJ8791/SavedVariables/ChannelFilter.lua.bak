@@ -12,6 +12,6 @@ ChannelFilter_Config = {
 "付款",
 "代练",
 },
-["NewConfig"] = 2,
 ["BanEnabled"] = 1,
+["NewConfig"] = 2,
 }

@@ -1,0 +1,3 @@
+
+PartyAssist_Config = {
+}

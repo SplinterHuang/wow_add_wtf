@@ -7,7 +7,7 @@ ChannelFilter_Config = {
 "成就",
 "幻化",
 },
-["mute"] = false,
+["mute"] = true,
 ["IgnoreWords"] = {
 "付款",
 "代练",

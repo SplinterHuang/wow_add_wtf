@@ -1,0 +1,5587 @@
+
+RecountPerCharDB = {
+["version"] = "1.3",
+["combatants"] = {
+["小脚萝莉"] = {
+["GUID"] = "Player-4520-035A60EF",
+["LastEventHealth"] = {
+7440,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7498,
+7498,
+7498,
+7201,
+7201,
+7353,
+7573,
+7269,
+7269,
+7269,
+7269,
+6655,
+6655,
+7573,
+7573,
+7573,
+7573,
+5849,
+5849,
+5250,
+5250,
+5250,
+5250,
+5078,
+5078,
+5424,
+7372,
+7372,
+7372,
+7383,
+7383,
+7383,
+7383,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+},
+["LastAttackedBy"] = "卫兵米切尔斯",
+["LastEventType"] = {
+"DAMAGE",
+"HEAL",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"HEAL",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"HEAL",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+},
+["TimeWindows"] = {
+["TimeHeal"] = {
+36.01,
+},
+["Healing"] = {
+285,
+},
+["DamageTaken"] = {
+15864,
+},
+["Interrupts"] = {
+2,
+},
+["Absorbs"] = {
+5448,
+},
+["HealingTaken"] = {
+5733,
+},
+["Overhealing"] = {
+171,
+},
+["ActiveTime"] = {
+211.03,
+},
+["TimeDamage"] = {
+175.02,
+},
+["ManaGain"] = {
+9290,
+},
+["DOT_Time"] = {
+28,
+},
+["Damage"] = {
+199986,
+},
+},
+["enClass"] = "MAGE",
+["unit"] = "player",
+["LastActive"] = 335210.22,
+["LastEventHealthMax"] = {
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7383,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+7573,
+},
+["level"] = 70,
+["LastDamageAbility"] = "肉搏",
+["LastFightIn"] = 23,
+["LastHealTime"] = 334868.465,
+["type"] = "Self",
+["FightsSaved"] = 5,
+["TimeLast"] = {
+["TimeHeal"] = 334868.211,
+["Healing"] = 334868.211,
+["OVERALL"] = 335210.22,
+["DamageTaken"] = 334973.215,
+["Interrupts"] = 334382.216,
+["Absorbs"] = 334862.208,
+["HealingTaken"] = 334868.211,
+["Overhealing"] = 335195.211,
+["TimeDamage"] = 335195.211,
+["ActiveTime"] = 335195.211,
+["ManaGain"] = 335210.22,
+["DOT_Time"] = 334413.217,
+["Damage"] = 335195.211,
+},
+["LastEventIncoming"] = {
+false,
+true,
+true,
+false,
+false,
+false,
+true,
+true,
+false,
+false,
+true,
+false,
+false,
+true,
+true,
+false,
+false,
+false,
+true,
+true,
+false,
+false,
+false,
+false,
+true,
+false,
+false,
+true,
+false,
+false,
+false,
+true,
+true,
+true,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+true,
+false,
+true,
+true,
+true,
+},
+["Owner"] = false,
+["Pet"] = {
+"水元素 <小脚萝莉>",
+},
+["NextEventNum"] = 26,
+["LastDamageTime"] = 335195.256,
+["LastEvents"] = {
+"小脚萝莉 火焰冲击 “咸鱼”约翰·索普 Crit -1503 (Fire)",
+"小脚萝莉 迅捷的正义之手 小脚萝莉 Hit +152 (19 过量治疗)",
+"汤姆·海格尔 肉搏 小脚萝莉 Absorb -276 (276 被吸收) (1)",
+"小脚萝莉 冰霜新星 汤姆·海格尔 Hit -26 (Frost)",
+"小脚萝莉 冰枪术 汤姆·海格尔 Hit -1028 (Frost)",
+"小脚萝莉 寒冰箭 汤姆·海格尔 Hit -1547 (Frost)",
+"汤姆·海格尔 肉搏 小脚萝莉 Absorb -178 (1)",
+"汤姆·海格尔 肉搏 小脚萝莉 Hit -75 (178 被吸收) (Physical)",
+"小脚萝莉 寒冰箭 汤姆·海格尔 Crit -2329 (Frost)",
+"小脚萝莉 冰枪术 汤姆·海格尔 Hit -342 (Frost)",
+"汤姆·海格尔 肉搏 小脚萝莉 Hit -297 (Physical)",
+"小脚萝莉 火焰冲击 汤姆·海格尔 Hit -1106 (Fire)",
+"小脚萝莉 寒冰箭 汤姆·海格尔 Hit -1539 (Frost)",
+"小脚萝莉 迅捷的正义之手 小脚萝莉 Hit +152",
+"卫兵米切尔斯 肉搏 小脚萝莉 Hit -304 (Physical)",
+"小脚萝莉 冰霜新星 卫兵米切尔斯 Hit -25 (Frost)",
+"小脚萝莉 寒冰箭 卫兵米切尔斯 Crit -2342 (Frost)",
+"小脚萝莉 冰枪术 卫兵米切尔斯 Crit -1526 (Frost)",
+"卫兵米切尔斯 肉搏 小脚萝莉 Crit -614 (Physical)",
+"卫兵米切尔斯 肉搏 小脚萝莉 Miss (1)",
+"小脚萝莉 奥术飞弹 卫兵米切尔斯 Hit -477 (Arcane)",
+"小脚萝莉 冰霜新星 天灾食腐者 Hit -26 (Frost)",
+"小脚萝莉 冰枪术 天灾食腐者 Crit -1542 (Frost)",
+"小脚萝莉 寒冰箭 天灾食腐者 Crit -2302 (Frost)",
+"小脚萝莉 迅捷的正义之手 小脚萝莉 Hit +152 (152 过量治疗)",
+"小脚萝莉 火球术 天灾烈焰蛛 Crit -2253 (Fire)",
+"小脚萝莉 火球术 (伤害/跳) 天灾烈焰蛛 Tick -23 (Fire)",
+"天灾烈焰蛛 烧尽 小脚萝莉 Hit -599 (67 被抵抗) (Fire)",
+"小脚萝莉 火球术 (伤害/跳) 天灾烈焰蛛 Tick -23 (Fire)",
+"小脚萝莉 寒冰箭 天灾烈焰蛛 Crit -2165 (Frost)",
+"小脚萝莉 火球术 天灾烈焰蛛 Hit -1494 (Fire)",
+"天灾烈焰蛛 烧尽 小脚萝莉 Absorb -454 (Fire)",
+"天灾烈焰蛛 烧尽 小脚萝莉 Hit -172 (70 被抵抗) (454 被吸收) (Fire)",
+"地穴爬行者 墓穴甲虫 小脚萝莉 Hit -233 (Physical)",
+"小脚萝莉 寒冰箭 诅咒教徒通灵师 Hit -1466 (Frost)",
+"小脚萝莉 寒冰箭 诅咒教徒通灵师 Crit -2204 (Frost)",
+"小脚萝莉 寒冰箭 诅咒教徒通灵师 Crit -2221 (Frost)",
+"小脚萝莉 寒冰箭 诅咒教徒通灵师 Hit -1478 (Frost)",
+"小脚萝莉 寒冰箭 诅咒教徒通灵师 Hit -1454 (Frost)",
+"小脚萝莉 寒冰箭 诅咒教徒通灵师 Crit -2178 (Frost)",
+"小脚萝莉 火球术 诅咒教徒通灵师 Crit -2370 (Fire)",
+"小脚萝莉 冰霜新星 “咸鱼”约翰·索普 Crit -40 (Frost)",
+"小脚萝莉 冰枪术 “咸鱼”约翰·索普 Crit -1471 (Frost)",
+"小脚萝莉 寒冰箭 “咸鱼”约翰·索普 Crit -2284 (Frost)",
+"小脚萝莉 冰枪术 “咸鱼”约翰·索普 Crit -1456 (Frost)",
+"“咸鱼”约翰·索普 肉搏 小脚萝莉 Absorb -325 (325 被吸收) (1)",
+"小脚萝莉 冰枪术 “咸鱼”约翰·索普 Crit -1451 (Frost)",
+"“咸鱼”约翰·索普 肉搏 小脚萝莉 Dodge (1)",
+"“咸鱼”约翰·索普 肉搏 小脚萝莉 Absorb -129 (1)",
+"“咸鱼”约翰·索普 肉搏 小脚萝莉 Hit -133 (129 被吸收) (Physical)",
+},
+["Name"] = "小脚萝莉",
+["LastEventTimes"] = {
+334826.712,
+334826.712,
+334855.205,
+334855.88,
+334860.038,
+334860.038,
+334862.804,
+334862.804,
+334863.61,
+334864.834,
+334867.253,
+334868.371,
+334868.465,
+334868.465,
+334968.826,
+334968.826,
+334972.935,
+334972.935,
+334973.873,
+334976.91,
+334978.277,
+335189.53,
+335191.296,
+335195.256,
+335195.256,
+334409.506,
+334411.533,
+334412.341,
+334413.554,
+334414.249,
+334415.167,
+334415.919,
+334415.919,
+334487.256,
+334517.074,
+334519.235,
+334521.25,
+334526.404,
+334528.682,
+334530.589,
+334530.896,
+334815.748,
+334820.197,
+334820.197,
+334821.783,
+334822.446,
+334823.184,
+334824.443,
+334826.4,
+334826.4,
+},
+["Fights"] = {
+["Fight3"] = {
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Melee"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 2,
+},
+["Hit"] = {
+["count"] = 2,
+},
+},
+["amount"] = 4,
+},
+["Fire"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+["Absorb"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementTakenBlock"] = {
+},
+["DOTs"] = {
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["天灾烈焰蛛"] = {
+["count"] = 0,
+},
+["地穴爬行者"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["RunicPowerGain"] = 0,
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 826,
+["RageGainedFrom"] = {
+},
+["Absorbs"] = 454,
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementDoneAbsorb"] = {
+},
+["DOT_Time"] = 0,
+["ElementTaken"] = {
+["Physical"] = 0,
+["Melee"] = 826,
+["Fire"] = 0,
+},
+["HOTs"] = {
+},
+["Damage"] = 7917,
+["RunicPowerGainedFrom"] = {
+},
+["TimeHeal"] = 4.5,
+["ShieldedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["Dispels"] = 0,
+["HealingTaken"] = 606,
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Tick"] = {
+["count"] = 0,
+},
+["Crit"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 1,
+},
+["Hit"] = {
+["count"] = 5,
+},
+},
+["amount"] = 6,
+},
+},
+["FAttacks"] = {
+},
+["PartialBlock"] = {
+},
+["ElementDone"] = {
+["Fire"] = 1106,
+["Frost"] = 6811,
+},
+["CCBroken"] = {
+},
+["DamagedWho"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+["火焰冲击"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1370,
+},
+["寒冰箭"] = {
+["count"] = 5415,
+},
+["火焰冲击"] = {
+["count"] = 1106,
+},
+["冰霜新星"] = {
+["count"] = 26,
+},
+},
+["amount"] = 7917,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["RageGained"] = {
+},
+["WhoDamaged"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 0,
+},
+["肉搏"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 826,
+},
+},
+["amount"] = 826,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["烧尽"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["Absorbed"] = {
+["寒冰护体"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["max"] = 276,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 454,
+},
+},
+["count"] = 2,
+["amount"] = 454,
+},
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 3,
+},
+["迅捷的正义之手"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+},
+["Dispelled"] = 0,
+["RessedWho"] = {
+},
+["HealedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 454,
+},
+["迅捷的正义之手"] = {
+["count"] = 152,
+},
+},
+["amount"] = 606,
+},
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+["Melee"] = 454,
+["Fire"] = 0,
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 358,
+},
+},
+["amount"] = 358,
+},
+},
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 276,
+["min"] = 178,
+["count"] = 2,
+["amount"] = 454,
+},
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 0,
+},
+},
+["count"] = 4,
+["amount"] = 454,
+},
+},
+["ActiveTime"] = 11.81,
+["WhoDispelled"] = {
+},
+["TimeSpent"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 3,
+},
+["迅捷的正义之手"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+["火焰冲击"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 2.72,
+},
+["寒冰箭"] = {
+["count"] = 1.59,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.31,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Overhealing"] = 0,
+["InterruptData"] = {
+["天灾烈焰蛛"] = {
+["Details"] = {
+["烧尽 (法术反制)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Interrupts"] = 0,
+["Heals"] = {
+["寒冰护体"] = {
+["Details"] = {
+["Absorb"] = {
+["max"] = 276,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 454,
+},
+},
+["count"] = 2,
+["amount"] = 454,
+},
+["迅捷的正义之手"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 152,
+["min"] = 152,
+["count"] = 1,
+["amount"] = 152,
+},
+},
+["count"] = 1,
+["amount"] = 152,
+},
+},
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["50% 抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 4,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 4,
+},
+},
+["EnergyGained"] = {
+},
+["WhoHealed"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 454,
+},
+["迅捷的正义之手"] = {
+["count"] = 152,
+},
+},
+["amount"] = 606,
+},
+},
+["Healing"] = 152,
+["OverHeals"] = {
+},
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 358,
+},
+},
+["amount"] = 358,
+},
+},
+["Attacks"] = {
+["冰枪术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 1028,
+["min"] = 342,
+["count"] = 2,
+["amount"] = 1370,
+},
+},
+["count"] = 2,
+["amount"] = 1370,
+},
+["冰霜新星"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 26,
+["min"] = 26,
+["count"] = 1,
+["amount"] = 26,
+},
+},
+["count"] = 1,
+["amount"] = 26,
+},
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2329,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 2329,
+},
+["Hit"] = {
+["max"] = 1547,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 3086,
+},
+},
+["count"] = 3,
+["amount"] = 5415,
+},
+["火球术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["火焰冲击"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["Hit"] = {
+["max"] = 1106,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 1106,
+},
+},
+["count"] = 1,
+["amount"] = 1106,
+},
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 7.31,
+["TimeDamaging"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+["火焰冲击"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 2.72,
+},
+["寒冰箭"] = {
+["count"] = 1.59,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.31,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 358,
+["ElementTakenResist"] = {
+["Fire"] = 0,
+},
+["DispelledWho"] = {
+},
+},
+["Fight5"] = {
+["ElementHitsTaken"] = {
+["Melee"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Physical"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementTakenBlock"] = {
+},
+["DOTs"] = {
+},
+["RunicPowerGain"] = 0,
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 0,
+["RageGainedFrom"] = {
+},
+["Absorbs"] = 0,
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementDoneAbsorb"] = {
+},
+["DOT_Time"] = 0,
+["ElementTaken"] = {
+["Melee"] = 0,
+["Physical"] = 0,
+},
+["HOTs"] = {
+},
+["Damage"] = 7480,
+["RunicPowerGainedFrom"] = {
+},
+["TimeHeal"] = 0,
+["ShieldedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Dispels"] = 0,
+["HealingTaken"] = 0,
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 1,
+},
+["Hit"] = {
+["count"] = 2,
+},
+},
+["amount"] = 3,
+},
+},
+["FAttacks"] = {
+},
+["PartialBlock"] = {
+},
+["ElementDone"] = {
+["Fire"] = 2370,
+["Frost"] = 5110,
+},
+["CCBroken"] = {
+},
+["DamagedWho"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 2370,
+},
+["寒冰箭"] = {
+["count"] = 5110,
+},
+},
+["amount"] = 7480,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰锥术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["RageGained"] = {
+},
+["WhoDamaged"] = {
+["天灾烈焰蛛"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["Absorbed"] = {
+["寒冰护体"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Dispelled"] = 0,
+["RessedWho"] = {
+},
+["HealedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+["Melee"] = 0,
+["Physical"] = 0,
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 192,
+},
+},
+["amount"] = 192,
+},
+},
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ActiveTime"] = 4.81,
+["WhoDispelled"] = {
+},
+["TimeSpent"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0.31,
+},
+["寒冰箭"] = {
+["count"] = 4.5,
+},
+},
+["amount"] = 4.81,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰锥术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Overhealing"] = 0,
+["InterruptData"] = {
+["天灾烈焰蛛"] = {
+["Details"] = {
+["烧尽 (法术反制)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Interrupts"] = 0,
+["Heals"] = {
+["寒冰护体"] = {
+["Details"] = {
+["Absorb"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["EnergyGained"] = {
+},
+["WhoHealed"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Healing"] = 0,
+["OverHeals"] = {
+},
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 192,
+},
+},
+["amount"] = 192,
+},
+},
+["Attacks"] = {
+["冰枪术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2178,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 2178,
+},
+["Hit"] = {
+["max"] = 1478,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 2932,
+},
+},
+["count"] = 3,
+["amount"] = 5110,
+},
+["火球术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2370,
+["min"] = 2370,
+["count"] = 1,
+["amount"] = 2370,
+},
+},
+["count"] = 1,
+["amount"] = 2370,
+},
+["冰锥术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 4.81,
+["TimeDamaging"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0.31,
+},
+["寒冰箭"] = {
+["count"] = 4.5,
+},
+},
+["amount"] = 4.81,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰锥术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 192,
+["ElementTakenResist"] = {
+},
+["DispelledWho"] = {
+},
+},
+["CurrentFightData"] = {
+["TimeHealing"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["DOTs"] = {
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["天灾烈焰蛛"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ElementHitsTaken"] = {
+["Fire"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+["Absorb"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["TimeSpent"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["HealedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementTakenResist"] = {
+["Fire"] = 0,
+},
+["Absorbs"] = 0,
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 316,
+},
+},
+["amount"] = 316,
+},
+["恢复法力"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementTakenAbsorb"] = {
+["Fire"] = 0,
+["Physical"] = 0,
+},
+["ActiveTime"] = 0,
+["DamageTaken"] = 0,
+["ElementTaken"] = {
+["Fire"] = 0,
+["Physical"] = 0,
+},
+["DOT_Time"] = 0,
+["Damage"] = 0,
+["WhoDamaged"] = {
+["天灾烈焰蛛"] = {
+["Details"] = {
+["烧尽"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["TimeHeal"] = 0,
+["ShieldedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 4,
+},
+},
+["amount"] = 4,
+},
+},
+["DamagedWho"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 316,
+},
+["恢复法力"] = {
+["count"] = 0,
+},
+},
+["amount"] = 316,
+},
+},
+["WhoHealed"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Attacks"] = {
+["冰枪术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["火球术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["Heals"] = {
+["寒冰护体"] = {
+["Details"] = {
+["Absorb"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ElementDone"] = {
+["Fire"] = 0,
+["Frost"] = 0,
+},
+["HealingTaken"] = 0,
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Tick"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["TimeDamage"] = 0,
+["TimeDamaging"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 316,
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["50% 抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["25% 抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["Absorbed"] = {
+["寒冰护体"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+},
+["Fight2"] = {
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+["Absorb"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Melee"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 1,
+},
+["Dodge"] = {
+["count"] = 0,
+},
+["Crit"] = {
+["count"] = 1,
+},
+["Miss"] = {
+["count"] = 1,
+},
+},
+["amount"] = 3,
+},
+["Fire"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementTakenBlock"] = {
+},
+["DOTs"] = {
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["天灾烈焰蛛"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["RunicPowerGain"] = 0,
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 918,
+["RageGainedFrom"] = {
+},
+["Absorbs"] = 0,
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementDoneAbsorb"] = {
+},
+["DOT_Time"] = 0,
+["ElementTaken"] = {
+["Physical"] = 0,
+["Melee"] = 918,
+["Fire"] = 0,
+},
+["HOTs"] = {
+},
+["Damage"] = 4370,
+["RunicPowerGainedFrom"] = {
+},
+["TimeHeal"] = 0,
+["ShieldedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["Dispels"] = 0,
+["HealingTaken"] = 0,
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Tick"] = {
+["count"] = 0,
+},
+["Crit"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 2,
+},
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 3,
+},
+["Melee"] = {
+["Details"] = {
+["Dodge"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Arcane"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["FAttacks"] = {
+},
+["PartialBlock"] = {
+},
+["ElementDone"] = {
+["Frost"] = 3893,
+["Fire"] = 0,
+["Arcane"] = 477,
+},
+["CCBroken"] = {
+},
+["DamagedWho"] = {
+["卫兵米切尔斯"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1526,
+},
+["寒冰箭"] = {
+["count"] = 2342,
+},
+["奥术飞弹"] = {
+["count"] = 477,
+},
+["冰霜新星"] = {
+["count"] = 25,
+},
+},
+["amount"] = 4370,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火焰冲击"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["秘密教徒"] = {
+["Details"] = {
+["暴风雪"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["RageGained"] = {
+},
+["WhoDamaged"] = {
+["卫兵米切尔斯"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 918,
+},
+},
+["amount"] = 918,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["烧尽"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["秘密教徒"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["Absorbed"] = {
+["寒冰护体"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Dispelled"] = 0,
+["RessedWho"] = {
+},
+["HealedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+["Physical"] = 0,
+["Melee"] = 0,
+["Fire"] = 0,
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 421,
+},
+},
+["amount"] = 421,
+},
+},
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 3,
+["amount"] = 0,
+},
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 3,
+["amount"] = 0,
+},
+},
+["ActiveTime"] = 4.5,
+["WhoDispelled"] = {
+},
+["TimeSpent"] = {
+["卫兵米切尔斯"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["奥术飞弹"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["秘密教徒"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 0,
+},
+["暴风雪"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火焰冲击"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Overhealing"] = 0,
+["InterruptData"] = {
+},
+["Interrupts"] = 0,
+["Heals"] = {
+["寒冰护体"] = {
+["Details"] = {
+["Absorb"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["50% 抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["25% 抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 3,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 3,
+},
+},
+["EnergyGained"] = {
+},
+["WhoHealed"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Healing"] = 0,
+["OverHeals"] = {
+},
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 421,
+},
+},
+["amount"] = 421,
+},
+},
+["Attacks"] = {
+["冰霜新星"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 25,
+["min"] = 25,
+["count"] = 1,
+["amount"] = 25,
+},
+},
+["count"] = 1,
+["amount"] = 25,
+},
+["火球术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["暴风雪"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["Dodge"] = {
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["奥术飞弹"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 477,
+["min"] = 477,
+["count"] = 1,
+["amount"] = 477,
+},
+},
+["count"] = 1,
+["amount"] = 477,
+},
+["冰枪术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 1526,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 1526,
+},
+},
+["count"] = 1,
+["amount"] = 1526,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2342,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 2342,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 1,
+["amount"] = 2342,
+},
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["火焰冲击"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 4.5,
+["TimeDamaging"] = {
+["卫兵米切尔斯"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["奥术飞弹"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火焰冲击"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["秘密教徒"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 0,
+},
+["暴风雪"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 421,
+["ElementTakenResist"] = {
+["Fire"] = 0,
+},
+["DispelledWho"] = {
+},
+},
+["Fight4"] = {
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+["Absorb"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Melee"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 2,
+},
+["Hit"] = {
+["count"] = 1,
+},
+["Dodge"] = {
+["count"] = 1,
+},
+},
+["amount"] = 4,
+},
+["Fire"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+["Absorb"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementTakenBlock"] = {
+},
+["DOTs"] = {
+},
+["RunicPowerGain"] = 0,
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 587,
+["RageGainedFrom"] = {
+},
+["Absorbs"] = 454,
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementDoneAbsorb"] = {
+},
+["DOT_Time"] = 0,
+["ElementTaken"] = {
+["Physical"] = 0,
+["Melee"] = 587,
+["Fire"] = 0,
+},
+["HOTs"] = {
+},
+["Damage"] = 8205,
+["RunicPowerGainedFrom"] = {
+},
+["TimeHeal"] = 3.31,
+["ShieldedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["Dispels"] = 0,
+["HealingTaken"] = 587,
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 1,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 1,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 5,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 5,
+},
+},
+["FAttacks"] = {
+},
+["PartialBlock"] = {
+},
+["ElementDone"] = {
+["Fire"] = 1503,
+["Frost"] = 6702,
+},
+["CCBroken"] = {
+},
+["DamagedWho"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 4378,
+},
+["寒冰箭"] = {
+["count"] = 2284,
+},
+["火焰冲击"] = {
+["count"] = 1503,
+},
+["冰霜新星"] = {
+["count"] = 40,
+},
+},
+["amount"] = 8205,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["RageGained"] = {
+},
+["WhoDamaged"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 587,
+},
+},
+["amount"] = 587,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["烧尽"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["Absorbed"] = {
+["寒冰护体"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["max"] = 325,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 454,
+},
+},
+["count"] = 2,
+["amount"] = 454,
+},
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 3,
+},
+["迅捷的正义之手"] = {
+["count"] = 0.31,
+},
+},
+["amount"] = 3.31,
+},
+},
+["Dispelled"] = 0,
+["RessedWho"] = {
+},
+["HealedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 454,
+},
+["迅捷的正义之手"] = {
+["count"] = 133,
+},
+},
+["amount"] = 587,
+},
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+["Physical"] = 0,
+["Melee"] = 454,
+["Fire"] = 0,
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 359,
+},
+},
+["amount"] = 359,
+},
+},
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 0,
+},
+["被吸收"] = {
+["max"] = 325,
+["min"] = 129,
+["count"] = 2,
+["amount"] = 454,
+},
+},
+["count"] = 4,
+["amount"] = 454,
+},
+},
+["ActiveTime"] = 10.71,
+["WhoDispelled"] = {
+},
+["TimeSpent"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 3,
+},
+["迅捷的正义之手"] = {
+["count"] = 0.31,
+},
+},
+["amount"] = 3.31,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 4.4,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.4,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["Overhealing"] = 19,
+["InterruptData"] = {
+},
+["Interrupts"] = 0,
+["Heals"] = {
+["寒冰护体"] = {
+["Details"] = {
+["Absorb"] = {
+["max"] = 325,
+["min"] = 0,
+["count"] = 2,
+["amount"] = 454,
+},
+},
+["count"] = 2,
+["amount"] = 454,
+},
+["迅捷的正义之手"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 133,
+["min"] = 133,
+["count"] = 1,
+["amount"] = 133,
+},
+},
+["count"] = 1,
+["amount"] = 133,
+},
+},
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["肉搏"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 4,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 4,
+},
+},
+["EnergyGained"] = {
+},
+["WhoHealed"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 454,
+},
+["迅捷的正义之手"] = {
+["count"] = 133,
+},
+},
+["amount"] = 587,
+},
+},
+["Healing"] = 133,
+["OverHeals"] = {
+["迅捷的正义之手"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 19,
+["min"] = 19,
+["count"] = 1,
+["amount"] = 19,
+},
+},
+["count"] = 1,
+["amount"] = 19,
+},
+},
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 359,
+},
+},
+["amount"] = 359,
+},
+},
+["Attacks"] = {
+["冰霜新星"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 40,
+["min"] = 40,
+["count"] = 1,
+["amount"] = 40,
+},
+},
+["count"] = 1,
+["amount"] = 40,
+},
+["火球术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2284,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 2284,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 1,
+["amount"] = 2284,
+},
+["冰枪术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 1471,
+["min"] = 0,
+["count"] = 3,
+["amount"] = 4378,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 3,
+["amount"] = 4378,
+},
+["火焰冲击"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 1503,
+["min"] = 1503,
+["count"] = 1,
+["amount"] = 1503,
+},
+},
+["count"] = 1,
+["amount"] = 1503,
+},
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 7.4,
+["TimeDamaging"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 4.4,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.4,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 359,
+["ElementTakenResist"] = {
+},
+["DispelledWho"] = {
+},
+},
+["LastFightData"] = {
+["DOTs"] = {
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["天灾烈焰蛛"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 0,
+["RageGainedFrom"] = {
+},
+["ElementHitsTaken"] = {
+["Fire"] = {
+["Details"] = {
+["Miss"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementTakenBlock"] = {
+},
+["RunicPowerGain"] = 0,
+["ElementTaken"] = {
+["Physical"] = 0,
+},
+["HOTs"] = {
+},
+["Damage"] = 3870,
+["ElementDoneAbsorb"] = {
+},
+["TimeHeal"] = 0,
+["RessedWho"] = {
+},
+["Dispels"] = 0,
+["PartialBlock"] = {
+},
+["DamagedWho"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1542,
+},
+["寒冰箭"] = {
+["count"] = 2302,
+},
+["冰霜新星"] = {
+["count"] = 26,
+},
+},
+["amount"] = 3870,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["FAttacks"] = {
+},
+["HealingTaken"] = 0,
+["ElementDone"] = {
+["Fire"] = 0,
+["Frost"] = 3870,
+},
+["RunicPowerGainedFrom"] = {
+},
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Tick"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 2,
+},
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 3,
+},
+},
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 191,
+},
+},
+["amount"] = 191,
+},
+},
+["WhoDamaged"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["CCBroken"] = {
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+},
+["Dispelled"] = 0,
+["WhoHealed"] = {
+},
+["HealedWho"] = {
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 191,
+},
+},
+["amount"] = 191,
+},
+},
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ActiveTime"] = 4.5,
+["Overhealing"] = 152,
+["TimeSpent"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["WhoDispelled"] = {
+},
+["InterruptData"] = {
+},
+["ElementTakenResist"] = {
+},
+["Heals"] = {
+},
+["Interrupts"] = 0,
+["EnergyGained"] = {
+},
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["Healing"] = 0,
+["RageGained"] = {
+},
+["OverHeals"] = {
+["迅捷的正义之手"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 152,
+["min"] = 152,
+["count"] = 1,
+["amount"] = 152,
+},
+},
+["count"] = 1,
+["amount"] = 152,
+},
+},
+["Attacks"] = {
+["冰霜新星"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 26,
+["min"] = 26,
+["count"] = 1,
+["amount"] = 26,
+},
+},
+["count"] = 1,
+["amount"] = 26,
+},
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2302,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 2302,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 1,
+["amount"] = 2302,
+},
+["冰枪术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 1542,
+["min"] = 1542,
+["count"] = 1,
+["amount"] = 1542,
+},
+},
+["count"] = 1,
+["amount"] = 1542,
+},
+["火球术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 4.5,
+["TimeDamaging"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 191,
+["DOT_Time"] = 0,
+["DispelledWho"] = {
+},
+},
+["Fight1"] = {
+["DOTs"] = {
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["天灾烈焰蛛"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 0,
+["RageGainedFrom"] = {
+},
+["ElementHitsTaken"] = {
+["Fire"] = {
+["Details"] = {
+["Miss"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementTakenBlock"] = {
+},
+["RunicPowerGain"] = 0,
+["ElementTaken"] = {
+["Physical"] = 0,
+},
+["HOTs"] = {
+},
+["Damage"] = 3870,
+["ElementDoneAbsorb"] = {
+},
+["TimeHeal"] = 0,
+["RessedWho"] = {
+},
+["Dispels"] = 0,
+["PartialBlock"] = {
+},
+["DamagedWho"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1542,
+},
+["寒冰箭"] = {
+["count"] = 2302,
+},
+["冰霜新星"] = {
+["count"] = 26,
+},
+},
+["amount"] = 3870,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["FAttacks"] = {
+},
+["HealingTaken"] = 0,
+["ElementDone"] = {
+["Fire"] = 0,
+["Frost"] = 3870,
+},
+["RunicPowerGainedFrom"] = {
+},
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Tick"] = {
+["count"] = 0,
+},
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 2,
+},
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 3,
+},
+},
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 191,
+},
+},
+["amount"] = 191,
+},
+},
+["WhoDamaged"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["CCBroken"] = {
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+},
+["Dispelled"] = 0,
+["WhoHealed"] = {
+},
+["HealedWho"] = {
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 191,
+},
+},
+["amount"] = 191,
+},
+},
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ActiveTime"] = 4.5,
+["Overhealing"] = 152,
+["TimeSpent"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["WhoDispelled"] = {
+},
+["InterruptData"] = {
+},
+["ElementTakenResist"] = {
+},
+["Heals"] = {
+},
+["Interrupts"] = 0,
+["EnergyGained"] = {
+},
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["烧尽"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["Healing"] = 0,
+["RageGained"] = {
+},
+["OverHeals"] = {
+["迅捷的正义之手"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 152,
+["min"] = 152,
+["count"] = 1,
+["amount"] = 152,
+},
+},
+["count"] = 1,
+["amount"] = 152,
+},
+},
+["Attacks"] = {
+["冰霜新星"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 26,
+["min"] = 26,
+["count"] = 1,
+["amount"] = 26,
+},
+},
+["count"] = 1,
+["amount"] = 26,
+},
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2302,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 2302,
+},
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 1,
+["amount"] = 2302,
+},
+["冰枪术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 1542,
+["min"] = 1542,
+["count"] = 1,
+["amount"] = 1542,
+},
+},
+["count"] = 1,
+["amount"] = 1542,
+},
+["火球术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 4.5,
+["TimeDamaging"] = {
+["地穴爬行者"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0,
+},
+["寒冰箭"] = {
+["count"] = 0,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 191,
+["DOT_Time"] = 0,
+["DispelledWho"] = {
+},
+},
+["OverallData"] = {
+["DOTs"] = {
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["天灾烈焰蛛"] = {
+["count"] = 20,
+},
+["地穴爬行者"] = {
+["count"] = 8,
+},
+},
+["amount"] = 28,
+},
+},
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 12,
+},
+["Absorb"] = {
+["count"] = 10,
+},
+},
+["amount"] = 22,
+},
+["Melee"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 10,
+},
+["Hit"] = {
+["count"] = 17,
+},
+["Dodge"] = {
+["count"] = 2,
+},
+["Crit"] = {
+["count"] = 1,
+},
+["Miss"] = {
+["count"] = 3,
+},
+},
+["amount"] = 33,
+},
+["Fire"] = {
+["Details"] = {
+["Absorb"] = {
+["count"] = 4,
+},
+["Hit"] = {
+["count"] = 8,
+},
+["Miss"] = {
+["count"] = 1,
+},
+},
+["amount"] = 13,
+},
+},
+["WhoHealed"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 5448,
+},
+["迅捷的正义之手"] = {
+["count"] = 285,
+},
+},
+["amount"] = 5733,
+},
+},
+["ElementTakenResist"] = {
+["Fire"] = 418,
+},
+["Absorbs"] = 5448,
+["Overhealing"] = 171,
+["ElementTaken"] = {
+["Physical"] = 4155,
+["Melee"] = 6550,
+["Fire"] = 5159,
+},
+["DOT_Time"] = 28,
+["Damage"] = 199986,
+["TimeHeal"] = 36.01,
+["ShieldedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 17,
+},
+},
+["amount"] = 17,
+},
+},
+["ElementDone"] = {
+["Frost"] = 175640,
+["Fire"] = 23869,
+["Arcane"] = 477,
+},
+["ElementHitsDone"] = {
+["Fire"] = {
+["Details"] = {
+["Tick"] = {
+["count"] = 14,
+},
+["Crit"] = {
+["count"] = 5,
+},
+["Hit"] = {
+["count"] = 10,
+},
+},
+["amount"] = 29,
+},
+["Frost"] = {
+["Details"] = {
+["Crit"] = {
+["count"] = 71,
+},
+["Hit"] = {
+["count"] = 100,
+},
+},
+["amount"] = 171,
+},
+["Melee"] = {
+["Details"] = {
+["Dodge"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+["Arcane"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["WhoDamaged"] = {
+["卫兵米切尔斯"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 918,
+},
+},
+["amount"] = 918,
+},
+["秘密教徒"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 3602,
+},
+},
+["amount"] = 3602,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 276,
+},
+["烧尽"] = {
+["count"] = 5159,
+},
+},
+["amount"] = 5435,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["墓穴甲虫"] = {
+["count"] = 4155,
+},
+["肉搏"] = {
+["count"] = 341,
+},
+},
+["amount"] = 4496,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 826,
+},
+},
+["amount"] = 826,
+},
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 587,
+},
+},
+["amount"] = 587,
+},
+},
+["Absorbed"] = {
+["寒冰护体"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["max"] = 454,
+["min"] = 18,
+["count"] = 23,
+["amount"] = 5448,
+},
+},
+["count"] = 23,
+["amount"] = 5448,
+},
+},
+["TimeHealing"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 34.2,
+},
+["迅捷的正义之手"] = {
+["count"] = 1.81,
+},
+},
+["amount"] = 36.01,
+},
+},
+["OverHeals"] = {
+["迅捷的正义之手"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 152,
+["min"] = 19,
+["count"] = 2,
+["amount"] = 171,
+},
+},
+["count"] = 2,
+["amount"] = 171,
+},
+},
+["PartialResist"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 22,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 22,
+},
+["烧尽"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 8,
+["amount"] = 0,
+},
+["50% 抵抗"] = {
+["max"] = 147,
+["min"] = 68,
+["count"] = 3,
+["amount"] = 285,
+},
+["25% 抵抗"] = {
+["max"] = 67,
+["min"] = 66,
+["count"] = 2,
+["amount"] = 133,
+},
+},
+["count"] = 418,
+["amount"] = 13,
+},
+["肉搏"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 33,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 33,
+},
+},
+["ManaGained"] = {
+["恢复"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 7667,
+},
+},
+["amount"] = 7667,
+},
+["恢复法力"] = {
+["Details"] = {
+["小脚萝莉"] = {
+["count"] = 1623,
+},
+},
+["amount"] = 1623,
+},
+},
+["ElementTakenAbsorb"] = {
+["Physical"] = 1816,
+["Melee"] = 2271,
+["Fire"] = 1540,
+},
+["ActiveTime"] = 211.03,
+["InterruptData"] = {
+["天灾烈焰蛛"] = {
+["Details"] = {
+["烧尽 (法术反制)"] = {
+["count"] = 2,
+},
+},
+["amount"] = 2,
+},
+},
+["Heals"] = {
+["寒冰护体"] = {
+["Details"] = {
+["Absorb"] = {
+["max"] = 454,
+["min"] = 18,
+["count"] = 23,
+["amount"] = 5448,
+},
+},
+["count"] = 23,
+["amount"] = 5448,
+},
+["迅捷的正义之手"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 152,
+["min"] = 133,
+["count"] = 2,
+["amount"] = 285,
+},
+},
+["count"] = 2,
+["amount"] = 285,
+},
+},
+["Interrupts"] = 2,
+["ManaGainedFrom"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["恢复"] = {
+["count"] = 7667,
+},
+["恢复法力"] = {
+["count"] = 1623,
+},
+},
+["amount"] = 9290,
+},
+},
+["Healing"] = 285,
+["PartialAbsorb"] = {
+["墓穴甲虫"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 12,
+["amount"] = 0,
+},
+["被吸收"] = {
+["max"] = 256,
+["min"] = 18,
+["count"] = 10,
+["amount"] = 1816,
+},
+},
+["count"] = 22,
+["amount"] = 1816,
+},
+["烧尽"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 454,
+["min"] = 178,
+["count"] = 4,
+["amount"] = 1540,
+},
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 9,
+["amount"] = 0,
+},
+},
+["count"] = 13,
+["amount"] = 1540,
+},
+["肉搏"] = {
+["Details"] = {
+["被吸收"] = {
+["max"] = 325,
+["min"] = 129,
+["count"] = 10,
+["amount"] = 2271,
+},
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 23,
+["amount"] = 0,
+},
+},
+["count"] = 33,
+["amount"] = 2271,
+},
+},
+["TimeSpent"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 34.2,
+},
+["迅捷的正义之手"] = {
+["count"] = 1.81,
+},
+},
+["amount"] = 36.01,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["卫兵米切尔斯"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["奥术飞弹"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0.31,
+},
+["寒冰箭"] = {
+["count"] = 9,
+},
+},
+["amount"] = 9.31,
+},
+["秘密教徒"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 1.26,
+},
+["暴风雪"] = {
+["count"] = 17.95,
+},
+},
+["amount"] = 19.21,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["火球术 (伤害/跳)"] = {
+["count"] = 5.9,
+},
+["火球术"] = {
+["count"] = 3.36,
+},
+["寒冰箭"] = {
+["count"] = 42.57,
+},
+["冰枪术"] = {
+["count"] = 14.47,
+},
+["火焰冲击"] = {
+["count"] = 2.79,
+},
+},
+["amount"] = 69.09,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 12.09,
+},
+["寒冰箭"] = {
+["count"] = 35.22,
+},
+["火球术"] = {
+["count"] = 3.39,
+},
+["冰锥术"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 53.7,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 2.72,
+},
+["寒冰箭"] = {
+["count"] = 1.59,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.31,
+},
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 4.4,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.4,
+},
+},
+["Attacks"] = {
+["冰霜新星"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 40,
+["min"] = 40,
+["count"] = 1,
+["amount"] = 40,
+},
+["Hit"] = {
+["max"] = 26,
+["min"] = 25,
+["count"] = 3,
+["amount"] = 77,
+},
+},
+["count"] = 4,
+["amount"] = 117,
+},
+["火球术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2370,
+["min"] = 2154,
+["count"] = 3,
+["amount"] = 6777,
+},
+["Hit"] = {
+["max"] = 1555,
+["min"] = 1440,
+["count"] = 7,
+["amount"] = 10510,
+},
+},
+["count"] = 10,
+["amount"] = 17287,
+},
+["暴风雪"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 621,
+["min"] = 620,
+["count"] = 44,
+["amount"] = 27307,
+},
+["Hit"] = {
+["max"] = 414,
+["min"] = 413,
+["count"] = 35,
+["amount"] = 14475,
+},
+},
+["count"] = 79,
+["amount"] = 41782,
+},
+["冰锥术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 849,
+["min"] = 849,
+["count"] = 1,
+["amount"] = 849,
+},
+},
+["count"] = 1,
+["amount"] = 849,
+},
+["奥术飞弹"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 477,
+["min"] = 477,
+["count"] = 1,
+["amount"] = 477,
+},
+},
+["count"] = 1,
+["amount"] = 477,
+},
+["肉搏"] = {
+["Details"] = {
+["Dodge"] = {
+["count"] = 1,
+["amount"] = 0,
+},
+},
+["count"] = 1,
+["amount"] = 0,
+},
+["冰枪术"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 1542,
+["min"] = 493,
+["count"] = 10,
+["amount"] = 13639,
+},
+["Hit"] = {
+["max"] = 1028,
+["min"] = 330,
+["count"] = 8,
+["amount"] = 6483,
+},
+},
+["count"] = 18,
+["amount"] = 20122,
+},
+["寒冰箭"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 2342,
+["min"] = 2148,
+["count"] = 16,
+["amount"] = 35406,
+},
+["Hit"] = {
+["max"] = 1547,
+["min"] = 1432,
+["count"] = 53,
+["amount"] = 77364,
+},
+},
+["count"] = 69,
+["amount"] = 112770,
+},
+["火球术 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 23,
+["min"] = 23,
+["count"] = 14,
+["amount"] = 322,
+},
+},
+["count"] = 14,
+["amount"] = 322,
+},
+["火焰冲击"] = {
+["Details"] = {
+["Crit"] = {
+["max"] = 1603,
+["min"] = 1503,
+["count"] = 2,
+["amount"] = 3106,
+},
+["Hit"] = {
+["max"] = 1106,
+["min"] = 986,
+["count"] = 3,
+["amount"] = 3154,
+},
+},
+["count"] = 5,
+["amount"] = 6260,
+},
+},
+["HealingTaken"] = 5733,
+["HealedWho"] = {
+["小脚萝莉"] = {
+["Details"] = {
+["寒冰护体"] = {
+["count"] = 5448,
+},
+["迅捷的正义之手"] = {
+["count"] = 285,
+},
+},
+["amount"] = 5733,
+},
+},
+["TimeDamage"] = 175.02,
+["TimeDamaging"] = {
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 4.4,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.4,
+},
+["卫兵米切尔斯"] = {
+["Details"] = {
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["奥术飞弹"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 0.31,
+},
+["寒冰箭"] = {
+["count"] = 9,
+},
+},
+["amount"] = 9.31,
+},
+["秘密教徒"] = {
+["Details"] = {
+["肉搏"] = {
+["count"] = 1.26,
+},
+["暴风雪"] = {
+["count"] = 17.95,
+},
+},
+["amount"] = 19.21,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["寒冰箭"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 4.5,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1.5,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 12.09,
+},
+["寒冰箭"] = {
+["count"] = 35.22,
+},
+["火球术"] = {
+["count"] = 3.39,
+},
+["冰锥术"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 53.7,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 2.72,
+},
+["寒冰箭"] = {
+["count"] = 1.59,
+},
+["火焰冲击"] = {
+["count"] = 1.5,
+},
+["冰霜新星"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 7.31,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["火球术 (伤害/跳)"] = {
+["count"] = 5.9,
+},
+["火球术"] = {
+["count"] = 3.36,
+},
+["寒冰箭"] = {
+["count"] = 42.57,
+},
+["冰枪术"] = {
+["count"] = 14.47,
+},
+["火焰冲击"] = {
+["count"] = 2.79,
+},
+},
+["amount"] = 69.09,
+},
+},
+["ManaGain"] = 9290,
+["DamageTaken"] = 15864,
+["DamagedWho"] = {
+["“咸鱼”约翰·索普"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 4378,
+},
+["寒冰箭"] = {
+["count"] = 2284,
+},
+["火焰冲击"] = {
+["count"] = 1503,
+},
+["冰霜新星"] = {
+["count"] = 40,
+},
+},
+["amount"] = 8205,
+},
+["卫兵米切尔斯"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1526,
+},
+["寒冰箭"] = {
+["count"] = 2342,
+},
+["奥术飞弹"] = {
+["count"] = 477,
+},
+["冰霜新星"] = {
+["count"] = 25,
+},
+},
+["amount"] = 4370,
+},
+["诅咒教徒通灵师"] = {
+["Details"] = {
+["火球术"] = {
+["count"] = 2370,
+},
+["寒冰箭"] = {
+["count"] = 11001,
+},
+},
+["amount"] = 13371,
+},
+["秘密教徒"] = {
+["Details"] = {
+["暴风雪"] = {
+["count"] = 41782,
+},
+},
+["amount"] = 41782,
+},
+["天灾食腐者"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1542,
+},
+["寒冰箭"] = {
+["count"] = 2302,
+},
+["冰霜新星"] = {
+["count"] = 26,
+},
+},
+["amount"] = 3870,
+},
+["天灾烈焰蛛"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 941,
+},
+["火球术 (伤害/跳)"] = {
+["count"] = 230,
+},
+["寒冰箭"] = {
+["count"] = 39182,
+},
+["火球术"] = {
+["count"] = 10472,
+},
+["冰锥术"] = {
+["count"] = 849,
+},
+},
+["amount"] = 51674,
+},
+["汤姆·海格尔"] = {
+["Details"] = {
+["冰枪术"] = {
+["count"] = 1370,
+},
+["寒冰箭"] = {
+["count"] = 5415,
+},
+["火焰冲击"] = {
+["count"] = 1106,
+},
+["冰霜新星"] = {
+["count"] = 26,
+},
+},
+["amount"] = 7917,
+},
+["地穴爬行者"] = {
+["Details"] = {
+["火球术 (伤害/跳)"] = {
+["count"] = 92,
+},
+["火球术"] = {
+["count"] = 4445,
+},
+["寒冰箭"] = {
+["count"] = 50244,
+},
+["冰枪术"] = {
+["count"] = 10365,
+},
+["火焰冲击"] = {
+["count"] = 3651,
+},
+},
+["amount"] = 68797,
+},
+},
+},
+},
+["LastDamageTaken"] = 614,
+["UnitLockout"] = 333671.208,
+["LastAbility"] = 335323.293,
+},
+["水元素 <小脚萝莉>"] = {
+["GUID"] = "Creature-0-4890-571-7438-510-00007D68EC",
+["LastEventHealth"] = {
+6326,
+6326,
+6326,
+6326,
+6326,
+6326,
+},
+["LastEventType"] = {
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"DAMAGE",
+},
+["TimeWindows"] = {
+["Damage"] = {
+763,
+},
+["TimeDamage"] = {
+1.5,
+},
+["ActiveTime"] = {
+1.5,
+},
+},
+["enClass"] = "PET",
+["unit"] = "水元素",
+["level"] = 1,
+["LastFightIn"] = 10,
+["type"] = "Pet",
+["FightsSaved"] = 5,
+["ownerName"] = "小脚萝莉",
+["LastActive"] = 334058.212,
+["LastEventHealthMax"] = {
+6326,
+6326,
+6326,
+6326,
+6326,
+6326,
+},
+["LastEventIncoming"] = {
+false,
+false,
+false,
+false,
+false,
+false,
+},
+["NextEventNum"] = 7,
+["LastDamageTime"] = 334058.985,
+["LastEvents"] = {
+"水元素 <小脚萝莉> 冰冻术 秘密教徒 Hit -120 (Frost)",
+"水元素 <小脚萝莉> 冰冻术 秘密教徒 Hit -128 (Frost)",
+"水元素 <小脚萝莉> 冰冻术 秘密教徒 Hit -123 (Frost)",
+"水元素 <小脚萝莉> 冰冻术 秘密教徒 Hit -131 (Frost)",
+"水元素 <小脚萝莉> 冰冻术 秘密教徒 Hit -130 (Frost)",
+"水元素 <小脚萝莉> 冰冻术 秘密教徒 Hit -131 (Frost)",
+},
+["Name"] = "水元素",
+["LastEventTimes"] = {
+334058.985,
+334058.985,
+334058.985,
+334058.985,
+334058.985,
+334058.985,
+},
+["Fights"] = {
+["LastFightData"] = {
+["DOTs"] = {
+},
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 0,
+["RageGainedFrom"] = {
+},
+["ElementHitsTaken"] = {
+},
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementTakenBlock"] = {
+},
+["RunicPowerGain"] = 0,
+["ElementTaken"] = {
+},
+["HOTs"] = {
+},
+["Damage"] = 0,
+["ElementDoneAbsorb"] = {
+},
+["TimeHeal"] = 0,
+["RessedWho"] = {
+},
+["Dispels"] = 0,
+["PartialBlock"] = {
+},
+["DamagedWho"] = {
+},
+["FAttacks"] = {
+},
+["HealingTaken"] = 0,
+["ElementDone"] = {
+},
+["RunicPowerGainedFrom"] = {
+},
+["ElementHitsDone"] = {
+},
+["ManaGainedFrom"] = {
+},
+["WhoDamaged"] = {
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["CCBroken"] = {
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+},
+["Dispelled"] = 0,
+["WhoHealed"] = {
+},
+["HealedWho"] = {
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+},
+["PartialAbsorb"] = {
+},
+["ActiveTime"] = 0,
+["Overhealing"] = 0,
+["TimeSpent"] = {
+},
+["WhoDispelled"] = {
+},
+["InterruptData"] = {
+},
+["ElementTakenResist"] = {
+},
+["Heals"] = {
+},
+["Interrupts"] = 0,
+["EnergyGained"] = {
+},
+["PartialResist"] = {
+},
+["Healing"] = 0,
+["RageGained"] = {
+},
+["OverHeals"] = {
+},
+["Attacks"] = {
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 0,
+["TimeDamaging"] = {
+},
+["ManaGain"] = 0,
+["DOT_Time"] = 0,
+["DispelledWho"] = {
+},
+},
+["CurrentFightData"] = {
+["DOTs"] = {
+},
+["ElementDoneResist"] = {
+},
+["Ressed"] = 0,
+["DamageTaken"] = 0,
+["RageGainedFrom"] = {
+},
+["ElementHitsTaken"] = {
+},
+["DeathCount"] = 0,
+["HOT_Time"] = 0,
+["ElementTakenBlock"] = {
+},
+["RunicPowerGain"] = 0,
+["ElementTaken"] = {
+},
+["HOTs"] = {
+},
+["Damage"] = 0,
+["ElementDoneAbsorb"] = {
+},
+["TimeHeal"] = 0,
+["RessedWho"] = {
+},
+["Dispels"] = 0,
+["PartialBlock"] = {
+},
+["DamagedWho"] = {
+},
+["FAttacks"] = {
+},
+["HealingTaken"] = 0,
+["ElementDone"] = {
+},
+["RunicPowerGainedFrom"] = {
+},
+["ElementHitsDone"] = {
+},
+["ManaGainedFrom"] = {
+},
+["WhoDamaged"] = {
+},
+["EnergyGainedFrom"] = {
+},
+["RunicPowerGained"] = {
+},
+["CCBroken"] = {
+},
+["ElementDoneBlock"] = {
+},
+["TimeHealing"] = {
+},
+["Dispelled"] = 0,
+["WhoHealed"] = {
+},
+["HealedWho"] = {
+},
+["CCBreak"] = 0,
+["ElementTakenAbsorb"] = {
+},
+["FDamage"] = 0,
+["EnergyGain"] = 0,
+["ManaGained"] = {
+},
+["PartialAbsorb"] = {
+},
+["ActiveTime"] = 0,
+["Overhealing"] = 0,
+["TimeSpent"] = {
+},
+["WhoDispelled"] = {
+},
+["InterruptData"] = {
+},
+["ElementTakenResist"] = {
+},
+["Heals"] = {
+},
+["Interrupts"] = 0,
+["EnergyGained"] = {
+},
+["PartialResist"] = {
+},
+["Healing"] = 0,
+["RageGained"] = {
+},
+["OverHeals"] = {
+},
+["Attacks"] = {
+},
+["RageGain"] = 0,
+["FDamagedWho"] = {
+},
+["TimeDamage"] = 0,
+["TimeDamaging"] = {
+},
+["ManaGain"] = 0,
+["DOT_Time"] = 0,
+["DispelledWho"] = {
+},
+},
+["OverallData"] = {
+["TimeSpent"] = {
+["秘密教徒"] = {
+["Details"] = {
+["冰冻术"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 1.5,
+},
+},
+["ElementDone"] = {
+["Frost"] = 763,
+},
+["ElementHitsDone"] = {
+["Frost"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 6,
+},
+},
+["amount"] = 6,
+},
+},
+["DamagedWho"] = {
+["秘密教徒"] = {
+["Details"] = {
+["冰冻术"] = {
+["count"] = 763,
+},
+},
+["amount"] = 763,
+},
+},
+["TimeDamage"] = 1.5,
+["TimeDamaging"] = {
+["秘密教徒"] = {
+["Details"] = {
+["冰冻术"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 1.5,
+},
+},
+["Attacks"] = {
+["冰冻术"] = {
+["Details"] = {
+["Hit"] = {
+["max"] = 131,
+["min"] = 120,
+["count"] = 6,
+["amount"] = 763,
+},
+},
+["count"] = 6,
+["amount"] = 763,
+},
+},
+["ActiveTime"] = 1.5,
+["Damage"] = 763,
+},
+},
+["TimeLast"] = {
+["Damage"] = 334058.212,
+["OVERALL"] = 334058.212,
+["TimeDamage"] = 334058.212,
+["ActiveTime"] = 334058.212,
+},
+["UnitLockout"] = 334058.212,
+["LastAbility"] = 335323.293,
+},
+},
+["FightNum"] = 24,
+["CombatTimes"] = {
+{
+333671.208,
+333687.218,
+"03:52:12",
+"03:52:28",
+"地穴爬行者",
+},
+{
+333695.225,
+333704.215,
+"03:52:36",
+"03:52:45",
+"地穴爬行者",
+},
+{
+333713.22,
+333724.217,
+"03:52:55",
+"03:53:05",
+"地穴爬行者",
+},
+{
+333741.218,
+333748.213,
+"03:53:22",
+"03:53:29",
+"地穴爬行者",
+},
+{
+333758.208,
+333769.212,
+"03:53:39",
+"03:53:50",
+"地穴爬行者",
+},
+{
+333901.219,
+333910.208,
+"03:56:02",
+"03:56:11",
+"地穴爬行者",
+},
+{
+333917.212,
+333925.213,
+"03:56:18",
+"03:56:26",
+"地穴爬行者",
+},
+{
+333930.215,
+333940.217,
+"03:56:32",
+"03:56:41",
+"地穴爬行者",
+},
+{
+333944.214,
+333955.211,
+"03:56:46",
+"03:56:56",
+"地穴爬行者",
+},
+{
+333956.216,
+333967.221,
+"03:56:57",
+"03:57:08",
+"地穴爬行者",
+},
+{
+334028.213,
+334068.213,
+"03:58:10",
+"03:58:49",
+"秘密教徒",
+},
+{
+334246.225,
+334257.224,
+"04:01:48",
+"04:01:58",
+"天灾烈焰蛛",
+},
+{
+334284.222,
+334297.21,
+"04:02:25",
+"04:02:38",
+"天灾烈焰蛛",
+},
+{
+334334.209,
+334344.215,
+"04:03:15",
+"04:03:25",
+"天灾烈焰蛛",
+},
+{
+334349.211,
+334363.217,
+"04:03:31",
+"04:03:44",
+"天灾烈焰蛛",
+},
+{
+334381.208,
+334396.218,
+"04:04:02",
+"04:04:17",
+"天灾烈焰蛛",
+},
+{
+334406.22,
+334417.213,
+"04:04:28",
+"04:04:38",
+"天灾烈焰蛛",
+},
+{
+334487.222,
+334494.216,
+"04:05:48",
+"04:05:55",
+"地穴爬行者",
+},
+{
+334516.215,
+334522.213,
+"04:06:18",
+"04:06:23",
+"诅咒教徒通灵师",
+},
+{
+334526.21,
+334532.217,
+"04:06:27",
+"04:06:33",
+"诅咒教徒通灵师",
+},
+{
+334815.21,
+334828.211,
+"04:11:16",
+"04:11:29",
+"“咸鱼”约翰·索普",
+},
+{
+334854.209,
+334870.215,
+"04:11:56",
+"04:12:11",
+"汤姆·海格尔",
+},
+{
+334968.217,
+334979.215,
+"04:13:49",
+"04:14:00",
+"卫兵米切尔斯",
+},
+{
+335189.207,
+335196.209,
+"04:17:30",
+"04:17:37",
+"天灾食腐者",
+},
+},
+["FoughtWho"] = {
+"天灾食腐者 04:17:30-04:17:37",
+"卫兵米切尔斯 04:13:49-04:14:00",
+"汤姆·海格尔 04:11:56-04:12:11",
+"“咸鱼”约翰·索普 04:11:16-04:11:29",
+"诅咒教徒通灵师 04:06:27-04:06:33",
+},
+}

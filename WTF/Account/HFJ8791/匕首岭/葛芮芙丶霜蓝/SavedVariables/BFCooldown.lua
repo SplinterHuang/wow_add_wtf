@@ -16,7 +16,7 @@ BFCooldownDB = {
 ["alpha"] = 0.8,
 ["min"] = 2.99,
 ["config"] = true,
-["style"] = -1,
+["style"] = 1,
 ["shine"] = true,
 ["font"] = "Fonts\\ARKai_T.ttf",
 ["size"] = 35,
@@ -28,6 +28,58 @@ BFCooldownDB = {
 ["b"] = 0.1,
 },
 ["spellCache"] = {
+["鲜血灵气"] = {
+42,
+"spell",
+},
+["心灵冰冻"] = {
+18,
+"spell",
+},
+["暗影打击"] = {
+26,
+"spell",
+},
+["鲜血打击"] = {
+41,
+"spell",
+},
+["枯萎凋零"] = {
+27,
+"spell",
+},
+["冰霜灵气"] = {
+14,
+"spell",
+},
+["凋零缠绕"] = {
+22,
+"spell",
+},
+["天灾打击"] = {
+24,
+"spell",
+},
+["死亡之握"] = {
+28,
+"spell",
+},
+["灵界打击"] = {
+29,
+"spell",
+},
+["冰冷触摸"] = {
+11,
+"spell",
+},
+["血液沸腾"] = {
+40,
+"spell",
+},
+["传染"] = {
+35,
+"spell",
+},
 },
 ["isChangeFont"] = true,
 ["secs"] = {

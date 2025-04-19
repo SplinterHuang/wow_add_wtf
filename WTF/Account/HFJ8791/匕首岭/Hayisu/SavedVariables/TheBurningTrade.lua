@@ -6,16 +6,16 @@ TradeLog_TradesHistory = {
 ["id"] = 1,
 ["playerItems"] = {
 {
-["texture"] = 134310,
-["itemLink"] = "|cffffffff|Hitem:17057::::::::72:::::::::|h[闪亮的鱼鳞]|h|r",
-["name"] = "闪亮的鱼鳞",
 ["numItems"] = 2,
+["name"] = "闪亮的鱼鳞",
+["itemLink"] = "|cffffffff|Hitem:17057::::::::72:::::::::|h[闪亮的鱼鳞]|h|r",
+["texture"] = 134310,
 },
 {
-["texture"] = 134844,
-["itemLink"] = "|cffffffff|Hitem:17058::::::::72:::::::::|h[鱼油]|h|r",
-["name"] = "鱼油",
 ["numItems"] = 5,
+["name"] = "鱼油",
+["itemLink"] = "|cffffffff|Hitem:17058::::::::72:::::::::|h[鱼油]|h|r",
+["texture"] = 134844,
 },
 },
 ["targetItems"] = {
@@ -37,34 +37,34 @@ TradeLog_TradesHistory = {
 ["id"] = 2,
 ["playerItems"] = {
 {
-["numItems"] = 5,
-["name"] = "力量卷轴 V",
+["texture"] = 134938,
 ["itemLink"] = "|cffffffff|Hitem:27503::::::::72:::::::::|h[力量卷轴 V]|h|r",
-["texture"] = 134938,
-},
-{
-["numItems"] = 1,
-["name"] = "敏捷卷轴 V",
-["itemLink"] = "|cffffffff|Hitem:27498::::::::72:::::::::|h[敏捷卷轴 V]|h|r",
-["texture"] = 134938,
-},
-{
+["name"] = "力量卷轴 V",
 ["numItems"] = 5,
-["name"] = "符文法力药水",
-["itemLink"] = "|cffffffff|Hitem:33448::::::::72:::::::::|h[符文法力药水]|h|r",
+},
+{
+["texture"] = 134938,
+["itemLink"] = "|cffffffff|Hitem:27498::::::::72:::::::::|h[敏捷卷轴 V]|h|r",
+["name"] = "敏捷卷轴 V",
+["numItems"] = 1,
+},
+{
 ["texture"] = 236869,
+["itemLink"] = "|cffffffff|Hitem:33448::::::::72:::::::::|h[符文法力药水]|h|r",
+["name"] = "符文法力药水",
+["numItems"] = 5,
 },
 {
-["numItems"] = 1,
-["name"] = "氪金宝箱",
-["itemLink"] = "|cff1eff00|Hitem:31952::::::::72:::::::::|h[氪金宝箱]|h|r",
 ["texture"] = 134344,
+["itemLink"] = "|cff1eff00|Hitem:31952::::::::72:::::::::|h[氪金宝箱]|h|r",
+["name"] = "氪金宝箱",
+["numItems"] = 1,
 },
 {
-["numItems"] = 1,
-["name"] = "氪金宝箱",
-["itemLink"] = "|cff1eff00|Hitem:31952::::::::72:::::::::|h[氪金宝箱]|h|r",
 ["texture"] = 134344,
+["itemLink"] = "|cff1eff00|Hitem:31952::::::::72:::::::::|h[氪金宝箱]|h|r",
+["name"] = "氪金宝箱",
+["numItems"] = 1,
 },
 },
 ["targetItems"] = {
@@ -90,8 +90,8 @@ TradeLog_TradesHistory = {
 {
 ["name"] = "魔法点心",
 ["numItems"] = 19,
-["itemLink"] = "|cffffffff|Hitem:34062::::::::72:::::::::|h[魔法点心]|h|r",
 ["isUsable"] = true,
+["itemLink"] = "|cffffffff|Hitem:34062::::::::72:::::::::|h[魔法点心]|h|r",
 ["texture"] = 133953,
 },
 },
@@ -116,9 +116,9 @@ TradeLog_TradesHistory = {
 ["targetItems"] = {
 },
 ["player"] = "Hayisu",
+["where"] = "祖达克",
 ["who"] = "艾德赛",
 ["when"] = "04-10 04:34:38",
-["where"] = "祖达克",
 ["result"] = "cancelled",
 },
 {
@@ -127,34 +127,34 @@ TradeLog_TradesHistory = {
 ["id"] = 5,
 ["playerItems"] = {
 {
+["texture"] = 237423,
+["itemLink"] = "|cff0070dd|Hitem:44128::::::::74:::::::::|h[极地毛皮]|h|r",
 ["name"] = "极地毛皮",
 ["numItems"] = 2,
-["itemLink"] = "|cff0070dd|Hitem:44128::::::::74:::::::::|h[极地毛皮]|h|r",
-["texture"] = 237423,
 },
 {
+["texture"] = 134565,
+["itemLink"] = "|cffffffff|Hitem:36909::::::::74:::::::::|h[钴矿石]|h|r",
 ["name"] = "钴矿石",
 ["numItems"] = 2,
-["itemLink"] = "|cffffffff|Hitem:36909::::::::74:::::::::|h[钴矿石]|h|r",
-["texture"] = 134565,
 },
 {
+["texture"] = 134225,
+["itemLink"] = "|cffffffff|Hitem:36905::::::::74:::::::::|h[巫妖花]|h|r",
 ["name"] = "巫妖花",
 ["numItems"] = 2,
-["itemLink"] = "|cffffffff|Hitem:36905::::::::74:::::::::|h[巫妖花]|h|r",
-["texture"] = 134225,
 },
 {
+["texture"] = 134938,
+["itemLink"] = "|cffffffff|Hitem:43465::::::::74:::::::::|h[力量卷轴 VII]|h|r",
 ["name"] = "力量卷轴 VII",
 ["numItems"] = 20,
-["itemLink"] = "|cffffffff|Hitem:43465::::::::74:::::::::|h[力量卷轴 VII]|h|r",
-["texture"] = 134938,
 },
 {
+["texture"] = 134789,
+["itemLink"] = "|cffffffff|Hitem:44332::::::::74:::::::::|h[极效思维药剂]|h|r",
 ["name"] = "极效思维药剂",
 ["numItems"] = 1,
-["itemLink"] = "|cffffffff|Hitem:44332::::::::74:::::::::|h[极效思维药剂]|h|r",
-["texture"] = 134789,
 },
 },
 ["targetItems"] = {
@@ -167,8 +167,8 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "艾德赛",
 ["when"] = "04-10 04:35:07",
-["where"] = "祖达克",
 ["result"] = "complete",
+["where"] = "祖达克",
 },
 }
 TRADE_LOG_BUTTON_POS = 190

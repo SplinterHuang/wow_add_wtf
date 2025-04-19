@@ -7,23 +7,23 @@ BUnitFrame_Config = {
 ["enabled"] = true,
 ["theme"] = "classical",
 },
-["casting_flash"] = true,
+["casting_flash"] = false,
 ["version"] = 2.8,
 ["focus"] = {
 ["enabled"] = false,
 ["theme"] = "vertical",
 },
-["casting_icon"] = true,
+["casting_icon"] = false,
 ["ttt"] = {
 ["enabled"] = true,
 ["theme"] = "classical",
 },
 ["sysFocus_t"] = {
-["enabled"] = true,
+["enabled"] = false,
 ["theme"] = "classical",
 },
 ["tt"] = {
-["enabled"] = true,
+["enabled"] = false,
 ["theme"] = "classical",
 },
 }
