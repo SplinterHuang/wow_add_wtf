@@ -1,5 +1,12 @@
 
 BF_Frames_Config = {
+["BFGoldFrame"] = {
+["offX"] = 309.8475646972656,
+["point"] = "TOP",
+["region"] = "UIParent",
+["offY"] = -45.70806121826172,
+["refPoint"] = "TOP",
+},
 }
 BigFoot_Character = {
 ["Region"] = "cn0",

@@ -37,8 +37,6 @@ SpyDB = {
 },
 ["profiles"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = {
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
 ["Colors"] = {
 ["Alert"] = {
 ["Stealth Text"] = {
@@ -54,6 +52,8 @@ SpyDB = {
 },
 },
 },
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
 ["AppendUnitKoSCheck"] = true,
 },
 ["葛芮芙丶霜蓝 - 匕首岭"] = {
@@ -105,6 +105,8 @@ SpyDB = {
 ["AppendUnitKoSCheck"] = true,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
 ["Colors"] = {
 ["Alert"] = {
 ["Stealth Text"] = {
@@ -120,8 +122,6 @@ SpyDB = {
 },
 },
 },
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
 ["AppendUnitKoSCheck"] = true,
 },
 ["艾伊苏霜蓝 - 匕首岭"] = {

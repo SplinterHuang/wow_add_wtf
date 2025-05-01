@@ -6,5 +6,21 @@ SpyPerCharDB = {
 ["KOSData"] = {
 },
 ["PlayerData"] = {
+["意宸"] = {
+["mapID"] = 125,
+["guild"] = "醉酒笑红尘",
+["zone"] = "达拉然",
+["mapY"] = 0.48,
+["class"] = "DRUID",
+["isEnemy"] = true,
+["subZone"] = "达拉然",
+["race"] = "牛头人",
+["name"] = "意宸",
+["faction"] = "Horde",
+["mapX"] = 0.58,
+["level"] = 80,
+["time"] = 1745239445,
+["isGuess"] = false,
+},
 },
 }

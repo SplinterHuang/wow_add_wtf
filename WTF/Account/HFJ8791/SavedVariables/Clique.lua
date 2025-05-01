@@ -8,9 +8,9 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
+["spec2_profileKey"] = "薇绮丶霜蓝 - 匕首岭",
 ["fastooc"] = false,
 ["specswap"] = false,
-["spec2_profileKey"] = "薇绮丶霜蓝 - 匕首岭",
 },
 ["葛芮芙丶霜蓝 - 匕首岭"] = {
 ["spec1_profileKey"] = "葛芮芙丶霜蓝 - 匕首岭",
@@ -29,8 +29,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "艾伊苏霜蓝 - 匕首岭",
+["specswap"] = false,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["spec1_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
@@ -38,8 +38,8 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
-["specswap"] = false,
 ["fastooc"] = false,
+["specswap"] = false,
 ["spec2_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
 },
 ["Hayisu - 匕首岭"] = {
@@ -49,17 +49,18 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "Hayisu - 匕首岭",
+["specswap"] = false,
 },
 },
 ["profileKeys"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = "薇绮丶霜蓝 - 匕首岭",
 ["葛芮芙丶霜蓝 - 匕首岭"] = "葛芮芙丶霜蓝 - 匕首岭",
 ["Splinter - 匕首岭"] = "Splinter - 匕首岭",
-["艾伊苏霜蓝 - 匕首岭"] = "艾伊苏霜蓝 - 匕首岭",
-["苏莉娅丶霜蓝 - 匕首岭"] = "苏莉娅丶霜蓝 - 匕首岭",
 ["Hayisu - 匕首岭"] = "Hayisu - 匕首岭",
+["汉斯顿丶霜蓝 - 匕首岭"] = "汉斯顿丶霜蓝 - 匕首岭",
+["苏莉娅丶霜蓝 - 匕首岭"] = "苏莉娅丶霜蓝 - 匕首岭",
+["艾伊苏霜蓝 - 匕首岭"] = "艾伊苏霜蓝 - 匕首岭",
 },
 ["profiles"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = {
@@ -201,6 +202,63 @@ CliqueDB3 = {
 },
 },
 },
+["Hayisu - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
 ["艾伊苏霜蓝 - 匕首岭"] = {
 ["bindings"] = {
 {
@@ -226,44 +284,6 @@ CliqueDB3 = {
 },
 ["icon"] = 132180,
 ["type"] = "spell",
-},
-},
-},
-["苏莉娅丶霜蓝 - 匕首岭"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
-["Hayisu - 匕首岭"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
 },
 },
 },

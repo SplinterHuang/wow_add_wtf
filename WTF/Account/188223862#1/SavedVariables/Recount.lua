@@ -7,7 +7,6 @@ RecountDB = {
 },
 ["profiles"] = {
 ["艾德赛 - 匕首岭"] = {
-["MainWindowVis"] = false,
 ["MainWindow"] = {
 ["Position"] = {
 ["y"] = -303.9318695068359,
@@ -16,6 +15,7 @@ RecountDB = {
 ["h"] = 194.3570861816406,
 },
 },
+["MainWindowHeight"] = 194.3570861816406,
 ["Colors"] = {
 ["Bar"] = {
 ["Bar Text"] = {
@@ -26,20 +26,22 @@ RecountDB = {
 },
 },
 },
-["MainWindowHeight"] = 194.3570861816406,
-["CurDataSet"] = "OverallData",
-["MainWindowWidth"] = 140.0000305175781,
 ["minimap"] = {
 ["minimapPos"] = 220,
 ["radius"] = 80,
 ["hide"] = false,
 },
+["MainWindowVis"] = false,
+["LastInstanceName"] = "古达克",
+["CurDataSet"] = "OverallData",
+["MainWindowWidth"] = 140.0000305175781,
 },
 ["小脚萝莉 - 匕首岭"] = {
+["MainWindowVis"] = false,
 ["MainWindow"] = {
 ["Position"] = {
-["y"] = -297.6907806396484,
-["x"] = 409.2374877929688,
+["y"] = -299.7824096679688,
+["x"] = 434.3359985351563,
 ["w"] = 140.0000610351563,
 ["h"] = 200.0000305175781,
 },
@@ -54,20 +56,21 @@ RecountDB = {
 },
 },
 },
+["LastInstanceName"] = "魔枢",
+["CurDataSet"] = "OverallData",
 ["minimap"] = {
 ["minimapPos"] = 220,
 ["radius"] = 80,
 ["hide"] = false,
 },
-["CurDataSet"] = "OverallData",
 },
 ["达奥里斯 - 匕首岭"] = {
 ["MainWindow"] = {
 ["Position"] = {
-["y"] = -315.4677581787109,
-["x"] = 464.3137817382813,
-["w"] = 226.4495849609375,
-["h"] = 197.9084930419922,
+["y"] = -119.7291870117188,
+["x"] = 762.6831665039062,
+["w"] = 268.7715148925781,
+["h"] = 243.7570495605469,
 },
 },
 ["Colors"] = {
@@ -108,10 +111,10 @@ RecountDB = {
 },
 },
 },
-["LastInstanceName"] = "达克萨隆要塞",
-["MainWindowHeight"] = 197.9084930419922,
+["LastInstanceName"] = "冠军的试炼",
+["MainWindowHeight"] = 243.7570953369141,
 ["CurDataSet"] = "LastFightData",
-["MainWindowWidth"] = 226.4495849609375,
+["MainWindowWidth"] = 268.7713623046875,
 ["minimap"] = {
 ["minimapPos"] = 220,
 ["radius"] = 80,

@@ -13,6 +13,8 @@ DataStore_Agenda_Characters = {
 },
 {
 },
+{
+},
 }
 DataStore_Agenda_SavedInstances = {
 }

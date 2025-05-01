@@ -10,13 +10,6 @@ BigFoot_Config = {
 250,
 -239.9999847412109,
 },
-["TargetFrame"] = {
-"TOPLEFT",
-"UIParent",
-"TOPLEFT",
-249.9999847412109,
--3.999999761581421,
-},
 ["PlayerFrame"] = {
 "TOPLEFT",
 "UIParent",
@@ -24,15 +17,22 @@ BigFoot_Config = {
 -18.99999809265137,
 -3.999999761581421,
 },
+["TargetFrame"] = {
+"TOPLEFT",
+"UIParent",
+"TOPLEFT",
+249.9999847412109,
+-3.999999761581421,
+},
 },
 ["BUnitFrame"] = {
 ["EnableEasyFocusFrame"] = 0,
 ["checkedVersion"] = "248",
-["EnableCastingShining"] = 1,
-["EnableCastingIcon"] = 1,
-["EnableTargetTargetTarget"] = 1,
-["EnableBUnitFrame"] = 0,
 ["EnableTargetTarget"] = 1,
+["EnableBUnitFrame"] = 0,
+["EnableTargetTargetTarget"] = 1,
+["EnableCastingIcon"] = 1,
+["EnableCastingShining"] = 1,
 },
 ["Item Info"] = {
 ["EnableAuctionInfo"] = 1,
@@ -47,8 +47,9 @@ BigFoot_Config = {
 },
 ["useUiScale"] = "1",
 ["QuestEnhancement"] = {
-["EnableQuestBroad"] = 1,
 ["checkedVersion"] = "248",
+["EnableQuestBroad"] = 1,
+["EnableQuestBroadInfo"] = 1,
 },
 ["InfoStat"] = {
 ["DisplayStatistics"] = 1,
@@ -64,9 +65,9 @@ BigFoot_Config = {
 ["ActionButton"] = {
 ["ShowCenter"] = 0,
 ["EnableCooldownCount2"] = 1,
-["checkedVersion"] = "248",
-["ToggleBar"] = 0,
 ["ShineType"] = "标准",
+["ToggleBar"] = 0,
+["checkedVersion"] = "248",
 },
 ["SellerHelper"] = {
 ["AutoSellPoor"] = 1,
@@ -76,8 +77,8 @@ BigFoot_Config = {
 ["EnableSellerHelper"] = 1,
 },
 ["BF_System"] = {
-["EnableLoadLater"] = 0,
 ["checkedVersion"] = "248",
+["EnableLoadLater"] = 0,
 },
 ["MobHealth"] = {
 ["TransparentMode"] = 0,
@@ -91,18 +92,18 @@ BigFoot_Config = {
 ["BagIntegration"] = {
 ["Enable_Combuctor"] = 1,
 ["Enable_BackPack_Integration"] = 1,
-["checkedVersion"] = "248",
+["ReverseMode"] = 0,
 ["Enable_Bank_Integration"] = 1,
 ["Enable_PUI"] = 1,
-["ReverseMode"] = 0,
+["checkedVersion"] = "248",
 },
 ["PartyToolkit"] = {
 ["EnablePartyAssist"] = 0,
 ["checkedVersion"] = "248",
-["EnableTeamNoticeRaid"] = 1,
+["8Buttons"] = 0,
 ["EnableTeamNoticeParty"] = 1,
 ["LiteTips"] = 1,
-["8Buttons"] = 0,
+["EnableTeamNoticeRaid"] = 1,
 },
 ["MiDKP"] = {
 ["GDKPEnable"] = 0,
@@ -146,10 +147,10 @@ BigFoot_Config = {
 ["BFCH_MYBUFF_SIZE"] = 23,
 ["checkedVersion"] = "248",
 ["ShowTargetCooldown2"] = 1,
-["BuffMasterShowTimeLeft"] = 1,
+["BFCH_OTHERBUFF_SIZE"] = 17,
 ["AdjustBuffSize"] = 0,
 ["BuffMasterShowDetailTimeLeft"] = 1,
-["BFCH_OTHERBUFF_SIZE"] = 17,
+["BuffMasterShowTimeLeft"] = 1,
 },
 ["BigFootClassMod"] = {
 ["checkedVersion"] = "248",
@@ -163,15 +164,15 @@ BigFoot_Config = {
 ["EnablePartyCastBar"] = 1,
 ["EnablePartyTarget"] = 1,
 ["checkedVersion"] = "248",
-["EnableEasyFrames"] = 1,
-["EnableTargetClassInfo"] = 1,
 ["EnablePartyPor"] = 1,
+["EnableTargetClassInfo"] = 1,
+["EnableEasyFrames"] = 1,
 },
 ["RaidToolkit"] = {
 ["EnableRaidAlerter"] = 1,
 ["checkedVersion"] = "248",
 ["EnableDecursive"] = 1,
-["EnableRecount2"] = 0,
+["EnableRecount2"] = 1,
 ["EnableThreat"] = 1,
 },
 ["BagManagement"] = {
@@ -190,19 +191,19 @@ BigFoot_Config = {
 ["BigFootTooltipItemLevel"] = "显示",
 ["EnableBFTooltip"] = 1,
 ["checkedVersion"] = "248",
-["BigFootTooltipGuildRank"] = "隐藏",
+["BigFootTooltipToT"] = "显示",
 ["BigFootTooltipPosition"] = "右下",
 ["BigFootTooltipTalent"] = "显示",
 ["BigFootTooltipPositionX"] = -122,
-["BigFootTooltipToT"] = "显示",
+["BigFootTooltipGuildRank"] = "隐藏",
 },
 ["CombatIndicator"] = {
 ["EnableCombatLeave"] = 1,
 ["EnableCombatIndicator"] = 1,
 ["checkedVersion"] = "248",
 ["EnableShowSpell"] = 1,
-["EnableDCT"] = 0,
 ["EnableSpell"] = 1,
+["EnableDCT"] = 0,
 },
 ["AutoEquip"] = {
 ["EnableAdvancedMode"] = 0,
@@ -213,48 +214,48 @@ BigFoot_Config = {
 ["ChatEnhancement"] = {
 ["EnableWhisperPop"] = 1,
 ["checkedVersion"] = "248",
-["EnableBFC"] = 1,
-["EnableAchievementCompare"] = 1,
 ["EnableItemLinkLevel"] = 1,
+["EnableAchievementCompare"] = 1,
+["EnableBFC"] = 1,
 },
 }
 BigFoot_Error = {
 ["ADDON_ACTION_FORBIDDEN"] = {
 ["!!!Libs"] = {
-["combat"] = false,
-["zone"] = "安其拉废墟",
-["class"] = "萨满祭司",
-["race"] = "德莱尼",
-["time"] = 1744215304,
-["level"] = 80,
+["combat"] = true,
+["zone"] = "龙骨荒野",
+["class"] = "法师",
+["race"] = "侏儒",
+["time"] = 1745887178,
+["version"] = "zhCN3.4.4.248",
 ["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame_Shared.lua]:1352: in function <...zard_UIPanels_Game/Classic/ContainerFrame_Shared.lua:1299>\n[C]: in function 'ContainerFrameItemButton_OnClick'\n[*ContainerFrame.xml:163_OnClick]:13: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
 ["forbiddenfunc"] = "UNKNOWN()",
-["version"] = "zhCN3.4.4.248",
+["level"] = 72,
 },
 ["TheBurningTrade"] = {
 ["combat"] = false,
-["zone"] = "达拉然",
+["zone"] = "铁炉堡",
 ["class"] = "萨满祭司",
 ["race"] = "德莱尼",
-["time"] = 1744641886,
-["version"] = "zhCN3.4.4.248",
+["time"] = 1745962370,
+["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/TheBurningTrade/TheBurningTrade.lua]:82: in function <Interface/AddOns/TheBurningTrade/TheBurningTrade.lua:76>\n[C]: in function 'ContainerFrameItemButton_OnModifiedClick'\n[*ContainerFrame.xml:163_OnClick]:11: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
 ["level"] = 80,
 ["forbiddenfunc"] = "UNKNOWN()",
-["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/TheBurningTrade/TheBurningTrade.lua]:82: in function <Interface/AddOns/TheBurningTrade/TheBurningTrade.lua:76>\n[C]: in function 'ContainerFrameItemButton_OnModifiedClick'\n[*ContainerFrame.xml:163_OnClick]:11: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
+["version"] = "zhCN3.4.4.248",
 },
 },
 ["debug_Mod"] = false,
 }
 MBBDB = {
 ["profileKeys"] = {
-["艾德赛 - 匕首岭"] = "艾德赛 - 匕首岭",
 ["小脚萝莉 - 匕首岭"] = "小脚萝莉 - 匕首岭",
+["艾德赛 - 匕首岭"] = "艾德赛 - 匕首岭",
 ["达奥里斯 - 匕首岭"] = "达奥里斯 - 匕首岭",
 },
 ["profiles"] = {
-["艾德赛 - 匕首岭"] = {
-},
 ["小脚萝莉 - 匕首岭"] = {
+},
+["艾德赛 - 匕首岭"] = {
 },
 ["达奥里斯 - 匕首岭"] = {
 },
@@ -283,4 +284,11 @@ BF_LogonInfo = {
 1744646706,
 1744806259,
 1744828089,
+1745159578,
+1745237665,
+1745752617,
+1745843645,
+1745865554,
+1745954404,
+1746030931,
 }

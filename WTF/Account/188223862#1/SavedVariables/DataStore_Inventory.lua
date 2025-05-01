@@ -20,6 +20,8 @@ DataStore_Inventory_Guilds = {
 },
 {
 },
+{
+},
 }
 DataStore_Inventory_SetInfo = {
 }

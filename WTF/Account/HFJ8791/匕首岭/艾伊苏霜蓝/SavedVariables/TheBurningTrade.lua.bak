@@ -746,6 +746,46 @@ TradeLog_TradesHistory = {
 ["result"] = "complete",
 ["where"] = "十字军的试炼",
 },
+{
+["targetMoney"] = 36880000,
+["playerMoney"] = 0,
+["id"] = 32,
+["playerItems"] = {
+},
+["targetItems"] = {
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "夕阳中的城市",
+["when"] = "04-21 22:22:40",
+["result"] = "complete",
+["where"] = "十字军的试炼",
+},
+{
+["targetMoney"] = 33650000,
+["playerMoney"] = 0,
+["id"] = 33,
+["playerItems"] = {
+},
+["targetItems"] = {
+},
+["player"] = "艾伊苏霜蓝",
+["events"] = {
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+"TRADE_SHOW",
+"TRADE_CLOSED",
+"TRADE_CLOSED",
+},
+["who"] = "半夕",
+["when"] = "04-27 21:56:39",
+["result"] = "complete",
+["where"] = "十字军的试炼",
+},
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

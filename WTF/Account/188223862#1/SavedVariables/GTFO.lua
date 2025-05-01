@@ -1,15 +1,10 @@
 
 GTFOData = {
 ["Active"] = true,
-["TrivialDamagePercent"] = 2,
 ["IgnoreSpellList"] = {
 },
-["SoundOverrides"] = {
-"",
-"",
-"",
-"",
-},
+["TrivialDamagePercent"] = 2,
+["SoundChannel"] = "Master",
 ["Sounds"] = {
 true,
 true,
@@ -20,5 +15,10 @@ true,
 ["Volume"] = 3,
 ["IgnoreOptions"] = {
 },
-["SoundChannel"] = "Master",
+["SoundOverrides"] = {
+"",
+"",
+"",
+"",
+},
 }

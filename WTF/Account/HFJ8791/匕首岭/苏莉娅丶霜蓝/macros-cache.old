@@ -1,6 +1,12 @@
 VER 3 0000000001000008 "note" "134400"
 /W 苏莉娅丶霜蓝 sp的WA， 10人混装
 END
+VER 3 0000000001000009 "VuhDoDCShieldData" "Ability_Repair"
+R1ET[x]1MR1HR1HR2RM2PM2MR2PT2SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000100000A "VuhDoDCShieldNames" "Ability_Repair"
+N股长[x]佩恩八光头加锁甲雙怀念九喜欢在妩法妩萨拉丁小小元[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]苏莉娅[x][x][x]豹铁腭[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
 VER 3 0000000001000003 "摧毁" "134400"
 /castsequence reset=combat 灵魂碎片
 END

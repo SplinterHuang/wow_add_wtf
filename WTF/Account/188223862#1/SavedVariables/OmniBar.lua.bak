@@ -1,8 +1,8 @@
 
 OmniBarDB = {
 ["profileKeys"] = {
-["小脚萝莉 - 匕首岭"] = "Default",
 ["艾德赛 - 匕首岭"] = "Default",
+["小脚萝莉 - 匕首岭"] = "Default",
 ["达奥里斯 - 匕首岭"] = "Default",
 },
 ["profiles"] = {
@@ -18,9 +18,9 @@ OmniBarDB = {
 ["center"] = false,
 ["locked"] = false,
 ["swipeAlpha"] = 0.65,
-["showUnused"] = false,
+["arena"] = true,
+["growUpward"] = true,
 ["size"] = 40,
-["world"] = true,
 ["cooldownCount"] = true,
 ["highlightTarget"] = true,
 ["columns"] = 8,
@@ -36,12 +36,12 @@ OmniBarDB = {
 ["relativeTo"] = "UIParent",
 ["point"] = "TOPLEFT",
 ["relativePoint"] = "TOPLEFT",
-["yOfs"] = -54.16575241088867,
-["xOfs"] = 402.2628479003906,
+["yOfs"] = -54.16574478149414,
+["xOfs"] = 402.262939453125,
 ["frameStrata"] = "MEDIUM",
 },
-["growUpward"] = true,
-["arena"] = true,
+["world"] = true,
+["showUnused"] = false,
 ["trackUnit"] = "ENEMY",
 ["battleground"] = true,
 },

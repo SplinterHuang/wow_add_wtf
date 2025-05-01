@@ -6,8 +6,8 @@ Altoholic_UI_Options = {
 ["Scale"] = 1,
 ["VendorColorCoding"] = true,
 ["Minimap"] = {
-["IconAngle"] = 180,
 ["ShowIcon"] = true,
+["IconAngle"] = 180,
 ["IconRadius"] = 102,
 },
 ["UnknownLoots"] = 0,
@@ -19,8 +19,8 @@ Altoholic_UI_Options = {
 ["AutoCompleteRecipient"] = true,
 ["TimeToNextWarning"] = 3,
 },
-["TotalLoots"] = 0,
 ["ClampWindowToScreen"] = false,
+["TotalLoots"] = 0,
 }
 Altoholic_Tooltip_Options = {
 ["ShowItemSource"] = true,
@@ -31,17 +31,17 @@ Altoholic_Tooltip_Options = {
 ["ShowSimpleCount"] = false,
 ["ShowGuildBankRealm"] = false,
 ["IncludeGuildBankInTotal"] = true,
-["ShowGuildBankCountPerTab"] = false,
-["HiddenGuilds"] = {
-},
+["ShowGatheringNodesCount"] = true,
+["ShowItemCount"] = true,
 ["ShowKnownRecipes"] = true,
-["ShowAllRealmsCount"] = true,
+["ShowCrossFactionCount"] = true,
 ["ShowHearthstoneCount"] = true,
 ["ShowGuildBankCount"] = true,
 ["ShowAllAccountsCount"] = true,
-["ShowCrossFactionCount"] = true,
-["ShowItemCount"] = true,
-["ShowGatheringNodesCount"] = true,
+["ShowAllRealmsCount"] = true,
+["HiddenGuilds"] = {
+},
+["ShowGuildBankCountPerTab"] = false,
 }
 Altoholic_Sharing_Options = {
 ["SharedContent"] = {
@@ -55,10 +55,10 @@ Altoholic_Sharing_Options = {
 }
 Altoholic_Calendar_Options = {
 ["WarningsEnabled"] = true,
-["WarningType1"] = "30,15,10,5,4,3,2,1",
+["WeekStartsOnMonday"] = false,
 ["UseDialogBoxForWarnings"] = false,
 ["WarningType2"] = "30,15,10,5,4,3,2,1",
 ["WarningType3"] = "30,15,10,5,4,3,2,1",
 ["WarningType4"] = "30,15,10,5,4,3,2,1",
-["WeekStartsOnMonday"] = false,
+["WarningType1"] = "30,15,10,5,4,3,2,1",
 }

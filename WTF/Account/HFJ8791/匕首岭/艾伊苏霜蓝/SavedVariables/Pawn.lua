@@ -1,8 +1,6 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
-["LastPlayerFullName"] = "艾伊苏霜蓝-匕首岭",
-["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 47942,
@@ -90,6 +88,8 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:45570:3608:::::::80:::::::::|h[天铸之弩]|h|r",
 },
 },
+["AutoSelectScales"] = false,
+["LastPlayerFullName"] = "艾伊苏霜蓝-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

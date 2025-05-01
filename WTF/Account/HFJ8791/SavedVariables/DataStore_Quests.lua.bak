@@ -50,8 +50,22 @@ DataStore_Quests_Characters = {
 ["Emissaries"] = {
 },
 },
+{
+["QuestHeaders"] = {
+},
+["Rewards"] = {
+},
+["Quests"] = {
+},
+["Emissaries"] = {
+},
+},
 }
 DataStore_Quests_History = {
+{
+["Quests"] = {
+},
+},
 {
 ["Quests"] = {
 },

@@ -121,6 +121,8 @@ SpyDB = {
 ["MainWindowVis"] = false,
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
 ["Colors"] = {
 ["Alert"] = {
 ["Stealth Text"] = {
@@ -136,13 +138,9 @@ SpyDB = {
 },
 },
 },
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
 ["AppendUnitKoSCheck"] = true,
 },
 ["Hayisu - 匕首岭"] = {
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
 ["Colors"] = {
 ["Bar"] = {
 ["Bar Text"] = {
@@ -150,6 +148,8 @@ SpyDB = {
 },
 },
 },
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
 ["AppendUnitKoSCheck"] = true,
 },
 },

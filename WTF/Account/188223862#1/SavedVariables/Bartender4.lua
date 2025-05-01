@@ -3,6 +3,222 @@ Bartender4DB = {
 ["namespaces"] = {
 ["ActionBars"] = {
 ["profiles"] = {
+["达奥里斯 - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -228.5000915527344,
+["x"] = -230.5002136230469,
+["point"] = "CENTER",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["小脚萝莉 - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -206.9999694824219,
+["x"] = -230.4998779296875,
+["point"] = "CENTER",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["艾德赛 - 匕首岭"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -206.9999694824219,
+["x"] = -230.4998779296875,
+["point"] = "CENTER",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
 ["bf_infobox"] = {
 ["actionbars"] = {
 {
@@ -83,225 +299,52 @@ Bartender4DB = {
 },
 },
 },
-["艾德赛 - 匕首岭"] = {
-["actionbars"] = {
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 41.75,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-["enabled"] = false,
-["version"] = 3,
-["position"] = {
-["y"] = -206.9999694824219,
-["x"] = -230.4998779296875,
-["point"] = "CENTER",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -82,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -42,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = 3,
-["point"] = "BOTTOM",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-},
-{
-},
-{
-},
-{
-},
-[13] = {
-},
-[15] = {
-},
-},
-},
-["小脚萝莉 - 匕首岭"] = {
-["actionbars"] = {
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 41.75,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-["enabled"] = false,
-["version"] = 3,
-["position"] = {
-["y"] = -206.9999694824219,
-["x"] = -230.4998779296875,
-["point"] = "CENTER",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -82,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -42,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = 3,
-["point"] = "BOTTOM",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-},
-{
-},
-{
-},
-{
-},
-[13] = {
-},
-[15] = {
-},
-},
-},
-["达奥里斯 - 匕首岭"] = {
-["actionbars"] = {
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 41.75,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-["enabled"] = false,
-["version"] = 3,
-["position"] = {
-["y"] = -228.5000915527344,
-["x"] = -230.5002136230469,
-["point"] = "CENTER",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -82,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -42,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = 3,
-["point"] = "BOTTOM",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-},
-{
-},
-{
-},
-{
-},
-[13] = {
-},
-[15] = {
-},
-},
-},
 },
 },
 ["LibDualSpec-1.0"] = {
+},
+["MicroMenu"] = {
+["profiles"] = {
+["达奥里斯 - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["小脚萝莉 - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["艾德赛 - 匕首岭"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+["bf_infobox"] = {
+["position"] = {
+["y"] = 34.82707876603422,
+["x"] = 348.8927675184277,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+["version"] = 3,
+},
+},
 },
 ["UnitFrames"] = {
 ["profiles"] = {
@@ -314,7 +357,6 @@ Bartender4DB = {
 },
 },
 },
-["uiScale"] = 0.8,
 ["unitframes"] = {
 ["PartyMemberFrame2"] = {
 ["position"] = {
@@ -366,21 +408,6 @@ Bartender4DB = {
 ["x"] = 159.8494873046875,
 },
 },
-["TargetFrame"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 90.39151000976562,
-["x"] = -351.1030883789063,
-["point"] = "CENTER",
-},
-},
-["PartyMemberFrame3"] = {
-["position"] = {
-["y"] = -95,
-["x"] = 80,
-},
-["version"] = 3,
-},
 ["CastingBarFrame"] = {
 ["position"] = {
 ["y"] = 160,
@@ -389,55 +416,58 @@ Bartender4DB = {
 },
 ["version"] = 3,
 },
-},
-},
-},
-},
-["MicroMenu"] = {
-["profiles"] = {
-["bf_infobox"] = {
+["PartyMemberFrame3"] = {
 ["position"] = {
-["y"] = 34.82707876603422,
-["x"] = 348.8927675184277,
-["point"] = "BOTTOM",
-["scale"] = 0.800000011920929,
+["y"] = -95,
+["x"] = 80,
 },
 ["version"] = 3,
 },
-["艾德赛 - 匕首岭"] = {
-["padding"] = -2,
+["TargetFrame"] = {
 ["version"] = 3,
 ["position"] = {
-["scale"] = 1,
-["x"] = 33,
-["point"] = "BOTTOM",
-["y"] = 42,
+["y"] = 90.39151000976562,
+["x"] = -351.1030883789063,
+["point"] = "CENTER",
 },
 },
-["小脚萝莉 - 匕首岭"] = {
-["padding"] = -2,
-["version"] = 3,
-["position"] = {
-["scale"] = 1,
-["x"] = 33,
-["point"] = "BOTTOM",
-["y"] = 42,
 },
-},
-["达奥里斯 - 匕首岭"] = {
-["padding"] = -2,
-["version"] = 3,
-["position"] = {
-["scale"] = 1,
-["x"] = 33,
-["point"] = "BOTTOM",
-["y"] = 42,
-},
+["uiScale"] = 0.8,
 },
 },
 },
 ["BagBar"] = {
 ["profiles"] = {
+["达奥里斯 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["小脚萝莉 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
+["艾德赛 - 匕首岭"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 4,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 304,
+["point"] = "BOTTOM",
+},
+},
 ["bf_infobox"] = {
 ["version"] = 3,
 ["position"] = {
@@ -446,48 +476,10 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["艾德赛 - 匕首岭"] = {
-["verticalAlignment"] = "CENTER",
-["padding"] = 4,
-["version"] = 3,
-["position"] = {
-["y"] = 42,
-["x"] = 304,
-["point"] = "BOTTOM",
-},
-},
-["小脚萝莉 - 匕首岭"] = {
-["verticalAlignment"] = "CENTER",
-["padding"] = 4,
-["version"] = 3,
-["position"] = {
-["y"] = 42,
-["x"] = 304,
-["point"] = "BOTTOM",
-},
-},
-["达奥里斯 - 匕首岭"] = {
-["verticalAlignment"] = "CENTER",
-["padding"] = 4,
-["version"] = 3,
-["position"] = {
-["y"] = 42,
-["x"] = 304,
-["point"] = "BOTTOM",
-},
-},
 },
 },
 ["MultiCast"] = {
 ["profiles"] = {
-["bf_infobox"] = {
-["position"] = {
-["y"] = 2.782791137695313,
-["x"] = 136.4999847412109,
-["point"] = "LEFT",
-},
-["version"] = 3,
-},
 ["达奥里斯 - 匕首岭"] = {
 ["version"] = 3,
 ["position"] = {
@@ -496,11 +488,19 @@ Bartender4DB = {
 ["point"] = "CENTER",
 },
 },
+["bf_infobox"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 2.782791137695313,
+["x"] = 136.4999847412109,
+["point"] = "LEFT",
+},
+},
 },
 },
 ["BlizzardArt"] = {
 ["profiles"] = {
-["艾德赛 - 匕首岭"] = {
+["小脚萝莉 - 匕首岭"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -509,7 +509,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["小脚萝莉 - 匕首岭"] = {
+["艾德赛 - 匕首岭"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -531,6 +531,33 @@ Bartender4DB = {
 },
 ["XPBar"] = {
 ["profiles"] = {
+["达奥里斯 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["小脚萝莉 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["艾德赛 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
 ["bf_infobox"] = {
 ["position"] = {
 ["y"] = 57,
@@ -538,80 +565,24 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["艾德赛 - 匕首岭"] = {
-["enabled"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 54,
-["x"] = -514,
-["point"] = "BOTTOM",
-},
-},
-["小脚萝莉 - 匕首岭"] = {
-["enabled"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 54,
-["x"] = -514,
-["point"] = "BOTTOM",
-},
-},
-["达奥里斯 - 匕首岭"] = {
-["enabled"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 54,
-["x"] = -514,
-["point"] = "BOTTOM",
-},
-},
-},
-},
-["Vehicle"] = {
-["profiles"] = {
-["bf_infobox"] = {
-["position"] = {
-["y"] = -88.48649597167969,
-["x"] = 356.290771484375,
-["point"] = "CENTER",
-},
-["version"] = 3,
-},
-["艾德赛 - 匕首岭"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 42.50003051757813,
-["x"] = 104.5001220703125,
-["point"] = "CENTER",
-},
-},
-["小脚萝莉 - 匕首岭"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 42.50003051757813,
-["x"] = 104.5001220703125,
-["point"] = "CENTER",
-},
-},
-["达奥里斯 - 匕首岭"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 42.49981689453125,
-["x"] = 104.4999389648438,
-["point"] = "CENTER",
-},
-},
 },
 },
 ["StanceBar"] = {
 ["profiles"] = {
-["bf_infobox"] = {
+["达奥里斯 - 匕首岭"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 199.9999847412109,
-["x"] = -396.0321807861328,
-["point"] = "BOTTOM",
-["scale"] = 1,
+["y"] = -15.00004577636719,
+["x"] = -82.50007629394531,
+["point"] = "CENTER",
+},
+},
+["小脚萝莉 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = -15.00004577636719,
+["x"] = -82.49998474121094,
+["point"] = "CENTER",
 },
 },
 ["艾德赛 - 匕首岭"] = {
@@ -623,31 +594,68 @@ Bartender4DB = {
 ["y"] = 143,
 },
 },
-["小脚萝莉 - 匕首岭"] = {
+["bf_infobox"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = -15.00004577636719,
-["x"] = -82.49998474121094,
-["point"] = "CENTER",
+["y"] = 199.9999847412109,
+["x"] = -396.0321807861328,
+["point"] = "BOTTOM",
+["scale"] = 1,
 },
 },
+},
+},
+["Vehicle"] = {
+["profiles"] = {
 ["达奥里斯 - 匕首岭"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = -15.00004577636719,
-["x"] = -82.50007629394531,
+["y"] = 42.49981689453125,
+["x"] = 104.4999389648438,
 ["point"] = "CENTER",
 },
+},
+["小脚萝莉 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.50003051757813,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+},
+["艾德赛 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.50003051757813,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+},
+["bf_infobox"] = {
+["position"] = {
+["y"] = -88.48649597167969,
+["x"] = 356.290771484375,
+["point"] = "CENTER",
+},
+["version"] = 3,
 },
 },
 },
 ["PetBar"] = {
 ["profiles"] = {
-["bf_infobox"] = {
+["达奥里斯 - 匕首岭"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 200,
-["x"] = -393.6808319091797,
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+},
+},
+["小脚萝莉 - 匕首岭"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
 ["point"] = "BOTTOM",
 },
 },
@@ -659,19 +667,11 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["小脚萝莉 - 匕首岭"] = {
+["bf_infobox"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 143,
-["x"] = -460,
-["point"] = "BOTTOM",
-},
-},
-["达奥里斯 - 匕首岭"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 143,
-["x"] = -460,
+["y"] = 200,
+["x"] = -393.6808319091797,
 ["point"] = "BOTTOM",
 },
 },
@@ -679,6 +679,33 @@ Bartender4DB = {
 },
 ["RepBar"] = {
 ["profiles"] = {
+["达奥里斯 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["小脚萝莉 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["艾德赛 - 匕首岭"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
 ["bf_infobox"] = {
 ["position"] = {
 ["y"] = 65,
@@ -686,47 +713,16 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["艾德赛 - 匕首岭"] = {
-["enabled"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 61,
-["x"] = -514,
-["point"] = "BOTTOM",
-},
-},
-["小脚萝莉 - 匕首岭"] = {
-["enabled"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 61,
-["x"] = -514,
-["point"] = "BOTTOM",
-},
-},
-["达奥里斯 - 匕首岭"] = {
-["enabled"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 61,
-["x"] = -514,
-["point"] = "BOTTOM",
-},
-},
 },
 },
 },
 ["profileKeys"] = {
-["艾德赛 - 匕首岭"] = "bf_infobox",
 ["小脚萝莉 - 匕首岭"] = "bf_infobox",
+["艾德赛 - 匕首岭"] = "bf_infobox",
 ["达奥里斯 - 匕首岭"] = "bf_infobox",
 },
 ["profiles"] = {
-["bf_infobox"] = {
-["focuscastmodifier"] = false,
-["buttonlock"] = false,
-},
-["艾德赛 - 匕首岭"] = {
+["达奥里斯 - 匕首岭"] = {
 ["focuscastmodifier"] = false,
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
@@ -736,10 +732,15 @@ Bartender4DB = {
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
 },
-["达奥里斯 - 匕首岭"] = {
+["艾德赛 - 匕首岭"] = {
 ["focuscastmodifier"] = false,
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
+},
+["bf_infobox"] = {
+["focuscastmodifier"] = false,
+["buttonlock"] = false,
+["onkeydown"] = true,
 },
 },
 }

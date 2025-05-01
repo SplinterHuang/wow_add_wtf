@@ -3,8 +3,8 @@ WeakAurasSaved = {
 ["dynamicIconCache"] = {
 },
 ["editor_tab_spaces"] = 4,
-["login_squelch_time"] = 10,
 ["editor_font_size"] = 12,
+["login_squelch_time"] = 10,
 ["lastArchiveClear"] = 1741616980,
 ["minimap"] = {
 ["hide"] = false,
@@ -12,6 +12,8 @@ WeakAurasSaved = {
 ["lastUpgrade"] = 1741616983,
 ["dbVersion"] = 73,
 ["migrationCutoff"] = 730,
+["registered"] = {
+},
 ["features"] = {
 },
 ["displays"] = {
@@ -137,6 +139,10 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["xOffset"] = 238.0335937500001,
 ["cooldown"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -165,33 +171,29 @@ WeakAurasSaved = {
 ["finish"] = {
 },
 },
-["authorOptions"] = {
-},
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "腐蚀之种",
-["width"] = 32.00015869140634,
-["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 32.00015869140634,
 ["frameStrata"] = 1,
 ["uid"] = "SnB)RdGMivX",
 ["inverse"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
 ["information"] = {
 },
-["progressSource"] = {
--1,
-"",
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["buff"] = {
@@ -207,10 +209,11 @@ WeakAurasSaved = {
 "no 生命分流 ",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["scale"] = 1,
-["borderEdge"] = "Square Full White",
-["border"] = false,
+["authorOptions"] = {
+},
 ["yOffset"] = -118.6573486328125,
+["border"] = false,
+["borderEdge"] = "Square Full White",
 ["regionType"] = "group",
 ["borderSize"] = 2,
 ["animation"] = {
@@ -239,8 +242,7 @@ WeakAurasSaved = {
 0,
 1,
 },
-["authorOptions"] = {
-},
+["scale"] = 1,
 ["actions"] = {
 ["start"] = {
 },
@@ -276,8 +278,7 @@ WeakAurasSaved = {
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["borderInset"] = 1,
-["config"] = {
-},
+["uid"] = "LLSbo3nbi5e",
 ["information"] = {
 },
 ["subRegions"] = {
@@ -303,7 +304,8 @@ WeakAurasSaved = {
 },
 },
 },
-["uid"] = "LLSbo3nbi5e",
+["config"] = {
+},
 },
 ["群"] = {
 ["iconSource"] = -1,
@@ -439,31 +441,6 @@ WeakAurasSaved = {
 ["keepAspectRatio"] = false,
 ["information"] = {
 },
-["icon"] = true,
-["parent"] = "1守护",
-["authorOptions"] = {
-},
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["uid"] = "wG7vPYAEmPA",
-["frameStrata"] = 1,
-["id"] = "群",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["width"] = 50,
-["useCooldownModRate"] = true,
-["config"] = {
-},
-["inverse"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["conditions"] = {
-},
-["cooldown"] = true,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -483,6 +460,31 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["icon"] = true,
+["parent"] = "1守护",
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["uid"] = "wG7vPYAEmPA",
+["frameStrata"] = 1,
+["id"] = "群",
+["width"] = 50,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["config"] = {
+},
+["inverse"] = false,
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["cooldown"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["绿甲"] = {
@@ -634,6 +636,7 @@ WeakAurasSaved = {
 ["parent"] = "buff",
 ["information"] = {
 },
+["selfPoint"] = "CENTER",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -644,25 +647,24 @@ WeakAurasSaved = {
 ["init"] = {
 },
 },
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["uid"] = "JOpHXvcULih",
+["alpha"] = 0.7999999999999998,
+["id"] = "绿甲",
+["width"] = 28,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["config"] = {
+},
+["inverse"] = false,
 ["color"] = {
 0.960784375667572,
 0.960784375667572,
 0.960784375667572,
 0.8190326988697052,
 },
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["uid"] = "JOpHXvcULih",
-["alpha"] = 0.7999999999999998,
-["id"] = "绿甲",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["width"] = 28,
-["useCooldownModRate"] = true,
-["config"] = {
-},
-["inverse"] = false,
-["keepAspectRatio"] = true,
 ["conditions"] = {
 {
 ["check"] = {
@@ -674,7 +676,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["selfPoint"] = "CENTER",
+["keepAspectRatio"] = true,
 },
 ["爆炸陷阱"] = {
 ["iconSource"] = -1,
@@ -822,6 +824,8 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["parent"] = "都怕死",
 ["cooldown"] = true,
+["authorOptions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -831,23 +835,22 @@ WeakAurasSaved = {
 },
 },
 ["selfPoint"] = "CENTER",
-["progressSource"] = {
--1,
-"",
-},
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["config"] = {
 },
 ["useCooldownModRate"] = true,
 ["id"] = "爆炸陷阱",
-["width"] = 25,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 25,
 ["frameStrata"] = 1,
 ["uid"] = "0bdgjjzDc)Z",
 ["inverse"] = true,
-["xOffset"] = 15.84857177734375,
+["progressSource"] = {
+-1,
+"",
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -888,8 +891,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
+["xOffset"] = 15.84857177734375,
 },
 ["dot"] = {
 ["backdropColor"] = {
@@ -908,11 +910,10 @@ WeakAurasSaved = {
 "腐蚀之种",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["authorOptions"] = {
-},
-["borderEdge"] = "Square Full White",
-["border"] = false,
+["xOffset"] = -165.57666015625,
 ["yOffset"] = -61.12942504882813,
+["border"] = false,
+["borderEdge"] = "Square Full White",
 ["anchorPoint"] = "CENTER",
 ["borderSize"] = 2,
 ["selfPoint"] = "CENTER",
@@ -922,7 +923,8 @@ WeakAurasSaved = {
 0,
 1,
 },
-["xOffset"] = -165.57666015625,
+["authorOptions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -978,7 +980,7 @@ WeakAurasSaved = {
 ["anchorFrameType"] = "SCREEN",
 ["config"] = {
 },
-["uid"] = "n(cfgV64zTZ",
+["borderInset"] = 1,
 ["load"] = {
 ["size"] = {
 ["multi"] = {
@@ -1004,7 +1006,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["borderInset"] = 1,
+["uid"] = "n(cfgV64zTZ",
 },
 ["虫群"] = {
 ["iconSource"] = -1,
@@ -1156,6 +1158,8 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["selfPoint"] = "CENTER",
 ["cooldown"] = true,
+["authorOptions"] = {
+},
 ["icon"] = true,
 ["color"] = {
 1,
@@ -1163,23 +1167,22 @@ WeakAurasSaved = {
 1,
 1,
 },
-["progressSource"] = {
--1,
-"",
-},
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["useCooldownModRate"] = true,
 ["id"] = "虫群",
-["width"] = 25,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 25,
 ["frameStrata"] = 1,
 ["uid"] = "5sJj0)4Etz6",
 ["inverse"] = false,
-["xOffset"] = -17.224853515625,
+["progressSource"] = {
+-1,
+"",
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -1202,8 +1205,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
+["xOffset"] = -17.224853515625,
 },
 ["神像暴击"] = {
 ["iconSource"] = -1,
@@ -1386,6 +1388,8 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["authorOptions"] = {
+},
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -1407,30 +1411,28 @@ WeakAurasSaved = {
 },
 },
 ["xOffset"] = 73.70059204101562,
+["zoom"] = 0,
+["cooldownTextDisabled"] = false,
+["uid"] = "(1JADU7XxXU",
+["useCooldownModRate"] = false,
+["id"] = "神像暴击",
+["width"] = 39.29997634887695,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["config"] = {
+},
+["inverse"] = false,
 ["color"] = {
 1,
 1,
 1,
 0.465912938117981,
 },
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["uid"] = "(1JADU7XxXU",
-["useCooldownModRate"] = false,
-["id"] = "神像暴击",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["width"] = 39.29997634887695,
-["frameStrata"] = 1,
-["config"] = {
-},
-["inverse"] = false,
-["keepAspectRatio"] = false,
 ["conditions"] = {
 },
 ["cooldown"] = false,
-["authorOptions"] = {
-},
+["keepAspectRatio"] = false,
 },
 ["狩猎"] = {
 ["iconSource"] = -1,
@@ -1589,25 +1591,26 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["selfPoint"] = "CENTER",
 ["cooldown"] = true,
+["authorOptions"] = {
+},
 ["icon"] = true,
 ["parent"] = "under",
-["progressSource"] = {
--1,
-"",
-},
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "狩猎",
-["width"] = 30,
-["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["width"] = 30,
 ["useCooldownModRate"] = true,
 ["uid"] = "c17sdIkwelY",
 ["inverse"] = false,
-["xOffset"] = -42.29827880859375,
+["progressSource"] = {
+-1,
+"",
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -1638,8 +1641,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
+["xOffset"] = -42.29827880859375,
 },
 ["日"] = {
 ["iconSource"] = -1,
@@ -1791,6 +1793,8 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["selfPoint"] = "CENTER",
 ["cooldown"] = true,
+["authorOptions"] = {
+},
 ["icon"] = true,
 ["color"] = {
 1,
@@ -1798,23 +1802,22 @@ WeakAurasSaved = {
 1,
 1,
 },
-["progressSource"] = {
--1,
-"",
-},
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["useCooldownModRate"] = true,
 ["id"] = "日",
-["width"] = 25,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 25,
 ["frameStrata"] = 1,
 ["uid"] = "guMXUM5bEPy",
 ["inverse"] = false,
-["xOffset"] = 12.783447265625,
+["progressSource"] = {
+-1,
+"",
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -1845,8 +1848,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
+["xOffset"] = 12.783447265625,
 },
 ["月火"] = {
 ["iconSource"] = -1,
@@ -1985,6 +1987,10 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -2006,21 +2012,20 @@ WeakAurasSaved = {
 },
 },
 ["parent"] = "鸟循环",
-["authorOptions"] = {
-},
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["uid"] = "Thii3bVNbkg",
 ["frameStrata"] = 1,
 ["id"] = "月火",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["width"] = 25,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
 ["config"] = {
 },
 ["inverse"] = false,
-["icon"] = true,
+["authorOptions"] = {
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -2042,10 +2047,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["progressSource"] = {
--1,
-"",
-},
+["icon"] = true,
 },
 ["痛苦无常"] = {
 ["iconSource"] = -1,
@@ -2213,6 +2215,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["icon"] = true,
 ["color"] = {
 1,
 1,
@@ -2220,26 +2223,25 @@ WeakAurasSaved = {
 1,
 },
 ["keepAspectRatio"] = false,
-["authorOptions"] = {
-},
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["config"] = {
 },
 ["frameStrata"] = 1,
 ["id"] = "痛苦无常",
-["width"] = 31.99993896484375,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 31.99993896484375,
 ["useCooldownModRate"] = true,
 ["uid"] = "hEt3Tj0X3pY",
 ["inverse"] = false,
-["xOffset"] = 269.9449468135833,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["information"] = {
 },
-["icon"] = true,
+["xOffset"] = 269.9449468135833,
 },
 ["生命分流"] = {
 ["iconSource"] = -1,
@@ -2371,6 +2373,10 @@ WeakAurasSaved = {
 },
 },
 ["useAdjustededMax"] = false,
+["authorOptions"] = {
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
 ["actions"] = {
 ["start"] = {
 },
@@ -2379,39 +2385,7 @@ WeakAurasSaved = {
 ["finish"] = {
 },
 },
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["authorOptions"] = {
-},
-["keepAspectRatio"] = true,
-["useTooltip"] = false,
-["cooldown"] = true,
 ["xOffset"] = 58.93726348876953,
-["config"] = {
-},
-["zoom"] = 0,
-["frameStrata"] = 1,
-["width"] = 25,
-["id"] = "生命分流",
-["useCooldownModRate"] = true,
-["alpha"] = 0.8499999999999999,
-["anchorFrameType"] = "SCREEN",
-["cooldownTextDisabled"] = false,
-["uid"] = "2lErstSUeii",
-["inverse"] = false,
-["parent"] = "buff",
-["conditions"] = {
-{
-["check"] = {
-},
-["changes"] = {
-{
-},
-},
-},
-},
-["information"] = {
-},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -2432,6 +2406,34 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["cooldown"] = true,
+["useTooltip"] = false,
+["config"] = {
+},
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["width"] = 25,
+["id"] = "生命分流",
+["useCooldownModRate"] = true,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 0.8499999999999999,
+["uid"] = "2lErstSUeii",
+["inverse"] = false,
+["parent"] = "buff",
+["conditions"] = {
+{
+["check"] = {
+},
+["changes"] = {
+{
+},
+},
+},
+},
+["information"] = {
+},
+["keepAspectRatio"] = true,
 },
 ["急奔"] = {
 ["iconSource"] = -1,
@@ -2571,6 +2573,10 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -2592,28 +2598,24 @@ WeakAurasSaved = {
 },
 },
 ["parent"] = "鸟循环",
-["authorOptions"] = {
-},
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["uid"] = "8rEc35uGBwn",
 ["frameStrata"] = 1,
 ["id"] = "急奔",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["width"] = 20,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
 ["config"] = {
 },
 ["inverse"] = false,
-["icon"] = true,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["cooldown"] = true,
-["progressSource"] = {
--1,
-"",
-},
+["icon"] = true,
 },
 ["龙"] = {
 ["iconSource"] = -1,
@@ -2748,8 +2750,28 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
 ["keepAspectRatio"] = false,
 ["parent"] = "under",
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["uid"] = "dNBqsUGKfQP",
+["useCooldownModRate"] = true,
+["id"] = "龙",
+["width"] = 30,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["config"] = {
+},
+["inverse"] = false,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -2770,30 +2792,10 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["uid"] = "dNBqsUGKfQP",
-["useCooldownModRate"] = true,
-["id"] = "龙",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["width"] = 30,
-["alpha"] = 1,
-["config"] = {
-},
-["inverse"] = false,
-["xOffset"] = 43.66336669921873,
 ["conditions"] = {
 },
 ["cooldown"] = true,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
+["xOffset"] = 43.66336669921873,
 },
 ["1守护"] = {
 ["backdropColor"] = {
@@ -2807,10 +2809,10 @@ WeakAurasSaved = {
 "群",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = -45.415771484375,
-["borderEdge"] = "Square Full White",
-["border"] = false,
+["scale"] = 1,
 ["yOffset"] = 43.822265625,
+["border"] = false,
+["borderEdge"] = "Square Full White",
 ["anchorPoint"] = "CENTER",
 ["borderSize"] = 2,
 ["selfPoint"] = "CENTER",
@@ -2820,7 +2822,7 @@ WeakAurasSaved = {
 0,
 1,
 },
-["scale"] = 1,
+["xOffset"] = -45.415771484375,
 ["actions"] = {
 ["start"] = {
 },
@@ -2876,7 +2878,8 @@ WeakAurasSaved = {
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["borderInset"] = 1,
-["uid"] = "kk66tMdrYeH",
+["config"] = {
+},
 ["load"] = {
 ["size"] = {
 ["multi"] = {
@@ -2902,8 +2905,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["config"] = {
-},
+["uid"] = "kk66tMdrYeH",
 },
 ["月"] = {
 ["iconSource"] = -1,
@@ -3042,6 +3044,10 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -3063,21 +3069,20 @@ WeakAurasSaved = {
 },
 },
 ["parent"] = "鸟循环",
-["authorOptions"] = {
-},
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["uid"] = "RxXVhSaH(gl",
 ["frameStrata"] = 1,
 ["id"] = "月",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["width"] = 25,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
 ["config"] = {
 },
 ["inverse"] = false,
-["icon"] = true,
+["authorOptions"] = {
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -3107,10 +3112,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["progressSource"] = {
--1,
-"",
-},
+["icon"] = true,
 },
 ["龙母"] = {
 ["iconSource"] = -1,
@@ -3290,6 +3292,7 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["xOffset"] = -82.8635025024414,
 ["cooldown"] = false,
+["parent"] = "buffff",
 ["actions"] = {
 ["start"] = {
 },
@@ -3318,26 +3321,25 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["keepAspectRatio"] = false,
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["config"] = {
 },
 ["useCooldownModRate"] = false,
 ["id"] = "龙母",
-["width"] = 44.87712097167969,
-["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["width"] = 44.87712097167969,
 ["alpha"] = 1,
 ["uid"] = "FydIlFVos2g",
 ["inverse"] = false,
-["authorOptions"] = {
-},
+["keepAspectRatio"] = false,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["parent"] = "buffff",
+["authorOptions"] = {
+},
 },
 ["暗影之拥"] = {
 ["iconSource"] = -1,
@@ -3522,6 +3524,10 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["parent"] = "dot",
 ["cooldown"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -3531,28 +3537,24 @@ WeakAurasSaved = {
 },
 },
 ["selfPoint"] = "CENTER",
-["xOffset"] = 206.8539794921875,
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["config"] = {
 },
 ["useCooldownModRate"] = true,
 ["id"] = "暗影之拥",
-["width"] = 31.99993896484375,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 31.99993896484375,
 ["frameStrata"] = 1,
 ["uid"] = "95zB)BhV76U",
 ["inverse"] = false,
-["authorOptions"] = {
-},
+["xOffset"] = 206.8539794921875,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["progressSource"] = {
--1,
-"",
+["authorOptions"] = {
 },
 },
 ["痛苦无常 焦点"] = {
@@ -3720,26 +3722,6 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["keepAspectRatio"] = false,
-["selfPoint"] = "CENTER",
-["parent"] = "焦点",
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["uid"] = "d5Y8Ls67aQK",
-["alpha"] = 1,
-["id"] = "痛苦无常 焦点",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["width"] = 31.99993896484375,
-["useCooldownModRate"] = true,
-["config"] = {
-},
-["inverse"] = false,
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["cooldown"] = true,
 ["actions"] = {
 ["start"] = {
 },
@@ -3747,6 +3729,26 @@ WeakAurasSaved = {
 },
 ["init"] = {
 },
+},
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["zoom"] = 0,
+["cooldownTextDisabled"] = false,
+["uid"] = "d5Y8Ls67aQK",
+["alpha"] = 1,
+["id"] = "痛苦无常 焦点",
+["width"] = 31.99993896484375,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["config"] = {
+},
+["inverse"] = false,
+["parent"] = "焦点",
+["conditions"] = {
+},
+["cooldown"] = true,
+["authorOptions"] = {
 },
 },
 ["腐蚀"] = {
@@ -3876,6 +3878,7 @@ WeakAurasSaved = {
 ["parent"] = "dot",
 ["information"] = {
 },
+["keepAspectRatio"] = false,
 ["actions"] = {
 ["start"] = {
 },
@@ -3890,19 +3893,22 @@ WeakAurasSaved = {
 1,
 1,
 },
-["xOffset"] = 302.6657658100126,
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["uid"] = "QJBnZM2AX4Z",
 ["frameStrata"] = 1,
 ["id"] = "腐蚀",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["width"] = 31.99993896484375,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
 ["config"] = {
 },
 ["inverse"] = false,
+["xOffset"] = 302.6657658100126,
+["conditions"] = {
+},
+["cooldown"] = true,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -3923,10 +3929,6 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["conditions"] = {
-},
-["cooldown"] = true,
-["keepAspectRatio"] = false,
 },
 ["蛇"] = {
 ["iconSource"] = -1,
@@ -4066,6 +4068,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["keepAspectRatio"] = false,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -4087,26 +4090,25 @@ WeakAurasSaved = {
 },
 },
 ["parent"] = "under",
-["xOffset"] = 43.66342773437498,
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "蛇",
-["width"] = 30,
-["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 30,
 ["frameStrata"] = 1,
 ["uid"] = "CFZv81uUNOF",
 ["inverse"] = false,
-["authorOptions"] = {
-},
+["xOffset"] = 43.66342773437498,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["keepAspectRatio"] = false,
+["authorOptions"] = {
+},
 },
 ["狙击训练  无"] = {
 ["iconSource"] = 0,
@@ -4261,26 +4263,26 @@ WeakAurasSaved = {
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["displayIcon"] = 236187,
-["parent"] = "under",
+["icon"] = true,
 ["progressSource"] = {
 -1,
 "",
 },
 ["cooldown"] = true,
-["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
-["zoom"] = 0,
-["useCooldownModRate"] = true,
+["cooldownTextDisabled"] = false,
+["xOffset"] = 73.74851074218748,
 ["width"] = 30,
 ["id"] = "狙击训练  无",
 ["frameStrata"] = 1,
-["alpha"] = 1,
+["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 73.74851074218748,
+["alpha"] = 1,
 ["uid"] = "dsoEqTr2(eg",
 ["inverse"] = false,
-["icon"] = true,
+["parent"] = "under",
 ["conditions"] = {
 {
 ["check"] = {
@@ -4455,27 +4457,27 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["selfPoint"] = "CENTER",
 ["xOffset"] = 269.9449468135833,
 ["icon"] = true,
-["parent"] = "dot",
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["uid"] = "Ay6Asp)dWP(",
 ["useCooldownModRate"] = true,
 ["id"] = "鬼影",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["width"] = 31.99993896484375,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
 ["config"] = {
 },
 ["inverse"] = false,
-["authorOptions"] = {
-},
+["parent"] = "dot",
 ["conditions"] = {
 },
 ["cooldown"] = true,
-["selfPoint"] = "CENTER",
+["authorOptions"] = {
+},
 },
 ["痛苦诅咒 焦点"] = {
 ["iconSource"] = -1,
@@ -4645,30 +4647,30 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["authorOptions"] = {
+},
 ["progressSource"] = {
 -1,
 "",
 },
 ["parent"] = "焦点",
-["xOffset"] = 270,
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["uid"] = "XvTbcdw5R4Z",
 ["useCooldownModRate"] = true,
 ["id"] = "痛苦诅咒 焦点",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["width"] = 31.99993896484375,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
 ["config"] = {
 },
 ["inverse"] = false,
-["icon"] = true,
+["xOffset"] = 270,
 ["conditions"] = {
 },
 ["cooldown"] = true,
-["authorOptions"] = {
-},
+["icon"] = true,
 },
 ["焦点"] = {
 ["backdropColor"] = {
@@ -4683,10 +4685,11 @@ WeakAurasSaved = {
 "痛苦诅咒 焦点",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = -25.09941001338124,
-["yOffset"] = 186.8411943578246,
-["border"] = false,
+["authorOptions"] = {
+},
 ["borderEdge"] = "Square Full White",
+["border"] = false,
+["yOffset"] = 186.8411943578246,
 ["regionType"] = "group",
 ["borderSize"] = 2,
 ["selfPoint"] = "CENTER",
@@ -4696,8 +4699,7 @@ WeakAurasSaved = {
 0,
 1,
 },
-["authorOptions"] = {
-},
+["xOffset"] = -25.09941001338124,
 ["actions"] = {
 ["start"] = {
 },
@@ -4752,8 +4754,7 @@ WeakAurasSaved = {
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["uid"] = "ctEhs6V5qS2",
-["config"] = {
-},
+["borderInset"] = 1,
 ["load"] = {
 ["talent"] = {
 ["multi"] = {
@@ -4779,7 +4780,8 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["borderInset"] = 1,
+["config"] = {
+},
 },
 ["治疗BB"] = {
 ["iconSource"] = -1,
@@ -4929,6 +4931,8 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -4940,19 +4944,17 @@ WeakAurasSaved = {
 "",
 },
 ["zoom"] = 0,
-["cooldownTextDisabled"] = false,
 ["alpha"] = 1,
 ["config"] = {
 },
 ["id"] = "治疗BB",
-["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
-["width"] = 22,
 ["useCooldownModRate"] = true,
+["width"] = 22,
+["anchorFrameType"] = "SCREEN",
 ["uid"] = "CGJqrPbkDyn",
 ["inverse"] = false,
-["authorOptions"] = {
-},
+["cooldownTextDisabled"] = false,
 ["conditions"] = {
 },
 ["information"] = {
@@ -5111,6 +5113,7 @@ WeakAurasSaved = {
 ["selfPoint"] = "CENTER",
 ["information"] = {
 },
+["parent"] = "dot",
 ["keepAspectRatio"] = false,
 ["color"] = {
 1,
@@ -5118,24 +5121,23 @@ WeakAurasSaved = {
 1,
 1,
 },
-["xOffset"] = 206.11044921875,
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["uid"] = "dpWo6u8b(A9",
 ["alpha"] = 1,
 ["id"] = "强化暗箭",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
 ["width"] = 31.99993896484375,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
 ["config"] = {
 },
 ["inverse"] = false,
-["icon"] = true,
+["xOffset"] = 206.11044921875,
 ["conditions"] = {
 },
 ["cooldown"] = true,
-["parent"] = "dot",
+["icon"] = true,
 },
 ["<BiaoGe>拍卖 v2.5"] = {
 ["outline"] = "OUTLINE",
@@ -5150,7 +5152,7 @@ WeakAurasSaved = {
 ["customText"] = "",
 ["shadowYOffset"] = -1,
 ["anchorPoint"] = "CENTER",
-["alpha"] = 1,
+["useTooltip"] = false,
 ["cooldownSwipe"] = true,
 ["displayText_format_p_time_format"] = 0,
 ["customTextUpdate"] = "update",
@@ -5189,20 +5191,43 @@ WeakAurasSaved = {
 ["activeTriggerMode"] = -10,
 },
 ["displayText_format_p_format"] = "timed",
-["internalVersion"] = 73,
+["displayText_format_p_time_legacy_floor"] = false,
 ["keepAspectRatio"] = false,
 ["wordWrap"] = "WordWrap",
 ["preferToUpdate"] = false,
 ["information"] = {
 },
-["desc"] = "作者：苍穹之霜\n\n此WA是团员端，用于接收团长发出的拍卖消息，没安装的团员显示不了拍卖UI。请团长把该WA发给团员安装。如果团员已经安装了BiaoGe插件，可以不用安装该WA。\n\n更新记录：\nv2.5：拍卖金额超过1万时会进行缩写。ALT+点击折叠时，会对全部拍卖窗口折叠\nv2.4：3千-5千的加价幅度改为100，3万-5万的加价幅度改为1000\nv2.3：拍卖框体右上角的隐藏按钮改为折叠按钮\nv2.2：按加价时，可以直接把出价设置为合适的价格\nv2.1：如果你的出价太低时，出价框显示为红色\nv2.0：重做进入动画；按组合键时可以发送或观察装备",
+["desaturate"] = false,
 ["conditions"] = {
 },
 ["font"] = "Friz Quadrata TT",
-["useTooltip"] = false,
-["displayText_format_c_format"] = "none",
+["icon"] = true,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
 ["height"] = 64,
-["fixedWidth"] = 200,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["load"] = {
 ["ingroup"] = {
 ["single"] = "raid",
@@ -5236,55 +5261,32 @@ WeakAurasSaved = {
 },
 },
 },
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["xOffset"] = 389.16650390625,
 ["uid"] = "0EFGeRwH9Qc",
 ["fontSize"] = 12,
 ["source"] = "import",
-["icon"] = true,
+["desc"] = "作者：苍穹之霜\n\n此WA是团员端，用于接收团长发出的拍卖消息，没安装的团员显示不了拍卖UI。请团长把该WA发给团员安装。如果团员已经安装了BiaoGe插件，可以不用安装该WA。\n\n更新记录：\nv2.5：拍卖金额超过1万时会进行缩写。ALT+点击折叠时，会对全部拍卖窗口折叠\nv2.4：3千-5千的加价幅度改为100，3万-5万的加价幅度改为1000\nv2.3：拍卖框体右上角的隐藏按钮改为折叠按钮\nv2.2：按加价时，可以直接把出价设置为合适的价格\nv2.1：如果你的出价太低时，出价框显示为红色\nv2.0：重做进入动画；按组合键时可以发送或观察装备",
 ["shadowXOffset"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["desaturate"] = false,
+["useCooldownModRate"] = true,
+["displayText_format_p_time_mod_rate"] = true,
 ["regionType"] = "text",
+["frameStrata"] = 1,
 ["authorOptions"] = {
 },
-["automaticWidth"] = "Auto",
-["displayText_format_p_time_mod_rate"] = true,
+["displayText_format_c_format"] = "none",
 ["cooldownTextDisabled"] = false,
 ["displayText_format_p_time_precision"] = 1,
 ["selfPoint"] = "BOTTOM",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
+["fixedWidth"] = 200,
 ["zoom"] = 0,
 ["justify"] = "LEFT",
 ["tocversion"] = 30404,
 ["id"] = "<BiaoGe>拍卖 v2.5",
 ["displayText"] = "",
-["useCooldownModRate"] = true,
+["alpha"] = 1,
 ["width"] = 64,
-["xOffset"] = 389.16650390625,
+["automaticWidth"] = "Auto",
 ["config"] = {
 },
 ["inverse"] = false,
@@ -5297,7 +5299,7 @@ WeakAurasSaved = {
 },
 ["displayIcon"] = "133784",
 ["cooldown"] = true,
-["displayText_format_p_time_legacy_floor"] = false,
+["internalVersion"] = 73,
 },
 ["痛苦诅咒"] = {
 ["iconSource"] = -1,
@@ -5443,6 +5445,12 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["parent"] = "dot",
 ["cooldown"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -5467,30 +5475,24 @@ WeakAurasSaved = {
 -1,
 "",
 },
-["icon"] = true,
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "痛苦诅咒",
-["width"] = 31.99993896484375,
-["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 31.99993896484375,
 ["frameStrata"] = 1,
 ["uid"] = "mX2(wuMhsi1",
 ["inverse"] = false,
-["authorOptions"] = {
-},
+["icon"] = true,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 },
 ["狩猎  无 "] = {
@@ -5650,32 +5652,32 @@ WeakAurasSaved = {
 },
 },
 },
-["selfPoint"] = "CENTER",
+["progressSource"] = {
+-1,
+"",
+},
 ["xOffset"] = -7.19207763671875,
 ["information"] = {
 },
-["zoom"] = 0,
-["uid"] = "v50C1JySPxU",
 ["cooldownTextDisabled"] = false,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["id"] = "狩猎  无 ",
-["alpha"] = 1,
-["useCooldownModRate"] = true,
-["width"] = 30,
+["uid"] = "v50C1JySPxU",
+["zoom"] = 0,
 ["color"] = {
 1,
 1,
 1,
 0.6317745745182037,
 },
+["anchorFrameType"] = "SCREEN",
+["id"] = "狩猎  无 ",
+["alpha"] = 1,
+["frameStrata"] = 1,
+["width"] = 30,
+["useCooldownModRate"] = true,
 ["config"] = {
 },
 ["inverse"] = false,
-["progressSource"] = {
--1,
-"",
-},
+["selfPoint"] = "CENTER",
 ["displayIcon"] = "",
 ["cooldown"] = true,
 ["actions"] = {
@@ -5702,10 +5704,11 @@ WeakAurasSaved = {
 "虫群",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = -25.283447265625,
-["yOffset"] = -0.999969482421875,
-["border"] = false,
+["authorOptions"] = {
+},
 ["borderEdge"] = "Square Full White",
+["border"] = false,
+["yOffset"] = -0.999969482421875,
 ["regionType"] = "group",
 ["borderSize"] = 2,
 ["animation"] = {
@@ -5734,8 +5737,7 @@ WeakAurasSaved = {
 0,
 1,
 },
-["authorOptions"] = {
-},
+["xOffset"] = -25.283447265625,
 ["actions"] = {
 ["start"] = {
 },
@@ -5771,7 +5773,8 @@ WeakAurasSaved = {
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["borderInset"] = 1,
-["uid"] = "Xf3zxvpZYqd",
+["config"] = {
+},
 ["information"] = {
 },
 ["subRegions"] = {
@@ -5797,8 +5800,7 @@ WeakAurasSaved = {
 },
 },
 },
-["config"] = {
-},
+["uid"] = "Xf3zxvpZYqd",
 },
 ["under"] = {
 ["backdropColor"] = {
@@ -5818,10 +5820,10 @@ WeakAurasSaved = {
 "狩猎  无 ",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["scale"] = 1,
-["yOffset"] = -159.7485046386719,
-["border"] = false,
+["xOffset"] = -68.47137451171875,
 ["borderEdge"] = "Square Full White",
+["border"] = false,
+["yOffset"] = -159.7485046386719,
 ["regionType"] = "group",
 ["borderSize"] = 2,
 ["selfPoint"] = "CENTER",
@@ -5831,7 +5833,7 @@ WeakAurasSaved = {
 0,
 1,
 },
-["xOffset"] = -68.47137451171875,
+["scale"] = 1,
 ["actions"] = {
 ["start"] = {
 },
@@ -5887,8 +5889,7 @@ WeakAurasSaved = {
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["uid"] = "JYi5o4Wv7kt",
-["config"] = {
-},
+["borderInset"] = 1,
 ["load"] = {
 ["talent"] = {
 ["multi"] = {
@@ -5914,7 +5915,8 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["borderInset"] = 1,
+["config"] = {
+},
 },
 ["杀戮射击"] = {
 ["iconSource"] = -1,
@@ -6045,6 +6047,12 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["parent"] = "都怕死",
 ["cooldown"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -6069,21 +6077,19 @@ WeakAurasSaved = {
 -1,
 "",
 },
-["icon"] = true,
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "杀戮射击",
-["width"] = 25,
-["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 25,
 ["frameStrata"] = 1,
 ["uid"] = "iuC(Ij)C0Dt",
 ["inverse"] = true,
-["authorOptions"] = {
-},
+["icon"] = true,
 ["conditions"] = {
 {
 ["check"] = {
@@ -6124,11 +6130,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 },
 ["毒蛇钉刺"] = {
@@ -6341,9 +6343,9 @@ WeakAurasSaved = {
 ["sparkHidden"] = "NEVER",
 ["alpha"] = 1,
 ["width"] = 173.2296600341797,
-["uid"] = "wlITBIMYDvF",
 ["config"] = {
 },
+["uid"] = "wlITBIMYDvF",
 ["inverse"] = false,
 ["actions"] = {
 ["start"] = {
@@ -6531,6 +6533,10 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
@@ -6538,234 +6544,25 @@ WeakAurasSaved = {
 1,
 },
 ["selfPoint"] = "CENTER",
-["authorOptions"] = {
-},
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "痛苦 焦点",
-["width"] = 31.99993896484375,
-["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["width"] = 31.99993896484375,
 ["useCooldownModRate"] = true,
 ["uid"] = "6J2PIqdk4X7",
-["inverse"] = false,
-["xOffset"] = 302.6657658100126,
-["conditions"] = {
-},
-["information"] = {
-},
-["progressSource"] = {
--1,
-"",
-},
-},
-["荷枪实弹"] = {
-["iconSource"] = -1,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["yOffset"] = 80.18074633280435,
-["anchorPoint"] = "CENTER",
-["cooldownSwipe"] = true,
-["cooldownEdge"] = false,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "aura2",
-["subeventSuffix"] = "_CAST_START",
-["ownOnly"] = true,
-["event"] = "Health",
-["subeventPrefix"] = "SPELL",
-["unitExists"] = false,
-["matchesShowOn"] = "showOnActive",
-["spellIds"] = {
-},
-["auranames"] = {
-"荷枪实弹",
-},
-["useName"] = true,
-["names"] = {
-},
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 73,
-["keepAspectRatio"] = false,
-["selfPoint"] = "CENTER",
-["desaturate"] = false,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-{
-["text_shadowXOffset"] = 0,
-["text_text_format_s_format"] = "none",
-["text_text"] = "%s",
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["text_fixedWidth"] = 64,
-["anchorYOffset"] = 0,
-["text_justify"] = "CENTER",
-["rotateText"] = "NONE",
-["type"] = "subtext",
-["text_color"] = {
-1,
-1,
-1,
-1,
-},
-["text_font"] = "Friz Quadrata TT",
-["text_shadowYOffset"] = 0,
-["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
-["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
-["text_fontSize"] = 12,
-["anchorXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-},
-{
-["glowFrequency"] = 0.25,
-["type"] = "subglow",
-["glowDuration"] = 1,
-["glowType"] = "buttonOverlay",
-["glowLength"] = 10,
-["glowYOffset"] = 0,
-["glowColor"] = {
-1,
-1,
-1,
-0.6230589151382446,
-},
-["useGlowColor"] = true,
-["glowXOffset"] = 0,
-["glow"] = false,
-["glowScale"] = 1,
-["glowThickness"] = 1,
-["glowLines"] = 8,
-["glowBorder"] = false,
-},
-},
-["height"] = 35.20553970336914,
-["load"] = {
-["use_class"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["single"] = "HUNTER",
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["useAdjustededMax"] = false,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["icon"] = true,
-["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["progressSource"] = {
--1,
-"",
-},
-["xOffset"] = 110.4562206268311,
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["config"] = {
-},
-["frameStrata"] = 1,
-["id"] = "荷枪实弹",
-["width"] = 43.38558578491211,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["useCooldownModRate"] = true,
-["uid"] = "niqG3wEwU(j",
 ["inverse"] = false,
 ["authorOptions"] = {
 },
 ["conditions"] = {
-{
-["check"] = {
-["value"] = 1,
-["variable"] = "buffed",
-["trigger"] = 1,
-},
-["changes"] = {
-{
-["value"] = false,
-["property"] = "inverse",
-},
-{
-["value"] = false,
-["property"] = "sub.3.glow",
-},
-{
-["value"] = {
-1,
-1,
-1,
-1,
-},
-["property"] = "color",
-},
-},
-},
 },
 ["information"] = {
 },
-["parent"] = "under",
+["xOffset"] = 302.6657658100126,
 },
 ["狙击训练 "] = {
 ["iconSource"] = -1,
@@ -6916,6 +6713,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
+["parent"] = "under",
 ["color"] = {
 1,
 1,
@@ -6923,23 +6721,19 @@ WeakAurasSaved = {
 0.5620571374893188,
 },
 ["icon"] = true,
-["authorOptions"] = {
-},
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["uid"] = "Oma0okoyRF(",
 ["alpha"] = 1,
 ["id"] = "狙击训练 ",
-["anchorFrameType"] = "SCREEN",
-["useCooldownModRate"] = true,
 ["width"] = 30,
+["useCooldownModRate"] = true,
+["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
 ["config"] = {
 },
 ["inverse"] = false,
-["progressSource"] = {
--1,
-"",
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -6970,7 +6764,215 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["progressSource"] = {
+-1,
+"",
+},
+},
+["荷枪实弹"] = {
+["iconSource"] = -1,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["yOffset"] = 80.18074633280435,
+["anchorPoint"] = "CENTER",
+["cooldownSwipe"] = true,
+["cooldownEdge"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "aura2",
+["subeventSuffix"] = "_CAST_START",
+["ownOnly"] = true,
+["event"] = "Health",
+["subeventPrefix"] = "SPELL",
+["unitExists"] = false,
+["matchesShowOn"] = "showOnActive",
+["spellIds"] = {
+},
+["auranames"] = {
+"荷枪实弹",
+},
+["useName"] = true,
+["names"] = {
+},
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 73,
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["text_shadowXOffset"] = 0,
+["text_text_format_s_format"] = "none",
+["text_text"] = "%s",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["text_fixedWidth"] = 64,
+["anchorYOffset"] = 0,
+["text_justify"] = "CENTER",
+["rotateText"] = "NONE",
+["type"] = "subtext",
+["text_color"] = {
+1,
+1,
+1,
+1,
+},
+["text_font"] = "Friz Quadrata TT",
+["text_shadowYOffset"] = 0,
+["text_wordWrap"] = "WordWrap",
+["text_visible"] = true,
+["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+["text_fontSize"] = 12,
+["anchorXOffset"] = 0,
+["text_fontType"] = "OUTLINE",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "buttonOverlay",
+["glowLength"] = 10,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+0.6230589151382446,
+},
+["useGlowColor"] = true,
+["glowXOffset"] = 0,
+["glow"] = false,
+["glowScale"] = 1,
+["glowThickness"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 35.20553970336914,
+["load"] = {
+["use_class"] = true,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["single"] = "HUNTER",
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["useAdjustededMax"] = false,
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["icon"] = true,
+["cooldown"] = true,
 ["parent"] = "under",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["progressSource"] = {
+-1,
+"",
+},
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["config"] = {
+},
+["frameStrata"] = 1,
+["id"] = "荷枪实弹",
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 43.38558578491211,
+["useCooldownModRate"] = true,
+["uid"] = "niqG3wEwU(j",
+["inverse"] = false,
+["xOffset"] = 110.4562206268311,
+["conditions"] = {
+{
+["check"] = {
+["value"] = 1,
+["variable"] = "buffed",
+["trigger"] = 1,
+},
+["changes"] = {
+{
+["value"] = false,
+["property"] = "inverse",
+},
+{
+["value"] = false,
+["property"] = "sub.3.glow",
+},
+{
+["value"] = {
+1,
+1,
+1,
+1,
+},
+["property"] = "color",
+},
+},
+},
+},
+["information"] = {
+},
+["authorOptions"] = {
+},
 },
 ["瞄准射击"] = {
 ["iconSource"] = -1,
@@ -7120,26 +7122,30 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "都怕死",
 ["progressSource"] = {
 -1,
 "",
 },
-["icon"] = true,
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "瞄准射击",
-["width"] = 25,
-["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 25,
 ["frameStrata"] = 1,
 ["uid"] = "zaZ9Zo9sFea",
 ["inverse"] = true,
-["authorOptions"] = {
-},
+["icon"] = true,
 ["conditions"] = {
 {
 ["check"] = {
@@ -7180,11 +7186,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 },
 ["buffff"] = {
@@ -7199,11 +7201,10 @@ WeakAurasSaved = {
 "神像暴击",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["authorOptions"] = {
-},
-["yOffset"] = 0,
-["border"] = false,
+["xOffset"] = 0,
 ["borderEdge"] = "Square Full White",
+["border"] = false,
+["yOffset"] = 0,
 ["regionType"] = "group",
 ["borderSize"] = 2,
 ["animation"] = {
@@ -7232,7 +7233,8 @@ WeakAurasSaved = {
 0,
 1,
 },
-["xOffset"] = 0,
+["authorOptions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -7268,8 +7270,7 @@ WeakAurasSaved = {
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["uid"] = "pPYJr(gBC0H",
-["config"] = {
-},
+["borderInset"] = 1,
 ["load"] = {
 ["size"] = {
 ["multi"] = {
@@ -7295,7 +7296,8 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["borderInset"] = 1,
+["config"] = {
+},
 },
 ["no 生命分流 "] = {
 ["iconSource"] = -1,
@@ -7441,6 +7443,7 @@ WeakAurasSaved = {
 ["parent"] = "buff",
 ["information"] = {
 },
+["selfPoint"] = "CENTER",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -7451,25 +7454,24 @@ WeakAurasSaved = {
 ["init"] = {
 },
 },
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["uid"] = "qBjTNLl6DWw",
+["alpha"] = 1,
+["id"] = "no 生命分流 ",
+["width"] = 25,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["config"] = {
+},
+["inverse"] = false,
 ["color"] = {
 1,
 1,
 1,
 0.4661972522735596,
 },
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["uid"] = "qBjTNLl6DWw",
-["alpha"] = 1,
-["id"] = "no 生命分流 ",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["width"] = 25,
-["useCooldownModRate"] = true,
-["config"] = {
-},
-["inverse"] = false,
-["keepAspectRatio"] = true,
 ["conditions"] = {
 {
 ["check"] = {
@@ -7483,7 +7485,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["selfPoint"] = "CENTER",
+["keepAspectRatio"] = true,
 },
 ["爆炸"] = {
 ["iconSource"] = -1,
@@ -7634,6 +7636,7 @@ WeakAurasSaved = {
 ["icon"] = true,
 ["information"] = {
 },
+["selfPoint"] = "CENTER",
 ["color"] = {
 1,
 1,
@@ -7642,23 +7645,19 @@ WeakAurasSaved = {
 },
 ["authorOptions"] = {
 },
-["xOffset"] = 55.2149658203125,
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["uid"] = "aq7rsD)Ih(P",
 ["alpha"] = 1,
 ["id"] = "爆炸",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
 ["width"] = 25,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
 ["config"] = {
 },
 ["inverse"] = true,
-["progressSource"] = {
--1,
-"",
-},
+["xOffset"] = 55.2149658203125,
 ["conditions"] = {
 {
 ["check"] = {
@@ -7698,7 +7697,10 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["selfPoint"] = "CENTER",
+["progressSource"] = {
+-1,
+"",
+},
 },
 ["shoulie"] = {
 ["iconSource"] = -1,
@@ -7835,6 +7837,7 @@ WeakAurasSaved = {
 ["information"] = {
 },
 ["icon"] = true,
+["xOffset"] = -148.4325805664063,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -7858,18 +7861,17 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["cooldownTextDisabled"] = false,
-["zoom"] = 0,
 ["useCooldownModRate"] = true,
 ["uid"] = "kFr99jqTcJA",
 ["id"] = "shoulie",
-["width"] = 33.95143890380859,
 ["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["width"] = 33.95143890380859,
 ["config"] = {
 },
 ["inverse"] = false,
-["xOffset"] = -148.4325805664063,
+["zoom"] = 0,
 ["conditions"] = {
 },
 ["cooldown"] = true,
@@ -7892,10 +7894,10 @@ WeakAurasSaved = {
 "爆炸陷阱",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = -133.7631098270419,
-["borderEdge"] = "Square Full White",
-["border"] = false,
+["scale"] = 1,
 ["yOffset"] = -160.2587585449219,
+["border"] = false,
+["borderEdge"] = "Square Full White",
 ["anchorPoint"] = "CENTER",
 ["borderSize"] = 2,
 ["animation"] = {
@@ -7924,7 +7926,7 @@ WeakAurasSaved = {
 0,
 1,
 },
-["scale"] = 1,
+["xOffset"] = -133.7631098270419,
 ["actions"] = {
 ["start"] = {
 },
@@ -7961,8 +7963,7 @@ WeakAurasSaved = {
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["borderInset"] = 1,
-["config"] = {
-},
+["uid"] = "nr)YJa1jgDR",
 ["information"] = {
 },
 ["subRegions"] = {
@@ -7988,7 +7989,8 @@ WeakAurasSaved = {
 },
 },
 },
-["uid"] = "nr)YJa1jgDR",
+["config"] = {
+},
 },
 ["<BiaoGe>拍卖 v2.2"] = {
 ["outline"] = "OUTLINE",
@@ -8003,11 +8005,11 @@ WeakAurasSaved = {
 ["customText"] = "",
 ["yOffset"] = 130.8333129882813,
 ["anchorPoint"] = "CENTER",
-["selfPoint"] = "BOTTOM",
+["desaturate"] = false,
 ["cooldownSwipe"] = true,
 ["displayText_format_p_time_format"] = 0,
 ["customTextUpdate"] = "update",
-["cooldownEdge"] = false,
+["automaticWidth"] = "Auto",
 ["actions"] = {
 ["start"] = {
 ["do_sound"] = false,
@@ -8041,17 +8043,40 @@ WeakAurasSaved = {
 ["disjunctive"] = "any",
 ["activeTriggerMode"] = -10,
 },
-["displayText_format_p_time_mod_rate"] = true,
+["displayText_format_p_format"] = "timed",
 ["internalVersion"] = 73,
 ["keepAspectRatio"] = false,
 ["wordWrap"] = "WordWrap",
-["xOffset"] = 389.16650390625,
+["displayText_format_p_time_dynamic_threshold"] = 60,
 ["cooldown"] = true,
 ["desc"] = "此WA是团员端，用于接收团长发出的拍卖消息，没安装的团员显示不了拍卖UI。请团长把该WA发给团员安装。如果团员已经安装了BiaoGe插件并且版本在1.7.0或以上，可以不用安装该WA。\n\n更新记录：\nv2.2：按加价时，可以直接把出价设置为合适的价格\nv2.1：如果你的出价太低时，出价框显示为红色\nv2.0：重做进入动画；按组合键时可以发送或观察装备\nv1.9：增加一个绿色钩子，用来表示你是否已经拥有该物品\nv1.8：增加出价记录；UI缩小了一点；提高了最小加价幅度\nv1.7：增加自动出价功能\nv1.6：增加显示正在拍卖的装备类型\nv1.5：拍卖价格为100~3000的加价幅度现在为100一次\nv1.4：增加一个开始拍卖时的动画效果\nv1.3：修复有部分玩家不显示拍卖界面的问题；当你是出价最高者时的高亮效果更加显眼\nv1.2：现在物品分配者也可以开始拍卖装备了",
-["displayIcon"] = "133784",
+["fixedWidth"] = 200,
 ["font"] = "Friz Quadrata TT",
-["displayText_format_p_format"] = "timed",
-["displayText_format_c_format"] = "none",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
 ["height"] = 64,
 ["useTooltip"] = false,
 ["load"] = {
@@ -8087,59 +8112,36 @@ WeakAurasSaved = {
 },
 },
 },
-["icon"] = true,
+["xOffset"] = 389.16650390625,
 ["config"] = {
 },
 ["fontSize"] = 12,
 ["source"] = "import",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["shadowYOffset"] = -1,
 ["shadowXOffset"] = 1,
 ["width"] = 64,
-["alpha"] = 1,
 ["frameStrata"] = 1,
+["authorOptions"] = {
+},
 ["regionType"] = "text",
+["displayText_format_p_time_mod_rate"] = true,
 ["preferToUpdate"] = false,
-["fixedWidth"] = 200,
-["displayText_format_p_time_dynamic_threshold"] = 60,
+["cooldownEdge"] = false,
 ["cooldownTextDisabled"] = false,
 ["displayText_format_p_time_precision"] = 1,
 ["displayText_format_p_time_legacy_floor"] = false,
-["shadowYOffset"] = -1,
+["alpha"] = 1,
 ["zoom"] = 0,
 ["justify"] = "LEFT",
 ["tocversion"] = 30403,
 ["id"] = "<BiaoGe>拍卖 v2.2",
-["authorOptions"] = {
-},
+["displayIcon"] = "133784",
 ["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
+["displayText_format_c_format"] = "none",
 ["uid"] = "zWrqHg)f16M",
 ["inverse"] = false,
-["desaturate"] = false,
+["selfPoint"] = "BOTTOM",
 ["shadowColor"] = {
 0,
 0,
@@ -8150,7 +8152,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["automaticWidth"] = "Auto",
+["icon"] = true,
 },
 ["豹"] = {
 ["iconSource"] = -1,
@@ -8290,6 +8292,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["keepAspectRatio"] = false,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -8311,26 +8314,25 @@ WeakAurasSaved = {
 },
 },
 ["parent"] = "1守护",
-["xOffset"] = -110.9774169921875,
-["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "豹",
-["width"] = 30,
-["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 30,
 ["frameStrata"] = 1,
 ["uid"] = "9RhDNH0KNob",
 ["inverse"] = false,
-["authorOptions"] = {
-},
+["xOffset"] = -110.9774169921875,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["keepAspectRatio"] = false,
+["authorOptions"] = {
+},
 },
 ["狩猎列"] = {
 ["iconSource"] = -1,
@@ -8485,25 +8487,26 @@ WeakAurasSaved = {
 ["regionType"] = "icon",
 ["selfPoint"] = "CENTER",
 ["cooldown"] = true,
+["authorOptions"] = {
+},
 ["icon"] = true,
 ["parent"] = "under",
-["progressSource"] = {
--1,
-"",
-},
-["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
+["zoom"] = 0,
 ["config"] = {
 },
 ["alpha"] = 1,
 ["id"] = "狩猎列",
-["width"] = 30,
-["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["width"] = 30,
 ["useCooldownModRate"] = true,
 ["uid"] = "GYqqPMAO693",
 ["inverse"] = false,
-["xOffset"] = -108.9625854492188,
+["progressSource"] = {
+-1,
+"",
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -8534,12 +8537,9 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
+["xOffset"] = -108.9625854492188,
 },
 },
 ["historyCutoff"] = 730,
-["registered"] = {
-},
 ["editor_theme"] = "Monokai",
 }

@@ -5,6 +5,13 @@ VER 3 000000000100000C "B攻" "132135"
 /petdefensive
 /petattack
 END
+VER 3 000000000100000E "Note" "134400"
+/w 艾伊苏霜蓝 换伟大，
+命中多
+ 搞饰品
+ 打10人， 戒指，披风
+攒破甲装备
+END
 VER 3 0000000001000002 "V" "INV_MISC_QUESTIONMARK"
 /cast 猛禽一击
 /cast 猫鼬撕咬

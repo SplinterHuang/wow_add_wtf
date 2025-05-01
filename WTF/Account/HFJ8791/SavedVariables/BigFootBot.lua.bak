@@ -6,70 +6,56 @@ BigFootBotRealmDB = {
 ["region"] = "CN",
 }
 BigFootBotCharacterDB = {
-["苏莉娅丶霜蓝-匕首岭"] = {
-["guid"] = "Player-4520-0355130D",
+["Hayisu-匕首岭"] = {
+["guid"] = "Player-4520-00534897",
 ["gender"] = 3,
-["raceId"] = 7,
-["lastSeen"] = 1745057674,
+["raceId"] = 4,
+["lastSeen"] = 1746097763,
 ["version"] = 3,
-["name"] = "苏莉娅丶霜蓝",
+["name"] = "Hayisu",
 ["faction"] = "Alliance",
 ["region"] = "CN",
 ["level"] = 80,
-["classId"] = 9,
-["realm"] = "匕首岭",
-},
-["探索發現-匕首岭"] = {
-["guild"] = "纸鸢",
-["guid"] = "Player-4520-0646408C",
-["gender"] = 3,
-["raceId"] = 1,
-["lastSeen"] = 1745058902,
-["version"] = 3,
-["name"] = "探索發現",
-["faction"] = "Alliance",
-["region"] = "CN",
-["level"] = 80,
-["classId"] = 6,
+["classId"] = 1,
 ["realm"] = "匕首岭",
 },
 }
 BigFootBotAchievementDB = {
 ["latest"] = {
 {
-["id"] = 3997,
+["id"] = 2154,
 ["points"] = 10,
-["icon"] = 136202,
-["date"] = "25-4-14",
+["icon"] = 236444,
+["date"] = "25-5-1",
 },
 {
-["id"] = 3804,
+["id"] = 4298,
 ["points"] = 10,
-["icon"] = 133125,
-["date"] = "25-4-8",
+["icon"] = 135128,
+["date"] = "25-5-1",
 },
 {
-["id"] = 1177,
+["id"] = 4296,
 ["points"] = 10,
-["icon"] = 133787,
-["date"] = "25-4-5",
+["icon"] = 135128,
+["date"] = "25-4-28",
 },
 {
-["id"] = 1873,
+["id"] = 13,
 ["points"] = 10,
-["icon"] = 236530,
-["date"] = "25-4-4",
+["icon"] = 236569,
+["date"] = "25-4-28",
 },
 {
-["id"] = 2056,
+["id"] = 938,
 ["points"] = 10,
-["icon"] = 236451,
-["date"] = "25-4-4",
+["icon"] = 132187,
+["date"] = "25-4-28",
 },
 },
 ["all"] = {
 },
-["totalPoints"] = 1320,
+["totalPoints"] = 730,
 }
 BigFootBotAccountDB = {
 ["gameVersion"] = "3.4.4",
@@ -82,5 +68,4 @@ BigFootBotAccountDB = {
 BigFootBotGuildDB = {
 }
 BigFootBotTokenDB = {
-[1745057700] = 166170000,
 }

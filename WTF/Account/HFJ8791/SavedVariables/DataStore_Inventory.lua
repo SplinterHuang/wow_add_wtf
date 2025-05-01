@@ -20,8 +20,14 @@ DataStore_Inventory_Characters = {
 ["Inventory"] = {
 },
 },
+{
+["Inventory"] = {
+},
+},
 }
 DataStore_Inventory_Guilds = {
+{
+},
 {
 },
 }

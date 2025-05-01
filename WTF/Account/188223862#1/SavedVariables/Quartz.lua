@@ -20,14 +20,14 @@ Quartz3DB = {
 },
 ["Range"] = {
 },
+["Mirror"] = {
+},
 ["Player"] = {
 ["profiles"] = {
 ["Default"] = {
 ["x"] = 767.3746948242188,
 },
 },
-},
-["EnemyCasts"] = {
 },
 ["GCD"] = {
 },
@@ -54,14 +54,14 @@ Quartz3DB = {
 },
 ["Interrupt"] = {
 },
-["Mirror"] = {
+["EnemyCasts"] = {
 },
 ["Latency"] = {
 },
 },
 ["profileKeys"] = {
-["艾德赛 - 匕首岭"] = "Default",
 ["小脚萝莉 - 匕首岭"] = "Default",
+["艾德赛 - 匕首岭"] = "Default",
 ["达奥里斯 - 匕首岭"] = "Default",
 },
 ["profiles"] = {

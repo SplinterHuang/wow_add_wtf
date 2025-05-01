@@ -60,4 +60,16 @@ DataStore_Achievements_Characters = {
 ["Partial"] = {
 },
 },
+{
+["Completed"] = {
+},
+["Tabards"] = {
+},
+["PartialBits"] = {
+},
+["CompletionDates"] = {
+},
+["Partial"] = {
+},
+},
 }

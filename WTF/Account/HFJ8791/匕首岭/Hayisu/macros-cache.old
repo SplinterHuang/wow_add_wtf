@@ -7,6 +7,11 @@ VER 3 0000000001000009 "冲锋" "INV_MISC_QUESTIONMARK"
 /cast [nocombat]战斗姿态
 /cast [nocombat]冲锋
 END
+VER 3 0000000001000012 "压制" "134400"
+#show 压制
+/cast 战斗姿态
+/cast 压制
+END
 VER 3 0000000001000004 "双手" "INV_MISC_QUESTIONMARK"
 /equip 斩石者
 END

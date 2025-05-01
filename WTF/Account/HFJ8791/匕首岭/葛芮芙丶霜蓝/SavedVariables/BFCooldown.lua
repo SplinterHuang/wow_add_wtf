@@ -28,56 +28,24 @@ BFCooldownDB = {
 ["b"] = 0.1,
 },
 ["spellCache"] = {
-["鲜血灵气"] = {
-42,
-"spell",
-},
-["心灵冰冻"] = {
-18,
-"spell",
-},
-["暗影打击"] = {
-26,
-"spell",
-},
-["鲜血打击"] = {
-41,
-"spell",
-},
-["枯萎凋零"] = {
-27,
-"spell",
-},
-["冰霜灵气"] = {
-14,
-"spell",
-},
 ["凋零缠绕"] = {
-22,
-"spell",
-},
-["天灾打击"] = {
-24,
-"spell",
-},
-["死亡之握"] = {
-28,
+25,
 "spell",
 },
 ["灵界打击"] = {
-29,
+30,
+"spell",
+},
+["暗影打击"] = {
+27,
 "spell",
 },
 ["冰冷触摸"] = {
-11,
+12,
 "spell",
 },
-["血液沸腾"] = {
-40,
-"spell",
-},
-["传染"] = {
-35,
+["心脏打击"] = {
+39,
 "spell",
 },
 },
@@ -94,9 +62,9 @@ BFCooldownDB = {
 ["text"] = true,
 ["alpha"] = 0.65,
 ["width"] = 67,
-["font"] = "Fonts\\ARKai_T.ttf",
 ["config"] = false,
-["style"] = 1,
+["font"] = "Fonts\\ARKai_T.ttf",
+["time"] = 1.2,
 ["position"] = {
 ["y"] = 78,
 ["p"] = "CENTER",
@@ -105,7 +73,7 @@ BFCooldownDB = {
 },
 ["g"] = 1,
 ["mode"] = true,
-["time"] = 1.2,
+["style"] = 1,
 ["size"] = 30,
 },
 ["mins"] = {

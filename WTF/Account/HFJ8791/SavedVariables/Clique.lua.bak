@@ -29,8 +29,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "艾伊苏霜蓝 - 匕首岭",
 ["specswap"] = false,
+["spec2_profileKey"] = "艾伊苏霜蓝 - 匕首岭",
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["spec1_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
@@ -38,9 +38,9 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
-["specswap"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
+["specswap"] = false,
 },
 ["Hayisu - 匕首岭"] = {
 ["spec1_profileKey"] = "Hayisu - 匕首岭",
@@ -48,15 +48,16 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
+["specswap"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Hayisu - 匕首岭",
-["specswap"] = false,
 },
 },
 ["profileKeys"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = "薇绮丶霜蓝 - 匕首岭",
 ["葛芮芙丶霜蓝 - 匕首岭"] = "葛芮芙丶霜蓝 - 匕首岭",
 ["Splinter - 匕首岭"] = "Splinter - 匕首岭",
+["汉斯顿丶霜蓝 - 匕首岭"] = "汉斯顿丶霜蓝 - 匕首岭",
 ["艾伊苏霜蓝 - 匕首岭"] = "艾伊苏霜蓝 - 匕首岭",
 ["苏莉娅丶霜蓝 - 匕首岭"] = "苏莉娅丶霜蓝 - 匕首岭",
 ["Hayisu - 匕首岭"] = "Hayisu - 匕首岭",
@@ -189,6 +190,25 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["汉斯顿丶霜蓝 - 匕首岭"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },

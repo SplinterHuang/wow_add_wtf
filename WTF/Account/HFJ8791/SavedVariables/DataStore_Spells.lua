@@ -15,6 +15,9 @@ DataStore_Spells_Characters = {
 {
 ["englishClass"] = "DEATHKNIGHT",
 },
+{
+["englishClass"] = "PALADIN",
+},
 }
 DataStore_Spells_Tabs = {
 ["HUNTER"] = {
@@ -22,6 +25,8 @@ DataStore_Spells_Tabs = {
 ["WARRIOR"] = {
 },
 ["WARLOCK"] = {
+},
+["PALADIN"] = {
 },
 ["DRUID"] = {
 },

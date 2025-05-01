@@ -77,6 +77,9 @@ PawnCommon = {
 ["\"Classic\":PALADIN2"] = {
 ["IconTexturePath"] = 135893,
 ["PerCharacterOptions"] = {
+["汉斯顿丶霜蓝-匕首岭"] = {
+["Visible"] = true,
+},
 },
 ["Color"] = "f58cba",
 ["LocalizedName"] = "圣骑士: 防护",
@@ -229,6 +232,9 @@ PawnCommon = {
 ["\"Classic\":PALADIN3"] = {
 ["IconTexturePath"] = 135873,
 ["PerCharacterOptions"] = {
+["汉斯顿丶霜蓝-匕首岭"] = {
+["Visible"] = true,
+},
 },
 ["Color"] = "f58cba",
 ["LocalizedName"] = "圣骑士: 惩戒",
@@ -269,19 +275,19 @@ PawnCommon = {
 },
 ["DoNotShow2HUpgrades"] = false,
 ["Provider"] = "Classic",
-["UnenchantedColor"] = "bf5d07",
 ["SpecID"] = 4,
+["UnenchantedColor"] = "bf5d07",
 },
 ["\"Classic\":ROGUE"] = {
 ["Color"] = "fff569",
-["LocalizedName"] = "潜行者: 副手",
+["ClassID"] = 4,
 ["DoNotShow1HUpgrades"] = false,
 ["DoNotShow2HUpgrades"] = false,
 ["PerCharacterOptions"] = {
 },
 ["Provider"] = "Classic",
 ["UnenchantedColor"] = "bfb74e",
-["ClassID"] = 4,
+["LocalizedName"] = "潜行者: 副手",
 },
 ["\"Classic\":DRUID3"] = {
 ["IconTexturePath"] = 136041,
@@ -413,6 +419,9 @@ PawnCommon = {
 ["\"Classic\":PALADIN1"] = {
 ["IconTexturePath"] = 135920,
 ["PerCharacterOptions"] = {
+["汉斯顿丶霜蓝-匕首岭"] = {
+["Visible"] = true,
+},
 },
 ["Color"] = "f58cba",
 ["LocalizedName"] = "圣骑士: 神圣",
@@ -459,12 +468,6 @@ PawnCommon = {
 ["SpecID"] = 2,
 },
 ["1"] = {
-["PerCharacterOptions"] = {
-["艾伊苏霜蓝-匕首岭"] = {
-["Visible"] = true,
-},
-},
-["ClassID"] = 3,
 ["Values"] = {
 ["Intellect"] = 1,
 ["Is2HMace"] = -1000000,
@@ -474,13 +477,13 @@ PawnCommon = {
 ["ShadowResist"] = 1,
 ["ExpertiseRating"] = 1,
 ["NatureSpellDamage"] = 0.7,
-["Dps"] = 3.4,
-["FireSpellDamage"] = 0.7,
-["HolySpellDamage"] = 0.7,
 ["Strength"] = 1,
+["FireSpellDamage"] = 0.7,
+["Dps"] = 3.4,
+["ShadowSpellDamage"] = 0.7,
 ["ParryRating"] = 1,
 ["DefenseRating"] = 1,
-["IsWarglaive"] = -1000000,
+["SpellPenetration"] = 1,
 ["Hp5"] = 2.5,
 ["NatureResist"] = 1,
 ["Mp5"] = 2.5,
@@ -488,24 +491,30 @@ PawnCommon = {
 ["IsWand"] = -1000000,
 ["IsMace"] = -1000000,
 ["CritRating"] = 1,
-["ShadowSpellDamage"] = 0.7,
+["Agility"] = 1,
 ["HasteRating"] = 1,
 ["Armor"] = 0.1,
 ["MetaSocketEffect"] = 36,
 ["FrostSpellDamage"] = 0.7,
 ["BlockValue"] = 0.65,
 ["BlockRating"] = 1,
-["SpellPenetration"] = 1,
-["ArcaneResist"] = 1,
+["IsWarglaive"] = -1000000,
+["HolySpellDamage"] = 0.7,
 ["Stamina"] = 0.01,
 ["HitRating"] = 1,
 ["IsPlate"] = -1000000,
-["Agility"] = 1,
+["ArcaneResist"] = 1,
 ["DodgeRating"] = 1,
 ["FireResist"] = 1,
 ["Rap"] = 0.4,
 ["IsShield"] = -1000000,
 ["SpellPower"] = 0.855,
+},
+["ClassID"] = 3,
+["PerCharacterOptions"] = {
+["艾伊苏霜蓝-匕首岭"] = {
+["Visible"] = true,
+},
 },
 },
 ["\"Classic\":MAGE2"] = {

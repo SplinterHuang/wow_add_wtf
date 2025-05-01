@@ -6,8 +6,8 @@ MerInspectDB = {
 ["ShowCharacterItemSheet"] = true,
 ["ShowInspectItemSheet"] = true,
 ["version"] = 1,
-["ShowItemSlotString"] = false,
 ["ShowItemStats"] = true,
+["ShowItemSlotString"] = false,
 ["ShowInspectColoredLabel"] = true,
 ["ShowItemBorder"] = false,
 }

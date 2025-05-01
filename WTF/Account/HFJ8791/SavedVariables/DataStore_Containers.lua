@@ -30,8 +30,20 @@ DataStore_Containers_Characters = {
 ["Containers"] = {
 },
 },
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+},
+},
 }
 DataStore_Containers_Banks = {
+{
+["items"] = {
+},
+["links"] = {
+},
+},
 {
 ["items"] = {
 },

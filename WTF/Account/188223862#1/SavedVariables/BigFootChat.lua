@@ -7,8 +7,8 @@ BFCDB = {
 },
 },
 ["profileKeys"] = {
-["艾德赛 - 匕首岭"] = "Default",
 ["小脚萝莉 - 匕首岭"] = "Default",
+["艾德赛 - 匕首岭"] = "Default",
 ["达奥里斯 - 匕首岭"] = "Default",
 },
 ["profiles"] = {
@@ -18,7 +18,7 @@ BFCDB = {
 "ChatFrame1",
 "BOTTOMLEFT",
 -2.908506155014038,
-0.09151767939329147,
+0.09151767194271088,
 },
 ["mute"] = true,
 },

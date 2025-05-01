@@ -19,23 +19,11 @@ SpyDB = {
 },
 },
 ["profileKeys"] = {
-["艾德赛 - 匕首岭"] = "艾德赛 - 匕首岭",
 ["小脚萝莉 - 匕首岭"] = "小脚萝莉 - 匕首岭",
+["艾德赛 - 匕首岭"] = "艾德赛 - 匕首岭",
 ["达奥里斯 - 匕首岭"] = "达奥里斯 - 匕首岭",
 },
 ["profiles"] = {
-["艾德赛 - 匕首岭"] = {
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
-["Colors"] = {
-["Bar"] = {
-["Bar Text"] = {
-["a"] = 1,
-},
-},
-},
-["AppendUnitKoSCheck"] = true,
-},
 ["小脚萝莉 - 匕首岭"] = {
 ["AppendUnitNameCheck"] = true,
 ["MainWindowVis"] = false,
@@ -48,7 +36,7 @@ SpyDB = {
 },
 ["AppendUnitKoSCheck"] = true,
 },
-["达奥里斯 - 匕首岭"] = {
+["艾德赛 - 匕首岭"] = {
 ["Colors"] = {
 ["Bar"] = {
 ["Bar Text"] = {
@@ -58,6 +46,18 @@ SpyDB = {
 },
 ["AppendUnitNameCheck"] = true,
 ["MainWindowVis"] = false,
+["AppendUnitKoSCheck"] = true,
+},
+["达奥里斯 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
 ["AppendUnitKoSCheck"] = true,
 },
 },

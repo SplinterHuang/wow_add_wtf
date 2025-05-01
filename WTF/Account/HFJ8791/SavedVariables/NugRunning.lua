@@ -9,13 +9,14 @@ NRunDB_Global = {
 ["main"] = {
 ["y"] = -218.2732086181641,
 ["x"] = -497.3291625976563,
-["point"] = "TOP",
 ["to"] = "TOP",
+["point"] = "TOP",
 },
 },
 ["cooldownsEnabled"] = false,
 ["growth"] = "down",
 ["np_yoffset"] = 8,
+["height"] = 10,
 ["charspec"] = {
 },
 }

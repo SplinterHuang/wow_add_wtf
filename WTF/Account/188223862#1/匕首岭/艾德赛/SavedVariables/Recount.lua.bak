@@ -2,6 +2,360 @@
 RecountPerCharDB = {
 ["version"] = "1.3",
 ["combatants"] = {
+["艾德赛"] = {
+["GUID"] = "Player-4520-030C52BB",
+["LastEventHealth"] = {
+16340,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+},
+["LastAttackedBy"] = "Environment",
+["LastEventType"] = {
+"DAMAGE",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+},
+["TimeWindows"] = {
+["DamageTaken"] = {
+144,
+},
+["ManaGain"] = {
+3341,
+},
+},
+["enClass"] = "PALADIN",
+["unit"] = "player",
+["level"] = 80,
+["LastDamageAbility"] = "Falling",
+["LastFightIn"] = 0,
+["type"] = "Self",
+["LastAbility"] = 8414.549,
+["LastDamageTaken"] = 144,
+["Owner"] = false,
+["UnitLockout"] = 332761.327,
+["NextEventNum"] = 24,
+["Fights"] = {
+["CurrentFightData"] = {
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["DamageTaken"] = 0,
+["PartialResist"] = {
+["Falling"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ManaGained"] = {
+["圣疗术"] = {
+["Details"] = {
+["艾德赛"] = {
+["count"] = 1350,
+},
+},
+["amount"] = 1350,
+},
+["启发"] = {
+["Details"] = {
+["艾德赛"] = {
+["count"] = 1991,
+},
+},
+["amount"] = 1991,
+},
+},
+["PartialAbsorb"] = {
+["Falling"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["WhoDamaged"] = {
+["Environment"] = {
+["Details"] = {
+["Falling"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ElementTaken"] = {
+["Physical"] = 0,
+},
+["ManaGainedFrom"] = {
+["艾德赛"] = {
+["Details"] = {
+["圣疗术"] = {
+["count"] = 1350,
+},
+["启发"] = {
+["count"] = 1991,
+},
+},
+["amount"] = 3341,
+},
+},
+["ManaGain"] = 3341,
+},
+["OverallData"] = {
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["DamageTaken"] = 144,
+["PartialResist"] = {
+["Falling"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 1,
+},
+},
+["ManaGained"] = {
+["圣疗术"] = {
+["Details"] = {
+["艾德赛"] = {
+["count"] = 1350,
+},
+},
+["amount"] = 1350,
+},
+["启发"] = {
+["Details"] = {
+["艾德赛"] = {
+["count"] = 1991,
+},
+},
+["amount"] = 1991,
+},
+},
+["PartialAbsorb"] = {
+["Falling"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 0,
+},
+},
+["count"] = 1,
+["amount"] = 0,
+},
+},
+["WhoDamaged"] = {
+["Environment"] = {
+["Details"] = {
+["Falling"] = {
+["count"] = 144,
+},
+},
+["amount"] = 144,
+},
+},
+["ElementTaken"] = {
+["Physical"] = 144,
+},
+["ManaGainedFrom"] = {
+["艾德赛"] = {
+["Details"] = {
+["圣疗术"] = {
+["count"] = 1350,
+},
+["启发"] = {
+["count"] = 1991,
+},
+},
+["amount"] = 3341,
+},
+},
+["ManaGain"] = 3341,
+},
+},
+["LastEvents"] = {
+"Environment Falling 艾德赛 Hit -144 (Physical)",
+"艾德赛 圣光闪现 艾德赛 Hit +3598 (3598 过量治疗)",
+"艾德赛 神圣震击 艾德赛 Hit +5035 (5035 过量治疗)",
+"艾德赛 圣疗术 艾德赛 Crit +29923 (29923 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Hit +3542 (3542 过量治疗)",
+"艾德赛 神圣震击 艾德赛 Crit +7591 (7591 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Crit +5325 (5325 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Hit +3554 (3554 过量治疗)",
+"艾德赛 圣光术 艾德赛 Crit +16028 (16028 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Crit +5289 (5289 过量治疗)",
+"艾德赛 圣光术 艾德赛 Hit +10286 (10286 过量治疗)",
+"艾德赛 神圣震击 艾德赛 Hit +5031 (5031 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Hit +3503 (3503 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Hit +3507 (3507 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Crit +5370 (5370 过量治疗)",
+"艾德赛 圣光闪现 艾德赛 Crit +5348 (5348 过量治疗)",
+"艾德赛 圣光术 艾德赛 Crit +16158 (16158 过量治疗)",
+"艾德赛 圣光术 艾德赛 Hit +10413 (10413 过量治疗)",
+"艾德赛 神圣震击 艾德赛 Crit +7688 (7688 过量治疗)",
+"艾德赛 圣光术 艾德赛 Hit +10326 (10326 过量治疗)",
+"艾德赛 圣光术 艾德赛 Hit +10792 (10792 过量治疗)",
+"艾德赛 圣光术 艾德赛 Crit +16087 (16087 过量治疗)",
+"艾德赛 神圣震击 艾德赛 Hit +5229 (5229 过量治疗)",
+},
+["Name"] = "艾德赛",
+["LastEventTimes"] = {
+332761.561,
+8441.79,
+8446.01,
+8450.781,
+8496.817000000001,
+8672.298,
+8674.361,
+8684.169,
+8687.421,
+8795.433,
+8797.81,
+8797.81,
+8895.139000000001,
+8898.492,
+8900.393,
+8902.345,
+8915.372,
+8921.827,
+8922.127,
+8928.699,
+8931.151,
+8933.001,
+9002.342,
+},
+["LastEventIncoming"] = {
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+},
+["TimeLast"] = {
+["OVERALL"] = 8932.555,
+["DamageTaken"] = 332761.327,
+["ManaGain"] = 8932.555,
+},
+["LastEventHealthMax"] = {
+16484,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+18094,
+},
+["LastActive"] = 9001.561,
+},
 },
 ["FightNum"] = 0,
 ["CombatTimes"] = {

@@ -50,10 +50,10 @@ DataStore_Quests_Dailies = {
 }
 DataStore_Quests_Weeklies = nil
 DataStore_Quests_Colors = {
-["List"] = {
+["Set"] = {
 },
 ["Count"] = 0,
-["Set"] = {
+["List"] = {
 },
 }
 DataStore_Quests_Infos = {

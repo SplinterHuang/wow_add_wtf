@@ -52,7 +52,7 @@ BigFoot_Config = {
 ["EnableRaidAlerter"] = 1,
 ["checkedVersion"] = "248",
 ["EnableDecursive"] = 1,
-["EnableRecount2"] = 1,
+["EnableRecount2"] = 0,
 ["EnableThreat"] = 1,
 },
 ["QuestEnhancement"] = {
@@ -229,15 +229,15 @@ BigFoot_Config = {
 BigFoot_Error = {
 ["ADDON_ACTION_FORBIDDEN"] = {
 ["!!!Libs"] = {
-["combat"] = false,
-["zone"] = "安其拉废墟",
-["class"] = "猎人",
+["combat"] = true,
+["zone"] = "灰熊丘陵",
+["class"] = "战士",
 ["race"] = "暗夜精灵",
-["time"] = 1744215970,
-["version"] = "zhCN3.4.4.248",
-["level"] = 80,
-["forbiddenfunc"] = "UNKNOWN()",
+["time"] = 1745481385,
+["level"] = 77,
 ["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame_Shared.lua]:1352: in function <...zard_UIPanels_Game/Classic/ContainerFrame_Shared.lua:1299>\n[C]: in function 'ContainerFrameItemButton_OnClick'\n[*ContainerFrame.xml:163_OnClick]:13: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
+["forbiddenfunc"] = "UNKNOWN()",
+["version"] = "zhCN3.4.4.248",
 },
 ["Combuctor"] = {
 ["combat"] = false,
@@ -349,4 +349,15 @@ BF_LogonInfo = {
 1744742127,
 1744824051,
 1745052383,
+1745159373,
+1745239645,
+1745263671,
+1745340870,
+1745426106,
+1745515345,
+1745604888,
+1745684203,
+1745774993,
+1745872411,
+1746051754,
 }

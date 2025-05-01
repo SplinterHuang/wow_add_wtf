@@ -5,17 +5,17 @@ DataStore_Talents_Specializations = {
 }
 DataStore_Talents_SpecializationInfos = {
 ["Roles"] = {
-["List"] = {
+["Set"] = {
 },
 ["Count"] = 0,
-["Set"] = {
+["List"] = {
 },
 },
 ["Names"] = {
-["List"] = {
+["Set"] = {
 },
 ["Count"] = 0,
-["Set"] = {
+["List"] = {
 },
 },
 }

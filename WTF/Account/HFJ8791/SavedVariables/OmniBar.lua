@@ -3,9 +3,10 @@ OmniBarDB = {
 ["profileKeys"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = "Default",
 ["葛芮芙丶霜蓝 - 匕首岭"] = "Default",
-["艾伊苏霜蓝 - 匕首岭"] = "Default",
-["苏莉娅丶霜蓝 - 匕首岭"] = "Default",
 ["Hayisu - 匕首岭"] = "Default",
+["汉斯顿丶霜蓝 - 匕首岭"] = "Default",
+["苏莉娅丶霜蓝 - 匕首岭"] = "Default",
+["艾伊苏霜蓝 - 匕首岭"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -18,8 +19,8 @@ OmniBarDB = {
 ["multiple"] = true,
 ["border"] = true,
 ["center"] = false,
-["locked"] = false,
 ["swipeAlpha"] = 0.65,
+["trackUnit"] = "ENEMY",
 ["arena"] = true,
 ["growUpward"] = true,
 ["size"] = 40,
@@ -44,7 +45,7 @@ OmniBarDB = {
 },
 ["world"] = true,
 ["showUnused"] = false,
-["trackUnit"] = "ENEMY",
+["locked"] = false,
 ["battleground"] = true,
 },
 },

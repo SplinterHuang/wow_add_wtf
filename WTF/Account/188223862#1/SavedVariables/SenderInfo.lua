@@ -1,12 +1,15 @@
 
 SenderInfoOptions = {
 ["profileKeys"] = {
-["艾德赛 - 匕首岭"] = "Default",
 ["小脚萝莉 - 匕首岭"] = "Default",
+["艾德赛 - 匕首岭"] = "Default",
 ["达奥里斯 - 匕首岭"] = "Default",
+},
+["global"] = {
+["Open"] = false,
 },
 }
 SenderInfoHelperPos = {
-["y"] = -100,
-["x"] = 250,
+["y"] = -28.33501434326172,
+["x"] = 206.5495452880859,
 }

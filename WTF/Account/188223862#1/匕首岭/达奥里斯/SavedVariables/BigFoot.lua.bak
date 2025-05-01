@@ -1,14 +1,14 @@
 
 BF_Frames_Config = {
 ["BFGoldFrame"] = {
-["offX"] = -0,
+["offX"] = 0,
 ["point"] = "TOPLEFT",
 ["region"] = "UIParent",
-["offY"] = -0,
+["offY"] = 0,
 ["refPoint"] = "TOPLEFT",
 },
 ["BFGPSButton"] = {
-["offX"] = -0,
+["offX"] = 0,
 ["point"] = "TOPRIGHT",
 ["region"] = "UIParent",
 ["offY"] = -76.49998474121094,

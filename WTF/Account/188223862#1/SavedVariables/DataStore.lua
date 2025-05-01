@@ -1,33 +1,36 @@
 
 DataStore_GuildIDs = {
+["Set"] = {
+["Default.匕首岭.艺术的杀戮"] = 1,
+["Default.匕首岭.谈笑风生"] = 2,
+["Default.匕首岭.市舶司"] = 4,
+["Default.匕首岭.醉心小筑"] = 3,
+},
+["Count"] = 4,
 ["List"] = {
 "Default.匕首岭.艺术的杀戮",
 "Default.匕首岭.谈笑风生",
 "Default.匕首岭.醉心小筑",
-},
-["Count"] = 3,
-["Set"] = {
-["Default.匕首岭.醉心小筑"] = 3,
-["Default.匕首岭.谈笑风生"] = 2,
-["Default.匕首岭.艺术的杀戮"] = 1,
+"Default.匕首岭.市舶司",
 },
 }
 DataStore_GuildFactions = {
 "Alliance",
 "Alliance",
 "Alliance",
+"Alliance",
 }
 DataStore_CharacterIDs = {
-["List"] = {
-"Default.匕首岭.达奥里斯",
-"Default.匕首岭.小脚萝莉",
-"Default.匕首岭.艾德赛",
-},
-["Count"] = 3,
 ["Set"] = {
 ["Default.匕首岭.小脚萝莉"] = 2,
 ["Default.匕首岭.达奥里斯"] = 1,
 ["Default.匕首岭.艾德赛"] = 3,
+},
+["Count"] = 3,
+["List"] = {
+"Default.匕首岭.达奥里斯",
+"Default.匕首岭.小脚萝莉",
+"Default.匕首岭.艾德赛",
 },
 }
 DataStore_CharacterGUIDs = {
@@ -36,9 +39,7 @@ DataStore_CharacterGUIDs = {
 "Player-4520-030C52BB",
 }
 DataStore_CharacterGuilds = {
-nil,
-1,
-3,
+2,
 }
 DataStore_AltGroups = {
 }

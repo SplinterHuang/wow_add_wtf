@@ -2,340 +2,242 @@
 RecountPerCharDB = {
 ["version"] = "1.3",
 ["combatants"] = {
-["辣味巧克力"] = {
-["GUID"] = "Player-4520-031B0E4F",
+["苏莉娅丶霜蓝"] = {
+["GUID"] = "Player-4520-0355130D",
 ["LastEventHealth"] = {
-20814,
+18531,
+18531,
+18558,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
 },
 ["LastAttackedBy"] = "Environment",
 ["LastEventType"] = {
 "DAMAGE",
+"DAMAGE",
+"DAMAGE",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
+"HEAL",
 },
 ["TimeWindows"] = {
+["FDamage"] = {
+463,
+},
+["ActiveTime"] = {
+1.5,
+},
 ["DamageTaken"] = {
-790,
+205,
 },
-},
-["enClass"] = "HUNTER",
-["unit"] = "raid10",
-["level"] = 80,
-["LastDamageAbility"] = "Falling",
-["LastFightIn"] = 0,
-["type"] = "Ungrouped",
-["LastAbility"] = 317826.968,
-["LastDamageTaken"] = 790,
-["Owner"] = false,
-["UnitLockout"] = 146877.544,
-["NextEventNum"] = 2,
-["Fights"] = {
-["CurrentFightData"] = {
-["PartialResist"] = {
-["Falling"] = {
-["Details"] = {
-["未被抵抗"] = {
-["max"] = 0,
-["min"] = 0,
-["count"] = 0,
-["amount"] = 0,
-},
-},
-["count"] = 0,
-["amount"] = 0,
-},
-},
-["PartialAbsorb"] = {
-["Falling"] = {
-["Details"] = {
-["未被吸收"] = {
-["max"] = 0,
-["min"] = 0,
-["count"] = 0,
-["amount"] = 0,
-},
-},
-["count"] = 0,
-["amount"] = 0,
-},
-},
-["WhoDamaged"] = {
-["Environment"] = {
-["Details"] = {
-["Falling"] = {
-["count"] = 0,
-},
-},
-["amount"] = 0,
-},
-},
-["ElementTaken"] = {
-["Physical"] = 0,
-},
-["DamageTaken"] = 0,
-["ElementHitsTaken"] = {
-["Physical"] = {
-["Details"] = {
-["Hit"] = {
-["count"] = 0,
-},
-},
-["amount"] = 0,
-},
-},
-},
-["OverallData"] = {
-["PartialResist"] = {
-["Falling"] = {
-["Details"] = {
-["未被抵抗"] = {
-["max"] = 0,
-["min"] = 0,
-["count"] = 1,
-["amount"] = 0,
-},
-},
-["count"] = 0,
-["amount"] = 1,
-},
-},
-["PartialAbsorb"] = {
-["Falling"] = {
-["Details"] = {
-["未被吸收"] = {
-["max"] = 0,
-["min"] = 0,
-["count"] = 1,
-["amount"] = 0,
-},
-},
-["count"] = 1,
-["amount"] = 0,
-},
-},
-["WhoDamaged"] = {
-["Environment"] = {
-["Details"] = {
-["Falling"] = {
-["count"] = 790,
-},
-},
-["amount"] = 790,
-},
-},
-["ElementTaken"] = {
-["Physical"] = 790,
-},
-["DamageTaken"] = 790,
-["ElementHitsTaken"] = {
-["Physical"] = {
-["Details"] = {
-["Hit"] = {
-["count"] = 1,
-},
-},
-["amount"] = 1,
-},
-},
-},
-},
-["LastEvents"] = {
-"Environment Falling 辣味巧克力 Hit -790 (Physical)",
-},
-["Name"] = "辣味巧克力",
-["LastEventTimes"] = {
-146877.915,
-},
-["LastEventIncoming"] = {
-true,
-},
-["TimeLast"] = {
-["DamageTaken"] = 146877.544,
-["OVERALL"] = 146877.544,
-},
-["LastEventHealthMax"] = {
-21604,
-},
-["LastActive"] = 146877.544,
-},
-["苏莉娅丶霜蓝"] = {
-["GUID"] = "Player-4520-0355130D",
-["LastEventHealth"] = {
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-19944,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-},
-["LastEventType"] = {
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-"HEAL",
-},
-["TimeWindows"] = {
 ["ManaGain"] = {
-0,
+1966,
+},
+["DOT_Time"] = {
+1,
+},
+["TimeDamage"] = {
+1.5,
 },
 },
 ["enClass"] = "WARLOCK",
 ["unit"] = "player",
 ["level"] = 80,
+["LastDamageAbility"] = "Falling",
 ["LastFightIn"] = 0,
 ["type"] = "Self",
-["LastAbility"] = 317826.968,
-["Owner"] = false,
+["LastDamageTaken"] = 205,
 ["TimeLast"] = {
-["ManaGain"] = 146465.5,
-["OVERALL"] = 146465.5,
+["ManaGain"] = 2858.122,
+["FDamage"] = 2850.119,
+["ActiveTime"] = 2850.119,
+["DamageTaken"] = 2858.122,
+["OVERALL"] = 2858.122,
+["DOT_Time"] = 2850.119,
+["TimeDamage"] = 2850.119,
 },
-["NextEventNum"] = 50,
-["UnitLockout"] = 146453.502,
+["Owner"] = false,
+["LastEventHealthMax"] = {
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+18994,
+},
+["NextEventNum"] = 16,
+["LastDamageTime"] = 2850.968,
 ["LastEvents"] = {
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +648 (648 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +648 (648 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +648 (648 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +648 (648 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +648 (648 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (224 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +612 (612 过量治疗)",
-"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +611 (611 过量治疗)",
+"苏莉娅丶霜蓝 地狱烈焰 (伤害/跳) 苏莉娅丶霜蓝 Tick -463 (116 被抵抗) (Fire)",
+"苏莉娅丶霜蓝 地狱烈焰 (伤害/跳) 苏莉娅丶霜蓝 Tick -463 (116 被抵抗) (Fire)",
+"Environment Falling 苏莉娅丶霜蓝 Hit -205 (Physical)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +379 (379 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
+"苏莉娅丶霜蓝 邪甲术 苏莉娅丶霜蓝 Tick +380 (380 过量治疗)",
 },
 ["Name"] = "苏莉娅丶霜蓝",
+["LastEventIncoming"] = {
+false,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+},
+["LastEventTimes"] = {
+2850.968,
+2850.968,
+2858.335,
+3024.509,
+3029.456,
+3034.505,
+3039.424,
+3045.03,
+3049.507,
+3054.426,
+3061.741,
+3064.403,
+3069.497,
+3074.49,
+3079.506,
+},
 ["Fights"] = {
 ["CurrentFightData"] = {
-["ManaGain"] = 0,
+["DOTs"] = {
+["地狱烈焰 (伤害/跳)"] = {
+["Details"] = {
+["苏莉娅丶霜蓝"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["TimeSpent"] = {
+["苏莉娅丶霜蓝"] = {
+["Details"] = {
+["地狱烈焰 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["DamageTaken"] = 0,
+["PartialResist"] = {
+["Falling"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ManaGained"] = {
+["生命分流"] = {
+["Details"] = {
+["苏莉娅丶霜蓝"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["FDamage"] = 0,
+["ActiveTime"] = 0,
+["ElementTaken"] = {
+["Physical"] = 0,
+},
+["DOT_Time"] = 0,
+["FAttacks"] = {
+["地狱烈焰 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["PartialAbsorb"] = {
+["Falling"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 0,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 0,
+},
+},
 ["ManaGainedFrom"] = {
 ["苏莉娅丶霜蓝"] = {
 ["Details"] = {
@@ -346,10 +248,32 @@ true,
 ["amount"] = 0,
 },
 },
-["ManaGained"] = {
-["生命分流"] = {
-["Details"] = {
+["TimeDamage"] = 0,
+["TimeDamaging"] = {
 ["苏莉娅丶霜蓝"] = {
+["Details"] = {
+["地狱烈焰 (伤害/跳)"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["ManaGain"] = 0,
+["WhoDamaged"] = {
+["Environment"] = {
+["Details"] = {
+["Falling"] = {
+["count"] = 0,
+},
+},
+["amount"] = 0,
+},
+},
+["FDamagedWho"] = {
+["苏莉娅丶霜蓝"] = {
+["Details"] = {
+["地狱烈焰 (伤害/跳)"] = {
 ["count"] = 0,
 },
 },
@@ -358,319 +282,141 @@ true,
 },
 },
 ["OverallData"] = {
-["ManaGain"] = 0,
+["DOTs"] = {
+["地狱烈焰 (伤害/跳)"] = {
+["Details"] = {
+["苏莉娅丶霜蓝"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["TimeSpent"] = {
+["苏莉娅丶霜蓝"] = {
+["Details"] = {
+["地狱烈焰 (伤害/跳)"] = {
+["count"] = 1.5,
+},
+},
+["amount"] = 1.5,
+},
+},
+["DamageTaken"] = 205,
+["PartialResist"] = {
+["Falling"] = {
+["Details"] = {
+["未被抵抗"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 0,
+},
+},
+["count"] = 0,
+["amount"] = 1,
+},
+},
+["ManaGained"] = {
+["生命分流"] = {
+["Details"] = {
+["苏莉娅丶霜蓝"] = {
+["count"] = 1966,
+},
+},
+["amount"] = 1966,
+},
+},
+["FDamage"] = 463,
+["ActiveTime"] = 1.5,
+["ElementTaken"] = {
+["Physical"] = 205,
+},
+["DOT_Time"] = 1,
+["FAttacks"] = {
+["地狱烈焰 (伤害/跳)"] = {
+["Details"] = {
+["Tick"] = {
+["max"] = 463,
+["min"] = 463,
+["count"] = 1,
+["amount"] = 463,
+},
+},
+["count"] = 1,
+["amount"] = 463,
+},
+},
+["ElementHitsTaken"] = {
+["Physical"] = {
+["Details"] = {
+["Hit"] = {
+["count"] = 1,
+},
+},
+["amount"] = 1,
+},
+},
+["PartialAbsorb"] = {
+["Falling"] = {
+["Details"] = {
+["未被吸收"] = {
+["max"] = 0,
+["min"] = 0,
+["count"] = 1,
+["amount"] = 0,
+},
+},
+["count"] = 1,
+["amount"] = 0,
+},
+},
 ["ManaGainedFrom"] = {
 ["苏莉娅丶霜蓝"] = {
 ["Details"] = {
 ["生命分流"] = {
-["count"] = 0,
+["count"] = 1966,
 },
 },
-["amount"] = 0,
+["amount"] = 1966,
 },
 },
-["ManaGained"] = {
-["生命分流"] = {
-["Details"] = {
+["TimeDamage"] = 1.5,
+["TimeDamaging"] = {
 ["苏莉娅丶霜蓝"] = {
-["count"] = 0,
-},
-},
-["amount"] = 0,
-},
-},
-},
-},
-["LastEventTimes"] = {
-147204.046,
-147209.059,
-147214.248,
-147219.016,
-147224.134,
-147229.307,
-147234.05,
-147239.074,
-147244.245,
-147249.112,
-147254.172,
-147259.306,
-147264.039,
-147272.229,
-147274.051,
-147279.305,
-147284.02,
-147289.06,
-147294.045,
-147299.238,
-147304.125,
-147309.172,
-147314.022,
-147319.108,
-147324.166,
-147329.124,
-147334.121,
-147339.149,
-147344.065,
-147349.08,
-147354.177,
-147359.03,
-147364.064,
-147369.08,
-147374.059,
-147379.076,
-147384.419,
-147389.095,
-147394.211,
-147399.108,
-147404.083,
-317828.267,
-317833.139,
-317838.157,
-317843.143,
-317848.195,
-317853.231,
-317858.24,
-317862.038,
-147199.096,
-},
-["LastEventIncoming"] = {
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-true,
-},
-["LastEventHealthMax"] = {
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-20429,
-},
-["LastActive"] = 317861.986,
-},
-["绯月余辉"] = {
-["GUID"] = "Player-4520-03999787",
-["TimeLast"] = {
-["ManaGain"] = 147300.526,
-["OVERALL"] = 147300.526,
-},
-["LastEventType"] = {
-"HEAL",
-},
-["TimeWindows"] = {
-["ManaGain"] = {
-12035,
-},
-},
-["enClass"] = "PALADIN",
-["unit"] = "raid13",
-["level"] = 80,
-["LastFightIn"] = 0,
-["type"] = "Ungrouped",
-["LastAbility"] = 317826.968,
-["Owner"] = false,
-["LastEventHealth"] = {
-20224,
-},
-["NextEventNum"] = 2,
-["UnitLockout"] = 147282.538,
-["LastEvents"] = {
-"绯月余辉 圣光术 绯月余辉 Hit +11869 (10939 过量治疗)",
-},
-["Name"] = "绯月余辉",
-["Fights"] = {
-["CurrentFightData"] = {
-["ManaGain"] = 12035,
-["ManaGainedFrom"] = {
-["绯月余辉"] = {
 ["Details"] = {
-["法力回复"] = {
-["count"] = 600,
-},
-["恢复法力"] = {
-["count"] = 2420,
-},
-["神圣恳求"] = {
-["count"] = 9015,
+["地狱烈焰 (伤害/跳)"] = {
+["count"] = 1.5,
 },
 },
-["amount"] = 12035,
+["amount"] = 1.5,
 },
 },
-["ManaGained"] = {
-["法力回复"] = {
+["ManaGain"] = 1966,
+["WhoDamaged"] = {
+["Environment"] = {
 ["Details"] = {
-["绯月余辉"] = {
-["count"] = 600,
+["Falling"] = {
+["count"] = 205,
 },
 },
-["amount"] = 600,
+["amount"] = 205,
 },
-["恢复法力"] = {
+},
+["FDamagedWho"] = {
+["苏莉娅丶霜蓝"] = {
 ["Details"] = {
-["绯月余辉"] = {
-["count"] = 2420,
+["地狱烈焰 (伤害/跳)"] = {
+["count"] = 463,
 },
 },
-["amount"] = 2420,
-},
-["神圣恳求"] = {
-["Details"] = {
-["绯月余辉"] = {
-["count"] = 9015,
-},
-},
-["amount"] = 9015,
-},
-},
-},
-["OverallData"] = {
-["ManaGain"] = 12035,
-["ManaGainedFrom"] = {
-["绯月余辉"] = {
-["Details"] = {
-["法力回复"] = {
-["count"] = 600,
-},
-["恢复法力"] = {
-["count"] = 2420,
-},
-["神圣恳求"] = {
-["count"] = 9015,
-},
-},
-["amount"] = 12035,
-},
-},
-["ManaGained"] = {
-["法力回复"] = {
-["Details"] = {
-["绯月余辉"] = {
-["count"] = 600,
-},
-},
-["amount"] = 600,
-},
-["恢复法力"] = {
-["Details"] = {
-["绯月余辉"] = {
-["count"] = 2420,
-},
-},
-["amount"] = 2420,
-},
-["神圣恳求"] = {
-["Details"] = {
-["绯月余辉"] = {
-["count"] = 9015,
-},
-},
-["amount"] = 9015,
+["amount"] = 463,
 },
 },
 },
 },
-["LastEventTimes"] = {
-147300.67,
-},
-["LastEventIncoming"] = {
-true,
-},
-["LastEventHealthMax"] = {
-20224,
-},
-["LastActive"] = 147300.526,
+["UnitLockout"] = 2850.119,
+["LastActive"] = 3078.735,
 },
 },
 ["FightNum"] = 0,
