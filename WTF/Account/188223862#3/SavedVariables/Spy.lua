@@ -1,0 +1,94 @@
+
+SpyDB = {
+["kosData"] = {
+["匕首岭"] = {
+["Alliance"] = {
+["遐蝶"] = {
+},
+["飞霄"] = {
+},
+["麦丁芸"] = {
+},
+["玲可"] = {
+},
+["缇宝"] = {
+},
+},
+},
+},
+["removeKOSData"] = {
+["匕首岭"] = {
+["Alliance"] = {
+},
+},
+},
+["profileKeys"] = {
+["飞霄 - 匕首岭"] = "飞霄 - 匕首岭",
+["麦丁芸 - 匕首岭"] = "麦丁芸 - 匕首岭",
+["遐蝶 - 匕首岭"] = "遐蝶 - 匕首岭",
+["玲可 - 匕首岭"] = "玲可 - 匕首岭",
+["缇宝 - 匕首岭"] = "缇宝 - 匕首岭",
+},
+["profiles"] = {
+["飞霄 - 匕首岭"] = {
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["AppendUnitKoSCheck"] = true,
+},
+["麦丁芸 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["遐蝶 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["玲可 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["缇宝 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+},
+}

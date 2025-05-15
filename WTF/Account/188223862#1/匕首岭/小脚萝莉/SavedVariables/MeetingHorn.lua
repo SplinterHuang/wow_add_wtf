@@ -1,3 +1,15 @@
 
 MEETINGHORN_DB_CHARACTER_MEMBERS = {
+[1804669311] = {
+["骚男的大战-匕首岭"] = "WARRIOR",
+["毒灬液-匕首岭"] = "SHAMAN",
+["leader"] = "玉丨无丨双-匕首岭",
+["狂暴南斗-匕首岭"] = "WARRIOR",
+["哼哼猪呦-匕首岭"] = "WARLOCK",
+["星际大爷德纲-匕首岭"] = "PRIEST",
+["瞑凤-匕首岭"] = "MAGE",
+["无风满天絮-匕首岭"] = "HUNTER",
+["且徐行乀-匕首岭"] = "PALADIN",
+["玉丨无丨双-匕首岭"] = "PALADIN",
+},
 }

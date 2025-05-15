@@ -17,6 +17,16 @@ nil,
 [32] = 6,
 [8] = 3,
 },
+["CureOrder-2"] = {
+1,
+5,
+nil,
+2,
+[64] = 7,
+[16] = 4,
+[32] = 6,
+[8] = 3,
+},
 },
 ["PALADIN"] = {
 ["CureOrder-1"] = {
@@ -64,15 +74,16 @@ nil,
 },
 },
 ["global"] = {
-["LastVersionAnnounce"] = 1746033907,
-["delayedUnDebuffOccurences"] = 1,
+["LastVersionAnnounce"] = 1747240092,
+["delayedDebuffOccurences"] = 18,
+["delayedUnDebuffOccurences"] = 22,
 },
 ["profiles"] = {
 ["Default"] = {
-["DebuffsFrameContainer_y"] = 605.9232023883342,
+["DebuffsFrameContainer_y"] = 566.324129532637,
 ["MainBarX"] = 713.8997664973103,
 ["MainBarY"] = -96.00000143051147,
-["DebuffsFrameContainer_x"] = 956.6458150363833,
+["DebuffsFrameContainer_x"] = 1045.883218709874,
 },
 },
 }

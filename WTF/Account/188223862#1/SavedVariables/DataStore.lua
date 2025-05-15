@@ -40,6 +40,7 @@ DataStore_CharacterGUIDs = {
 }
 DataStore_CharacterGuilds = {
 2,
+4,
 }
 DataStore_AltGroups = {
 }

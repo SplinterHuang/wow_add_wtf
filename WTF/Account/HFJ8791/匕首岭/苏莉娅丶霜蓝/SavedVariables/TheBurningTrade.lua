@@ -699,8 +699,8 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "股长",
 ["when"] = "05-01 07:47:22",
-["where"] = "十字军的试炼",
 ["result"] = "complete",
+["where"] = "十字军的试炼",
 },
 {
 ["targetMoney"] = 1900000,
@@ -718,8 +718,8 @@ TradeLog_TradesHistory = {
 },
 ["who"] = "股长",
 ["when"] = "05-01 07:50:46",
-["where"] = "十字军的试炼",
 ["result"] = "complete",
+["where"] = "十字军的试炼",
 },
 }
 TRADE_LOG_BUTTON_POS = 190

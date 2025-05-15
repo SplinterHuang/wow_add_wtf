@@ -2,12 +2,17 @@
 BlizzMoveDB = {
 ["saveScaleStrategy"] = "session",
 ["scales"] = {
-["SpellBookFrame"] = 0.9,
-["QuestLogFrame"] = 1.400000071525574,
-["QuestFrame"] = 1.600000166893005,
-["TaxiFrame"] = 1.500000095367432,
-["GossipFrame"] = 1.500000095367432,
+["QuestLogFrame"] = 1.60000011920929,
+["TradeSkillFrame"] = 1.500000095367432,
+["ClassTrainerFrame"] = 1.400000071525574,
+["AuctionFrame"] = 1.500000095367432,
 ["LootFrame"] = 1.1,
+["SpellBookFrame"] = 0.9,
+["MerchantFrame"] = 1.400000071525574,
+["QuestFrame"] = 1.300000047683716,
+["TaxiFrame"] = 1.500000095367432,
+["GossipFrame"] = 1.300000047683716,
+["CharacterFrame"] = 1.400000071525574,
 },
 ["mutedCompatWarnings"] = {
 },

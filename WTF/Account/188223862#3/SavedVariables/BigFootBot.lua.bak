@@ -1,0 +1,72 @@
+
+BigFootBotRealmDB = {
+["id"] = 4520,
+["normalizedName"] = "匕首岭",
+["name"] = "匕首岭",
+["region"] = "CN",
+}
+BigFootBotCharacterDB = {
+["缇宝-匕首岭"] = {
+["guid"] = "Player-4520-0390CC42",
+["gender"] = 3,
+["raceId"] = 1,
+["lastSeen"] = 1746995654,
+["version"] = 3,
+["name"] = "缇宝",
+["faction"] = "Alliance",
+["region"] = "CN",
+["level"] = 80,
+["classId"] = 2,
+["realm"] = "匕首岭",
+},
+}
+BigFootBotAchievementDB = {
+["latest"] = {
+{
+["id"] = 2944,
+["points"] = 10,
+["icon"] = 254103,
+["date"] = "25-4-20",
+},
+{
+["id"] = 2889,
+["points"] = 10,
+["icon"] = 298677,
+["date"] = "25-4-20",
+},
+{
+["id"] = 3010,
+["points"] = 10,
+["icon"] = 136174,
+["date"] = "25-4-5",
+},
+{
+["id"] = 734,
+["points"] = 10,
+["icon"] = 134327,
+["date"] = "25-4-4",
+},
+{
+["id"] = 733,
+["points"] = 10,
+["icon"] = 134327,
+["date"] = "25-4-4",
+},
+},
+["all"] = {
+},
+["totalPoints"] = 1665,
+}
+BigFootBotAccountDB = {
+["gameVersion"] = "3.4.4",
+["addonVersion"] = "r4",
+["region"] = "CN",
+["clientVersion"] = 3,
+["isTrial"] = false,
+["bigfootVersion"] = "zhCN3.4.4.248",
+}
+BigFootBotGuildDB = {
+}
+BigFootBotTokenDB = {
+[1746995700] = 151170000,
+}

@@ -12,11 +12,11 @@ wMarkerAceDB = {
 ["Default"] = {
 ["frameLoc"] = {
 ["wMarkerRaid"] = {
-"TOP",
+"TOPLEFT",
 nil,
-"TOP",
-100.0391159057617,
--38.42483901977539,
+"TOPLEFT",
+194.3026123046875,
+-59.33988189697266,
 },
 ["wMarkerWorld"] = {
 "TOP",

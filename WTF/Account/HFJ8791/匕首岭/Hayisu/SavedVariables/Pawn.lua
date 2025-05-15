@@ -1,8 +1,6 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
-["LastPlayerFullName"] = "Hayisu-匕首岭",
-["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 45107,
@@ -96,6 +94,8 @@ nil,
 ["Link"] = "|cff0070dd|Hitem:39486::::::::79:::::::::|h[赫米特的纪念猎枪]|h|r",
 },
 },
+["AutoSelectScales"] = false,
+["LastPlayerFullName"] = "Hayisu-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

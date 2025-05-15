@@ -9,6 +9,23 @@ MADB = {
 ["default"] = {
 ["name"] = "default",
 ["frames"] = {
+["FramerateLabelMover"] = {
+["orgPos"] = {
+"BOTTOM",
+"WorldFrame",
+"BOTTOM",
+0,
+227,
+},
+["name"] = "FramerateLabelMover",
+["pos"] = {
+"BOTTOM",
+"WorldFrame",
+"BOTTOM",
+-469.9122944418384,
+2.511616945266724,
+},
+},
 },
 },
 },

@@ -3,10 +3,10 @@ Details_StreamerDB = {
 ["characters"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = "Hayisu - 匕首岭",
 ["葛芮芙丶霜蓝 - 匕首岭"] = "Hayisu - 匕首岭",
-["苏莉娅丶霜蓝 - 匕首岭"] = "Hayisu - 匕首岭",
 ["汉斯顿丶霜蓝 - 匕首岭"] = "Hayisu - 匕首岭",
-["Hayisu - 匕首岭"] = "Hayisu - 匕首岭",
 ["艾伊苏霜蓝 - 匕首岭"] = "Hayisu - 匕首岭",
+["Hayisu - 匕首岭"] = "Hayisu - 匕首岭",
+["苏莉娅丶霜蓝 - 匕首岭"] = "Hayisu - 匕首岭",
 },
 ["profiles"] = {
 ["Hayisu - 匕首岭"] = {
@@ -19,7 +19,10 @@ Details_StreamerDB = {
 0.5,
 },
 ["scale"] = 1,
-["arrow_anchor_y"] = 0,
+["main_frame_size"] = {
+300,
+500,
+},
 ["minimap"] = {
 ["minimapPos"] = 160,
 ["radius"] = 160,
@@ -40,7 +43,7 @@ Details_StreamerDB = {
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["font_size"] = 10,
+["use_spark"] = true,
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -48,13 +51,13 @@ Details_StreamerDB = {
 0,
 0.2,
 },
-["row_color"] = {
-0.1,
-0.1,
-0.1,
-0.4,
-},
+["author"] = "Terciob",
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["font_size"] = 10,
+["y"] = 1.52587890625e-05,
+["x"] = 0.0001220703125,
+["font_face"] = "Friz Quadrata TT",
+["square_size"] = 32,
 ["per_second"] = {
 ["enabled"] = false,
 ["point"] = "CENTER",
@@ -66,17 +69,14 @@ Details_StreamerDB = {
 ["update_speed"] = 0.05,
 ["attribute_type"] = 1,
 },
-["use_spark"] = true,
-["x"] = 0.0001220703125,
-["font_face"] = "Friz Quadrata TT",
-["square_size"] = 32,
-["y"] = 1.52587890625e-05,
-["author"] = "Terciob",
-["main_frame_locked"] = false,
-["main_frame_size"] = {
-300,
-500,
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
 },
+["main_frame_locked"] = false,
+["arrow_anchor_y"] = 0,
 },
 },
 }

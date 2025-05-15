@@ -1,8 +1,6 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
-["LastPlayerFullName"] = "葛芮芙丶霜蓝-匕首岭",
-["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 37480,
@@ -36,9 +34,9 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:36886::::::::68:::::::::|h[西部裂谷护腿]|h|r",
 },
 {
-["ID"] = 25593,
-["Level"] = 105,
-["Link"] = "|cff1eff00|Hitem:25593::::::::67:::::::::|h[风鹏胫甲]|h|r",
+["ID"] = 42768,
+["Level"] = 155,
+["Link"] = "|cff0070dd|Hitem:42768::::::::71:::::::::|h[不屈保卫者之靴]|h|r",
 },
 {
 ["ID"] = 37486,
@@ -46,9 +44,9 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:37486::::::::69:::::::::|h[陆地护腕]|h|r",
 },
 {
-["ID"] = 37417,
-["Level"] = 138,
-["Link"] = "|cff1eff00|Hitem:37417::::::::68:::::::::|h[西部裂谷护手]|h|r",
+["ID"] = 42765,
+["Level"] = 155,
+["Link"] = "|cff0070dd|Hitem:42765::::::::71:::::::::|h[困惑巨人护手]|h|r",
 },
 {
 ["ID"] = 37524,
@@ -75,9 +73,9 @@ nil,
 ["Link"] = "|cff00ccff|Hitem:42991::::::::62:::::::::|h[迅捷的正义之手]|h|r",
 },
 {
-["ID"] = 25780,
-["Level"] = 105,
-["Link"] = "|cff1eff00|Hitem:25780::::::::67:::::::::|h[战槌防御者披风]|h|r",
+["ID"] = 38221,
+["Level"] = 159,
+["Link"] = "|cff0070dd|Hitem:38221::::::::71:::::::::|h[流畅攻击披风]|h|r",
 },
 {
 ["ID"] = 25987,
@@ -85,6 +83,8 @@ nil,
 ["Link"] = "|cff1eff00|Hitem:25987::::::::62:::::::::|h[地狱野猪雕饰利刃]|h|r",
 },
 },
+["AutoSelectScales"] = false,
+["LastPlayerFullName"] = "葛芮芙丶霜蓝-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

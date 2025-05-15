@@ -30,13 +30,15 @@ SpyDB = {
 ["薇绮丶霜蓝 - 匕首岭"] = "薇绮丶霜蓝 - 匕首岭",
 ["葛芮芙丶霜蓝 - 匕首岭"] = "葛芮芙丶霜蓝 - 匕首岭",
 ["Splinter - 匕首岭"] = "Splinter - 匕首岭",
-["Hayisu - 匕首岭"] = "Hayisu - 匕首岭",
 ["汉斯顿丶霜蓝 - 匕首岭"] = "汉斯顿丶霜蓝 - 匕首岭",
-["苏莉娅丶霜蓝 - 匕首岭"] = "苏莉娅丶霜蓝 - 匕首岭",
 ["艾伊苏霜蓝 - 匕首岭"] = "艾伊苏霜蓝 - 匕首岭",
+["苏莉娅丶霜蓝 - 匕首岭"] = "苏莉娅丶霜蓝 - 匕首岭",
+["Hayisu - 匕首岭"] = "Hayisu - 匕首岭",
 },
 ["profiles"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
 ["Colors"] = {
 ["Alert"] = {
 ["Stealth Text"] = {
@@ -52,8 +54,6 @@ SpyDB = {
 },
 },
 },
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
 ["AppendUnitKoSCheck"] = true,
 },
 ["葛芮芙丶霜蓝 - 匕首岭"] = {
@@ -80,18 +80,6 @@ SpyDB = {
 },
 ["AppendUnitKoSCheck"] = true,
 },
-["Hayisu - 匕首岭"] = {
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
-["Colors"] = {
-["Bar"] = {
-["Bar Text"] = {
-["a"] = 1,
-},
-},
-},
-["AppendUnitKoSCheck"] = true,
-},
 ["汉斯顿丶霜蓝 - 匕首岭"] = {
 ["AppendUnitNameCheck"] = true,
 ["MainWindowVis"] = false,
@@ -104,28 +92,7 @@ SpyDB = {
 },
 ["AppendUnitKoSCheck"] = true,
 },
-["苏莉娅丶霜蓝 - 匕首岭"] = {
-["AppendUnitNameCheck"] = true,
-["MainWindowVis"] = false,
-["Colors"] = {
-["Alert"] = {
-["Stealth Text"] = {
-["a"] = 1,
-},
-["Name Text"] = {
-["a"] = 1,
-},
-},
-["Bar"] = {
-["Bar Text"] = {
-["a"] = 1,
-},
-},
-},
-["AppendUnitKoSCheck"] = true,
-},
 ["艾伊苏霜蓝 - 匕首岭"] = {
-["AppendUnitNameCheck"] = true,
 ["MainWindow"] = {
 ["Position"] = {
 ["y"] = 971.2012329101562,
@@ -149,8 +116,41 @@ SpyDB = {
 },
 },
 },
-["AppendUnitKoSCheck"] = true,
+["AppendUnitNameCheck"] = true,
 ["MainWindowVis"] = false,
+["AppendUnitKoSCheck"] = true,
+},
+["苏莉娅丶霜蓝 - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Alert"] = {
+["Stealth Text"] = {
+["a"] = 1,
+},
+["Name Text"] = {
+["a"] = 1,
+},
+},
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Hayisu - 匕首岭"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
 },
 },
 }

@@ -32,10 +32,6 @@ BFCooldownDB = {
 66,
 "spell",
 },
-["急奔"] = {
-52,
-"spell",
-},
 },
 ["isChangeFont"] = true,
 ["secs"] = {

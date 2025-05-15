@@ -1,0 +1,65 @@
+VER 3 0000000001000005 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000006 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]麦丁娜[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000100000E "·" "135802"
+#showtooltip 献祭
+/cast [target=mouseover,harm,nodead] 献祭;献祭
+END
+VER 3 0000000001000009 "·" "136223"
+#showtooltip
+/施放 召唤仪式
+/in 5 /script SendChatMessage("我在拉你，请耐心等待","whisper",GetDefaultLanguage("target"),UnitName("target"))
+/大喊 　　█　　　●███◣　█
+/大喊 　　██　　█　　　█　▉
+/大喊 　　█　　　█　　　█　▊
+/大喊 █████　█　　　█　▋
+/大喊 █　　　█　█　　　█　▌
+/大喊 █████　█　　　█　▍
+/大喊 ●●　●●　█　　◥█   � 
+END
+VER 3 000000000100000B "·" "136169"
+#showtooltip 吸取生命
+/cast [modifier:alt] 吸取法力; 吸取生命
+END
+VER 3 000000000100000A "·" "136156"
+我正在召唤>>%T<<，请旁边有空的伸出两爪子帮点下门
+END
+VER 3 000000000100000C "·" "136139"
+#showtooltip 痛苦诅咒
+/cast [target=mouseover,harm,nodead] 痛苦诅咒;痛苦诅咒
+END
+VER 3 000000000100000D "·" "136118"
+#showtooltip 腐蚀术
+/cast [target=mouseover,harm,nodead] 腐蚀术;腐蚀术
+END
+VER 3 000000000100000F "·" "135804"
+#showtooltip 火焰之雨
+/cast 火焰之雨
+END
+VER 3 0000000001000010 "·" "136193"
+#showtooltip 腐蚀之种
+/cast [target=mouseover,harm,nodead] 腐蚀之种;腐蚀之种
+END
+VER 3 0000000001000011 "·" "136135"
+#showtooltip 放逐术
+/cast [target=mouseover,harm,nodead] 放逐术;放逐术
+END
+VER 3 0000000001000012 "·" "136183"
+#showtooltip 恐惧
+/cast [target=mouseover,harm,nodead] 恐惧;恐惧
+END
+VER 3 0000000001000013 "·" "136154"
+#showtooltip 奴役恶魔
+/cast [target=mouseover,harm,nodead] 奴役恶魔;奴役恶魔
+END
+VER 3 0000000001000014 "·" "136228"
+#showtooltip 痛苦无常
+/cast [target=mouseover,harm,nodead] 痛苦无常;痛苦无常
+END
+VER 3 0000000001000015 "·" "236298"
+#showtooltip 鬼影缠身
+/cast [target=mouseover,harm,nodead] 鬼影缠身;鬼影缠身
+END

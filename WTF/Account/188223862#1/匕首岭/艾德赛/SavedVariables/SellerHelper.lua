@@ -1,7 +1,14 @@
 
 AutoRechargeSetting = {
+["王者印记"] = 150,
 }
 AR_ItemInfo = {
+["王者印记"] = {
+["texture"] = 134471,
+["hyperLink"] = "|cffffffff|Hitem:21177::::::::80:::::::::|h[王者印记]|h|r",
+["stack"] = 1,
+["addtime"] = 1746694344,
+},
 }
 SellerHelper_AutoSellList = {
 }

@@ -65,8 +65,8 @@ BigFoot_Config = {
 ["ActionButton"] = {
 ["ShowCenter"] = 0,
 ["EnableCooldownCount2"] = 1,
-["ShineType"] = "标准",
 ["ToggleBar"] = 0,
+["ShineType"] = "标准",
 ["checkedVersion"] = "248",
 },
 ["SellerHelper"] = {
@@ -172,7 +172,7 @@ BigFoot_Config = {
 ["EnableRaidAlerter"] = 1,
 ["checkedVersion"] = "248",
 ["EnableDecursive"] = 1,
-["EnableRecount2"] = 1,
+["EnableRecount2"] = 0,
 ["EnableThreat"] = 1,
 },
 ["BagManagement"] = {
@@ -206,9 +206,9 @@ BigFoot_Config = {
 ["EnableDCT"] = 0,
 },
 ["AutoEquip"] = {
-["EnableAdvancedMode"] = 0,
 ["checkedVersion"] = "248",
 ["EnableAutoEquip"] = 0,
+["EnableAdvancedMode"] = 0,
 ["EnableAutoHide"] = 0,
 },
 ["ChatEnhancement"] = {
@@ -222,15 +222,15 @@ BigFoot_Config = {
 BigFoot_Error = {
 ["ADDON_ACTION_FORBIDDEN"] = {
 ["!!!Libs"] = {
-["combat"] = true,
-["zone"] = "龙骨荒野",
+["combat"] = false,
+["zone"] = "祖达克",
 ["class"] = "法师",
 ["race"] = "侏儒",
-["time"] = 1745887178,
-["version"] = "zhCN3.4.4.248",
+["time"] = 1746908943,
 ["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame_Shared.lua]:1352: in function <...zard_UIPanels_Game/Classic/ContainerFrame_Shared.lua:1299>\n[C]: in function 'ContainerFrameItemButton_OnClick'\n[*ContainerFrame.xml:163_OnClick]:13: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
+["level"] = 77,
 ["forbiddenfunc"] = "UNKNOWN()",
-["level"] = 72,
+["version"] = "zhCN3.4.4.248",
 },
 ["TheBurningTrade"] = {
 ["combat"] = false,
@@ -238,8 +238,8 @@ BigFoot_Error = {
 ["class"] = "萨满祭司",
 ["race"] = "德莱尼",
 ["time"] = 1745962370,
-["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/TheBurningTrade/TheBurningTrade.lua]:82: in function <Interface/AddOns/TheBurningTrade/TheBurningTrade.lua:76>\n[C]: in function 'ContainerFrameItemButton_OnModifiedClick'\n[*ContainerFrame.xml:163_OnClick]:11: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
 ["level"] = 80,
+["trace"] = "[Interface/AddOns/BigFoot/BigFootError.lua]:1: in function 'BigFootErrorFrame_OnEvent'\n[*BigFootError.xml:235_OnEvent]:1: in function <[string \"*BigFootError.xml:235_OnEvent\"]:1>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/TheBurningTrade/TheBurningTrade.lua]:82: in function <Interface/AddOns/TheBurningTrade/TheBurningTrade.lua:76>\n[C]: in function 'ContainerFrameItemButton_OnModifiedClick'\n[*ContainerFrame.xml:163_OnClick]:11: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>\n",
 ["forbiddenfunc"] = "UNKNOWN()",
 ["version"] = "zhCN3.4.4.248",
 },
@@ -291,4 +291,14 @@ BF_LogonInfo = {
 1745865554,
 1745954404,
 1746030931,
+1746493245,
+1746623149,
+1746694105,
+1746721718,
+1746821302,
+1746899952,
+1746984870,
+1747079888,
+1747152491,
+1747240082,
 }

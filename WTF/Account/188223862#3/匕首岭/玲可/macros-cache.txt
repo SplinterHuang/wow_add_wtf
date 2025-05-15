@@ -1,0 +1,52 @@
+VER 3 0000000001000002 "·" "135953"
+#showtooltip 恢复
+/cast [target=mouseover,help][target=target,help,exists]恢复;[target=mouseover,harm][target=target,harm,exists,nodead]暗言术：痛; 恢复
+END
+VER 3 0000000001000007 "·" "135902"
+#showtooltip 防护恐惧结界
+/cast [target=mouseover,help][target=target,help,exists][target=player]防护恐惧结界
+END
+VER 3 0000000001000009 "·" "135887"
+#showtooltip 治疗之环
+/cast [target=mouseover,help][target=target,help,exists][target=player]治疗之环
+END
+VER 3 0000000001000008 "·" "135894"
+#showtooltip 驱散魔法
+/cast [target=mouseover][target=target,exists][target=player]驱散魔法
+END
+VER 3 0000000001000001 "·" "135907"
+#showtooltip 快速治疗
+/cast [target=mouseover,help][target=target,help,exists]快速治疗;[target=mouseover,harm][target=target,harm,exists,nodead]惩击; 快速治疗
+END
+VER 3 0000000001000003 "·" "135913"
+#showtooltip 强效治疗术
+/cast [target=mouseover,help][target=target,help,exists]强效治疗术;[target=mouseover,harm][target=target,harm,exists,nodead]神圣之火; 强效治疗术
+END
+VER 3 0000000001000004 "·" "135943"
+#showtooltip 治疗祷言
+/cast [target=mouseover,help][target=target,help,exists][target=player]治疗祷言
+END
+VER 3 0000000001000005 "·" "135940"
+#showtooltip 真言术：盾
+/cast [target=mouseover,help][target=target,help,exists][target=player]真言术：盾
+END
+VER 3 000000000100000A "·" "237545"
+#showtooltip 苦修
+/cast [target=mouseover,help][target=target,help,exists]苦修;[target=mouseover,harm][target=target,harm,exists,nodead]苦修;苦修
+END
+VER 3 000000000100000B "·" "135936"
+#showtooltip 痛苦压制
+/cast [target=mouseover,help][target=target,help,exists]痛苦压制;[target=mouseover,harm][target=target,harm,exists,nodead]痛苦压制;痛苦压制
+END
+VER 3 000000000100000C "·" "135944"
+#showtooltip 愈合祷言
+/cast [target=mouseover,help][target=target,help,exists][target=player]愈合祷言
+END
+VER 3 000000000100000D "·" "135883"
+#showtooltip 联结治疗
+/cast [target=mouseover,help][target=target,help,exists][target=player]联结治疗
+END
+VER 3 000000000100000F "·" "135939"
+#showtooltip 能量灌注
+/cast [target=mouseover,help][target=target,help,exists][target=player]能量灌注
+END

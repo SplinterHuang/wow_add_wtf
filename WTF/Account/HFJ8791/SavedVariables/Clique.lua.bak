@@ -28,9 +28,9 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
+["spec2_profileKey"] = "艾伊苏霜蓝 - 匕首岭",
 ["fastooc"] = false,
 ["specswap"] = false,
-["spec2_profileKey"] = "艾伊苏霜蓝 - 匕首岭",
 },
 ["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["spec1_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
@@ -39,8 +39,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
 ["specswap"] = false,
+["spec2_profileKey"] = "苏莉娅丶霜蓝 - 匕首岭",
 },
 ["Hayisu - 匕首岭"] = {
 ["spec1_profileKey"] = "Hayisu - 匕首岭",
@@ -48,8 +48,8 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
-["specswap"] = false,
 ["fastooc"] = false,
+["specswap"] = false,
 ["spec2_profileKey"] = "Hayisu - 匕首岭",
 },
 },
@@ -57,61 +57,61 @@ CliqueDB3 = {
 ["薇绮丶霜蓝 - 匕首岭"] = "薇绮丶霜蓝 - 匕首岭",
 ["葛芮芙丶霜蓝 - 匕首岭"] = "葛芮芙丶霜蓝 - 匕首岭",
 ["Splinter - 匕首岭"] = "Splinter - 匕首岭",
-["汉斯顿丶霜蓝 - 匕首岭"] = "汉斯顿丶霜蓝 - 匕首岭",
-["艾伊苏霜蓝 - 匕首岭"] = "艾伊苏霜蓝 - 匕首岭",
 ["苏莉娅丶霜蓝 - 匕首岭"] = "苏莉娅丶霜蓝 - 匕首岭",
+["艾伊苏霜蓝 - 匕首岭"] = "艾伊苏霜蓝 - 匕首岭",
 ["Hayisu - 匕首岭"] = "Hayisu - 匕首岭",
+["汉斯顿丶霜蓝 - 匕首岭"] = "汉斯顿丶霜蓝 - 匕首岭",
 },
 ["profiles"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
 {
 ["spell"] = "生命绽放",
 ["key"] = "BUTTON3",
-["spellSubName"] = "等级 3",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 134206,
-["type"] = "spell",
+["spellSubName"] = "等级 3",
 },
 {
 ["spell"] = "滋养",
 ["key"] = "MOUSEWHEELUP",
-["spellSubName"] = "等级 1",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 236162,
-["type"] = "spell",
+["spellSubName"] = "等级 1",
 },
 {
 ["spell"] = "回春术",
 ["key"] = "BUTTON2",
-["spellSubName"] = "等级 15",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136081,
-["type"] = "spell",
+["spellSubName"] = "等级 15",
 },
 {
 ["spell"] = "治疗之触",
 ["key"] = "ALT-BUTTON1",
-["spellSubName"] = "等级 15",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136041,
-["type"] = "spell",
+["spellSubName"] = "等级 15",
 },
 {
 ["spell"] = "迅捷治愈",
@@ -125,52 +125,52 @@ CliqueDB3 = {
 {
 ["spell"] = "愈合",
 ["key"] = "CTRL-BUTTON1",
-["spellSubName"] = "等级 12",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136085,
-["type"] = "spell",
+["spellSubName"] = "等级 12",
 },
 {
 ["spell"] = "野性成长",
 ["key"] = "MOUSEWHEELDOWN",
-["spellSubName"] = "等级 4",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 236153,
-["type"] = "spell",
+["spellSubName"] = "等级 4",
 },
 {
 ["spell"] = "生命绽放",
 ["key"] = "BUTTON4",
-["type"] = "spell",
+["spellSubName"] = "等级 3",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 134206,
-["spellSubName"] = "等级 3",
+["type"] = "spell",
 },
 {
 ["spell"] = "愈合",
 ["key"] = "BUTTON5",
-["type"] = "spell",
+["spellSubName"] = "等级 12",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136085,
-["spellSubName"] = "等级 12",
+["type"] = "spell",
 },
 },
 },
 ["葛芮芙丶霜蓝 - 匕首岭"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -186,10 +186,10 @@ CliqueDB3 = {
 ["Splinter - 匕首岭"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -202,13 +202,13 @@ CliqueDB3 = {
 },
 },
 },
-["汉斯顿丶霜蓝 - 匕首岭"] = {
+["苏莉娅丶霜蓝 - 匕首岭"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -224,10 +224,10 @@ CliqueDB3 = {
 ["艾伊苏霜蓝 - 匕首岭"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -249,13 +249,13 @@ CliqueDB3 = {
 },
 },
 },
-["苏莉娅丶霜蓝 - 匕首岭"] = {
+["Hayisu - 匕首岭"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -268,13 +268,13 @@ CliqueDB3 = {
 },
 },
 },
-["Hayisu - 匕首岭"] = {
+["汉斯顿丶霜蓝 - 匕首岭"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },

@@ -725,7 +725,7 @@ Bartender4DB = {
 ["bf_infobox"] = {
 ["focuscastmodifier"] = false,
 ["buttonlock"] = false,
-["onkeydown"] = true,
+["onkeydown"] = false,
 },
 ["艾德赛 - 匕首岭"] = {
 ["focuscastmodifier"] = false,

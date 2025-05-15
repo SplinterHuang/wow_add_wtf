@@ -108,8 +108,7 @@ nil,
 ["b"] = 0.7,
 },
 },
-["highlightedEvents"] = {
-["PARTY_KILL"] = true,
+["eventColoring"] = {
 },
 ["defaults"] = {
 ["spell"] = {
@@ -125,7 +124,8 @@ nil,
 ["b"] = 0,
 },
 },
-["eventColoring"] = {
+["highlightedEvents"] = {
+["PARTY_KILL"] = true,
 },
 },
 ["hasQuickButton"] = true,
@@ -146,7 +146,7 @@ nil,
 ["amountActorColoring"] = false,
 ["textMode"] = "A",
 ["destBraces"] = true,
-["timestamp"] = false,
+["timestamp"] = true,
 ["actionColoring"] = false,
 ["fullText"] = true,
 ["lineColorPriority"] = 1,
@@ -156,8 +156,8 @@ nil,
 ["braces"] = false,
 ["unitBraces"] = true,
 ["schoolNameHighlighting"] = true,
-["unitIcons"] = true,
 ["hideBuffs"] = false,
+["unitIcons"] = true,
 ["unitColoring"] = false,
 ["amountSchoolColoring"] = false,
 ["amountColoring"] = false,
@@ -171,9 +171,11 @@ nil,
 {
 ["sourceFlags"] = {
 [17681] = true,
+[32542] = true,
 },
 ["eventList"] = {
 ["SPELL_PERIODIC_MISSED"] = false,
+["SPELL_SUMMON"] = false,
 ["SPELL_INTERRUPT"] = false,
 ["UNIT_DESTROYED"] = true,
 ["SPELL_LEECH"] = false,
@@ -216,7 +218,7 @@ nil,
 },
 {
 ["destFlags"] = {
-[17681] = false,
+[17681] = true,
 [12561] = false,
 },
 ["eventList"] = {
@@ -355,8 +357,7 @@ nil,
 ["b"] = 0.7,
 },
 },
-["highlightedEvents"] = {
-["PARTY_KILL"] = true,
+["eventColoring"] = {
 },
 ["defaults"] = {
 ["spell"] = {
@@ -372,7 +373,8 @@ nil,
 ["b"] = 0,
 },
 },
-["eventColoring"] = {
+["highlightedEvents"] = {
+["PARTY_KILL"] = true,
 },
 },
 ["hasQuickButton"] = true,
@@ -403,8 +405,8 @@ nil,
 ["braces"] = false,
 ["unitBraces"] = true,
 ["schoolNameHighlighting"] = true,
-["unitIcons"] = true,
 ["hideBuffs"] = false,
+["unitIcons"] = true,
 ["unitColoring"] = false,
 ["amountSchoolColoring"] = false,
 ["amountColoring"] = false,

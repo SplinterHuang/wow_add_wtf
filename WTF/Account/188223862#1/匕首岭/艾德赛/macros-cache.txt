@@ -1,18 +1,3 @@
-VER 3 0000000001000003 " " "135875"
-/施放 复仇之怒
-/use 银色新月徽记
-END
-VER 3 0000000001000014 " " "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [help][target=targettarget,help]正义防御[]正义防御
-END
-VER 3 0000000001000005 " " "INV_Misc_QuestionMark"
-#showtooltip 奉献(等级 6)
-/施放 奉献(等级 6)
-/cleartarget
-/targetenemy
-/startattack
-END
 VER 3 0000000001000006 " " "132094"
 /目标 缝补憎恶
 /startattack
@@ -21,53 +6,34 @@ VER 3 0000000001000004 " " "INV_Misc_QuestionMark"
 #showtooltip 正义防御
 /cast [help] 正义防御; [target=targettarget] 正义防御
 END
+VER 3 0000000001000005 " " "INV_Misc_QuestionMark"
+#showtooltip 奉献(等级 6)
+/施放 奉献(等级 6)
+/cleartarget
+/targetenemy
+/startattack
+END
 VER 3 0000000001000001 " " "132096"
 效率带血色~武器库+教堂+送图书馆(3门小怪总数190+)~20-35级10G/门~36-40级15G/门~经验丰富~自由拾取~
 END
 VER 3 0000000001000002 " " "132094"
 /目标 赫洛德
 END
+VER 3 0000000001000003 " " "135875"
+/施放 复仇之怒
+/use 银色新月徽记
+END
+VER 3 0000000001000014 " " "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [help][target=targettarget,help]正义防御[]正义防御
+END
 VER 3 0000000001000007 "买" "132091"
 /run local a,b="图鉴：玛瑙护盾坠饰"; for i=1,60 do b=GetMerchantItemInfo(i) if b==a then BuyMerchantItem(i,1) else end end CloseMerchant()
 END
-VER 3 0000000001000011 "宏" "INV_Misc_QuestionMark"
+VER 3 000000000100001E "奶骑" "INV_Misc_QuestionMark"
 #showtooltip
-/cast 驱邪术
-/startattack
-END
-VER 3 0000000001000012 "宏" "INV_Misc_QuestionMark"
-#showtooltip
-/cast 十字军打击
-/startattack
-END
-VER 3 000000000100001C "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [@mouseover,help][@player]圣光术
-END
-VER 3 0000000001000008 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [@mouseover,help][@player] 圣光术
-END
-VER 3 000000000100000B "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [@mouseover,help][@player] 自由之手
-END
-VER 3 0000000001000016 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/施放 奉献
-/startattack
-END
-VER 3 0000000001000017 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [@mouseover,help][@player]圣光闪现
-END
-VER 3 0000000001000018 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [@mouseover,help][@player]圣洁护盾
-END
-VER 3 0000000001000019 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [@mouseover,help][@player]圣光道标
+/castsequence 神圣牺牲
+/cancelaura 神圣牺牲
 END
 VER 3 000000000100001A "宏" "INV_Misc_QuestionMark"
 #showtooltip 
@@ -96,9 +62,9 @@ VER 3 000000000100000A "宏" "INV_Misc_QuestionMark"
 /cast 智慧审判
 /startattack
 END
-VER 3 0000000001000009 "宏" "INV_Misc_QuestionMark"
+VER 3 0000000001000019 "宏" "INV_Misc_QuestionMark"
 #showtooltip 
-/cast [@mouseover,help][@player] 圣光闪现
+/cast [@mouseover,help][@player]圣光道标
 END
 VER 3 000000000100000C "宏" "INV_Misc_QuestionMark"
 #showtooltip 
@@ -116,6 +82,45 @@ END
 VER 3 0000000001000010 "宏" "INV_Misc_QuestionMark"
 #showtooltip 
 /cast [target=mouseover,harm,exists]制裁之锤;制裁之锤
+END
+VER 3 0000000001000017 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]圣光闪现
+END
+VER 3 0000000001000011 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 驱邪术
+/startattack
+END
+VER 3 0000000001000012 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 十字军打击
+/startattack
+END
+VER 3 000000000100001C "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]圣光术
+END
+VER 3 0000000001000008 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player] 圣光术
+END
+VER 3 000000000100000B "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player] 自由之手
+END
+VER 3 0000000001000016 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/施放 奉献
+/startattack
+END
+VER 3 0000000001000018 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player]圣洁护盾
+END
+VER 3 0000000001000009 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player] 圣光闪现
 END
 VER 3 0000000001000013 "目标" "134400"
 /tar 迷失

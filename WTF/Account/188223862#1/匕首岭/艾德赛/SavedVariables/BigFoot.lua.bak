@@ -1,10 +1,10 @@
 
 BF_Frames_Config = {
 ["BFGoldFrame"] = {
-["offX"] = 309.8475646972656,
+["offX"] = -309.7825927734375,
 ["point"] = "TOP",
 ["region"] = "UIParent",
-["offY"] = -45.70806121826172,
+["offY"] = -4.867079257965088,
 ["refPoint"] = "TOP",
 },
 }

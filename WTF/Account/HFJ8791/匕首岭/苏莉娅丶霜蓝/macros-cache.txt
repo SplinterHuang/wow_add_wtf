@@ -2,10 +2,10 @@ VER 3 0000000001000008 "note" "134400"
 /W 苏莉娅丶霜蓝 sp的WA， 10人混装
 END
 VER 3 0000000001000009 "VuhDoDCShieldData" "Ability_Repair"
-R1EM[x]1LR1HR1HR2RM2PH2MR2PT2SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR0__[x]0__0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
 END
 VER 3 000000000100000A "VuhDoDCShieldNames" "Ability_Repair"
-N股长[x]Slo光头加锁甲雙怀念九喜欢在妩法妩萨拉丁小小元[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]苏莉娅砂石抢[x]玛鲁姆豹铁腭[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]基萨弗
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]苏莉娅[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]基萨弗
 END
 VER 3 0000000001000003 "摧毁" "134400"
 /castsequence reset=combat 灵魂碎片

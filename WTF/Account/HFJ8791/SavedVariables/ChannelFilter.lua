@@ -2,7 +2,7 @@
 ChannelFilter_Config = {
 ["FilterLevel"] = 1,
 ["SetFliterLv"] = 5,
-["NewConfig"] = 2,
+["Enabled"] = 1,
 ["OrderWords"] = {
 "成就",
 "幻化",
@@ -13,5 +13,5 @@ ChannelFilter_Config = {
 "代练",
 },
 ["BanEnabled"] = 1,
-["Enabled"] = 1,
+["NewConfig"] = 2,
 }

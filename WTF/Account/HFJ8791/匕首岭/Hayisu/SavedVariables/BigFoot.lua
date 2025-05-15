@@ -27,8 +27,8 @@ BigFoot_Character = {
 ["Realm"] = "匕首岭",
 }
 BigFoot_SysTemSetTab = {
-["BigFoot_LoadBefore"] = 1,
 ["LC"] = true,
+["BigFoot_LoadBefore"] = 1,
 ["ARC"] = true,
 ["UtilsPatchVersion"] = "2020-03-26",
 }

@@ -9,25 +9,6 @@ MADB = {
 ["default"] = {
 ["name"] = "default",
 ["frames"] = {
-["PlayerBuffsMover"] = {
-["orgPos"] = {
-"TOPRIGHT",
-"UIParent",
-"TOPRIGHT",
--205,
--13,
-},
-["name"] = "PlayerBuffsMover",
-["scale"] = 1.109466652052141,
-["orgScale"] = 1,
-["pos"] = {
-"TOPRIGHT",
-"UIParent",
-"TOPRIGHT",
--202.6785112542771,
--17.19678717894508,
-},
-},
 ["PlayerDebuffsMover"] = {
 ["orgPos"] = {
 "TOPRIGHT",
@@ -47,12 +28,47 @@ MADB = {
 613.0498657226562,
 },
 },
+["PlayerBuffsMover"] = {
+["orgPos"] = {
+"TOPRIGHT",
+"UIParent",
+"TOPRIGHT",
+-205,
+-13,
+},
+["name"] = "PlayerBuffsMover",
+["scale"] = 1.109466652052141,
+["orgScale"] = 1,
+["pos"] = {
+"TOPRIGHT",
+"UIParent",
+"TOPRIGHT",
+-202.6785112542771,
+-17.19678717894508,
+},
+},
+["FramerateLabelMover"] = {
+["orgPos"] = {
+"BOTTOM",
+"WorldFrame",
+"BOTTOM",
+0,
+227,
+},
+["name"] = "FramerateLabelMover",
+["pos"] = {
+"BOTTOM",
+"WorldFrame",
+"BOTTOM",
+-447.7807660078465,
+10.09348106384277,
 },
 },
 },
-["modifiedFramesOnly"] = true,
-["closeGUIOnEscape"] = false,
-["noBags"] = false,
-["playSound"] = false,
+},
+},
 ["frameListRows"] = 18,
+["playSound"] = false,
+["noBags"] = false,
+["closeGUIOnEscape"] = false,
 }

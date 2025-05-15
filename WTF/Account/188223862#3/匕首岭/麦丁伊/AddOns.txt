@@ -149,3 +149,6 @@ WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WhatsTraining: enabled
 BigFootSync: enabled
+Blizzard_CompactRaidFrames: enabled
+Blizzard_CombatText: enabled
+WeakAurasCompanion: enabled

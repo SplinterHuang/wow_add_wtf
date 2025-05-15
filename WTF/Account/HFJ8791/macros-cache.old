@@ -18,7 +18,8 @@ VER 3 000000000000000C "B跟" "132311"
 /petfollow
 END
 VER 3 000000000000000A "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('没有相关技能')
+/stopcasting
+/cast [@mouseover,nomod,exists] 吞噬魔法;  [@mouseover,exists,mod:ctrl] 恐惧; [@mouseover,exists,mod:shift] 吞噬魔法
 END
 VER 3 000000000000000F "follow" "134400"
 /follow 艾德赛

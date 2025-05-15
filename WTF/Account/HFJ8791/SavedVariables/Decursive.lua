@@ -1,7 +1,7 @@
 
 DecursiveDB = {
 ["global"] = {
-["LastVersionAnnounce"] = 1746100065,
+["LastVersionAnnounce"] = 1747304810,
 ["NewerVersionName"] = "2.7.19",
 ["delayedDebuffOccurences"] = 46,
 ["delayedUnDebuffOccurences"] = 61,
@@ -124,10 +124,10 @@ nil,
 ["profileKeys"] = {
 ["薇绮丶霜蓝 - 匕首岭"] = "Default",
 ["葛芮芙丶霜蓝 - 匕首岭"] = "Default",
-["Hayisu - 匕首岭"] = "Default",
-["艾伊苏霜蓝 - 匕首岭"] = "Default",
-["苏莉娅丶霜蓝 - 匕首岭"] = "Default",
 ["汉斯顿丶霜蓝 - 匕首岭"] = "Default",
+["艾伊苏霜蓝 - 匕首岭"] = "Default",
+["Hayisu - 匕首岭"] = "Default",
+["苏莉娅丶霜蓝 - 匕首岭"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

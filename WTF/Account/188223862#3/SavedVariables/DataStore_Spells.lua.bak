@@ -1,0 +1,25 @@
+
+DataStore_Spells_Characters = {
+{
+["englishClass"] = "MAGE",
+},
+{
+["englishClass"] = "PRIEST",
+},
+{
+["englishClass"] = "WARLOCK",
+},
+{
+["englishClass"] = "PALADIN",
+},
+}
+DataStore_Spells_Tabs = {
+["MAGE"] = {
+},
+["PALADIN"] = {
+},
+["WARLOCK"] = {
+},
+["PRIEST"] = {
+},
+}

@@ -1,0 +1,74 @@
+VER 3 0000000001000001 "·" "135920"
+#showtooltip 圣光术
+/cast [target=mouseover,exists][target=target,exists] 圣光术;圣光术
+END
+VER 3 0000000001000002 "·" "135907"
+#showtooltip 圣光闪现
+/cast [target=mouseover,exists][target=target,exists] 圣光闪现;圣光闪现
+END
+VER 3 0000000001000003 "·" "135972"
+#showtooltip 神圣震击
+/cast [target=mouseover,exists][target=target,exists] 神圣震击;神圣震击
+END
+VER 3 0000000001000004 "·" "236247"
+#showtooltip 圣光道标
+/cast [target=mouseover,exists][target=target,exists] 圣光道标;圣光道标
+END
+VER 3 0000000001000005 "·" "236249"
+#showtooltip 圣洁护盾
+/cast [target=mouseover,exists][target=target,exists] 圣洁护盾;圣洁护盾
+END
+VER 3 0000000001000006 "·" "135968"
+#showtooltip 自由之手
+/cast [target=mouseover,exists][target=target,exists] 自由之手;自由之手
+END
+VER 3 0000000001000007 "·" "135966"
+#showtooltip 牺牲之手
+/cast [target=mouseover,exists][target=target,exists] 牺牲之手;牺牲之手
+END
+VER 3 0000000001000008 "·" "135953"
+#showtooltip 清洁术
+/cast [target=mouseover,exists][target=target,exists] 清洁术;清洁术
+END
+VER 3 0000000001000009 "·" "135967"
+#showtooltip 拯救之手
+/cast [target=mouseover,exists][target=target,exists] 拯救之手;拯救之手
+END
+VER 3 000000000100000A "·" "135964"
+#showtooltip 保护之手
+/cast [target=mouseover,exists][target=target,exists] 保护之手;保护之手
+END
+VER 3 000000000100000B "·" "135928"
+#showtooltip 圣疗术
+/cast [target=mouseover,exists][target=target,exists] 圣疗术;圣疗术
+END
+VER 3 000000000100000C "·" "135891"
+#showtooltip 十字军打击
+/cast 十字军打击
+/cast 清算之手
+END
+VER 3 000000000100000D "·" "236255"
+#showtooltip 智慧审判
+/cast 智慧审判
+/cast 清算之手
+END
+VER 3 000000000100000E "·" "236250"
+#showtooltip 神圣风暴
+/cast 神圣风暴
+/cast 清算之手
+END
+VER 3 000000000100000F "·" "135895"
+#showtooltip 神启
+/cast 神启
+/use 陨星水晶
+END
+VER 3 0000000001000010 "·" "135959"
+#showtooltip 圣光审判
+/cast 圣光审判
+/cast 清算之手
+END
+VER 3 0000000001000011 "·" "135875"
+#showtooltip 复仇之怒
+/cast 复仇之怒
+/use 洛欧塞布之影
+END

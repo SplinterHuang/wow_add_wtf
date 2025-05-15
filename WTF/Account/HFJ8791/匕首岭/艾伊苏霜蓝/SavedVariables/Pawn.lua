@@ -1,6 +1,8 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
+["LastPlayerFullName"] = "艾伊苏霜蓝-匕首岭",
+["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 47942,
@@ -55,22 +57,22 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:45608::39997::::::80:::::::::|h[布莱恩的徽记之戒]|h|r",
 },
 {
-["ID"] = 45456,
-["Level"] = 239,
+["ID"] = 45608,
+["Level"] = 252,
 ["AlsoFitsIn"] = 11,
-["Link"] = "|cffa335ee|Hitem:45456::::::::80:::::::::|h[敏捷之环]|h|r",
+["Link"] = "|cffa335ee|Hitem:45608::40112::::::80:::::::::|h[布莱恩的徽记之戒]|h|r",
+},
+{
+["ID"] = 47115,
+["Level"] = 245,
+["AlsoFitsIn"] = 14,
+["Link"] = "|cffa335ee|Hitem:47115::::::::80:::::::::|h[死亡的裁决]|h|r",
 },
 {
 ["ID"] = 46038,
 ["Level"] = 239,
-["AlsoFitsIn"] = 14,
-["Link"] = "|cffa335ee|Hitem:46038::::::::80:::::::::|h[黑暗物质]|h|r",
-},
-{
-["ID"] = 45522,
-["Level"] = 232,
 ["AlsoFitsIn"] = 13,
-["Link"] = "|cffa335ee|Hitem:45522::::::::80:::::::::|h[古神之血]|h|r",
+["Link"] = "|cffa335ee|Hitem:46038::::::::80:::::::::|h[黑暗物质]|h|r",
 },
 {
 ["ID"] = 48673,
@@ -88,8 +90,6 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:45570:3608:::::::80:::::::::|h[天铸之弩]|h|r",
 },
 },
-["AutoSelectScales"] = false,
-["LastPlayerFullName"] = "艾伊苏霜蓝-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

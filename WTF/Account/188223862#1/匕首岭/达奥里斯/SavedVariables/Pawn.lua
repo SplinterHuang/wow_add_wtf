@@ -1,8 +1,6 @@
 
 PawnOptions = {
 ["LastVersion"] = 2.0811,
-["LastPlayerFullName"] = "达奥里斯-匕首岭",
-["AutoSelectScales"] = false,
 ["ItemLevels"] = {
 {
 ["ID"] = 49468,
@@ -85,12 +83,13 @@ nil,
 ["Link"] = "|cffa335ee|Hitem:47962:3830:40113::::::80:::::::::|h[银色治愈者]|h|r",
 },
 {
-["ID"] = 49437,
-["Level"] = 232,
-["AlsoFitsIn"] = 16,
-["Link"] = "|cffa335ee|Hitem:49437::::::::80:::::::::|h[锈蚀的血腥撕裂者]|h|r",
+["ID"] = 47064,
+["Level"] = 258,
+["Link"] = "|cffa335ee|Hitem:47064::::::::80:::::::::|h[侵越之印]|h|r",
 },
 },
+["AutoSelectScales"] = false,
+["LastPlayerFullName"] = "达奥里斯-匕首岭",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

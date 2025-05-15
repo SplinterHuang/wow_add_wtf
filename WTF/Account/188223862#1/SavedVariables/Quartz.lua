@@ -22,12 +22,7 @@ Quartz3DB = {
 },
 ["Mirror"] = {
 },
-["Player"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 767.3746948242188,
-},
-},
+["EnemyCasts"] = {
 },
 ["GCD"] = {
 },
@@ -54,7 +49,12 @@ Quartz3DB = {
 },
 ["Interrupt"] = {
 },
-["EnemyCasts"] = {
+["Player"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 767.3746948242188,
+},
+},
 },
 ["Latency"] = {
 },
@@ -66,6 +66,9 @@ Quartz3DB = {
 },
 ["profiles"] = {
 ["Default"] = {
+["modules"] = {
+["Buff"] = false,
+},
 },
 },
 }

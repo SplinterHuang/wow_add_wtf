@@ -2,9 +2,9 @@
 BlizzMoveDB = {
 ["saveScaleStrategy"] = "session",
 ["scales"] = {
-["QuestFrame"] = 1.500000095367432,
+["QuestFrame"] = 1.300000047683716,
 ["QuestLogFrame"] = 1.200000023841858,
-["GossipFrame"] = 1.40000011920929,
+["GossipFrame"] = 1.300000047683716,
 ["CharacterFrame"] = 1.300000047683716,
 },
 ["mutedCompatWarnings"] = {

@@ -1,0 +1,64 @@
+
+Quartz3DB = {
+["namespaces"] = {
+["Swing"] = {
+},
+["Buff"] = {
+},
+["LibDualSpec-1.0"] = {
+},
+["Flight"] = {
+},
+["Pet"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 792.2850341796875,
+},
+},
+},
+["Range"] = {
+},
+["EnemyCasts"] = {
+},
+["Player"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 767.2850341796875,
+},
+},
+},
+["GCD"] = {
+},
+["Focus"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 792.2850341796875,
+},
+},
+},
+["Target"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 792.2850341796875,
+},
+},
+},
+["Interrupt"] = {
+},
+["Mirror"] = {
+},
+["Latency"] = {
+},
+},
+["profileKeys"] = {
+["飞霄 - 匕首岭"] = "Default",
+["麦丁芸 - 匕首岭"] = "Default",
+["遐蝶 - 匕首岭"] = "Default",
+["玲可 - 匕首岭"] = "Default",
+["缇宝 - 匕首岭"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

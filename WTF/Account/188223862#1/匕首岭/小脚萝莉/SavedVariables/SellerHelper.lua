@@ -1,7 +1,14 @@
 
 AutoRechargeSetting = {
+["魔粉"] = 169,
 }
 AR_ItemInfo = {
+["魔粉"] = {
+["texture"] = 133848,
+["hyperLink"] = "|cffffffff|Hitem:17020::::::::80:::::::::|h[魔粉]|h|r",
+["stack"] = 1,
+["addtime"] = 1747086730,
+},
 }
 SellerHelper_AutoSellList = {
 }

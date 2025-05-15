@@ -151,3 +151,4 @@ BigFootSync: enabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
+VuhDo: disabled

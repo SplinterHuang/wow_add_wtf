@@ -1,0 +1,14 @@
+
+SenderInfoOptions = {
+["profileKeys"] = {
+["飞霄 - 匕首岭"] = "Default",
+["麦丁芸 - 匕首岭"] = "Default",
+["遐蝶 - 匕首岭"] = "Default",
+["玲可 - 匕首岭"] = "Default",
+["缇宝 - 匕首岭"] = "Default",
+},
+}
+SenderInfoHelperPos = {
+["y"] = -100,
+["x"] = 250,
+}

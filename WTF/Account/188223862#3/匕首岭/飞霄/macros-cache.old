@@ -1,0 +1,81 @@
+VER 3 0000000001000005 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000006 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]麦丁娜[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000004 "·" "132090"
+#showtooltip 背刺
+/cast 背刺
+/startattack
+END
+VER 3 0000000001000002 "·" "136189"
+#showtooltip 影袭
+/cast 影袭
+/startattack
+END
+VER 3 0000000001000007 "·" "INV_MISC_QUESTIONMARK"
+#showtooltip 消失
+/cast 消失
+/stopattack
+END
+VER 3 0000000001000008 "·" "INV_MISC_QUESTIONMARK"
+#showtooltip 凿击
+/cast [@mouseover,harm,nodead] 凿击;凿击
+END
+VER 3 0000000001000003 "·" "136175"
+#showtooltip 致盲
+/cast [@mouseover,harm,nodead] 致盲;致盲
+END
+VER 3 0000000001000001 "·" "132219"
+#showtooltip 脚踢
+/cast [target=focus,harm,exists,modifier:alt]脚踢;[mod:shift]刀扇;[target=mouseover,harm,exists]脚踢;脚踢
+END
+VER 3 0000000001000009 "·" "INV_MISC_QUESTIONMARK"
+#showtooltip 开锁
+/cast [button:1]开锁
+/use [button:1]加固的垃圾箱
+/use [button:2]加固的垃圾箱
+END
+VER 3 000000000100000A "·" "132350"
+#showtooltip 剑刃乱舞
+/cast 剑刃乱舞
+/use 嗜血胸针
+END
+VER 3 000000000100000C "·" "132303"
+#showtooltip 暗影步
+/cast [@mouseover] 暗影步;
+/cast 暗影步
+END
+VER 3 000000000100000D "·" "132304"
+#showtooltip 毁伤
+/cast 毁伤
+/startattack
+END
+VER 3 000000000100000E "·" "236283"
+#showtooltip 嫁祸诀窍
+/cast [help] [target=focus, help] [target=targettarget, help] 嫁祸诀窍
+END
+VER 3 000000000100000F "·" "132307"
+#showtooltip 疾跑
+/use [mod:alt]踏冰者便鞋;疾跑
+END
+VER 3 0000000001000010 "·" "236273"
+#showtooltip 刀扇
+/cast 刀扇
+/startattack
+END
+VER 3 0000000001000012 "·" "135826"
+#showtooltip
+/use [mod:shift,@cursor,nostealth]眼梗皮革腰带;[mod:ctrl]眼梗皮革腰带; [@player,nostealth] 眼梗皮革腰带
+END
+VER 3 0000000001000013 "·" "132320"
+#showtooltip 潜行
+/cast !潜行
+END
+VER 3 0000000001000011 "二" "236283"
+#showtooltip 嫁祸诀窍
+/cast [@mouseover,help,exists] [@focus,help,exists] [@target,help,exists] [@targettarget,help,exists]嫁祸诀窍
+/stopmacro [@focus,help,exists]
+/focus [@mouseover,help,exists][@targettarget,help,exists]嫁祸诀窍
+END

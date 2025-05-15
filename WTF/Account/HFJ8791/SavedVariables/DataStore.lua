@@ -1,15 +1,15 @@
 
 DataStore_GuildIDs = {
+["Set"] = {
+["Default.匕首岭.谈笑风生"] = 1,
+["Default.匕首岭.市舶司"] = 2,
+["Default.匕首岭.醉心小筑"] = 3,
+},
+["Count"] = 3,
 ["List"] = {
 "Default.匕首岭.谈笑风生",
 "Default.匕首岭.市舶司",
 "Default.匕首岭.醉心小筑",
-},
-["Count"] = 3,
-["Set"] = {
-["Default.匕首岭.市舶司"] = 2,
-["Default.匕首岭.谈笑风生"] = 1,
-["Default.匕首岭.醉心小筑"] = 3,
 },
 }
 DataStore_GuildFactions = {
@@ -18,6 +18,15 @@ DataStore_GuildFactions = {
 "Alliance",
 }
 DataStore_CharacterIDs = {
+["Set"] = {
+["Default.匕首岭.艾伊苏霜蓝"] = 3,
+["Default.匕首岭.苏莉娅丶霜蓝"] = 4,
+["Default.匕首岭.Hayisu"] = 2,
+["Default.匕首岭.汉斯顿丶霜蓝"] = 6,
+["Default.匕首岭.薇绮丶霜蓝"] = 1,
+["Default.匕首岭.葛芮芙丶霜蓝"] = 5,
+},
+["Count"] = 6,
 ["List"] = {
 "Default.匕首岭.薇绮丶霜蓝",
 "Default.匕首岭.Hayisu",
@@ -25,15 +34,6 @@ DataStore_CharacterIDs = {
 "Default.匕首岭.苏莉娅丶霜蓝",
 "Default.匕首岭.葛芮芙丶霜蓝",
 "Default.匕首岭.汉斯顿丶霜蓝",
-},
-["Count"] = 6,
-["Set"] = {
-["Default.匕首岭.艾伊苏霜蓝"] = 3,
-["Default.匕首岭.苏莉娅丶霜蓝"] = 4,
-["Default.匕首岭.Hayisu"] = 2,
-["Default.匕首岭.葛芮芙丶霜蓝"] = 5,
-["Default.匕首岭.薇绮丶霜蓝"] = 1,
-["Default.匕首岭.汉斯顿丶霜蓝"] = 6,
 },
 }
 DataStore_CharacterGUIDs = {
@@ -45,9 +45,12 @@ DataStore_CharacterGUIDs = {
 "Player-4520-036132E9",
 }
 DataStore_CharacterGuilds = {
-[5] = 2,
-[6] = 3,
-[2] = 1,
+1,
+1,
+nil,
+nil,
+nil,
+3,
 }
 DataStore_AltGroups = {
 }

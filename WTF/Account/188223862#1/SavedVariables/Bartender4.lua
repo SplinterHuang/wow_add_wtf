@@ -740,7 +740,7 @@ Bartender4DB = {
 ["bf_infobox"] = {
 ["focuscastmodifier"] = false,
 ["buttonlock"] = false,
-["onkeydown"] = true,
+["onkeydown"] = false,
 },
 },
 }

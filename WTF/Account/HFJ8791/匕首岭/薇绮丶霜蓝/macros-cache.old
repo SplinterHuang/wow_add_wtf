@@ -2,6 +2,12 @@ VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
 /cancelaura 迅捷飞行形态
 /cast !枭兽形态
 END
+VER 3 0000000001000007 "VuhDoDCShieldData" "Ability_Repair"
+R1WT1PM1RM1WM2MR2SH2MR2PH2PH3MR3IH3IR3HR3HR4DR4LR4LR[x]4SR5WM5EM5PM5RM5EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4DR[x][x][x][x][x][x][x][x][x][x][x][x]0__0__[x]0__0__[x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000008 "VuhDoDCShieldNames" "Ability_Repair"
+NAus天王乔岚之传跳丶楼不二三落雪幽生如冬Ang儒雅随艾娃丽Hap邪恶小死亡之牛牛奶只若初头发勾血之代[x]萌萌哒春满梦醒人大狗爲爱不龙蟠小[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]薇绮丶[x][x][x][x][x][x][x][x][x][x][x][x]狼狼[x]尼格里沙祖恩[x][x][x]棺木嚼[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
 VER 3 0000000001000003 "凶" "INV_MISC_QUESTIONMARK"
 /cancelaura  迅捷飞行形态
 /cast !巨熊形态

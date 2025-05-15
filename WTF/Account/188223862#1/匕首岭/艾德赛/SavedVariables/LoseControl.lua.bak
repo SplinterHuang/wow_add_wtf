@@ -162,15 +162,15 @@ LoseControlDB = {
 },
 ["party3"] = {
 ["enabled"] = false,
-["frameLevel"] = 0,
-["interruptMiniIconsAlpha"] = 0.8,
-["interruptBackgroundAlpha"] = 0.7,
-["useSpellInsteadSchoolMiniIcon"] = false,
-["alpha"] = 1,
 ["noCompactFrame"] = {
 ["frameLevel"] = 0,
 ["size"] = 36,
 },
+["alpha"] = 1,
+["interruptBackgroundAlpha"] = 0.7,
+["interruptMiniIconsAlpha"] = 0.8,
+["frameLevel"] = 0,
+["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -210,7 +210,7 @@ LoseControlDB = {
 ["g"] = 1,
 ["r"] = 1,
 },
-["anchor"] = "Blizzard",
+["useSpellInsteadSchoolMiniIcon"] = false,
 ["size"] = 36,
 },
 ["nameplate14"] = {
@@ -2548,15 +2548,15 @@ LoseControlDB = {
 },
 ["party1"] = {
 ["enabled"] = false,
-["frameLevel"] = 0,
-["interruptMiniIconsAlpha"] = 0.8,
-["interruptBackgroundAlpha"] = 0.7,
-["useSpellInsteadSchoolMiniIcon"] = false,
-["alpha"] = 1,
 ["noCompactFrame"] = {
 ["frameLevel"] = 0,
 ["size"] = 36,
 },
+["alpha"] = 1,
+["interruptBackgroundAlpha"] = 0.7,
+["interruptMiniIconsAlpha"] = 0.8,
+["frameLevel"] = 0,
+["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -2596,7 +2596,7 @@ LoseControlDB = {
 ["g"] = 1,
 ["r"] = 1,
 },
-["anchor"] = "Blizzard",
+["useSpellInsteadSchoolMiniIcon"] = false,
 ["size"] = 36,
 },
 ["arena3"] = {
@@ -4443,16 +4443,16 @@ LoseControlDB = {
 },
 ["partyplayer"] = {
 ["enabled"] = false,
-["frameLevel"] = 0,
-["interruptMiniIconsAlpha"] = 0.8,
-["interruptBackgroundAlpha"] = 0.7,
-["useSpellInsteadSchoolMiniIcon"] = false,
-["alpha"] = 1,
 ["noCompactFrame"] = {
-["frameLevel"] = 0,
 ["anchor"] = "None",
+["frameLevel"] = 0,
 ["size"] = 36,
 },
+["alpha"] = 1,
+["interruptBackgroundAlpha"] = 0.7,
+["interruptMiniIconsAlpha"] = 0.8,
+["frameLevel"] = 0,
+["anchor"] = "None",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -4492,7 +4492,7 @@ LoseControlDB = {
 ["g"] = 1,
 ["r"] = 1,
 },
-["anchor"] = "None",
+["useSpellInsteadSchoolMiniIcon"] = false,
 ["size"] = 36,
 },
 ["raid17"] = {
@@ -4728,15 +4728,15 @@ LoseControlDB = {
 },
 ["party4"] = {
 ["enabled"] = false,
-["frameLevel"] = 0,
-["interruptMiniIconsAlpha"] = 0.8,
-["interruptBackgroundAlpha"] = 0.7,
-["useSpellInsteadSchoolMiniIcon"] = false,
-["alpha"] = 1,
 ["noCompactFrame"] = {
 ["frameLevel"] = 0,
 ["size"] = 36,
 },
+["alpha"] = 1,
+["interruptBackgroundAlpha"] = 0.7,
+["interruptMiniIconsAlpha"] = 0.8,
+["frameLevel"] = 0,
+["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -4776,7 +4776,7 @@ LoseControlDB = {
 ["g"] = 1,
 ["r"] = 1,
 },
-["anchor"] = "Blizzard",
+["useSpellInsteadSchoolMiniIcon"] = false,
 ["size"] = 36,
 },
 ["nameplate19"] = {
@@ -6067,15 +6067,15 @@ LoseControlDB = {
 },
 ["party2"] = {
 ["enabled"] = false,
-["frameLevel"] = 0,
-["interruptMiniIconsAlpha"] = 0.8,
-["interruptBackgroundAlpha"] = 0.7,
-["useSpellInsteadSchoolMiniIcon"] = false,
-["alpha"] = 1,
 ["noCompactFrame"] = {
 ["frameLevel"] = 0,
 ["size"] = 36,
 },
+["alpha"] = 1,
+["interruptBackgroundAlpha"] = 0.7,
+["interruptMiniIconsAlpha"] = 0.8,
+["frameLevel"] = 0,
+["anchor"] = "Blizzard",
 ["categoriesEnabled"] = {
 ["interrupt"] = {
 ["friendly"] = true,
@@ -6115,7 +6115,7 @@ LoseControlDB = {
 ["g"] = 1,
 ["r"] = 1,
 },
-["anchor"] = "Blizzard",
+["useSpellInsteadSchoolMiniIcon"] = false,
 ["size"] = 36,
 },
 },
@@ -6141,17 +6141,17 @@ LoseControlDB = {
 ["disablePlayerFocusPlayerFocusTarget"] = true,
 ["duplicatePlayerPortrait"] = true,
 ["showNPCInterruptsFocus"] = true,
+["showNPCInterruptsFocusTarget"] = true,
+["showNPCInterruptsTargetTarget"] = true,
+["disableFocusDeadFocusTarget"] = true,
+["disableArenaInBG"] = true,
 ["customSpellIds"] = {
 },
 ["showNPCInterruptsNameplate"] = true,
-["disablePartyInRaid"] = true,
-["noCooldownCount"] = false,
-["showNPCInterruptsFocusTarget"] = true,
-["showNPCInterruptsTargetTarget"] = true,
 ["disablePartyInBG"] = true,
 ["version"] = 3,
-["disableArenaInBG"] = true,
-["disableFocusDeadFocusTarget"] = true,
+["noCooldownCount"] = false,
+["disablePartyInRaid"] = true,
 ["showNPCInterruptsTarget"] = true,
 ["disableFocusFocusTarget"] = true,
 ["disablePlayerTargetPlayerTargetTarget"] = true,

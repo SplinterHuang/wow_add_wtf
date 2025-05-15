@@ -1,0 +1,77 @@
+VER 3 0000000001000010 " " "INV_Misc_QuestionMark"
+#showtooltip 寒冰屏障
+/stopcasting
+/cancelAura 寒冰屏障
+/cast 寒冰屏障
+END
+VER 3 000000000100000E "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000100000F "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]遐蝶[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000001 "·" "135846"
+#showtooltip 寒冰箭
+/cast [modifier:alt] 寒冰箭(等级 1); 寒冰箭
+END
+VER 3 0000000001000003 "·" "135852"
+#showtooltip 冰锥术
+/cast [modifier:alt] 冰锥术(等级 1); 冰锥术
+END
+VER 3 0000000001000002 "·" "135857"
+#showtooltip 暴风雪
+/cast [modifier:alt] 暴风雪(等级 1); 暴风雪
+END
+VER 3 0000000001000009 "·" "136082"
+#showtooltip 解除诅咒
+/stopcasting
+/cast [@mouseover]解除诅咒;解除诅咒
+END
+VER 3 000000000100000A "·" "135736"
+#showtooltip 闪现术
+/stopcasting
+/cancelAura 寒冰屏障
+/dismount
+/cast 闪现术
+END
+VER 3 0000000001000004 "·" "136116"
+#showtooltip 魔爆术
+/cast [modifier:alt] 魔爆术(等级 1); 魔爆术
+END
+VER 3 000000000100000C "·" "INV_Misc_QuestionMark"
+#showtooltip 冰霜新星
+/stopcasting
+/cancelAura 寒冰屏障
+/dismount
+/cast 冰霜新星
+END
+VER 3 0000000001000006 "·" "135997"
+#showtooltip 变形术
+/stopcasting
+/cast [@mouseover,harm,nodead]变形术(猪);变形术(猪)
+/cast  变形术(猪)
+END
+VER 3 0000000001000005 "·" "135856"
+#showtooltip 法术反制
+/stopcasting
+/cast [@mouseover,harm,nodead]法术反制;法术反制
+END
+VER 3 0000000001000012 "·" "Spell_Ice_Lament."
+#showtooltip 寒冰护体
+/cast [modifier:shift] 法力护盾;寒冰护体
+END
+VER 3 0000000001000013 "·" "135729"
+#showtooltip 法术吸取
+/stopcasting
+/cast [@mouseover,harm,nodead]法术吸取;法术吸取
+END
+VER 3 0000000001000014 "·" "236220"
+#showtooltip 活动炸弹
+/cast [target=mouseover,harm,nodead]活动炸弹;活动炸弹
+END
+VER 3 0000000001000015 "·" "135838"
+#showtooltip 冰冷血脉
+/施放 冰冷血脉
+/cast 燃烧
+/use 法力青玉
+END

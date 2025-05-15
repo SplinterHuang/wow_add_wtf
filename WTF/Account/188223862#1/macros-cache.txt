@@ -1,29 +1,3 @@
-VER 3 0000000000000008 " " "INV_MISC_QUESTIONMARK"
-#showtooltip 极效治疗石
-/use 极效治疗石
-END
-VER 3 0000000000000038 " " "134400"
-/目标 工程师
-END
-VER 3 0000000000000039 " " "134400"
-/跟随 麦丁
-END
-VER 3 000000000000003A " " "135826"
-/施放 烈焰风暴(等级 6)
-/click [pet] PetActionButton3
-END
-VER 3 0000000000000033 " " "134400"
-/跟随 麦丁妍
-END
-VER 3 000000000000003B " " "134400"
-/目标 帅小伙子
-/施放 奥术射击(等级 1)
-END
-VER 3 0000000000000040 " " "INV_Misc_QuestionMark"
-#showtooltip 唤醒
-/施放 冰冷血脉
-/施放 唤醒
-END
 VER 3 000000000000003F " " "134400"
 /跟随 Fani
 END
@@ -96,8 +70,10 @@ VER 3 000000000000001E " " "136071"
 /施放 变形术(等级 4)
 /click [pet] PetActionButton2
 END
-VER 3 0000000000000034 " " "134400"
-/TAR 杰德
+VER 3 0000000000000040 " " "INV_Misc_QuestionMark"
+#showtooltip 唤醒
+/施放 冰冷血脉
+/施放 唤醒
 END
 VER 3 0000000000000035 " " "134400"
 /跟随
@@ -107,6 +83,27 @@ VER 3 0000000000000036 " " "132092"
 END
 VER 3 0000000000000037 " " "134400"
 /目标 尼尔·奥雷
+END
+VER 3 0000000000000038 " " "134400"
+/目标 工程师
+END
+VER 3 0000000000000039 " " "134400"
+/跟随 麦丁
+END
+VER 3 000000000000003A " " "135826"
+/施放 烈焰风暴(等级 6)
+/click [pet] PetActionButton3
+END
+VER 3 0000000000000033 " " "134400"
+/跟随 麦丁妍
+END
+VER 3 000000000000003B " " "134400"
+/目标 帅小伙子
+/施放 奥术射击(等级 1)
+END
+VER 3 0000000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 极效治疗石
+/use 极效治疗石
 END
 VER 3 0000000000000044 " 22" "134400"
 /targetenemy [help][dead][noexists]
@@ -131,9 +128,13 @@ END
 VER 3 0000000000000047 "A冰球" "132387"
 /tar 冰霜之球
 END
-VER 3 0000000000000010 "Decursive" "INV_MISC_QUESTIONMARK"
+VER 3 000000000000007D "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
+END
+VER 3 0000000000000010 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
 END
 VER 3 0000000000000024 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
@@ -146,10 +147,6 @@ VER 3 0000000000000005 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] 解除次级诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除次级诅咒
 END
-VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] 解除次级诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除次级诅咒
-END
 VER 3 0000000000000032 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
@@ -158,9 +155,9 @@ VER 3 000000000000003D "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
 END
-VER 3 000000000000007D "Decursive" "134400"
+VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] 驱毒术;  [@mouseover,exists,mod:ctrl] 净化术; [@mouseover,exists,mod:shift] 妖术
+/cast [@mouseover,nomod,exists] 解除次级诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除次级诅咒
 END
 VER 3 0000000000000006 "JD" "134400"
 /tar 杰德
@@ -173,6 +170,16 @@ MLD双门,30-34=15G//35-39=20G//40-44=25G//45-48=30G//49-52=35G...{自由拾取�
 END
 VER 3 0000000000000011 "mquest open" "134400"
 /mquest open
+END
+VER 3 000000000000007E "PPPP" "132089"
+/团队 　 　　█████◣
+/团队 　　　█我还年轻 █
+/团队 　　　█甘拜下风█
+/团队 　　　█████◤　
+/团队 　　　█　
+/团队 　　　█
+#showtooltip
+/cast [@cursor] 自然之力
 END
 VER 3 0000000000000049 "PPPP" "132089"
 /团队 　 　 █████◣
@@ -190,29 +197,15 @@ VER 3 0000000000000012 "PPPP" "132089"
 /团队 　　　█　
 /团队 　　　█
 END
-VER 3 000000000000007E "PPPP" "132089"
-/团队 　 　　█████◣
-/团队 　　　█我还年轻 █
-/团队 　　　█甘拜下风█
-/团队 　　　█████◤　
-/团队 　　　█　
-/团队 　　　█
-#showtooltip
-/cast [@cursor] 自然之力
-END
 VER 3 0000000000000013 "TSMMacro" "133938"
 /click TSMSniperBtn
 /click TSMAuctioningBtn
 END
 VER 3 0000000000000026 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000000000027 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]艾德赛[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 0000000000000030 "·" "INV_Misc_QuestionMark"
-#showtooltip 寒冰护体
-/cast [modifier:shift] 法力护盾;寒冰护体
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]小脚萝[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 000000000000002F "·" "INV_Misc_QuestionMark"
 #showtooltip 法术反制
@@ -251,6 +244,47 @@ VER 3 000000000000002E "·" "INV_Misc_QuestionMark"
 #showtooltip 变形术
 /stopcasting
 /cast [@mouseover,harm,nodead]变形术;变形术
+END
+VER 3 0000000000000030 "·" "INV_Misc_QuestionMark"
+#showtooltip 寒冰护体
+/cast [modifier:shift] 法力护盾;寒冰护体
+END
+VER 3 0000000000000050 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] 自然之力
+/use 战争囚徒印记
+END
+VER 3 0000000000000083 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [target=focus,harm,exists]心灵冰冻;[target=mouseover,harm,exists]心灵冰冻;心灵冰冻
+END
+VER 3 0000000000000051 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast 自然迅捷
+/cast [@mouseover,help][@player]治疗之触
+END
+VER 3 0000000000000052 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [@cursor] reset=8/combat 烈焰风暴(等级 9),烈焰风暴(等级 8)
+END
+VER 3 0000000000000053 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@player] 拯救之手
+END
+VER 3 0000000000000054 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod,@player] [@mouseover,help,nodead]恢复;[@mouseover,harm,nodead][harm] 噬灵疫病;[]恢复
+END
+VER 3 0000000000000055 "宏" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [target=focus,harm,exists]心灵冰冻;[target=mouseover,harm,exists]心灵冰冻;心灵冰冻
+/stopcasting
+END
+VER 3 0000000000000056 "宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 圣光审判
+/施放 清算之手
+/startattack
 END
 VER 3 0000000000000057 "宏" "INV_Misc_QuestionMark"
 #showtooltip 
@@ -362,39 +396,6 @@ VER 3 000000000000004F "宏" "INV_Misc_QuestionMark"
 #showtooltip 暗影魔
 /cast [@mouseover,harm,nodead][harm] 暗影魔
 END
-VER 3 0000000000000050 "宏" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [@cursor] 自然之力
-/use 战争囚徒印记
-END
-VER 3 0000000000000051 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast 自然迅捷
-/cast [@mouseover,help][@player]治疗之触
-END
-VER 3 0000000000000052 "宏" "INV_Misc_QuestionMark"
-#showtooltip
-/castsequence [@cursor] reset=8/combat 烈焰风暴(等级 9),烈焰风暴(等级 8)
-END
-VER 3 0000000000000053 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [@mouseover,help][@player] 拯救之手
-END
-VER 3 0000000000000054 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [mod,@player] [@mouseover,help,nodead]恢复;[@mouseover,harm,nodead][harm] 噬灵疫病;[]恢复
-END
-VER 3 0000000000000055 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [target=focus,harm,exists]心灵冰冻;[target=mouseover,harm,exists]心灵冰冻;心灵冰冻
-/stopcasting
-END
-VER 3 0000000000000056 "宏" "INV_Misc_QuestionMark"
-#showtooltip
-/cast 圣光审判
-/施放 清算之手
-/startattack
-END
 VER 3 0000000000000066 "宏" "INV_Misc_QuestionMark"
 #showtooltip 
 /cast [mod:shift]寒冰箭(等级 1);霜火之箭
@@ -495,15 +496,15 @@ VER 3 000000000000005C "宏" "INV_Misc_QuestionMark"
 #showtooltip 
 /cast [mod,@player] [@mouseover,help,nodead]圣光闪现;[@mouseover,harm,nodead][harm] 正义盾击;[]圣光闪现
 END
-VER 3 0000000000000083 "宏" "INV_Misc_QuestionMark"
-#showtooltip 
-/cast [target=focus,harm,exists]心灵冰冻;[target=mouseover,harm,exists]心灵冰冻;心灵冰冻
-END
 VER 3 0000000000000029 "最大视角" "134400"
 /console cameraDistanceMaxZoomFactor 4
 END
 VER 3 0000000000000014 "死亡效果" "132097"
 /console ffxDeath 0
+END
+VER 3 0000000000000034 "目标" "134400"
+/TAR 杰德
+/tar 祖达克老鼠
 END
 VER 3 0000000000000075 "目标" "134400"
 /tar 迷失

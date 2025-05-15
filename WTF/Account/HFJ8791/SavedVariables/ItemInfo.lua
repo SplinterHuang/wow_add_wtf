@@ -4,11 +4,11 @@ ItemInfo_Config = {
 },
 ["auctionPrice"] = {
 },
-["ShowUnitPrice"] = false,
+["ShowUnitPrice"] = true,
 }
 AlreadyKnownSettings = {
-["r"] = 0,
+["b"] = 0,
 ["monochrome"] = false,
 ["g"] = 1,
-["b"] = 0,
+["r"] = 0,
 }

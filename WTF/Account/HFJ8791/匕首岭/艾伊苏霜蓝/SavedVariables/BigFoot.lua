@@ -1,5 +1,6 @@
 
 BF_Frames_Config = {
+["BCanMove"] = true,
 ["HunterAssistDistanceFrame"] = {
 ["offX"] = 441.0382385253906,
 ["point"] = "TOPLEFT",
@@ -7,7 +8,6 @@ BF_Frames_Config = {
 ["offY"] = -15.77616786956787,
 ["refPoint"] = "TOPLEFT",
 },
-["BCanMove"] = true,
 }
 BigFoot_Character = {
 ["Region"] = "cn0",
@@ -21,8 +21,8 @@ BigFoot_Character = {
 ["Realm"] = "匕首岭",
 }
 BigFoot_SysTemSetTab = {
-["BigFoot_LoadBefore"] = 1,
 ["LC"] = true,
+["BigFoot_LoadBefore"] = 1,
 ["ARC"] = true,
 ["UtilsPatchVersion"] = "2020-03-26",
 }

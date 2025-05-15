@@ -17,6 +17,12 @@ VER 3 0000000001000002 "V" "INV_MISC_QUESTIONMARK"
 /cast 猫鼬撕咬
 /cast 自动射击
 END
+VER 3 000000000100000F "VuhDoDCShieldData" "Ability_Repair"
+R[x]1PM2IR2PH2IR2PT3DR3MR3SR3RM4DR4PH4MR5HR5DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]5HR[x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0000000001000010 "VuhDoDCShieldNames" "Ability_Repair"
+N[x]皮斯凯哈喽米市舶司Kyl班迪斯Cal遐蝶奥德彪背后的妙的吴双星稀月风骚猎Ryc[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]艾伊苏[x][x][x][x][x][x][x][x][x][x][x][x][x]肯达[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]狼
+END
 VER 3 0000000001000009 "仇恨加强" "INV_MISC_QUESTIONMARK"
 /tar targettarget
 /cast 误导
@@ -41,7 +47,7 @@ END
 VER 3 0000000001000004 "标记" "INV_Misc_QuestionMark"
 #showtooltip 猎人印记
 /施放 [harm] 猎人印记
-/script if UnitSex("target")==3 then g="女" else g="男" end;SendChatMessage(""..UnitName("target").." 职业:"..UnitClass("target").." 血量:"..UnitHealth("target").." 性别:"..g.."","yell")
+/script if UnitSex("target")==3 then g="女" else g="男" end;SendChatMessage(""..UnitName("target").." 职业:"..UnitClass("target").." 血量:"..UnitHealth("target").." 性别:"..g..", 爱好男","yell")
 END
 VER 3 000000000100000B "跟随" "132328"
 /petpassive

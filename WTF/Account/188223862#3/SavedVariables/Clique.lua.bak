@@ -1,0 +1,88 @@
+
+CliqueDB = nil
+CliqueDB3 = {
+["profileKeys"] = {
+["缇宝 - 匕首岭"] = "缇宝 - 匕首岭",
+["遐蝶 - 匕首岭"] = "遐蝶 - 匕首岭",
+["玲可 - 匕首岭"] = "玲可 - 匕首岭",
+["麦丁芸 - 匕首岭"] = "麦丁芸 - 匕首岭",
+},
+["profiles"] = {
+["缇宝 - 匕首岭"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["遐蝶 - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["玲可 - 匕首岭"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["麦丁芸 - 匕首岭"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+},
+}
