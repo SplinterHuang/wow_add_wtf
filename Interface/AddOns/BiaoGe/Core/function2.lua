@@ -217,7 +217,7 @@ do
     function BG.UpdateAllFilter()
         local FB = BG.FB1
         for b = 1, Maxb[FB] do -- 当前表格
-            for i = 1, BG.Maxi do
+            for i = 1, BG.GetMaxi(FB, b) do
                 local bt = BG.Frame[FB]["boss" .. b]["zhuangbei" .. i]
                 if bt then
                     BG.UpdateFilter(bt)
@@ -225,7 +225,7 @@ do
             end
         end
         for b = 1, Maxb[FB] do -- 历史表格
-            for i = 1, BG.Maxi do
+            for i = 1, BG.GetMaxi(FB, b) do
                 local bt = BG.HistoryFrame[FB]["boss" .. b]["zhuangbei" .. i]
                 if bt then
                     BG.UpdateFilter(bt)
@@ -373,7 +373,7 @@ function BG.GetRaidPoint()
             if not team[v.subgroup] then
                 team[v.subgroup] = {}
             end
-            table.insert(team[v.subgroup], name)
+            tinsert(team[v.subgroup], name)
         end
     end
 
@@ -759,8 +759,11 @@ function BG.LootedText(bt)
     local f = CreateFrame("Frame", nil, bt, "BackdropTemplate")
     f:SetBackdrop({
         bgFile = "Interface/ChatFrame/ChatFrameBackground",
+        edgeFile = "Interface/ChatFrame/ChatFrameBackground",
+        edgeSize = 1,
     })
     f:SetBackdropColor(0, 0, 0, 0.5)
+    f:SetBackdropBorderColor(0, 0, 0, 0)
     f:SetPoint("RIGHT", 0, 0)
     f:SetFrameLevel(bt:GetFrameLevel() + 10)
     f:Hide()
@@ -784,9 +787,12 @@ function BG.CreateGuanZhuButton(bt, _type)
     local f = CreateFrame("Frame", nil, bt, "BackdropTemplate")
     f:SetBackdrop({
         bgFile = "Interface/ChatFrame/ChatFrameBackground",
-        insets = { left = 0, right = 0, top = 3, bottom = 2 }
+        insets = { left = 0, right = 0, top = 3, bottom = 2 },
+        edgeFile = "Interface/ChatFrame/ChatFrameBackground",
+        edgeSize = 1,
     })
     f:SetBackdropColor(0, 0, 0, 0.5)
+    f:SetBackdropBorderColor(0, 0, 0, 0)
     f:SetSize(20, 20)
     f:SetPoint("RIGHT", bt, "RIGHT", 0, 0)
     f:SetFrameLevel(112)
@@ -808,7 +814,7 @@ function BG.CreateGuanZhuButton(bt, _type)
         GameTooltip:ClearLines()
         if _type == "biaoge" then
             GameTooltip:AddLine(BG.STC_b1(L["关注中，团长拍卖此装备会提醒"]))
-            GameTooltip:AddLine(L["右键取消关注"], 1, 0.82, 0)
+            GameTooltip:AddLine(AddTexture("RIGHT")..L["取消关注"], 1, 0.82, 0)
         elseif _type == "history" then
             GameTooltip:AddLine(BG.STC_b1(L["关注中"]))
         end
@@ -862,7 +868,7 @@ function BG.CreateQiankuanButton(bt, _type)
         GameTooltip:ClearLines()
         if _type == "biaoge" then
             GameTooltip:AddLine(L["欠款："] .. BiaoGe[FB]["boss" .. BossNum(FB, b, t)]["qiankuan" .. i], 1, 0, 0)
-            GameTooltip:AddLine(L["右键清除欠款"], 1, 0.82, 0)
+            GameTooltip:AddLine(AddTexture("RIGHT")..L["清除欠款"], 1, 0.82, 0)
         elseif _type == "history" then
             GameTooltip:AddLine(L["欠款："] .. f.qiankuan, 1, 0, 0)
         end
@@ -1266,8 +1272,11 @@ do
                 local f = CreateFrame("Frame", nil, BG.FrameJineList, "BackdropTemplate")
                 f:SetBackdrop({
                     bgFile = "Interface/ChatFrame/ChatFrameBackground",
+                    edgeFile = "Interface/ChatFrame/ChatFrameBackground",
+                    edgeSize = 1,
                 })
                 f:SetBackdropColor(0.5, 0.5, 0.5, 0)
+                f:SetBackdropBorderColor(0, 0, 0, 0)
                 if i == 1 then
                     f:SetPoint("TOP", tradeText, "BOTTOM", 0, -5)
                 else
@@ -1730,7 +1739,7 @@ do
         if not type then return end
         local FB = BG.FB1
         for b = 1, Maxb[FB] do
-            for i = 1, BG.Maxi do
+            for i = 1, BG.GetMaxi(FB, b) do
                 local zb, jine
                 if type == "FB" then
                     zb = BG.Frame[FB]["boss" .. b]["zhuangbei" .. i]
@@ -1969,12 +1978,13 @@ do
             insets = { left = 3, right = 3, top = 3, bottom = 3 }
         })
         f:SetBackdropColor(0, 0, 0, 0.8)
+        f:SetBackdropBorderColor(0, 0, 0, 0)
         if w and h then
             f:SetSize(w, h)
         end
         f:EnableMouse(true)
 
-        local scroll = CreateFrame("ScrollFrame", nil, f, "UIPanelScrollFrameTemplate") -- 滚动
+        local scroll = CreateFrame("ScrollFrame", nil, f, "UIPanelScrollFrameTemplate")
         scroll:SetWidth(f:GetWidth() - 31)
         scroll:SetHeight(f:GetHeight() - 9)
         scroll:SetPoint("TOPLEFT", f, "TOPLEFT", 5, -5)
@@ -1993,7 +2003,7 @@ do
             child:SetMultiLine(true)
             child:SetFontObject(GameFontNormal)
         else
-            child = CreateFrame("Frame", nil, scroll) -- 子框架
+            child = CreateFrame("Frame", nil, scroll)
             child:SetWidth(scroll:GetWidth())
             child:SetHeight(scroll:GetHeight())
         end
@@ -2031,7 +2041,7 @@ function BG.CancelGuanZhu(link)
     local yes
     for _, FB in pairs(BG.FBtable) do
         for b = 1, Maxb[FB] do
-            for i = 1, BG.Maxi do
+            for i = 1, BG.GetMaxi(FB, b) do
                 local bt = BG.Frame[FB]["boss" .. b]["zhuangbei" .. i]
                 if bt then
                     if GetItemID(link) == GetItemID(bt:GetText()) then
@@ -2055,7 +2065,7 @@ function BG.AddGuanZhu(link)
     local yes
     for _, FB in pairs(BG.FBtable) do
         for b = 1, Maxb[FB] do
-            for i = 1, BG.Maxi do
+            for i = 1, BG.GetMaxi(FB, b) do
                 local bt = BG.Frame[FB]["boss" .. b]["zhuangbei" .. i]
                 if bt then
                     if GetItemID(link) == GetItemID(bt:GetText()) then
@@ -2330,3 +2340,27 @@ function BG.CreateMainFrame()
     f.titleText:SetTextColor(RGB("00BFFF"))
     return f
 end
+
+function BG.SetEditBaseClass(edit)
+    edit:SetScript("OnEscapePressed", function(self)
+        self:ClearFocus()
+    end)
+    edit:HookScript("OnEnterPressed", function(self)
+        self:ClearFocus()
+    end)
+    edit:HookScript("OnEditFocusGained", function(self)
+        BG.lastfocus = self
+    end)
+    edit:HookScript("OnMouseDown", function(self, button)
+        if button == "RightButton" then
+            self:SetEnabled(false)
+            self:SetText("")
+        end
+    end)
+    edit:HookScript("OnMouseUp", function(self, enter)
+        if enter == "RightButton" then
+            self:SetEnabled(true)
+        end
+    end)
+end
+

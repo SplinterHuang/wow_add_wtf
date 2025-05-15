@@ -53,7 +53,7 @@ local function RGB_16(name, r, g, b)
 end
 ns.RGB_16 = RGB_16
 
-function SetColorName(name, r, g, b)
+local function SetColorName(name, r, g, b)
     if not (r and g and b) then
         return name
     end
@@ -71,6 +71,7 @@ function SetColorName(name, r, g, b)
     end
     return "|cff" .. r .. g .. b .. name .. "|r"
 end
+ns.SetColorName = SetColorName
 
 -- 第几个BOSS
 local function BossNum(FB, b, t)
@@ -89,15 +90,14 @@ function BG.GetBossNumInfo(FB, bossNum)
     local tbl = BG.BossNumtbl[FB]
     for i = 1, #tbl do
         if (not tbl[i + 1]) or (tbl[i] < bossNum and tbl[i + 1] >= bossNum) then
-            local t = i
-            local b = bossNum - tbl[i]
-            return t, b
+            -- 第几列，第几个
+            return i, bossNum - tbl[i]
         end
     end
 end
 
 ------------------在文本里插入材质图标------------------
-local function AddTexture(Texture, y, coord)
+local function AddTexture(Texture, y, coord, width)
     if not Texture then
         return ""
     end
@@ -131,11 +131,15 @@ local function AddTexture(Texture, y, coord)
         tex = "Interface\\AddOns\\BiaoGe\\Media\\icon\\BOX"
     elseif Texture == "DD" then
         tex = "Interface\\AddOns\\BiaoGe\\Media\\icon\\DD"
+    elseif Texture == "LEFT" then
+        return "|A:NPE_LeftClick:0:0|a"
+    elseif Texture == "RIGHT" then
+        return "|A:NPE_RightClick:0:0|a"
     else
         tex = Texture
     end
-    local t = "|T" .. tex .. ":0:0:" .. x .. ":" .. y .. coord .. "|t"
-    return t
+    width = width or 0
+    return "|T" .. tex .. ":" .. width .. ":" .. width .. ":" .. x .. ":" .. y .. coord .. "|t"
 end
 ns.AddTexture = AddTexture
 
@@ -239,10 +243,23 @@ function BG.ClearFocus()
 end
 
 ------------------事件监控------------------
-function BG.RegisterEvent(Event, OnEvent)
-    local frame = CreateFrame("Frame")
-    frame:RegisterEvent(Event)
-    frame:SetScript("OnEvent", OnEvent)
+local events = {}
+local f = CreateFrame("Frame")
+f:SetScript("OnEvent", function(_, event, ...)
+    for _, func in ipairs(events[event]) do
+        if event == "COMBAT_LOG_EVENT_UNFILTERED" then
+            func(f, event, CombatLogGetCurrentEventInfo())
+        else
+            func(f, event, ...)
+        end
+    end
+end)
+function BG.RegisterEvent(event, func)
+    if not events[event] then
+        events[event] = {}
+        f:RegisterEvent(event)
+    end
+    tinsert(events[event], func)
 end
 
 ------------------函数：隐藏窗口------------------   -- 0：隐藏焦点+全部框架，1：隐藏全部框架，2：隐藏除历史表格外的框架
@@ -293,7 +310,7 @@ function BG.BiaoGeHavedItem(FB, _type, instanceID)
         endB = BG.bossPositionStartEnd[instanceID][2]
     end
     for b = startB, endB do
-        for i = 1, BG.Maxi do
+        for i = 1, BG.GetMaxi(FB, b) do
             if BG.Frame[FB]["boss" .. b]["zhuangbei" .. i] then
                 if b ~= Maxb[FB] + 1 and BG.Frame[FB]["boss" .. b]["zhuangbei" .. i]:GetText() ~= "" then
                     return true
@@ -646,6 +663,12 @@ function BG.DeletePlayerData(realmID, player)
     if BiaoGe.playerInfo and BiaoGe.playerInfo[realmID] then
         BiaoGe.playerInfo[realmID][player] = nil
     end
+    if BiaoGe.equip and BiaoGe.equip[realmID] then
+        BiaoGe.equip[realmID][player] = nil
+    end
+    if BiaoGe.bag and BiaoGe.bag[realmID] then
+        BiaoGe.bag[realmID][player] = nil
+    end
     if BiaoGeVIP and BiaoGeVIP.RoleOverviewSort and BiaoGeVIP.RoleOverviewSort[realmID] then
         for i, v in ipairs(BiaoGeVIP.RoleOverviewSort[realmID]) do
             if v.player == player then
@@ -709,7 +732,7 @@ function BG.IsSameItem(link1, link2)
         end
         return true
     else
-        return GetItemID(link1)==GetItemID(link2)
+        return GetItemID(link1) == GetItemID(link2)
     end
 end
 
@@ -717,4 +740,10 @@ end
 
 -- end
 
+function BG.ClearColorCode(text)
+    return text:gsub("|c........", ""):gsub("|r", "")
+end
 
+function BG.ClearCode(text)
+    return text:gsub("|T.-|t", ""):gsub("|A.-|a", ""):gsub("|cff......", ""):gsub("|r", "")
+end

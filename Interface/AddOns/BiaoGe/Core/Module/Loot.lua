@@ -287,13 +287,13 @@ BG.Init(function()
         if typeID == 2 or typeID == 4 then
             levelText = "(" .. level .. ")"
         end
-        local startI, endI, addI = 1, BG.Maxi, 1
+        local startI, endI, addI = 1, BG.GetMaxi(FB, numb), 1
         if fromLast then
-            startI, endI, addI = BG.Maxi, 1, -1
+            startI, endI, addI = BG.GetMaxi(FB, numb), 1, -1
         end
         for i = startI, endI, addI do
             local zb = BG.Frame[FB]["boss" .. numb]["zhuangbei" .. i]
-            local zbNext = BG.Frame[FB]["boss" .. numb]["zhuangbei" ..  (i + addI)]
+            local zbNext = BG.Frame[FB]["boss" .. numb]["zhuangbei" .. (i + addI)]
             local duizhangzb = BG.DuiZhangFrame[FB]["boss" .. numb]["zhuangbei" .. i]
             if zb and zb:GetText() == "" then
                 if Hope then
@@ -333,7 +333,7 @@ BG.Init(function()
                 local inSertItem = ""
                 if numb ~= Maxb[FB] - 1 then
                     local has
-                    for i = 1, BG.Maxi do
+                    for i = 1, BG.GetMaxi(FB, numb) do
                         local zb = BG.Frame[FB]["boss" .. Maxb[FB] - 1]["zhuangbei" .. i]
                         if zb and zb:GetText() == "" then
                             has = true
@@ -363,14 +363,14 @@ BG.Init(function()
             end
         end
     end
-    local function AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer, notlater,fromLast)
+    local function AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer, notlater, fromLast)
         local itemID = GetItemInfoInstant(link)
         BG.Tooltip_SetItemByID(itemID)
         if notlater then
-            _AddLootItem(itemID, FB, numb, link, Texture, level, Hope, count, typeID, lootplayer,fromLast)
+            _AddLootItem(itemID, FB, numb, link, Texture, level, Hope, count, typeID, lootplayer, fromLast)
         else
             BG.After(0.1, function()
-                _AddLootItem(itemID, FB, numb, link, Texture, level, Hope, count, typeID, lootplayer,fromLast)
+                _AddLootItem(itemID, FB, numb, link, Texture, level, Hope, count, typeID, lootplayer, fromLast)
             end)
         end
     end
@@ -381,7 +381,7 @@ BG.Init(function()
             levelText = "(" .. level .. ")"
         end
         for b = 1, Maxb[FB] do
-            for i = 1, BG.Maxi do
+            for i = 1, BG.GetMaxi(FB, b) do
                 local zb = BG.Frame[FB]["boss" .. b]["zhuangbei" .. i]
                 local duizhangzb = BG.DuiZhangFrame[FB]["boss" .. b]["zhuangbei" .. i]
                 if zb then
@@ -517,9 +517,13 @@ BG.Init(function()
                         return
                     end
                     if FB == "ICC" then
-                        for _, _itemId in ipairs(BG.Loot.ICC.Faction["1156"]) do -- 过滤ICC声望戒指
-                            if itemID == _itemId then
-                                return
+                        for i = 2, 5 do
+                            if BG.Loot.ICC.Faction["1156:" .. i] then
+                                for _, _itemId in ipairs(BG.Loot.ICC.Faction["1156:" .. i]) do -- 过滤ICC声望戒指
+                                    if itemID == _itemId then
+                                        return
+                                    end
+                                end
                             end
                         end
                     end
@@ -585,7 +589,7 @@ BG.Init(function()
         for _, _itemID in ipairs(BG.Loot.zaXiangItems) do
             if _itemID == itemID then
                 local numb = Maxb[FB] - 1
-                AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer,nil)
+                AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer, nil)
                 return
             end
         end
@@ -593,14 +597,14 @@ BG.Init(function()
         if BG.IsVanilla then
             if typeID == 9 or typeID == 10 or typeID == 3 then
                 local numb = Maxb[FB] - 1
-                AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer,nil, typeID == 9)
+                AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer, nil, typeID == 9)
                 return
             end
         else
             -- TOC的图纸记到杂项
             if typeID == 9 then
                 local numb = Maxb[FB] - 1
-                AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer,nil,typeID == 9)
+                AddLootItem(FB, numb, link, Texture, level, Hope, count, typeID, lootplayer, nil, typeID == 9)
                 return
             end
         end

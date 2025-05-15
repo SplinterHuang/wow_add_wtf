@@ -182,6 +182,7 @@ GTFO.SpellID["471424"] = {
 
 GTFO.SpellID["458835"] = {
   --desc = "Toxic Sludge";
+  ignoreApplication = true;
   sound = 1;
 };
 
@@ -205,6 +206,17 @@ GTFO.SpellID["1214845"] = {
 GTFO.SpellID["1218158"] = {
   --desc = "Molten Gold (Gallagio Garbage)";
   ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["470843"] = {
+  --desc = "Noxious Ooze (Ahn'tak)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["470827"] = {
+  --desc = "Poison Breath (Ahn'tak)";
   sound = 1;
 };
 
@@ -358,6 +370,12 @@ GTFO.SpellID["424223"] = {
   --desc = "Incite Flames (Blazikon)";
   ignoreApplication = true;
   sound = 1;
+};
+
+GTFO.SpellID["443835"] = {
+  --desc = "Blazing Storms (Blazikon)"; -- Tank is out of range
+  tankSound = 1;
+  sound = 0;
 };
 
 GTFO.SpellID["1218133"] = {
@@ -1017,6 +1035,11 @@ GTFO.SpellID["459683"] = {
   sound = 1;
 };
 
+GTFO.SpellID["468223"] = {
+  --desc = "Incendiary Fire (The Geargrinder)";
+  sound = 1;
+};
+
 GTFO.SpellID["1214039"] = {
   --desc = "Molten Pool (Flarendo)";
   ignoreApplication = true;
@@ -1105,6 +1128,11 @@ GTFO.SpellID["460576"] = {
   sound = 1;
 };
 
+GTFO.SpellID["473178"] = {
+  --desc = "Voltaic Streak (One-Armed Bandit)";
+  sound = 1;
+};
+
 GTFO.SpellID["474554"] = {
   --desc = "Shaken Earth (Mug'Zee)";
   ignoreApplication = true;
@@ -1127,6 +1155,16 @@ GTFO.SpellID["470245"] = {
   ignoreEvent = "StormfuryFingerGun";
   negatingDebuffSpellID = 466509; -- Stormfury Finger Gun 
   test = true;
+};
+
+GTFO.SpellID["1218077"] = {
+  --desc = "Bullet (Mug'Zee)";
+  sound = 1;
+};
+
+GTFO.SpellID["1218182"] = {
+  --desc = "Storm (Mug'Zee)";
+  sound = 1;
 };
 
 GTFO.SpellID["470089"] = {

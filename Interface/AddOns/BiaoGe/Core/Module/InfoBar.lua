@@ -24,16 +24,21 @@ local realmID = GetRealmID()
 local player = BG.playerName
 local realmName = GetRealmName()
 
---最后更新时间：25/4/1 21:30
+--最后更新时间：25/5/9 14:30
 local AFDtbl_360 = {
     -- 1200
     "wlk怀旧-范沃森-Selendis",
+    -- 1080
+    "水晶之牙-Ace-Nanami",
     -- 780
     "露露缇娅",
     -- 600
     "陈",
     -- 360
     -- "",
+    -- "",
+    "橙子",
+    "虎大超",
     "卧龙草船借箭-龙牙",
     "依然不低调",
     "匕首岭-麻生成实",
@@ -44,6 +49,25 @@ local AFDtbl_360 = {
 local AFDtbl_180 = {
     -- "",
     -- "",
+    -- "",
+    "铁血I-抱抱熊丷",
+    "灰烬使者-XenophobicOrigin-魂曲",
+    "过期",
+    "汪涛",
+    "ImTheW",
+    "炸炸",
+    "云澈澈",
+    "布鲁-末日重生公会",
+    "骑着鸭狂飙",
+    "泡面",
+    "橘子棒冰",
+    "霜语-猫空半日-萬神殿",
+    "水晶之牙-RichOnly",
+    "抹茶慕斯-奥罗-白雪公主",
+    "飞猪",
+    "寒冰之王-我是侬伢叔",
+    "依然无奈",
+    "Allen摩卡",
     "恼火",
     "塬",
     "阡陌小熊",
@@ -58,9 +82,15 @@ local AFDtbl_180 = {
     "霜语-丑死我了",
     "伊梅尔达",
     "超级小奶爸",
-    "水晶之牙-Rich Only",
 }
 local AFDtbl_90 = {
+    -- "",
+    -- "",
+    -- "",
+    "匕首岭-我就是硬",
+    "白烏鴉",
+    "大王别介",
+    "forest1818",
     "超能力领域-展开",
     "小戆戆",
 }
@@ -77,52 +107,148 @@ local tbl = {
     -- "",
     -- "",
     -- "",
-    "龙牙-犍为翘脚儿",
-    "死亡猎手-萨神一姑苏",
-    "异灵-红玉圣殿",
-    "平静丶心",
-    "灰灰丶",
-    "水晶",
-    "死亡猎手-Dark-Wings-長安一一",
-    "风涧",
-    "KTHOPE",
-    "大都市",
-    "龙牙-愿此行",
-    "霜语-猫空半日-萬神殿",
-    "神神叨叨",
-    "好好学习",
-    "震地者丨四合一",
-    "xy8888",
-    "比斯巨兽-Story-风暴行者",
-    "富贵",
-    "帕奇维克-友谊长存-鸽子一骑",
-    "何处不相逢",
+    -- "",
+    -- "",
+    "维希度斯-盛世鼎红-爱有来生",
+    "比格沃斯-大崬",
+    "吉安娜-边总",
+    "奥罗-众生之巅-王之守护",
+    "melody",
+    "萨弗拉斯-深田姥师",
+    "abbiy921",
+    "弄啥呢",
+    "十六夜夜",
+    "DemonClin",
+    "祈福-橙光-璀璨橙光",
+    "水晶之牙-莎莎歌舞厅-斗篷丶",
+    "小亏",
+    "smapwje",
+    "铁血II-亚洲金团",
+    "豆包",
+    "硬汉服-七七超甜",
+    "名牌太贵",
+    "麻辣蛋黄派",
+    "GUNι",
+    "Caroline-觅心者",
     "xbrave",
-    "雪见月十九",
-    "小兔晶",
-    "罐头",
-    "赤水断苍山",
-    "不再留恋",
+    "邵拉达",
+    "泡沫",
+    "范克瑞斯-扶光",
+    "霜语-天人境",
+    "Karaok",
+    "多宝色猪",
+    "维希度斯-藏星",
+    "秋秋丶夜-震地者",
+    "小语风",
+    "标标",
+    "龙牙-金铲铲-璀璨旭日",
+    "正浩",
+    "落灬花",
+    "大都市",
+    "婴儿爽身粉",
+    "Anthony",
+    "会飞的鱼",
+    "执念",
+    "BananaCream",
+    "怒炉-南山必胜阁",
+    "wuqing0304",
+    "埃提耶什-花飘零感谢。",
+    "夏天冷",
+    "举神",
+    "那個尐仙",
+    "风雨小楼",
+    "戴洋",
+    "yuyiiiiii",
+    "danny",
+    "兔子",
+    "兜兜里好多糖",
+    "霜语-团队毒瘤-非天",
+    "飞猪归来",
+    "没奶是爷",
+    "Gagle",
+    "Lin",
+    "吉安娜小蜡烛",
+    "mini1118",
+    "北执南念",
+    "龙牙-云梦泽-锦绣丶夜未央",
+    "风暴越大鱼越贵",
+    "Seraph",
+    "空白",
+    "可乐团长",
+    "林栎熙",
+    "少年",
+    "猜猜",
+    "毛哥",
+    "龙牙-茶余饭后俱乐部-浩劫的呼唤",
+    "匕首岭-动之以情丶",
+    "还有莪在",
+    "Rody",
+    "魚",
+    "伦鲁迪洛尔-白马会所-啊嘻吧",
+    "佐岸天使",
+    "西子湖畔划划水",
+    "张不二",
+    "爆浆",
+    "長門有希",
+    "银色北伐军-晨星-君莫美",
+    "DarkKnight",
+    "萌城少年",
+    "yy",
+    "碧玉矿洞-风暴之巅-帅贼贼帅",
+    "凤丶年",
+    "请温柔一点",
+    "豆包糯叽叽",
+    "kk",
+    "lasaqe",
+    "芋圆爱发dian",
+    "裤子有个洞-狮心",
+    "祈福-Eternal-bonds",
+    "木亿TR",
+    "段先生",
+    "秘制",
+    "矮骑壹",
+    "小蚂蚱",
+    "jiang",
+    "一只小鲸鱼",
+    "sinx",
     "Damon",
-    "凌菡如枫",
-    "维希度斯-自己",
-    "璀璨橙光-祈福-橙光公会",
+    "老逗呀",
+    "龙牙-教头",
+    "4775",
+    "享享",
+    "KrisLau",
+    "祈福老金",
+    "乔爸俊杰",
+    "mws",
+    "萨弗拉斯-魔剑美神",
+    "萨弗拉斯-炎魔周润发",
+    "灰烬使者天災坦克",
+    "不再留恋",
+    "寒冰之王-绘世长歌-新裤子",
+    "达芬奇",
     "消失的远方",
-    "Bill",
-    "死亡猎手部落小羽吃西瓜",
-    "魔剑美神",
-    "风神之怒",
-    "ybwywen",
-    "HH",
-    "哥哥有一手",
-    "ImTheW",
-    "抹茶慕斯",
+    "走路",
+    "凌菡如枫",
+    "麦田",
+    "ahwhycshx",
+    "松能",
+    "堂姐套圈圈",
+    "加丁-一口袋橘子",
+    "归零重启",
+    "血腥之牙",
+    "浪浪",
     "刚刚好",
-    "godcat",
-    "DEE",
-    "弑神死骑",
-    "维克尼拉斯-年事梦中休",
-    "lyl",
+    "安德",
+    "阿多尼斯冰雪",
+    "加盾-祈福-绝地公会",
+    "嗜血",
+    "震地者-弑神死骑",
+    "Venko",
+    "呆丶呆",
+    "风神之怒",
+    "火舞龙腾",
+    "维克洛尔-SilverMoon-桃太浪",
+
 }
 for _, name in ipairs(tbl) do
     tinsert(AFDtbl_30, name)
@@ -130,9 +256,113 @@ end
 
 do
     local tbl = {
+        "奥罗-大都市",
+        "云游天下丷-无畏",
+        "月影连天",
+        "Sakple",
+        "匕首岭-丹妮卡丽熙",
+        "天天好快乐",
+        "Schmnn",
+        "小龙",
+        "阳琳",
+        "梦中得婚礼",
+        "火锤-直到世界的尽头-花雪",
+        "灰烬使者-小熊布袋",
+        "柚子",
+        "啊啊啊付大夫是",
+        "aarongu826",
+        "叶弦",
+        "Tohigh",
+        "奈斯丶",
+        "风涧",
+        "凉爽皮夹黄",
+        "维克洛尔-月下斋-迪凯哥",
+        "大以巴狼",
+        "萝卜",
+        "龙之召唤-圈圈的味道",
+        "布朗熊",
+        "Jan",
+        "小啊狸",
+        "酒酿芋小圆",
+        "龍",
+        "Lanlanluu—范克瑞斯",
+        "龙牙-铁血部落-怒风战",
+        "玛卡阿巴",
+        "小亏",
+        "七禾野",
+        "猫尾巴",
+        "napoleanic",
+        "加丁-逍遥公会-三甲",
+        "面包鸡",
+        "鑫贝贝",
+        "王赜",
+        "沙滩",
+        "大王别介",
+        "amyge977",
+        "铁血I-赏金部落-巴佐",
+        "憋大招",
+        "Justcallme17",
+        "布丁叔叔",
+        "欧黄",
+        "十六夜夜",
+        "DemonClin",
+        "Caroline-觅心者",
+        "abbiy921",
+        "听弦断",
+        "玄天",
+        "铁血I-无忧筱筑-妖児薇薇妙",
+        "清华大学校草-无畏",
+        "花光的荣耀",
+        "Micross熊猫",
+        "顾半城",
+        "阿鲁高",
+        "ctrlcc",
+        "漫漫",
+        "深海壹号",
+        "龙牙-犍为翘脚儿",
+        "死亡猎手-萨神一姑苏",
+        "异灵-红玉圣殿",
+        "平静丶心",
+        "灰灰丶",
+        "水晶",
+        "死亡猎手-Dark-Wings-長安一一",
+        "风涧",
+        "KTHOPE",
+        "龙牙-愿此行",
+        "神神叨叨",
+        "好好学习",
+        "震地者丨四合一",
+        "xy8888",
+        "比斯巨兽-Story-风暴行者",
+        "富贵",
+        "帕奇维克-友谊长存-鸽子一骑",
+        "何处不相逢",
+        "xbrave",
+        "雪见月十九",
+        "小兔晶",
+        "罐头",
+        "赤水断苍山",
+        "不再留恋",
+        "Damon",
+        "凌菡如枫",
+        "维希度斯-自己",
+        "璀璨橙光-祈福-橙光公会",
+        "消失的远方",
+        "Bill",
+        "死亡猎手部落小羽吃西瓜",
+        "风神之怒",
+        "ybwywen",
+        "HH",
+        "哥哥有一手",
+        "ImTheW",
+        "刚刚好",
+        "godcat",
+        "DEE",
+        "弑神死骑",
+        "维克尼拉斯-年事梦中休",
+        "lyl",
         "天天好快乐",
         "北执南念",
-        "兜兜里好多糖",
         "萌城少年",
         "林栎熙",
         "Sakple",
@@ -143,11 +373,9 @@ do
         "红石头",
         "毛哥",
         "奶油先生",
-        "橘子棒冰",
         "范克瑞斯-钻石武力-夜月琉璃",
         "Venko",
         "猫猫",
-        "Lin",
         "乘风随风",
         "jiang",
         "星河-堕落兵团-维希度斯",
@@ -168,29 +396,29 @@ do
         "邵拉达",
         "大白",
         "yyf",
-        "辛迪加<辛艾萨莉>小家猫卡琳娜",
+        "辛迪加-辛艾萨莉-小家猫卡琳娜",
         "xxx794665",
         "沙滩",
         "范克瑞斯-逝去的青春-丶黑炭",
         "那個尐仙",
         "不懂英语小明",
-        "叶凡 - 龙牙",
+        "叶凡-龙牙",
         "Sr",
         "碧玉矿洞-八汤",
         "憋大招",
         "龙之召唤-天府一街",
-        "灰烬使者部落-Revenger公会",
+        "灰烬使者-Revenger",
         "清华大学校草-无畏",
         "风涧",
         "大大大怪兽",
-        "霜语-旺仔尛馒头（部落）",
+        "霜语-旺仔尛馒头",
         "严羽幻",
         "吉安娜-吕小骑",
         "橙贰胖-巴罗夫",
         "長門有希",
         "大鸟甩甩",
         "爱萝莉的格雷福斯",
-        "<狮心>圣火喵喵教-阿壶金团",
+        "狮心-圣火喵喵教-阿壶金团",
         "我是读书人",
         "比格沃斯-面包",
         "咖啡",
@@ -222,11 +450,9 @@ do
         "遇见",
         "五郎八卦棍",
         "龙之召唤-轻舟",
-        "抹茶慕斯-奥罗-白雪公主",
         "弑神死骑",
         "DarkAlexPPP",
         "狮心董卓",
-        "萨弗拉斯-魔剑美神",
         "W",
         "漫漫",
         "lyl",
@@ -242,7 +468,7 @@ do
         "老周不想取名",
         "埃提耶什-<夜宴>-正夏",
         "单脚跳",
-        "铁血-诺诺吖",
+        "铁血I-诺诺吖",
         "法尔班克斯-<骚年远征军>-雪见月十九",
         "水晶之牙-Equipo Octavo",
         "维系度斯-你看我牛牛吗",
@@ -250,7 +476,6 @@ do
         "好好学习",
         "吉安娜小蜡烛",
         "大栓",
-        "兜兜里好多糖",
         "伽蓝",
         "龙之召唤-承筱诺",
         "龙之召唤-鼓励团结有爱",
@@ -300,6 +525,167 @@ BG.Init(function()
                 BG.MainFrame:Hide()
             end
             BG.PlaySound(1)
+        end)
+    end
+
+    -- 爱发电
+    do
+        local bt = CreateFrame("Button", nil, BG.MainFrame)
+        bt:SetSize(20, hight)
+        if lastBt then
+            bt:SetPoint("RIGHT", lastBt, "LEFT", -10, 0)
+        else
+            bt:SetPoint("BOTTOMRIGHT", -10, 1)
+        end
+        bt:SetNormalFontObject(BG.FontYellow13)
+        bt:SetHighlightFontObject(BG.FontWhite13)
+        bt:SetText(AddTexture("Interface\\AddOns\\BiaoGe\\Media\\icon\\AFD") .. L["爱发电"])
+        bt:SetWidth(bt:GetFontString():GetStringWidth())
+        bt.texts = {}
+        bt.w = 50
+        BG.ButtonAFD = bt
+        lastBt = bt
+
+        local function AddText(self, tbl, r, g, b)
+            local f = self.frame
+            local w = self.w
+            local text
+            if type(tbl) == "table" then
+                local same = {}
+                local remove = {}
+                for i = 1, #tbl do
+                    if tbl[i]:find(realmName, 1, true) then
+                        tbl[i] = BG.STC_g1(tbl[i])
+                    end
+                    if not same[tbl[i]] then
+                        same[tbl[i]] = true
+                    else
+                        remove[i] = true
+                    end
+                end
+                for k, v in pairs(remove) do
+                    tremove(tbl, k)
+                end
+                text = table.concat(tbl, BG.STC_dis("，"))
+            else
+                text = tbl
+            end
+
+            local t = self.child:CreateFontString()
+            t:SetFont(STANDARD_TEXT_FONT, 15, "OUTLINE")
+            t:SetText(text)
+            t:SetWidth(f:GetWidth() - w * 3)
+            if not next(self.texts) then
+                t:SetPoint("TOPLEFT", 20, -20)
+            else
+                t:SetPoint("TOPLEFT", self.texts[#self.texts], "BOTTOMLEFT", 0, -15)
+            end
+            t:SetJustifyH("LEFT")
+            t:SetTextColor(r, g, b)
+            t:SetText(text)
+            tinsert(self.texts, t)
+        end
+        bt:SetScript("OnEnter", function(self)
+            wipe(self.texts)
+            local w, h = BG.MainFrame:GetWidth(), BG.MainFrame:GetHeight() - 40
+            local f, child = BG.CreateScrollFrame(self, w, h)
+            f:SetBackdrop({
+                bgFile = "Interface/ChatFrame/ChatFrameBackground",
+                insets = { left = 3, right = 3, top = 3, bottom = 3 }
+            })
+            f:SetBackdropColor(0, 0, 0, .9)
+            f:SetPoint("TOPLEFT", BG.MainFrame, "TOPLEFT", 0, -20)
+            f:SetFrameLevel(320)
+            f:EnableMouse(false)
+            self.frame = f
+            self.child = child
+            AddText(self, L["感谢以下玩家的发电："], 1, 1, 1)
+            AddText(self, AFDtbl_360, 1, .82, 0)
+            AddText(self, AFDtbl_180, 1, .82, 0)
+            AddText(self, AFDtbl_90, 1, .82, 0)
+            AddText(self, AFDtbl_30, 1, .82, 0)
+            AddText(self, L["你可以在这里订阅我的账号苍穹之霜，提前体验订阅模块和同步模块。"] .. L["（点击复制网址）"], 1, 1, 1)
+        end)
+        bt:SetScript("OnLeave", function(self)
+            self.frame:Hide()
+            GameTooltip:Hide()
+            BiaoGeTooltip2:Hide()
+        end)
+        bt:SetScript("OnClick", function(self)
+            BG.PlaySound(1)
+            ChatEdit_ActivateChat(ChatEdit_ChooseBoxForSend())
+            ChatEdit_ChooseBoxForSend():SetText("https://afdian.com/a/wow_biaoge")
+            ChatEdit_ChooseBoxForSend():HighlightText()
+        end)
+    end
+
+    -- 网易DD
+    --[[     do
+        local bt = CreateFrame("Button", nil, BG.MainFrame)
+        bt:SetSize(20, hight)
+        if lastBt then
+            bt:SetPoint("RIGHT", lastBt, "LEFT", -10, 0)
+        else
+            bt:SetPoint("BOTTOMRIGHT", -10, 1)
+        end
+        bt:SetNormalFontObject(BG.FontYellow13)
+        bt:SetHighlightFontObject(BG.FontWhite13)
+        bt:SetText(AddTexture("DD") .. L["网易DD"])
+        bt:SetWidth(bt:GetFontString():GetStringWidth())
+        BG.ButtonDD = bt
+        lastBt = bt
+
+        bt:SetScript("OnEnter", function(self)
+            GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", 0, 0)
+            GameTooltip:ClearLines()
+            GameTooltip:AddLine(self:GetText(), 1, 1, 1, true)
+            GameTooltip:AddLine(L["官方插件平台"], 1, 1, 1, true)
+            GameTooltip:AddLine(L["集插件管理、配置分享、云端备份、团队语音于一体。"], 1, 0.82, 0, true)
+            GameTooltip:AddLine(L["你可以在这里更新BiaoGe插件。"], 1, 0.82, 0, true)
+            GameTooltip:AddLine(L["（点击复制网址）"], 1, 0.82, 0, true)
+            GameTooltip:Show()
+        end)
+        bt:SetScript("OnLeave", GameTooltip_Hide)
+        bt:SetScript("OnClick", function(self)
+            BG.PlaySound(1)
+            ChatEdit_ActivateChat(ChatEdit_ChooseBoxForSend())
+            ChatEdit_ChooseBoxForSend():SetText("https://dd.163.com/?utm_source=112231")
+            ChatEdit_ChooseBoxForSend():HighlightText()
+        end)
+    end ]]
+
+    -- 新手盒子
+    do
+        local bt = CreateFrame("Button", nil, BG.MainFrame)
+        bt:SetSize(20, hight)
+        if lastBt then
+            bt:SetPoint("RIGHT", lastBt, "LEFT", -10, 0)
+        else
+            bt:SetPoint("BOTTOMRIGHT", -10, 1)
+        end
+        bt:SetNormalFontObject(BG.FontYellow13)
+        bt:SetHighlightFontObject(BG.FontWhite13)
+        bt:SetText(AddTexture("BOX") .. L["新手盒子"])
+        bt:SetWidth(bt:GetFontString():GetStringWidth())
+        BG.ButtonBOX = bt
+        lastBt = bt
+
+        bt:SetScript("OnEnter", function(self)
+            GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", 0, 0)
+            GameTooltip:ClearLines()
+            GameTooltip:AddLine(self:GetText(), 1, 1, 1, true)
+            GameTooltip:AddLine(L["集插件管理、配置分享、云端备份、游戏攻略、游戏工具于一体。"], 1, 0.82, 0, true)
+            GameTooltip:AddLine(L["你可以在这里更新BiaoGe插件。"], 1, 0.82, 0, true)
+            GameTooltip:AddLine(L["你可以在这里订阅我的账号苍穹之霜，提前体验订阅模块和同步模块。"], 1, 1, 1, true)
+            GameTooltip:AddLine(L["（点击复制网址）"], 1, 0.82, 0, true)
+            GameTooltip:Show()
+        end)
+        bt:SetScript("OnLeave", GameTooltip_Hide)
+        bt:SetScript("OnClick", function(self)
+            BG.PlaySound(1)
+            ChatEdit_ActivateChat(ChatEdit_ChooseBoxForSend())
+            ChatEdit_ChooseBoxForSend():SetText("https://www.wclbox.com/")
+            ChatEdit_ChooseBoxForSend():HighlightText()
         end)
     end
 
@@ -382,201 +768,6 @@ BG.Init(function()
                     end
                 end
             end)
-        end)
-    end
-
-    -- 更新计划
-    --[[     do
-        local bt = CreateFrame("Button", nil, BG.MainFrame)
-        bt:SetSize(20, hight)
-        if lastBt then
-            bt:SetPoint("RIGHT", lastBt, "LEFT", -10, 0)
-        else
-            bt:SetPoint("BOTTOMRIGHT", -10, 1)
-        end
-        bt:SetNormalFontObject(BG.FontYellow13)
-        bt:SetHighlightFontObject(BG.FontWhite13)
-        bt:SetText("|A:Class:15:15|a" .. L["更新计划"])
-        bt:SetWidth(bt:GetFontString():GetStringWidth())
-        BG.ButtonUpdateLate = bt
-        lastBt = bt
-
-        bt:SetScript("OnEnter", function(self)
-            GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", 0, 0)
-            GameTooltip:ClearLines()
-            GameTooltip:AddLine(self:GetText(), 1, 1, 1, true)
-            GameTooltip:AddLine(L["BiaoGe插件未来的更新计划共享在在线文档。"], 1, 0.82, 0, true)
-            GameTooltip:AddLine(L["你可以浏览该内容，留下你的建议。"], 1, 0.82, 0, true)
-            GameTooltip:AddLine(L["（点击复制文档地址）"], 1, 0.82, 0, true)
-            GameTooltip:Show()
-        end)
-        bt:SetScript("OnLeave", GameTooltip_Hide)
-        bt:SetScript("OnClick", function(self)
-            BG.PlaySound(1)
-            ChatEdit_ActivateChat(ChatEdit_ChooseBoxForSend())
-            ChatEdit_ChooseBoxForSend():SetText("https://docs.qq.com/doc/DYVFDaU5uR21sanJm")
-            ChatEdit_ChooseBoxForSend():HighlightText()
-        end)
-    end ]]
-
-    -- 爱发电
-    do
-        local bt = CreateFrame("Button", nil, BG.MainFrame)
-        bt:SetSize(20, hight)
-        if lastBt then
-            bt:SetPoint("RIGHT", lastBt, "LEFT", -10, 0)
-        else
-            bt:SetPoint("BOTTOMRIGHT", -10, 1)
-        end
-        bt:SetNormalFontObject(BG.FontYellow13)
-        bt:SetHighlightFontObject(BG.FontWhite13)
-        bt:SetText(AddTexture("Interface\\AddOns\\BiaoGe\\Media\\icon\\AFD") .. L["爱发电"])
-        bt:SetWidth(bt:GetFontString():GetStringWidth())
-        bt.texts = {}
-        bt.w = 50
-        BG.ButtonAFD = bt
-        lastBt = bt
-
-        local function AddText(self, tbl, r, g, b)
-            local f = self.frame
-            local w = self.w
-            local text
-            if type(tbl) == "table" then
-                local same = {}
-                local remove={}
-                for i = 1, #tbl do
-                    if tbl[i]:find(realmName, 1, true) then
-                        tbl[i] = BG.STC_g1(tbl[i])
-                    end
-                    if not same[tbl[i]] then
-                        same[tbl[i]] = true
-                    else
-                        remove[i]=true
-                    end
-                end
-                for k, v in pairs(remove) do
-                    tremove(tbl, k)
-                end
-                text = table.concat(tbl, BG.STC_dis("，"))
-            else
-                text = tbl
-            end
-
-            local t = self.child:CreateFontString()
-            t:SetFont(STANDARD_TEXT_FONT, 15, "OUTLINE")
-            t:SetText(text)
-            t:SetWidth(f:GetWidth() - w * 3)
-            if not next(self.texts) then
-                t:SetPoint("TOPLEFT", w, -20)
-            else
-                t:SetPoint("TOPLEFT", self.texts[#self.texts], "BOTTOMLEFT", 0, -15)
-            end
-            t:SetJustifyH("LEFT")
-            t:SetTextColor(r, g, b)
-            t:SetText(text)
-            tinsert(self.texts, t)
-        end
-        bt:SetScript("OnEnter", function(self)
-            wipe(self.texts)
-            local w, h = BG.MainFrame:GetWidth(), BG.MainFrame:GetHeight() - 40
-            local f, child = BG.CreateScrollFrame(self, w, h)
-            f:SetBackdrop({
-                bgFile = "Interface/ChatFrame/ChatFrameBackground",
-                insets = { left = 3, right = 3, top = 3, bottom = 3 }
-            })
-            f:SetBackdropColor(0, 0, 0, .9)
-            f:SetPoint("TOPLEFT", BG.MainFrame, "TOPLEFT", 0, -20)
-            f:SetFrameLevel(320)
-            f:EnableMouse(false)
-            self.frame = f
-            self.child = child
-            AddText(self, L["感谢以下玩家的发电："], 1, 1, 1)
-            AddText(self, AFDtbl_360, 1, .82, 0)
-            AddText(self, AFDtbl_180, 1, .82, 0)
-            AddText(self, AFDtbl_90, 1, .82, 0)
-            AddText(self, AFDtbl_30, 1, .82, 0)
-            AddText(self, L["你可以在这里订阅我的账号苍穹之霜，提前体验订阅模块和同步模块。"]..L["（点击复制网址）"], 1, 1, 1)
-        end)
-        bt:SetScript("OnLeave", function(self)
-            self.frame:Hide()
-            GameTooltip:Hide()
-            BiaoGeTooltip2:Hide()
-        end)
-        bt:SetScript("OnClick", function(self)
-            BG.PlaySound(1)
-            ChatEdit_ActivateChat(ChatEdit_ChooseBoxForSend())
-            ChatEdit_ChooseBoxForSend():SetText("https://afdian.com/a/wow_biaoge")
-            ChatEdit_ChooseBoxForSend():HighlightText()
-        end)
-    end
-
-    -- 网易DD
-    --[[     do
-        local bt = CreateFrame("Button", nil, BG.MainFrame)
-        bt:SetSize(20, hight)
-        if lastBt then
-            bt:SetPoint("RIGHT", lastBt, "LEFT", -10, 0)
-        else
-            bt:SetPoint("BOTTOMRIGHT", -10, 1)
-        end
-        bt:SetNormalFontObject(BG.FontYellow13)
-        bt:SetHighlightFontObject(BG.FontWhite13)
-        bt:SetText(AddTexture("DD") .. L["网易DD"])
-        bt:SetWidth(bt:GetFontString():GetStringWidth())
-        BG.ButtonDD = bt
-        lastBt = bt
-
-        bt:SetScript("OnEnter", function(self)
-            GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", 0, 0)
-            GameTooltip:ClearLines()
-            GameTooltip:AddLine(self:GetText(), 1, 1, 1, true)
-            GameTooltip:AddLine(L["官方插件平台"], 1, 1, 1, true)
-            GameTooltip:AddLine(L["集插件管理、配置分享、云端备份、团队语音于一体。"], 1, 0.82, 0, true)
-            GameTooltip:AddLine(L["你可以在这里更新BiaoGe插件。"], 1, 0.82, 0, true)
-            GameTooltip:AddLine(L["（点击复制网址）"], 1, 0.82, 0, true)
-            GameTooltip:Show()
-        end)
-        bt:SetScript("OnLeave", GameTooltip_Hide)
-        bt:SetScript("OnClick", function(self)
-            BG.PlaySound(1)
-            ChatEdit_ActivateChat(ChatEdit_ChooseBoxForSend())
-            ChatEdit_ChooseBoxForSend():SetText("https://dd.163.com/?utm_source=112231")
-            ChatEdit_ChooseBoxForSend():HighlightText()
-        end)
-    end ]]
-
-    -- 新手盒子
-    do
-        local bt = CreateFrame("Button", nil, BG.MainFrame)
-        bt:SetSize(20, hight)
-        if lastBt then
-            bt:SetPoint("RIGHT", lastBt, "LEFT", -10, 0)
-        else
-            bt:SetPoint("BOTTOMRIGHT", -10, 1)
-        end
-        bt:SetNormalFontObject(BG.FontYellow13)
-        bt:SetHighlightFontObject(BG.FontWhite13)
-        bt:SetText(AddTexture("BOX") .. L["新手盒子"])
-        bt:SetWidth(bt:GetFontString():GetStringWidth())
-        BG.ButtonBOX = bt
-        lastBt = bt
-
-        bt:SetScript("OnEnter", function(self)
-            GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", 0, 0)
-            GameTooltip:ClearLines()
-            GameTooltip:AddLine(self:GetText(), 1, 1, 1, true)
-            GameTooltip:AddLine(L["集插件管理、配置分享、云端备份、游戏攻略、游戏工具于一体。"], 1, 0.82, 0, true)
-            GameTooltip:AddLine(L["你可以在这里更新BiaoGe插件。"], 1, 0.82, 0, true)
-            GameTooltip:AddLine(L["你可以在这里订阅我的账号苍穹之霜，提前体验订阅模块和同步模块。"], 1, 1, 1, true)
-            GameTooltip:AddLine(L["（点击复制网址）"], 1, 0.82, 0, true)
-            GameTooltip:Show()
-        end)
-        bt:SetScript("OnLeave", GameTooltip_Hide)
-        bt:SetScript("OnClick", function(self)
-            BG.PlaySound(1)
-            ChatEdit_ActivateChat(ChatEdit_ChooseBoxForSend())
-            ChatEdit_ChooseBoxForSend():SetText("https://www.wclbox.com/")
-            ChatEdit_ChooseBoxForSend():HighlightText()
         end)
     end
 end)

@@ -48,19 +48,20 @@ function BG.RoleOverviewUI()
                 ["OLsod"] = 1,
                 ["SC"] = 1,
                 ["TTS"] = 1,
-                -- ["huiguweek"] = 1,
                 ["alchemy"] = 1,
                 ["leatherworking"] = 1,
                 ["tailor"] = 1,
             }
         elseif BG.IsWLK then
             BiaoGe.FBCDchoice = {
+                ["25ICC"] = 1,
+                ["10ICC"] = 1,
                 ["25TOC"] = 1,
                 ["10TOC"] = 1,
-                ["25OL"] = 1,
-                ["10OL"] = 1,
-                ["25ULD"] = 1,
-                ["10ULD"] = 1,
+                -- ["25OL"] = 1,
+                -- ["10OL"] = 1,
+                -- ["25ULD"] = 1,
+                -- ["10ULD"] = 1,
                 -- ["25NAXX"] = 1,
                 -- ["10NAXX"] = 1,
                 -- ["25EOE"] = 1,
@@ -75,10 +76,13 @@ function BG.RoleOverviewUI()
             }
         elseif BG.IsCTM then
             BiaoGe.FBCDchoice = {
+                ["DS"] = 1,
+                ["FL"] = 1,
                 ["BOT"] = 1,
                 ["BWD"] = 1,
                 ["TOF"] = 1,
-                ["BH"] = 1,
+                ["25BH"] = 1,
+                ["10BH"] = 1,
             }
         elseif BG.IsRetail then
             BiaoGe.FBCDchoice = {
@@ -98,12 +102,12 @@ function BG.RoleOverviewUI()
             BiaoGe.MONEYchoice = {
                 -- [396] = 1,
                 -- [395] = 1,
-                -- [341] = 1,
+                [341] = 1,
                 [301] = 1,
                 [221] = 1,
                 [102] = 1,
                 [101] = 1,
-                -- [2711] = 1, -- 天灾石
+                [2711] = 1, -- 天灾石
                 [2589] = 1, -- 赛德精华
                 ["money"] = 1,
             }
@@ -132,11 +136,13 @@ function BG.RoleOverviewUI()
                 BiaoGe.MONEYchoice[226404] = 1
             end)
         elseif BG.IsWLK then
-            BG.Once("FBCDchoice", 250116, function()
-                BiaoGe.FBCDchoice["25TOC"] = 1
-                BiaoGe.FBCDchoice["10TOC"] = 1
-                BiaoGe.FBCDchoice["25OL"] = 1
-                BiaoGe.FBCDchoice["10OL"] = 1
+            BG.Once("FBCDchoice", 250512, function()
+                BiaoGe.FBCDchoice["25ICC"] = 1
+                BiaoGe.FBCDchoice["10ICC"] = 1
+                BiaoGe.FBCDchoice["25OL"] = nil
+                BiaoGe.FBCDchoice["10OL"] = nil
+                BiaoGe.FBCDchoice["25ULD"] = nil
+                BiaoGe.FBCDchoice["10ULD"] = nil
                 BiaoGe.FBCDchoice["25NAXX"] = nil
                 BiaoGe.FBCDchoice["10NAXX"] = nil
                 BiaoGe.FBCDchoice["25EOE"] = nil
@@ -144,11 +150,22 @@ function BG.RoleOverviewUI()
                 BiaoGe.FBCDchoice["25OS"] = nil
                 BiaoGe.FBCDchoice["10OS"] = nil
             end)
-            BG.Once("MONEYchoice", 250116, function()
+            BG.Once("MONEYchoice", 250512, function()
+                BiaoGe.MONEYchoice[341] = 1
                 BiaoGe.MONEYchoice[301] = 1
+                BiaoGe.MONEYchoice[2711] = 1
                 BiaoGe.MONEYchoice[2589] = 1
             end)
         elseif BG.IsCTM then
+            BG.Once("FBCDchoice", 250405, function()
+                BiaoGe.FBCDchoice["DS"] = 1
+                BiaoGe.FBCDchoice["FL"] = 1
+            end)
+            BG.Once("FBCDchoice", 250407, function()
+                BiaoGe.FBCDchoice["25BH"] = 1
+                BiaoGe.FBCDchoice["10BH"] = 1
+                BiaoGe.FBCDchoice["BH"] = nil
+            end)
         end
     end
     -- 基础数据初始化
@@ -276,47 +293,50 @@ function BG.RoleOverviewUI()
         elseif BG.IsCTM then
             BG.FBCDall_table = {
                 -- CTM
-                { name = "BOT", color = "FFFF00", fbId = 671, type = "fb" },
-                { name = "BWD", color = "FF1493", fbId = 669, type = "fb" },
-                { name = "TOF", color = "87CEFA", fbId = 754, type = "fb" },
-                { name = "BH", color = "FF4500", fbId = 757, type = "fb" },
+                { name = "DS", name2 = GetRealZoneText(967), color = "9370DB", fbId = 967, type = "fb" },
+                { name = "FL", name2 = GetRealZoneText(720), color = "FF4500", fbId = 720, type = "fb" },
+                { name = "BOT", name2 = GetRealZoneText(671), color = "FFFF00", fbId = 671, type = "fb" },
+                { name = "BWD", name2 = GetRealZoneText(669), color = "FF1493", fbId = 669, type = "fb" },
+                { name = "TOF", name2 = GetRealZoneText(754), color = "87CEFA", fbId = 754, type = "fb" },
+                { name = "25BH", name2 = GetRealZoneText(757), color = "FFA500", fbId = 757, num = 25, type = "fb" },
+                { name = "10BH", name2 = GetRealZoneText(757), color = "FFA500", fbId = 757, num = 10, type = "fb" },
                 --WLK
-                { name = "25RS", color = "FF4500", fbId = 724, num = 25, type = "fb" },
-                { name = "10RS", color = "FF4500", fbId = 724, num = 10, type = "fb" },
-                { name = "25ICC", color = "9370DB", fbId = 631, num = 25, type = "fb" },
-                { name = "10ICC", color = "9370DB", fbId = 631, num = 10, type = "fb" },
-                { name = "25TOC", color = "FF69B4", fbId = 649, num = 25, type = "fb" },
-                { name = "10TOC", color = "FF69B4", fbId = 649, num = 10, type = "fb" },
-                { name = "25OL", color = "FFA500", fbId = 249, num = 25, type = "fb" },
-                { name = "10OL", color = "FFA500", fbId = 249, num = 10, type = "fb" },
-                { name = "25ULD", color = "00BFFF", fbId = 603, num = 25, type = "fb" },
-                { name = "10ULD", color = "00BFFF", fbId = 603, num = 10, type = "fb" },
-                { name = "25NAXX", color = "32CD32", fbId = 533, num = 25, type = "fb" },
-                { name = "10NAXX", color = "32CD32", fbId = 533, num = 10, type = "fb" },
-                { name = "25EOE", color = "1E90FF", fbId = 616, num = 25, type = "fb" },
-                { name = "10EOE", color = "1E90FF", fbId = 616, num = 10, type = "fb" },
-                { name = "25OS", color = "8B4513", fbId = 615, num = 25, type = "fb" },
-                { name = "10OS", color = "8B4513", fbId = 615, num = 10, type = "fb" },
-                { name = "25VOA", color = "FFFF00", fbId = 624, num = 25, type = "fb" },
-                { name = "10VOA", color = "FFFF00", fbId = 624, num = 10, type = "fb" },
+                { name = "25RS", name2 = L["25红玉"], color = "FF4500", fbId = 724, num = 25, type = "fb" },
+                { name = "10RS", name2 = L["10红玉"], color = "FF4500", fbId = 724, num = 10, type = "fb" },
+                { name = "25ICC", name2 = L["25冰冠"], color = "9370DB", fbId = 631, num = 25, type = "fb" },
+                { name = "10ICC", name2 = L["10冰冠"], color = "9370DB", fbId = 631, num = 10, type = "fb" },
+                { name = "25TOC", name2 = L["25十字军"], color = "FF69B4", fbId = 649, num = 25, type = "fb" },
+                { name = "10TOC", name2 = L["10十字军"], color = "FF69B4", fbId = 649, num = 10, type = "fb" },
+                { name = "25OL", name2 = L["25黑龙"], color = "FFA500", fbId = 249, num = 25, type = "fb" },
+                { name = "10OL", name2 = L["10黑龙"], color = "FFA500", fbId = 249, num = 10, type = "fb" },
+                { name = "25ULD", name2 = L["25奥杜尔"], color = "00BFFF", fbId = 603, num = 25, type = "fb" },
+                { name = "10ULD", name2 = L["10奥杜尔"], color = "00BFFF", fbId = 603, num = 10, type = "fb" },
+                { name = "25NAXX", name2 = L["25纳克"], color = "32CD32", fbId = 533, num = 25, type = "fb" },
+                { name = "10NAXX", name2 = L["10纳克"], color = "32CD32", fbId = 533, num = 10, type = "fb" },
+                { name = "25EOE", name2 = L["25蓝龙"], color = "1E90FF", fbId = 616, num = 25, type = "fb" },
+                { name = "10EOE", name2 = L["10蓝龙"], color = "1E90FF", fbId = 616, num = 10, type = "fb" },
+                { name = "25OS", name2 = L["25黑曜石"], color = "8B4513", fbId = 615, num = 25, type = "fb" },
+                { name = "10OS", name2 = L["10黑曜石"], color = "8B4513", fbId = 615, num = 10, type = "fb" },
+                { name = "25VOA", name2 = L["25宝库"], color = "FFFF00", fbId = 624, num = 25, type = "fb" },
+                { name = "10VOA", name2 = L["10宝库"], color = "FFFF00", fbId = 624, num = 10, type = "fb" },
                 --TBC
-                { name = "SW", color = "D3D3D3", fbId = 580, num = 25, type = "fb" },
-                { name = "BT", color = "D3D3D3", fbId = 564, num = 25, type = "fb" },
-                { name = "HS", color = "D3D3D3", fbId = 534, num = 25, type = "fb" },
-                { name = "TK", color = "D3D3D3", fbId = 550, num = 25, type = "fb" },
-                { name = "SSC", color = "D3D3D3", fbId = 548, num = 25, type = "fb" },
-                { name = "GL", color = "D3D3D3", fbId = 565, num = 25, type = "fb" },
-                { name = "ML", color = "D3D3D3", fbId = 544, num = 25, type = "fb" },
-                { name = "ZA", color = "D3D3D3", fbId = 568, num = 10, type = "fb" },
-                { name = "KZ", color = "D3D3D3", fbId = 532, num = 10, type = "fb" },
-                { name = "PT", color = "D3D3D3", fbId = 585, num = 5, type = "fb" },
-                { name = "STK", color = "D3D3D3", fbId = 556, num = 5, type = "fb" },
+                { name = "SW", name2 = L["太阳井"], color = "D3D3D3", fbId = 580, num = 25, type = "fb" },
+                { name = "BT", name2 = L["黑庙"], color = "D3D3D3", fbId = 564, num = 25, type = "fb" },
+                { name = "HS", name2 = L["海山"], color = "D3D3D3", fbId = 534, num = 25, type = "fb" },
+                { name = "TK", name2 = L["风暴"], color = "D3D3D3", fbId = 550, num = 25, type = "fb" },
+                { name = "SSC", name2 = L["毒蛇"], color = "D3D3D3", fbId = 548, num = 25, type = "fb" },
+                { name = "GL", name2 = L["格鲁尔"], color = "D3D3D3", fbId = 565, num = 25, type = "fb" },
+                { name = "ML", name2 = L["玛胖"], color = "D3D3D3", fbId = 544, num = 25, type = "fb" },
+                { name = "ZA", name2 = L["祖阿曼"], color = "D3D3D3", fbId = 568, num = 10, type = "fb" },
+                { name = "KZ", name2 = L["卡拉赞"], color = "D3D3D3", fbId = 532, num = 10, type = "fb" },
+                { name = "PT", name2 = L["平台"], color = "D3D3D3", fbId = 585, num = 5, type = "fb" },
+                { name = "STK", name2 = L["塞泰克"], color = "D3D3D3", fbId = 556, num = 5, type = "fb" },
                 --CLASSIC
-                { name = "TAQ", color = "D3D3D3", fbId = 531, num = 40, type = "fb" },
-                { name = "AQL", color = "D3D3D3", fbId = 509, num = 20, type = "fb" },
-                { name = "ZUG", color = "D3D3D3", fbId = 309, num = 20, type = "fb" },
-                { name = "BWL", color = "D3D3D3", fbId = 469, num = 40, type = "fb" },
-                { name = "MC", color = "D3D3D3", fbId = 409, num = 40, type = "fb" },
+                { name = "TAQ", name2 = L["安其拉"], color = "D3D3D3", fbId = 531, num = 40, type = "fb" },
+                { name = "AQL", name2 = L["废墟"], color = "D3D3D3", fbId = 509, num = 20, type = "fb" },
+                { name = "ZUG", name2 = L["祖格"], color = "D3D3D3", fbId = 309, num = 20, type = "fb" },
+                { name = "BWL", name2 = L["黑翼"], color = "D3D3D3", fbId = 469, num = 40, type = "fb" },
+                { name = "MC", name2 = L["熔火之心"], color = "D3D3D3", fbId = 409, num = 40, type = "fb" },
             }
 
             BG.MONEYall_table = {
@@ -343,6 +363,7 @@ function BG.RoleOverviewUI()
             }
         end
     end
+
     -- 角色总览UI
     local savePoint
     local function ShowAllServer()
@@ -370,6 +391,8 @@ function BG.RoleOverviewUI()
         end
         BG.UpdateFBCD()
 
+        local isVIP = BG.BiaoGeVIPVerNum and BG.BiaoGeVIPVerNum >= 10170
+
         local height = 20
         local width_jiange = 5
         local line_height = 4
@@ -394,9 +417,9 @@ function BG.RoleOverviewUI()
         end
         local nameWidth
         if ShowAllServer() then
-            nameWidth = 165
+            nameWidth = 165 + (isVIP and 20 or 0)
         else
-            nameWidth = 105
+            nameWidth = 105 + (isVIP and 20 or 0)
         end
 
         tinsert(MONEYchoice_table, 1, { name = L["角色"] .. " " .. BG.STC_dis("(" .. LEVEL .. ")"), color = "FFFFFF", width = nameWidth })
@@ -489,7 +512,10 @@ function BG.RoleOverviewUI()
                 tex:SetVertexColor(r, g, b)
                 bt:SetHighlightTexture(tex)
                 bt:SetScript("OnEnter", function(self)
-                    BGV.ShowEquipFrame(nil, bt, isAccounts, realmID, player, colorplayer, level, class, iLevel)
+                    local f = BGV.equipFrame
+                    if not (f and f:IsVisible()) then
+                        BGV.ShowEquipFrame(nil, bt, isAccounts, realmID, player, colorplayer, level, class, iLevel)
+                    end
                 end)
                 bt:SetScript("OnLeave", function(self)
                     if BGV.equipFrame and not BGV.equipFrame.click then
@@ -558,9 +584,9 @@ function BG.RoleOverviewUI()
             local lastwidth
             local nameWidth
             if ShowAllServer() then
-                nameWidth = 200
+                nameWidth = 200 + (isVIP and 20 or 0)
             else
-                nameWidth = 140
+                nameWidth = 140 + (isVIP and 20 or 0)
             end
             for i, v in ipairs(FBCDchoice_table) do
                 local t = f:CreateFontString()
@@ -622,6 +648,7 @@ function BG.RoleOverviewUI()
                                     if level and level >= BiaoGe.options["roleOverviewNotShowLevel"] then
                                         local class = db.playerInfo[realmID][player].class
                                         local iLevel = db.playerInfo[realmID][player].iLevel or (db.PlayerItemsLevel and db.PlayerItemsLevel[realmID] and db.PlayerItemsLevel[realmID][player])
+                                        local talent = db.playerInfo[realmID][player].talent
                                         if class and iLevel and iLevel >= BiaoGe.options["roleOverviewNotShowiLevel"] then
                                             local colorplayer = "|c" .. select(4, GetClassColor(class)) .. player .. (isAccounts and "*" or "")
                                             tinsert(newTbl, {
@@ -630,6 +657,7 @@ function BG.RoleOverviewUI()
                                                 class = class,
                                                 iLevel = iLevel,
                                                 level = level,
+                                                talent = talent,
                                                 realmID = realmID,
                                                 realmName = (db.realmName and db.realmName[realmID]) or BiaoGe.realmName[realmID] or realmID,
                                                 isAccounts = isAccounts,
@@ -673,12 +701,16 @@ function BG.RoleOverviewUI()
                 else
                     realmName = ""
                 end
+                local talentText = ""
+                if isVIP then
+                    talentText = BG.GetTalentIcon(v.class, v.talent, 15)
+                end
                 local bt = CreateFrame("Button", nil, BG.FBCDFrame)
                 bt:SetPoint("TOPLEFT", BG.FBCDFrame, "TOPLEFT", FBCDchoice_table[1].width, -7 - height * n)
                 local t = bt:CreateFontString()
                 t:SetFont(STANDARD_TEXT_FONT, fontsize, "OUTLINE")
                 t:SetPoint("LEFT")
-                t:SetText(realmName .. colorplayer .. " |cff808080(" .. Round(iLevel, 0) .. ")|r")
+                t:SetText(talentText .. realmName .. colorplayer .. " |cff808080(" .. Round(iLevel, 0) .. ")|r")
                 bt.width = t:GetWidth()
                 bt.isFBCD = true
                 bt:SetFontString(t)
@@ -831,9 +863,9 @@ function BG.RoleOverviewUI()
                 end
                 local tipsText
                 if BiaoGe.options.roleOverviewDefaultShow == "one" then
-                    tipsText = L["|cff808080（CTRL+左键固定显示，长按SHIFT显示全服务器角色%s）|r"]
+                    tipsText = L["|cff808080（鼠标中键固定显示，长按SHIFT显示全服务器角色%s）|r"]
                 else
-                    tipsText = L["|cff808080（CTRL+左键固定显示，长按SHIFT显示当前服务器角色%s）|r"]
+                    tipsText = L["|cff808080（鼠标中键固定显示，长按SHIFT显示当前服务器角色%s）|r"]
                 end
                 t:SetText(t:GetText() .. format(tipsText, accountsText))
             end
@@ -948,6 +980,7 @@ function BG.RoleOverviewUI()
                             local level = db.playerInfo[realmID] and db.playerInfo[realmID][player] and db.playerInfo[realmID][player].level
                             if (level and level >= BiaoGe.options["roleOverviewNotShowLevel"]) then
                                 local class = db.playerInfo[realmID][player].class
+                                local talent = db.playerInfo[realmID][player].talent
                                 local iLevel = db.playerInfo[realmID][player].iLevel or (db.PlayerItemsLevel and db.PlayerItemsLevel[realmID] and db.PlayerItemsLevel[realmID][player])
                                 if class and iLevel and iLevel >= BiaoGe.options["roleOverviewNotShowiLevel"] then
                                     local colorplayer = "|c" .. select(4, GetClassColor(class)) .. player .. (isAccounts and "*" or "")
@@ -957,6 +990,7 @@ function BG.RoleOverviewUI()
                                         class = class,
                                         iLevel = iLevel,
                                         level = level,
+                                        talent = talent,
                                         realmID = realmID,
                                         realmName = (db.realmName and db.realmName[realmID]) or BiaoGe.realmName[realmID] or realmID,
                                         isAccounts = isAccounts,
@@ -996,7 +1030,10 @@ function BG.RoleOverviewUI()
                 else
                     realmName = ""
                 end
-
+                local talentText = ""
+                if isVIP then
+                    talentText = BG.GetTalentIcon(v.class, v.talent, 15)
+                end
                 local levelText = ""
                 if level then levelText = BG.STC_dis(" (" .. level .. ")") end
 
@@ -1005,7 +1042,7 @@ function BG.RoleOverviewUI()
                 local t = bt:CreateFontString()
                 t:SetFont(STANDARD_TEXT_FONT, fontsize, "OUTLINE")
                 t:SetPoint("LEFT")
-                t:SetText(realmName .. colorplayer .. levelText)
+                t:SetText(talentText .. realmName .. colorplayer .. levelText)
                 bt.width = t:GetWidth()
                 bt.isMoney = true
                 bt:SetFontString(t)
@@ -1408,16 +1445,17 @@ function BG.RoleOverviewUI()
             local newTbl = {}
             for player, v in pairs(BiaoGe.FBCD[realmID]) do
                 local level = BiaoGe.playerInfo[realmID] and BiaoGe.playerInfo[realmID][player] and BiaoGe.playerInfo[realmID][player].level
-                if (level and level >= BiaoGe.options["roleOverviewNotShowLevel"]) then
+                if level and level >= BiaoGe.options["roleOverviewNotShowLevel"] then
                     local class = BiaoGe.playerInfo[realmID][player].class
                     local iLevel = BiaoGe.playerInfo[realmID][player].iLevel
-                    if class and iLevel then
+                    if class and iLevel and iLevel >= BiaoGe.options["roleOverviewNotShowiLevel"] then
                         local colorplayer = "|c" .. select(4, GetClassColor(class)) .. player .. (isAccounts and "*" or "")
                         tinsert(newTbl, {
                             player = player,
                             colorplayer = colorplayer,
                             class = class,
                             iLevel = iLevel,
+                            realmID = realmID,
                             tbl = BG.Copy(v)
                         })
                     end
@@ -2035,7 +2073,7 @@ function BG.RoleOverviewUI()
                 -- bt.tbl = { 259 }           -- 燃烧的远征test
             elseif i == 2 then
                 bt.type = "zhiding"
-                bt.tbl = { 2463, 2481 } --伽马灵魂烘炉、贝塔要塞
+                bt.tbl = { 2463, }  --伽马灵魂烘炉。贝塔要塞2481（已删）
                 -- bt.tbl = { 136 }  -- 地狱火test
             end
             bt:Hide()
@@ -2218,10 +2256,12 @@ function BG.RoleOverviewUI()
                     end
                 else
                     BiaoGe.playerInfo[realmID] = nil
+                    BiaoGe.equip[realmID] = nil
                 end
             end
         end
-
+        -- /run BiaoGe.equip=nil
+        -- 删除角色总览旧角色
         local function DeleteOldData(db)
             for realmID, v in pairs(BiaoGe[db]) do
                 if type(realmID) == "number" and type(v) == "table" then
@@ -2240,75 +2280,19 @@ function BG.RoleOverviewUI()
         DeleteOldData("FBCD")
         DeleteOldData("Money")
     end
-end
 
--- todo
--- 当前角色货币面板
---[[
-    do
-        function BG.MoneyBannerUpdate()
-            if not BG.MainFrame:IsVisible() then return end
-            -- 根据你选择的货币，生成table
-            MONEYchoice_table = {}
-            for i, v in ipairs(BG.MONEYall_table) do
-                for id, yes in pairs(BiaoGe.MONEYchoice) do
-                    if v.id == id then
-                        tinsert(MONEYchoice_table, v)
+    -- 删除重复角色装备数据
+    for realmID, v in pairs(BiaoGe.equip) do
+        if type(realmID) == "number" and type(v) == "table" then
+            if BiaoGe.playerInfo[realmID] then
+                for player in pairs(BiaoGe.equip[realmID]) do
+                    if not BiaoGe.playerInfo[realmID][player] then
+                        BiaoGe.equip[realmID][player] = nil
                     end
                 end
+            else
+                BiaoGe.equip[realmID] = nil
             end
-
-            BG.MONEYupdate()
-            local g = BiaoGe.Money[realmID][player]
-            local t = {}
-            local a = g.colorplayer .. "  "
-            tinsert(t, a) -- 玩家
-
-            for i, v in ipairs(MONEYchoice_table) do
-                if v.id ~= "money" then
-                    local a = g[v.id].count .. " " .. AddTexture(v.tex)
-                    tinsert(t, a) -- 牌子
-                else
-                    local a = g.money .. " " .. AddTexture(v.tex)
-                    tinsert(t, a) -- 金币
-                end
-            end
-            local text = table.concat(t, "   ")
-            BG.ButtonMoney:SetText(text)
-            BG.ButtonMoney.text = BG.ButtonMoney:GetFontString()
-            BG.ButtonMoney.text:SetPoint("RIGHT", -20, 0)
-            BG.ButtonMoney:SetWidth(BG.ButtonMoney.text:GetWidth() + 30)
-            BG.ButtonMoney.tex:SetWidth(BG.ButtonMoney.text:GetWidth() + 100)
-        end
-
-        do -- 创建UI
-            local f = CreateFrame("Button", nil, BG.MainFrame)
-            f:SetSize(0, 24)
-            f:SetPoint("BOTTOMRIGHT", -1, 1)
-            f:SetNormalFontObject(BG.FontWhite13)
-            BG.ButtonMoney = f
-
-            f.tex = f:CreateTexture()
-            f.tex:SetSize(0, 24)
-            f.tex:SetPoint("BOTTOMRIGHT")
-            f.tex:SetTexture("Interface\\Buttons\\WHITE8x8")
-            local c1, c2, c3 = GetClassRGB(nil, "player")
-            f.tex:SetGradient("HORIZONTAL", CreateColor(c1, c2, c3, 0), CreateColor(c1, c2, c3, 0.25))
-
-            f:SetScript("OnEnter", function(self)
-                BG.SetFBCD()
-                BG.FBCDFrame:ClearAllPoints()
-                BG.FBCDFrame:SetPoint("BOTTOMRIGHT", BG.ButtonMoney, "TOPRIGHT", 0, 0)
-                BG.FBCDFrame:Show()
-            end)
-            f:SetScript("OnLeave", function(self)
-                BG.FBCDFrame:Hide()
-            end)
-            f:SetScript("OnMouseUp", function(self)
-                ns.InterfaceOptionsFrame_OpenToCategory("|cff00BFFFBiaoGe|r")
-                BG.MainFrame:Hide()
-                BG.PlaySound(1)
-            end)
         end
     end
- ]]
+end

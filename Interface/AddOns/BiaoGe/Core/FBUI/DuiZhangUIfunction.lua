@@ -32,7 +32,7 @@ local function ShowTardeHighLightItem_MyJine(self)
     if tradeInfo then
         for _, v in ipairs(tradeInfo) do
             for b = 1, Maxb[FB] do
-                for i = 1, BG.Maxi do
+                for i = 1, BG.GetMaxi(FB, b) do
                     local myjine = BG.DuiZhangFrame[FB]["boss" .. b]["myjine" .. i]
                     if myjine and FB == v.FB and b == v.b and i == v.i then
                         local f = BG.CreateHighlightFrame(myjine, nil, { 0, 1, 0, 0.5 }, 4)
@@ -250,7 +250,7 @@ function BG.DuiZhangMyJinEUI(FB, t, b, bb, i, ii)
         local sum = 0
         local n = 0
         for b = 1, Maxb[FB] - 1, 1 do
-            for i = 1, BG.Maxi, 1 do
+            for i = 1, BG.GetMaxi(FB, b), 1 do
                 local myjine = BG.DuiZhangFrame[FB]["boss" .. b]["myjine" .. i]
                 if myjine then
                     n = tonumber(myjine:GetText())
@@ -338,7 +338,7 @@ function BG.DuiZhangOtherJinEUI(FB, t, b, bb, i, ii)
         local sum = 0
         local n = 0
         for b = 1, Maxb[FB], 1 do
-            for i = 1, BG.Maxi, 1 do
+            for i = 1, BG.GetMaxi(FB, b), 1 do
                 local otherjine = BG.DuiZhangFrame[FB]["boss" .. b]["otherjine" .. i]
                 if otherjine then
                     n = tonumber(otherjine:GetText())
@@ -379,7 +379,6 @@ function BG.DuiZhangOtherJinEUI(FB, t, b, bb, i, ii)
     bt:SetScript("OnEnter", function(self)
         BG.DuiZhangFrameDs[FB .. 1]["boss" .. b]["ds" .. i]:Show()
         ShowTardeHighLightItem_OtherJine(self)
-
         local maijia = BG.DuiZhangFrame[FB]["boss" .. b]["maijia" .. i]
         local color = BG.DuiZhangFrame[FB]["boss" .. b]["color" .. i]
         if maijia and color and self:GetText() ~= "" then
